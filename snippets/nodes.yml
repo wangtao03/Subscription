@@ -1,6 +1,75 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇨🇿 捷克 | vmess | 12
+  network: ws
+  port: 80
+  server: sg-v.sshmax.xyz
+  servername: sg-v.sshmax.xyz
+  type: vmess
+  udp: true
+  uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
+  ws-opts:
+    headers:
+      Host: sg-v.sshmax.xyz
+    path: /vmess
+- name: 🇭🇰 香港 | trojan | 01
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 103.177.136.41
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 | trojan | 02
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 103.177.136.42
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 🇨🇦_CA_加拿大_6
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 103.177.136.42
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 | trojan | 04
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 103.177.136.45
+  sni: az.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 | trojan | 05
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 103.177.136.45
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 🇨🇦_CA_加拿大_4
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 103.177.136.42
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇨🇦_CA_加拿大_2
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 103.177.136.42
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
 - name: 🇨🇦_CA_加拿大
-  network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 46424
   server: 103.177.136.45
@@ -9,20 +78,266 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: kr|d4a0|puddincat07@Telegram
+- name: 🇨🇦_CA_加拿大_1
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 103.177.136.45
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 | trojan | 10
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 103.177.136.45
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 | trojan | 11
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 103.177.136.41
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 🇨🇦_CA_加拿大_3
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 103.177.136.42
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇨🇦_CA_加拿大_5
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 103.177.136.45
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 16
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  type: vmess
+  udp: true
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 17
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  type: vmess
+  udp: true
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 香港|@ripaojiedian
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰 香港 | trojan | 29
+  password: ba5b6f1d3a9da87096165da523fb4375
+  port: 3743
+  server: 95.40.43.133
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 | trojan | 30
+  password: BxceQaOe
+  port: 443
+  server: 119.246.1.143
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 | trojan | 34
+  password: ba5b6f1d3a9da87096165da523fb4375
+  port: 2008
+  server: 95.40.43.133
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 | trojan | 39
+  password: WF42809561
+  port: 443
+  server: top-goshawk.rooster465.autos
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 40
+  network: ws
+  port: 18243
+  server: imghk302.igcaches.com
+  servername: imghk302.igcaches.com
+  type: vmess
+  udp: true
+  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
+  ws-opts:
+    headers:
+      Host: imghk302.igcaches.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 41
+  network: ws
+  port: 25228
+  server: cu.awslcn.info
+  servername: cu.awslcn.info
+  type: vmess
+  udp: true
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cu.awslcn.info
+    path: /
+- name: 🇭🇰 香港 | trojan | 47
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.tokyometropolis.odessa.ua
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 | trojan | 49
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.tokyometropolis.kyiv.ua
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 50
+  network: ws
+  port: 80
+  server: cfhk.oppo.quest
+  servername: scw.cloudflare.quest
+  type: vmess
+  udp: true
+  uuid: 2508cb1d-bd54-47c0-aead-1b8f55090427
+  ws-opts:
+    headers:
+      Host: scw.cloudflare.quest
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 51
+  network: ws
+  port: 60852
+  server: hkgb707.ifastcdncache.com
+  servername: hkgb707.ifastcdncache.com
+  type: vmess
+  udp: true
+  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
+  ws-opts:
+    headers:
+      Host: hkgb707.ifastcdncache.com
+    path: /
+- name: 🇭🇰 香港 | trojan | 52
+  password: IL37892054
+  port: 443
+  server: just-alpaca.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 | trojan | 54
+  password: OccIqeORGQwiNkwS
+  port: 19128
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 | trojan | 56
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.tokyometropolis.ivano-frankivsk.ua
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 | vmess | 02
+  network: ws
+  port: 11655
+  server: 131.186.63.89
+  servername: hk.nbee.pp.ua
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
+  ws-opts:
+    headers:
+      Host: hk.nbee.pp.ua
+    path: /aa
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 | vmess | 03
+  network: ws
+  port: 80
+  server: 168.138.43.75
+  servername: jp01.a0a.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: jp01.a0a.xyz
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 | vmess | 04
+  network: ws
+  port: 80
+  server: 172.111.146.64
+  type: vmess
+  udp: true
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 | vmess | 05
+  network: ws
+  port: 25686
+  server: 140.83.51.161
+  servername: jp02.a0a.xyz
+  type: vmess
+  udp: true
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  ws-opts:
+    headers:
+      Host: jp02.a0a.xyz
+    path: /cctv13.m3u8
+- name: 🇯🇵 日本 | trojan | 07
+  password: IL37892054
+  port: 443
+  server: upright-rhino.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | trojan | 08
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: 211.49.57.179
-  skip-cert-verify: false
+  server: 108.160.132.132
   sni: tjsp.hhxaf.cc.cd
   type: trojan
   udp: true
   ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
     path: /
-- name: jp|a15a|puddincat07@Telegram
+- name: 🇯🇵 日本 | trojan | 11
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -31,140 +346,511 @@ proxies:
   type: trojan
   udp: true
   ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 SG 002 | ⬇️ 18MB/s
-  network: none
-  port: 8443
-  server: 13.250.114.194
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9dcb8d73-cc0b-4fcc-a12d-d7affb56267c
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇹🇼 TW 019 | ⬇️ 22KB/s
-  network: http
-  port: 1053
-  server: 103.227.225.150
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 34788346-4850-4d37-a7bb-f3588ec064fe
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇹🇼 TW 026 | ⬇️ 13KB/s
-  network: http
-  port: 1045
-  server: 103.227.225.150
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 57a0609d-9ea8-46ac-bc70-50538d1eeddb
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 045 | ⬇️ 9KB/s
-  network: ws
-  port: 40681
-  server: 103.252.119.61
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbae357f-6bc7-4094-9ac4-4bd05138507b
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 JP 054 | ⬇️ 542KB/s
-  network: ws
-  port: 31246
-  server: 103.160.100.36
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ed07dfb6-a047-484b-bebb-7a7186440eb5
-  ws-opts:
-    host: v9-dy.ixigua.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 064 | ⬇️ 8KB/s
-  network: ws
-  port: 31638
-  server: 103.252.119.61
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2349d3a8-2a44-4045-af07-fb423905dd94
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 098 | ⬇️ 8KB/s
-  network: ws
-  port: 3163
-  server: 103.252.119.61
-  tls: false
-  type: vmess
-  udp: true
-  uuid: dcece10b-89bc-47a1-ac17-a5a013296c66
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /arki
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇭🇰 HK 104 | ⬇️ 6KB/s
-  network: http
-  port: 34085
-  server: 154.37.223.56
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 58efe007-b8e3-43ff-e54e-13e27446a9c5
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇭🇰 HK 129 | ⬇️ 6KB/s
-  network: http
-  port: 35115
-  server: 154.37.223.56
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b95adf02-8d54-482f-8b26-e49450c873ce
-- name: 🇸🇬 SG 224 | ⬇️ 167KB/s
-  network: tcp
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
+- name: 🇯🇵 日本 | trojan | 12
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.68
   type: trojan
   udp: true
+- name: 🇯🇵 日本 | trojan | 14
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.18
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | trojan | 16
+  password: q6UYkw9nUn6MYZz8Sp
+  port: 443
+  server: ty-2.tr202604.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 | vmess | 17
+  network: ws
+  port: 443
+  server: fullaccesstojapannetsubnode1.azurewebsites.net
+  servername: fullaccesstojapannetsubnode1.azurewebsites.net
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstojapannetsubnode1.azurewebsites.net
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 | vmess | 19
+  network: ws
+  port: 9111
+  server: st-1.dnspro.icu
+  servername: st-1.dnspro.icu
+  type: vmess
+  udp: true
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: st-1.dnspro.icu
+    path: /iso
+- name: 🇯🇵 日本 | trojan | 21
+  password: IL37892054
+  port: 443
+  server: engaging-toucan.rooster465.autos
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国 | vmess | 02
+  network: ws
+  port: 80
+  server: 92.223.61.25
+  servername: mizban888.servecounterstrike.com
+  type: vmess
+  udp: true
+  uuid: 22aa72b1-605b-4807-8a81-fb414cbb409c
+  ws-opts:
+    headers:
+      Host: mizban888.servecounterstrike.com
+    path: /
+- name: 🇰🇷 韩国 | trojan | 09
+  network: ws
+  password: GKHWMe2R4qwNcNxu6l3KMkdd
+  port: 26214
+  server: 121.178.83.161
+  sni: vpn1.rnmcnm.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn1.rnmcnm.com
+    path: /trj-ws
+- alterId: 64
+  cipher: auto
+  name: 🇰🇷 韩国 | vmess | 10
+  network: ws
+  port: 30000
+  server: 104.37.215.83
+  servername: www.19289243.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.19289243.xyz
+    path: /path/191019072927
+- name: 🇰🇷 韩国 | trojan | 12
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.seoulcityhall.com.ua
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国 | trojan | 13
+  password: WF42809561
+  port: 443
+  server: outgoing-cockatoo.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国 | trojan | 15
+  password: WF42809561
+  port: 443
+  server: touching-pigeon.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国 | trojan | 16
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 211.49.57.161
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- fp: chrome
+  name: '[Trojan] 未知 TROJAN-97 | free-n...'
+  password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
+  port: 443
+  security: tls
+  server: 38.60.220.65
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国 | trojan | 19
+  password: ZY07256934
+  port: 443
+  server: glowing-deer.rooster465.autos
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国 | vmess | 20
+  network: ws
+  port: 443
+  server: kr-arm2.018999.xyz
+  servername: kr-arm2.018999.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e98fc1a0-9c52-4091-91a5-c159b0aa274e
+  ws-opts:
+    headers:
+      Host: kr-arm2.018999.xyz
+    path: /e98fc1a0-9c52-4091-91a5-c159b0aa274e
+- name: 🇰🇷 韩国 | trojan | 22
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.seoulcityhall.com.ua
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国 | vmess | 23
+  network: ws
+  port: 443
+  server: fullaccesstokoreannetsubnode1.azurewebsites.net
+  servername: fullaccesstokoreannetsubnode1.azurewebsites.net
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstokoreannetsubnode1.azurewebsites.net
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 | vmess | 01
+  network: ws
+  port: 2052
+  server: 206.238.236.36
+  servername: mysan2.jaquay22.workers.dev
+  type: vmess
+  udp: true
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- name: 🇸🇬 新加坡 | trojan | 03
+  network: ws
+  password: humanity
+  port: 443
+  server: 43.169.18.179
+  sni: www.creationlong.org
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- alterId: 64
+  cipher: auto
+  name: 🇸🇬 新加坡 | vmess | 06
+  network: ws
+  port: 48885
+  server: 134.122.184.88
+  servername: www.13146165.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.13146165.xyz
+    path: /path/191019072927
+- name: 🇸🇬 新加坡 | trojan | 07
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 188.253.12.95
+  sni: az.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 | vmess | 08
+  network: ws
+  port: 80
+  server: 143.198.219.182
+  type: vmess
+  udp: true
+  uuid: e9c4ce52-9a78-4381-b6f8-23350bc4d606
+  ws-opts:
+    path: /v2ray
+- name: 🇸🇬 新加坡 | trojan | 09
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 188.253.12.97
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | trojan | 10
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 188.253.12.95
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | trojan | 11
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 188.253.12.95
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | trojan | 12
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 188.253.12.93
+  sni: az.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 | vmess | 14
+  network: ws
+  port: 80
+  server: 139.99.61.154
+  type: vmess
+  udp: true
+  uuid: 6a620223-84f8-40f4-b6ba-ed6abfe4e4f2
+  ws-opts:
+    path: /vmess
+- name: 🇸🇬 新加坡 | trojan | 15
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 188.253.12.99
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | trojan | 16
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 188.253.12.94
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 | vmess | 17
+  network: ws
+  port: 80
+  server: 15.235.192.196
+  type: vmess
+  udp: true
+  uuid: 3701ded3-09ba-4154-970d-a9f4a090a382
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 | vmess | 18
+  network: ws
+  port: 80
+  server: 157.245.152.136
+  servername: 4gvpn.akamaized.net
+  type: vmess
+  udp: true
+  uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
+  ws-opts:
+    headers:
+      Host: 4gvpn.akamaized.net
+    path: /kvw0870h/
+- name: 🇸🇬 新加坡 | trojan | 19
+  password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
+  port: 80
+  server: 15.235.197.4
+  sni: getandroid.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 | vmess | 20
+  network: ws
+  port: 80
+  server: 157.230.36.235
+  type: vmess
+  udp: true
+  uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
+  ws-opts:
+    path: /graphql
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 | vmess | 21
+  network: ws
+  port: 80
+  server: 15.235.184.36
+  type: vmess
+  udp: true
+  uuid: 7ce525f5-3a9b-4627-ae0e-3ca0b57519e3
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 | vmess | 22
+  network: ws
+  port: 80
+  server: 109.123.237.41
+  type: vmess
+  udp: true
+  uuid: 03a77360-808d-11ed-b736-205c6d5f5d78
+  ws-opts:
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 🇸🇬 新加坡 | vmess | 24
+  network: ws
+  port: 443
+  server: 202.79.171.157
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb3583a3-7717-4fe5-9146-3301861f9f41
+  ws-opts:
+    path: /path/243535322906
+- name: 🇸🇬 新加坡 | trojan | 25
+  network: ws
+  password: GToK9gzuwh
+  port: 443
+  server: 146.190.84.34
+  sni: aka.ms
+  type: trojan
+  udp: true
+  ws-opts:
+    path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fh2%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Chttp%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252F1.1'
+- name: 🇸🇬 新加坡 | trojan | 26
+  password: iyinglong
+  port: 443
+  server: 18.140.67.76
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | trojan | 32
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 103.25.202.114
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 🇸🇬 新加坡 | trojan | 33
+  password: d30ab83dbde4480082048fb315bedebd
+  port: 443
+  server: 5.180.78.22
+  type: trojan
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 🇸🇬 新加坡 | vmess | 34
+  network: ws
+  port: 443
+  server: 202.79.172.53
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 30216206-14b7-40e7-995d-61c1219ba584
+  ws-opts:
+    path: /path/220128071100
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 | vmess | 35
+  network: ws
+  port: 5100
+  server: st-2.dnspro.icu
+  servername: st-2.dnspro.icu
+  type: vmess
+  udp: true
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: st-2.dnspro.icu
+    path: /iso
+- name: 🇹🇼 台湾 | trojan | 02
+  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+  port: 3462
+  server: a12.taipeicitygovernment.org.ua
+  type: trojan
+  udp: true
+- name: 🇹🇼 台湾 | trojan | 03
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 85.237.207.189
+  type: trojan
+  udp: true
+- name: 🇹🇼 台湾 | trojan | 04
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.kiev.ua
+  type: trojan
+  udp: true
+- name: 🇹🇼 台湾 | trojan | 05
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.chernovtsy.ua
+  type: trojan
+  udp: true
+- name: 🇹🇼 台湾 | trojan | 06
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.com.ua
+  type: trojan
+  udp: true
+- name: 🇹🇼 台湾 | trojan | 07
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.cn.ua
+  type: trojan
+  udp: true
+- name: 🇹🇼 台湾 | trojan | 08
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.dp.ua
+  type: trojan
+  udp: true
+- name: 🇹🇼 台湾 | trojan | 09
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.co.ua
+  type: trojan
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 🇹🇼 台湾 | vmess | 10
+  network: ws
+  port: 443
+  server: 211.22.180.68
+  servername: www.82131333.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.82131333.xyz
+    path: /path/191019072927
+- name: 🇹🇼 台湾 | trojan | 11
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.org.ua
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国 | vmess | 104
+  network: ws
+  port: 443
+  server: jp-oracle-s.sharecentre.online
+  servername: jp-oracle-s.sharecentre.online
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: jp-oracle-s.sharecentre.online
+    path: /shirker
 - name: 🇭🇰 香港-87CCC381
   network: tcp
   password: 230012981ba34c12fec11deca0379005
@@ -192,18 +878,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 🇸🇬 新加坡-89311364
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 103.25.202.114
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
 - name: 🇸🇬 新加坡-68345543
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -277,15 +951,6 @@ proxies:
   sni: gh.01.naiun.bilibili.com
   type: trojan
   udp: true
-- name: 🇸🇬 新加坡-783D74A8
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 188.253.12.99
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
-  udp: true
 - name: 🇸🇬 新加坡-8988E411
   network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
@@ -300,15 +965,6 @@ proxies:
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 48697
   server: 188.253.12.90
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡-B04C0879
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 188.253.12.95
   skip-cert-verify: true
   sni: gh.01.naiun.bilibili.com
   type: trojan
@@ -336,15 +992,6 @@ proxies:
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 41943
   server: 188.253.12.96
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡-C8E5A8A6
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  server: 188.253.12.93
   skip-cert-verify: true
   sni: az.01.naiun.bilibili.com
   type: trojan
@@ -412,15 +1059,6 @@ proxies:
   sni: is.01.naiun.bilibili.com
   type: trojan
   udp: true
-- name: 🇸🇬 新加坡-2BB88D69
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 188.253.12.94
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
-  udp: true
 - name: 🇸🇬 新加坡-53964ADD
   network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
@@ -437,15 +1075,6 @@ proxies:
   server: 188.253.12.98
   skip-cert-verify: true
   sni: is.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡-48C48F6E
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  server: 188.253.12.95
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
   type: trojan
   udp: true
 - name: 🇸🇬 新加坡-4EA6B6C8
@@ -509,15 +1138,6 @@ proxies:
   server: 188.253.12.15
   skip-cert-verify: true
   sni: fr.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡-76A8268F
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  server: 188.253.12.97
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
   type: trojan
   udp: true
 - name: 🇸🇬 新加坡-BB3336EA
@@ -633,24 +1253,6 @@ proxies:
     headers:
       Host: hhcm.hhxaf.cc.cd
     path: /
-- name: '[Trojan] 未知 TROJAN-90 | free-n...'
-  network: tcp
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
-  port: 443
-  security: tls
-  server: 103.125.216.18
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本-381ED26D
-  network: tcp
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
-  port: 443
-  server: 103.125.216.68
-  skip-cert-verify: false
-  type: trojan
-  udp: true
 - name: 🇯🇵 日本-C92BFEDC
   network: tcp
   password: 7e70223b-f331-41d5-9313-02b8d2df2885
@@ -694,144 +1296,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
-- name: trojan 7 - 312
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20072
-  server: 45.67.201.210
-  skip-cert-verify: true
-  sni: SG.catxstar.com
-  type: trojan
-  udp: true
-- name: trojan 10 - 315
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20057
-  server: d3.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: trojan 28 - 333
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20017
-  server: 45.67.201.210
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: trojan 35 - 340
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20035
-  server: d3.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: trojan 38 - 343
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20060
-  server: d3.catcat321.com
-  skip-cert-verify: true
-  sni: SG.catxstar.com
-  type: trojan
-  udp: true
-- name: trojan 44 - 349
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20046
-  server: d3.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: trojan 51 - 356
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20056
-  server: 45.67.201.210
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: trojan 60 - 365
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20119
-  server: d3.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: trojan 66 - 371
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20062
-  server: 45.67.201.210
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: trojan 76 - 381
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20052
-  server: 45.67.201.210
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: trojan 89 - 394
-  network: ws
-  password: 6g3hTs47jO
-  port: 443
-  server: 45.130.125.2
-  sni: sg.farxmode.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /da
-- name: trojan 100 - 405
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20120
-  server: 45.67.201.210
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: trojan 131 - 436
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20098
-  server: d3.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: trojan 135 - 440
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20092
-  server: 45.67.201.210
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: trojan 140 - 445
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20066
-  server: d3.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: trojan 141 - 446
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20035
-  server: 45.67.201.210
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: trojan 143 - 448
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20071
-  server: 45.67.201.210
-  skip-cert-verify: true
-  sni: TW.catxstar.com
-  type: trojan
-  udp: true
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001...
@@ -5623,63 +6087,163 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 庆祝亚冬会胜利召开
-  network: tcp
-  port: '443'
-  server: web.51.la
-  servername: web.51.la
-  tls: true
+  name: '🇭🇰 香港|@ripaojiedian #1'
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 敏感时期，更新暂停
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰 香港3|@ripaojiedian
   network: tcp
-  port: '443'
-  server: web.51.la
-  servername: web.51.la
-  tls: true
-  type: vmess
-  uuid: c6e84072-2e69-4928-90af-436b3fcd0663
-- alterId: 0
-  cipher: auto
-  name: 如有需要，自行搭建
-  network: tcp
-  port: '443'
-  server: web.51.la
-  servername: web.51.la
-  tls: true
-  type: vmess
-  uuid: e0c6b3b7-9f5b-4bd6-9abf-260663aa4f1b
-- name: 🇨🇦_CA_加拿大_1
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 103.177.136.45
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 2008
+  server: 95.40.113.209
   skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  tls: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇭🇰 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 29449
+  server: 95.40.58.222
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 3941
+  server: 16.163.149.119
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇯🇵 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 52904
+  server: 18.181.219.39
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 🇯🇵 日本2|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 3743
+  server: 18.163.118.4
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇯🇵 日本3|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 37973
+  server: 95.40.113.209
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 6357
+  server: 95.40.113.209
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡2|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 48738
+  server: 95.40.113.209
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.192.195
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 🇺🇸 美国|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 49277
+  server: 95.40.113.209
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸 美国2|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 17005
+  server: 95.40.113.209
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 11993
+  server: 16.163.149.119
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 'AE_speednode_0001 #1'
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 94.140.0.100
+  skip-cert-verify: false
+  sni: 95r.ir
   type: trojan
   udp: true
-- name: 🇨🇦_CA_加拿大_2
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 103.177.136.42
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  tls: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=Usa
+- name: 'GB_speednode_0005 #1'
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 164.38.155.135
+  skip-cert-verify: false
+  sni: 95r.ir
   type: trojan
   udp: true
-- name: 🇨🇦_CA_加拿大_3
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 103.177.136.42
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  tls: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=De
+- name: 'NL_speednode_0016 #1'
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 45.131.4.118
+  skip-cert-verify: false
+  sni: 95r.ir
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=Se
+- name: 'US_speednode_0063 #1'
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
+  skip-cert-verify: false
+  sni: www.gamingdll.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.gamingdll.ir
+    path: /usa=mitivpn
 - alterId: 2
   cipher: auto
   name: 🇭🇰_HK_中国香港->🇺🇸_US_美国
@@ -5700,33 +6264,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇨🇦_CA_加拿大_4
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 103.177.136.42
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇨🇦_CA_加拿大_5
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 103.177.136.45
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇨🇦_CA_加拿大_6
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 103.177.136.42
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
   name: 🇭🇰_HK_中国香港->🇺🇸_US_美国_1
@@ -5737,123 +6274,96 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇭🇰 香港|@ripaojiedian
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
+  name: 防范境外势力渗透
+  network: tcp
+  port: '80'
+  server: 127.0.0.53
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 香港3|@ripaojiedian
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 2008
-  server: 95.40.113.209
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇭🇰 香港4|@ripaojiedian
-  password: BxceQaOe
-  port: 29449
-  server: 95.40.58.222
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇭🇰 香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 3941
-  server: 16.163.149.119
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本|@ripaojiedian
-  password: BxceQaOe
-  port: 52904
-  server: 18.181.219.39
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本2|@ripaojiedian
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 3743
-  server: 18.163.118.4
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇯🇵 日本3|@ripaojiedian
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 37973
-  server: 95.40.113.209
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡|@ripaojiedian
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 6357
-  server: 95.40.113.209
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡2|@ripaojiedian
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 48738
-  server: 95.40.113.209
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡3|@ripaojiedian
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.192.195
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇺🇸 美国|@ripaojiedian
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 49277
-  server: 95.40.113.209
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国2|@ripaojiedian
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 17005
-  server: 95.40.113.209
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 11993
-  server: 16.163.149.119
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_2|2.2MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 45.131.4.118
-  skip-cert-verify: false
-  sni: PioHosting.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /MiTiVPN=Se
-- name: 🇳🇱NL_1|2.0MB/s
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #1'
   network: tcp
-  password: LSS6HLnp7IeEEJUcox
-  port: '443'
-  server: nl-1.tr202607.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  port: '81'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #2'
+  network: tcp
+  port: '82'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #3'
+  network: tcp
+  port: '83'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #4'
+  network: tcp
+  port: '84'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #5'
+  network: tcp
+  port: '85'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #6'
+  network: tcp
+  port: '86'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #7'
+  network: tcp
+  port: '87'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #8'
+  network: tcp
+  port: '88'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #9'
+  network: tcp
+  port: '89'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-03 | free-nodes'
   password: 4LuSQluWs3meAy5vOo7ikZ
@@ -6122,159 +6632,153 @@ proxies:
   name: '[SS] 未知 SS-57 | free-nodes'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.190
+  server: 82.38.31.191
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-58 | free-nodes'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.191
+  server: 82.38.31.192
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-59 | free-nodes'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.192
+  server: 82.38.31.193
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-60 | free-nodes'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.193
+  server: 82.38.31.204
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-61 | free-nodes'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.204
+  server: 82.38.31.205
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-62 | free-nodes'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.205
+  server: 82.38.31.207
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-63 | free-nodes'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.207
+  server: 82.38.31.208
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-64 | free-nodes'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.208
+  server: 82.38.31.214
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-65 | free-nodes'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.214
+  server: 82.38.31.216
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-66 | free-nodes'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.216
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-67 | free-nodes'
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
   server: 82.38.31.217
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-69 | free-nodes'
+  name: '[SS] 未知 SS-68 | free-nodes'
   password: nbWNC8zZ0eXokIOuW5rL8oNrXmXg5qAuL05R4fGNKCS7IG0u
   port: 31348
   server: 46.246.97.3
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-70 | free-nodes'
+  name: '[SS] 未知 SS-69 | free-nodes'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.15
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-71 | free-nodes'
+  name: '[SS] 未知 SS-70 | free-nodes'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.16
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-72 | free-nodes'
+  name: '[SS] 未知 SS-71 | free-nodes'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.17
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-73 | free-nodes'
+  name: '[SS] 未知 SS-72 | free-nodes'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.2
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-74 | free-nodes'
+  name: '[SS] 未知 SS-73 | free-nodes'
   password: qItG8SueYQcP
   port: 8388
   server: 140.174.184.5
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-75 | free-nodes'
+  name: '[SS] 未知 SS-74 | free-nodes'
   password: r_NRe-+WRq2zVqMpCnJtTESlT8WyffHyFy
   port: 16292
   server: 38.54.80.160
   type: ss
 - cipher: aes-128-gcm
-  name: '[SS] 未知 SS-78 | free-nodes'
+  name: '[SS] 未知 SS-77 | free-nodes'
   password: JVSuuib4ydvY8m7u6jElTYbeRO8ygJ4Hi8Iq733BqAkF
   port: 9888
   server: 168.138.175.92
   type: ss
 - cipher: aes-128-gcm
-  name: '[SS] 未知 SS-79 | free-nodes'
+  name: '[SS] 未知 SS-78 | free-nodes'
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
   server: 35.72.81.216
   type: ss
 - cipher: aes-128-gcm
-  name: '[SS] 未知 SS-80 | free-nodes'
+  name: '[SS] 未知 SS-79 | free-nodes'
   password: shadowsocks
   port: 443
   server: 158.173.24.73
   type: ss
 - cipher: aes-128-gcm
-  name: '[SS] 未知 SS-81 | free-nodes'
+  name: '[SS] 未知 SS-80 | free-nodes'
   password: wcjMniCODfhz26P7L2BvpEDQfhogbFTl
   port: 17913
   server: 161.129.71.148
   type: ss
 - cipher: aes-256-gcm
-  name: '[SS] 未知 SS-82 | free-nodes'
+  name: '[SS] 未知 SS-81 | free-nodes'
   password: 7e1dd4c55bf85da5
   port: 30129
   server: 212.192.13.91
   type: ss
 - cipher: aes-256-gcm
-  name: '[SS] 未知 SS-83 | free-nodes'
+  name: '[SS] 未知 SS-82 | free-nodes'
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 154.223.16.96
   type: ss
 - cipher: aes-256-gcm
-  name: '[SS] 未知 SS-84 | free-nodes'
+  name: '[SS] 未知 SS-83 | free-nodes'
   password: Y6R9pAtvxxzmGC
   port: 5600
   server: 103.106.231.82
   type: ss
 - cipher: aes-256-gcm
-  name: '[SS] 未知 SS-86 | free-nodes'
+  name: '[SS] 未知 SS-85 | free-nodes'
   password: wc/eqRPrYjnxfAJ2JKnio7cG2Ko9K9DiMwzonRjU3LI=
   port: 1122
   server: 103.130.147.40
   type: ss
-- name: '[Trojan] 未知 TROJAN-87 | free-n...'
+- name: '[Trojan] 未知 TROJAN-86 | free-n...'
   password: BxceQaOe
   port: 443
   security: tls
@@ -6283,42 +6787,23 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[Trojan] 未知 TROJAN-91 | free-n...'
-  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
-  port: 443
-  security: tls
-  server: 38.60.202.163
-  skip-cert-verify: true
-  type: trojan
-- allowInsecure: '0'
-  name: '[Trojan] 未知 TROJAN-92 | free-n...'
   password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
   port: 443
   security: tls
-  server: 92.119.35.117
+  server: 92.119.35.123
   skip-cert-verify: true
+  sni: ''
   type: trojan
-- fp: chrome
-  name: '[Trojan] 未知 TROJAN-100 | free-...'
-  password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
+- name: '[Trojan] 未知 TROJAN-99 | free-n...'
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
   port: 443
   security: tls
-  server: 38.60.220.65
-  skip-cert-verify: true
-  type: trojan
-- amp;alpn: http/1.1
-  amp;headerType: none
-  amp;sni: trojan.burgerip.co.uk
-  amp;type: tcp
-  name: '[Trojan] 未知 TROJAN-102 | free-...'
-  password: telegram-id-privatevpns
-  port: 22222
-  security: tls
-  server: 35.156.135.140
+  server: 92.119.35.85
   skip-cert-verify: true
   type: trojan
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-483 | free-no...'
+  name: '[Vmess] 未知 VMESS-485 | free-no...'
   network: tcp
   port: 13932
   server: 104.253.134.92
@@ -6332,7 +6817,7 @@ proxies:
     path: ''
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-488 | free-no...'
+  name: '[Vmess] 未知 VMESS-490 | free-no...'
   network: ws
   port: 6666
   server: 107.173.27.219
@@ -6346,7 +6831,7 @@ proxies:
     path: /youtube
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-490 | free-no...'
+  name: '[Vmess] 未知 VMESS-492 | free-no...'
   network: ws
   port: 18746
   server: 138.252.100.85
@@ -6360,7 +6845,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-497 | free-no...'
+  name: '[Vmess] 未知 VMESS-499 | free-no...'
   network: tcp
   port: 49178
   server: 160.250.247.70
@@ -6374,7 +6859,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-501 | free-no...'
+  name: '[Vmess] 未知 VMESS-503 | free-no...'
   network: ws
   port: 49515
   server: 163.223.224.68
@@ -6388,7 +6873,7 @@ proxies:
     path: /
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-507 | free-no...'
+  name: '[Vmess] 未知 VMESS-509 | free-no...'
   network: tcp
   port: 30022
   server: 186.244.208.78
@@ -6402,7 +6887,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-508 | free-no...'
+  name: '[Vmess] 未知 VMESS-510 | free-no...'
   network: ws
   port: 59525
   server: 194.60.95.7
@@ -6416,7 +6901,7 @@ proxies:
     path: /66ff581f-98d0-43cc-cecb-a7232f411c6d
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-509 | free-no...'
+  name: '[Vmess] 未知 VMESS-511 | free-no...'
   network: tcp
   port: 110
   server: 2.26.231.87
@@ -6430,7 +6915,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-510 | free-no...'
+  name: '[Vmess] 未知 VMESS-512 | free-no...'
   network: tcp
   port: 110
   server: 2.26.231.87
@@ -6444,7 +6929,7 @@ proxies:
     path: ''
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-514 | free-no...'
+  name: '[Vmess] 未知 VMESS-516 | free-no...'
   network: tcp
   port: 29633
   server: 23.141.204.132
@@ -6458,7 +6943,7 @@ proxies:
     path: /
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-515 | free-no...'
+  name: '[Vmess] 未知 VMESS-517 | free-no...'
   network: tcp
   port: 25944
   server: 43.167.162.191
@@ -6472,7 +6957,7 @@ proxies:
     path: /
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-516 | free-no...'
+  name: '[Vmess] 未知 VMESS-518 | free-no...'
   network: tcp
   port: 34017
   server: 43.167.162.191
@@ -6486,7 +6971,7 @@ proxies:
     path: /
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-517 | free-no...'
+  name: '[Vmess] 未知 VMESS-519 | free-no...'
   network: ws
   port: 44855
   server: 45.63.75.211
@@ -6500,7 +6985,7 @@ proxies:
     path: /5164f226
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-518 | free-no...'
+  name: '[Vmess] 未知 VMESS-520 | free-no...'
   network: ws
   port: 80
   server: 51.254.133.152
@@ -6514,7 +6999,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-566 | free-no...'
+  name: '[Vmess] 未知 VMESS-570 | free-no...'
   network: ws
   port: 57865
   server: 62.60.151.41
@@ -6528,7 +7013,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-525 | free-no...'
+  name: '[Vmess] 未知 VMESS-527 | free-no...'
   network: tcp
   port: 433
   server: 65.109.186.44
@@ -6542,7 +7027,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-527 | free-no...'
+  name: '[Vmess] 未知 VMESS-529 | free-no...'
   network: tcp
   port: 8088
   server: 65.109.218.60
@@ -6556,7 +7041,7 @@ proxies:
     path: ''
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-529 | free-no...'
+  name: '[Vmess] 未知 VMESS-531 | free-no...'
   network: tcp
   port: 33366
   server: 65.109.221.245
@@ -6570,7 +7055,7 @@ proxies:
     path: /Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-565 | free-no...'
+  name: '[Vmess] 未知 VMESS-569 | free-no...'
   network: ws
   port: 80
   server: 69.84.182.49
@@ -6584,7 +7069,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-545 | free-no...'
+  name: '[Vmess] 未知 VMESS-548 | free-no...'
   network: ws
   port: 443
   server: 8.211.149.30
@@ -6598,7 +7083,7 @@ proxies:
     path: /ws/
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-546 | free-no...'
+  name: '[Vmess] 未知 VMESS-549 | free-no...'
   network: tcp
   port: 8880
   server: 89.167.82.102
@@ -6612,7 +7097,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-549 | free-no...'
+  name: '[Vmess] 未知 VMESS-552 | free-no...'
   network: tcp
   port: 4443
   server: 89.167.82.102
@@ -6626,7 +7111,7 @@ proxies:
     path: ''
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-548 | free-no...'
+  name: '[Vmess] 未知 VMESS-551 | free-no...'
   network: tcp
   port: 8880
   server: 89.167.82.102
@@ -6640,7 +7125,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-551 | free-no...'
+  name: '[Vmess] 未知 VMESS-554 | free-no...'
   network: ws
   port: 54840
   server: 96.47.230.5
@@ -6654,7 +7139,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-554 | free-no...'
+  name: '[Vmess] 未知 VMESS-557 | free-no...'
   network: tcp
   port: 443
   server: atiins.com.tr
@@ -6668,7 +7153,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-557 | free-no...'
+  name: '[Vmess] 未知 VMESS-560 | free-no...'
   network: ws
   port: 80
   server: myvpshosting.name.ng
@@ -6682,7 +7167,7 @@ proxies:
     path: /vmess
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-559 | free-no...'
+  name: '[Vmess] 未知 VMESS-562 | free-no...'
   network: tcp
   port: 1020
   server: nlt.reata.ir
@@ -6696,7 +7181,7 @@ proxies:
     path: /
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-560 | free-no...'
+  name: '[Vmess] 未知 VMESS-563 | free-no...'
   network: tcp
   port: 1050
   server: spt.reata.ir
@@ -6710,7 +7195,7 @@ proxies:
     path: /
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-561 | free-no...'
+  name: '[Vmess] 未知 VMESS-564 | free-no...'
   network: ws
   port: 10000
   server: uk.vpnjantit.com
@@ -6724,7 +7209,7 @@ proxies:
     path: /vpnjantit
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-562 | free-no...'
+  name: '[Vmess] 未知 VMESS-565 | free-no...'
   network: tcp
   port: 1546
   server: vip3.sanaiehdasti.com
@@ -6738,7 +7223,7 @@ proxies:
     path: /
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-564 | free-no...'
+  name: '[Vmess] 未知 VMESS-567 | free-no...'
   network: ws
   port: 443
   server: yg1.ygkkk.dpdns.org
@@ -6750,9 +7235,23 @@ proxies:
     headers:
       Host: attitude-interracial-country-gen.trycloudflare.com
     path: /6a25f9ba-70a0-4d53-a2a9-19d8f1fcad76-vm
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] 未知 VMESS-568 | free-no...'
+  network: tcp
+  port: 44908
+  server: 65.109.218.60
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f3115329-e25b-4bcf-b035-52fdfb5371b2
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-567 | free-no...'
+  name: '[Vmess] 未知 VMESS-571 | free-no...'
   network: ws
   port: 48885
   server: 216.36.115.182
@@ -6765,7 +7264,7 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-128-gcm
-  name: '[SS] 未知 SS-573 | free-nodes'
+  name: '[SS] 未知 SS-577 | free-nodes'
   password: 6601fb90e9b3
   port: 443
   server: fast.com
@@ -6854,45 +7353,6 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- name: AE_speednode_0001
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 94.140.0.100
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 95r.ir
-    path: /MiTiVPN=Usa
-- name: GB_speednode_0005
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 164.38.155.135
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 95r.ir
-    path: /MiTiVPN=De
-- name: NL_speednode_0016
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 45.131.4.118
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 95r.ir
-    path: /MiTiVPN=Se
 - alterId: 0
   cipher: auto
   name: US_speednode_0054
@@ -6903,16 +7363,3 @@ proxies:
   type: vmess
   udp: true
   uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
-- name: US_speednode_0063
-  network: ws
-  password: Mitivpn
-  port: 443
-  server: iranpoems.ir
-  skip-cert-verify: false
-  sni: www.gamingdll.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.gamingdll.ir
-    path: /usa=mitivpn
