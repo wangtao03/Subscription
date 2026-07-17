@@ -1,4 +1,4 @@
-# Update: 2026-07-17 15:50
+# Update: 2026-07-17 21:01
 allow-lan: true
 dns:
   enable: true
@@ -18,93 +18,15 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- alterId: '0'
-  cipher: auto
-  name: 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 18339
-  server: c87s5.portablesubmarines.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
-  xudp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: safari
-  name: ⚪🏳️_github.com/Ruk1ng001_54d00...
-  network: tcp
+- name: '🇸🇬SG_1|4.7MB/s #1'
+  password: NQ26071394
   port: 443
-  server: guanwang.awsno.com
-  servername: gw.alicdn.com
+  server: proper-marlin.rooster465.autos
   skip-cert-verify: true
+  sni: proper-marlin.rooster465.autos
   tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: ⚪🏳️_github.com/Ruk1ng001_79f37...
-  network: ws
-  password: HutaoCloud
-  port: 11543
-  server: 185.220.238.77
-  skip-cert-verify: true
-  sni: 185.220.238.77
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /api
-- alpn:
-  - h2
-  - http/1.1
-  name: 🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.150.28
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
-- name: 🟠🇦🇺[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: ws
-  password: rYuChHcwQZskq9E0zdoR
-  port: 443
-  server: ip4.vpean2.qzz.io
-  skip-cert-verify: false
-  sni: vpn5.rnmcnm.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /ws-79dffb8106db
-- alterId: 2
-  cipher: auto
-  name: '🇭🇰 香港|@ripaojiedian #1'
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 13118
-  server: 43.198.71.42
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: 🇭🇰 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -112,172 +34,21 @@ proxies:
   server: 18.163.5.109
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 27167
-  server: 18.166.113.165
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 4099
-  server: 18.162.51.224
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本2|@ripaojiedian
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 24370
-  server: 43.198.71.42
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇯🇵 日本3|@ripaojiedian
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 24370
-  server: 18.166.55.241
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡|@ripaojiedian
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 48738
-  server: 18.163.180.35
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡2|@ripaojiedian
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 6357
-  server: 43.198.71.42
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 18.163.41.112
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇺🇸 美国|@ripaojiedian
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.166.55.241
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国2|@ripaojiedian
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 43.198.71.42
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 35966
-  server: 18.163.5.109
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 香港|@ripaojiedian
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
   tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'AE_speednode_0001 #1'
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 94.140.0.100
-  skip-cert-verify: false
-  sni: 95r.ir
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: 95r.ir
-    path: /MiTiVPN=Usa
-- name: 'GB_speednode_0005 #1'
-  network: ws
-  password: MITIVPN
+- name: 🇯🇵_JP_日本
+  password: NQ26071394
   port: 443
-  server: 164.38.155.135
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 95r.ir
-    path: /MiTiVPN=De
-- name: 'NL_speednode_0016 #1'
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 45.131.4.118
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 95r.ir
-    path: /MiTiVPN=Se
-- name: 'US_speednode_0063 #1'
-  network: ws
-  password: Mitivpn
-  port: 443
-  server: iranpoems.ir
-  skip-cert-verify: false
-  sni: www.gamingdll.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.gamingdll.ir
-    path: /usa=mitivpn
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国
-  port: 30829
-  server: v29.hdacd.com
+  server: brief-hare.rooster465.autos
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: brief-hare.rooster465.autos
+  tls: true
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇫🇷_FR_法国
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_HK_中国香港
+  name: 🇭🇰_HK_中国香港_1
   port: 5566
   server: 47.76.127.88
   skip-cert-verify: true
@@ -285,33 +56,54 @@ proxies:
   type: vmess
   udp: true
   uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰_HK_中国香港_1
-  port: 30807
-  server: v10.zgtfqs.click
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_1
-  network: ws
+- name: 🇰🇷_KR_韩国
+  password: NQ26071394
   port: 443
-  server: 4cdn.njkrpl.com
-  servername: 4cdn.njkrpl.com
+  server: living-hagfish.rooster465.autos
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  sni: living-hagfish.rooster465.autos
+  tls: false
+  type: trojan
   udp: true
-  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
-  ws-opts:
-    path: /
+- name: 🇮🇪_IE_爱尔兰
+  password: NQ26071394
+  port: 443
+  server: thankful-piranha.rooster465.autos
+  skip-cert-verify: true
+  sni: thankful-piranha.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇫🇷_FR_法国_1
+  password: NQ26071394
+  port: 443
+  server: ready-kangaroo.rooster465.autos
+  skip-cert-verify: true
+  sni: ready-kangaroo.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: '🇸🇬SG_11|5.1MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: helping-newt.rooster465.autos
+  skip-cert-verify: true
+  sni: helping-newt.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_13|5.3MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: expert-muskrat.rooster465.autos
+  skip-cert-verify: true
+  sni: expert-muskrat.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_HK_中国香港_3
+  name: 🇭🇰_HK_中国香港_2
   network: ws
   port: 443
   server: n1747624274.4u9ma.icu
@@ -320,64 +112,54 @@ proxies:
   type: vmess
   udp: true
   uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-  ws-opts:
-    headers:
-      Host: n1747624274.4u9ma.icu
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  port: 30808
-  server: v8.hdacd.com
+- name: '🇰🇷KR_1|5.0MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: guided-pelican.rooster465.autos
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: guided-pelican.rooster465.autos
+  tls: true
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇯🇵_JP_日本
-  port: 30806
-  server: v6.hdacd.com
+- name: '🇺🇸US_10|2.7MB/s #1'
+  network: tcp
+  password: BxceQaOe
+  port: 35966
+  server: 18.163.5.109
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  http-opts:
-    path:
-    - /
-  name: 🇺🇸_US_美国_3
-  network: http
-  port: 27272
-  server: 45.158.23.138
+- name: '🇮🇪IE_1|2.2MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: fun-labrador.rooster465.autos
+  skip-cert-verify: false
+  sni: fun-labrador.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇯🇵_JP_日本_2
+  password: NQ26071394
+  port: 443
+  server: stunning-mastodon.rooster465.autos
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: stunning-mastodon.rooster465.autos
+  tls: true
+  type: trojan
   udp: true
-  uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
-- alterId: 2
-  cipher: none
-  name: 🇨🇳_CN_中国->🇩🇪_DE_德国
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- name: '🇰🇷KR_7|4.4MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: accurate-cat.rooster465.autos
+  skip-cert-verify: false
+  sni: accurate-cat.rooster465.autos
+  tls: true
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 防范境外势力渗透
@@ -468,6 +250,540 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 2
+  cipher: auto
+  name: '🇭🇰 香港|@ripaojiedian #1'
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰 香港3|@ripaojiedian
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 13118
+  server: 43.198.71.42
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 27167
+  server: 18.166.113.165
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇯🇵 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 4099
+  server: 18.162.51.224
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 🇯🇵 日本2|@ripaojiedian
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 24370
+  server: 43.198.71.42
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇯🇵 日本3|@ripaojiedian
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 24370
+  server: 18.166.55.241
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡|@ripaojiedian
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 48738
+  server: 18.163.180.35
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡2|@ripaojiedian
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 6357
+  server: 43.198.71.42
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '🇸🇬SG_13|2.9MB/s #1'
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 18.163.41.112
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 🇺🇸 美国|@ripaojiedian
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 17005
+  server: 18.166.55.241
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸 美国2|@ripaojiedian
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 17005
+  server: 43.198.71.42
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 香港|@ripaojiedian
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '🇯🇵JP_1|5.0MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: flexible-gannet.rooster465.autos
+  skip-cert-verify: true
+  sni: flexible-gannet.rooster465.autos
+  type: trojan
+- name: '🇯🇵JP_15|4.8MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: better-molly.rooster465.autos
+  skip-cert-verify: false
+  sni: better-molly.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_3|4.6MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: fit-marten.rooster465.autos
+  skip-cert-verify: true
+  sni: fit-marten.rooster465.autos
+  type: trojan
+- name: '🇯🇵JP_16|5.4MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: saving-drake.rooster465.autos
+  skip-cert-verify: false
+  sni: saving-drake.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_5|5.5MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: calm-muskrat.rooster465.autos
+  skip-cert-verify: true
+  sni: calm-muskrat.rooster465.autos
+  type: trojan
+- name: '🇯🇵JP_6|5.7MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: joint-ewe.rooster465.autos
+  skip-cert-verify: true
+  sni: joint-ewe.rooster465.autos
+  type: trojan
+- name: '🇯🇵JP_17|5.7MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: magical-prawn.rooster465.autos
+  skip-cert-verify: false
+  sni: magical-prawn.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_34|2.1MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: prime-quail.rooster465.autos
+  skip-cert-verify: true
+  sni: prime-quail.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_9|5.0MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: real-ewe.rooster465.autos
+  skip-cert-verify: true
+  sni: real-ewe.rooster465.autos
+  type: trojan
+- name: '🇯🇵JP_10|5.7MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: helped-jennet.rooster465.autos
+  skip-cert-verify: true
+  sni: helped-jennet.rooster465.autos
+  type: trojan
+- name: '🇯🇵JP_11|5.4MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: picked-guinea.rooster465.autos
+  skip-cert-verify: true
+  sni: picked-guinea.rooster465.autos
+  type: trojan
+- name: '🇰🇷KR_3|4.9MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: inviting-ferret.rooster465.autos
+  skip-cert-verify: true
+  sni: inviting-ferret.rooster465.autos
+  type: trojan
+- name: '🇰🇷KR_8|2.1MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: mighty-lemming.rooster465.autos
+  skip-cert-verify: false
+  sni: mighty-lemming.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇰🇷KR_5|5.0MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: capable-jay.rooster465.autos
+  skip-cert-verify: true
+  sni: capable-jay.rooster465.autos
+  type: trojan
+- name: '🇸🇬SG_2|5.4MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: usable-dogfish.rooster465.autos
+  skip-cert-verify: true
+  sni: usable-dogfish.rooster465.autos
+  type: trojan
+- name: '🇸🇬SG_3|3.9MB/s #1'
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: true
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- name: '🇸🇬SG_5|3.8MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: eminent-hagfish.rooster465.autos
+  skip-cert-verify: true
+  sni: eminent-hagfish.rooster465.autos
+  type: trojan
+- name: '🇸🇬SG_6|3.7MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: verified-ringtail.rooster465.autos
+  skip-cert-verify: true
+  sni: verified-ringtail.rooster465.autos
+  type: trojan
+- name: '🇭🇰HK_1|2.8MB/s #1'
+  password: BxceQaOe
+  port: '7674'
+  server: 18.163.5.109
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: '🇺🇸US_2|2.6MB/s #1'
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: '🇸🇬SG_7|1.6MB/s #1'
+  password: BxceQaOe
+  port: '9149'
+  server: 18.163.41.112
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: '🇺🇸US_16|2.8MB/s #1'
+  network: tcp
+  password: BxceQaOe
+  port: '35966'
+  server: 18.163.5.109
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '🇺🇸US_6|1.7MB/s #1'
+  network: tcp
+  port: '16025'
+  server: c722s801.portablesubmarines.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  xudp: true
+- name: '🇰🇷KR_6|3.5MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: modest-amoeba.rooster465.autos
+  skip-cert-verify: true
+  sni: modest-amoeba.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_21|4.8MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: beloved-crow.rooster465.autos
+  skip-cert-verify: false
+  sni: beloved-crow.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_14|2.1MB/s #1'
+  password: NQ26071394
+  port: 443
+  server: firm-krill.rooster465.autos
+  skip-cert-verify: true
+  sni: firm-krill.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_18|5.2MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: hot-tapir.rooster465.autos
+  skip-cert-verify: false
+  sni: hot-tapir.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_19|5.4MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: alert-wren.rooster465.autos
+  skip-cert-verify: false
+  sni: alert-wren.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_20|5.0MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: amusing-grub.rooster465.autos
+  skip-cert-verify: false
+  sni: amusing-grub.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇰🇷KR_9|3.9MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: genuine-cougar.rooster465.autos
+  skip-cert-verify: false
+  sni: genuine-cougar.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_22|3.9MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: immune-grackle.rooster465.autos
+  skip-cert-verify: false
+  sni: immune-grackle.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_23|5.0MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: infinite-killdeer.rooster465.autos
+  skip-cert-verify: false
+  sni: infinite-killdeer.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇰🇷KR_10|5.0MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: merry-falcon.rooster465.autos
+  skip-cert-verify: false
+  sni: merry-falcon.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_24|4.0MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: new-eagle.rooster465.autos
+  skip-cert-verify: false
+  sni: new-eagle.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_25|5.7MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: one-dove.rooster465.autos
+  skip-cert-verify: false
+  sni: one-dove.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_26|5.3MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: upright-caribou.rooster465.autos
+  skip-cert-verify: false
+  sni: upright-caribou.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_27|5.8MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: working-tomcat.rooster465.autos
+  skip-cert-verify: false
+  sni: working-tomcat.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇺🇸US_17|2.1MB/s #1'
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: alert-monster.rooster465.autos
+  skip-cert-verify: false
+  sni: alert-monster.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_28|5.4MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: allowing-ram.rooster465.autos
+  skip-cert-verify: false
+  sni: allowing-ram.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_29|5.7MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: capable-baboon.rooster465.autos
+  skip-cert-verify: false
+  sni: capable-baboon.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_30|5.3MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: golden-kangaroo.rooster465.autos
+  skip-cert-verify: false
+  sni: golden-kangaroo.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_31|4.8MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: select-ferret.rooster465.autos
+  skip-cert-verify: false
+  sni: select-ferret.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵JP_32|4.9MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: warm-bass.rooster465.autos
+  skip-cert-verify: false
+  sni: warm-bass.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇰🇷KR_11|3.9MB/s #1'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: musical-mouse.rooster465.autos
+  skip-cert-verify: false
+  sni: musical-mouse.rooster465.autos
+  type: trojan
+  udp: true
+- name: 'AE_speednode_0001 #1'
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 94.140.0.100
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=Usa
+- name: 'GB_speednode_0005 #1'
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 164.38.155.135
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=De
+- name: 'NL_speednode_0016 #1'
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 45.131.4.118
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=Se
+- name: 'US_speednode_0063 #1'
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
+  skip-cert-verify: false
+  sni: www.gamingdll.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.gamingdll.ir
+    path: /usa=mitivpn
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-140.83.51.161-0134
