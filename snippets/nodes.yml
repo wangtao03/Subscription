@@ -1,182 +1,6 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🟠🇸🇬[🤖📺🎭🎪]_github.com/Ruk1ng001...
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- name: 🟠🇮🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  password: ON38567014
-  port: 443
-  server: vast-turkey.rooster465.autos
-  skip-cert-verify: false
-  sni: vast-turkey.rooster465.autos
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵_JP_日本
-  network: ws
-  port: 12883
-  server: cs.ktmcn.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-  xudp: true
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇬🇧_GB_英国
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: safari
-  name: ⚪🏳️_github.com/Ruk1ng001_54d00...
-  network: tcp
-  port: 443
-  server: guanwang.awsno.com
-  servername: gw.alicdn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- alterId: 2
-  cipher: auto
-  name: 🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- name: ⚪🏳️_github.com/Ruk1ng001_79f37...
-  network: ws
-  password: HutaoCloud
-  port: 11543
-  server: 185.220.238.77
-  skip-cert-verify: true
-  sni: 185.220.238.77
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /api
-- alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - windows64.net
-    path:
-    - /?ed=1024
-  name: 🟢🇹🇷[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: http
-  port: 2078
-  server: 93.180.134.52
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: ws
-  port: 12885
-  server: cs.ktmcn.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-  xudp: true
-- alterId: 2
-  cipher: auto
-  name: 🟠🇺🇸[🤖📺🎪📦]_github.com/Ruk1ng001...
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: '🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: ws
-  port: 12898
-  server: gtm1.ktmwan.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: '🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  network: ws
-  port: 12899
-  server: gtm1.ktmwan.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-  xudp: true
-- name: ⚪🏳️[🎬📺🎭🎪]_github.com/Ruk1ng001...
-  network: ws
-  password: '521314'
-  port: 2096
-  server: 131.186.27.112
-  skip-cert-verify: false
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: /
-- alterId: 2
-  cipher: auto
   name: '🇭🇰 香港|@ripaojiedian #1'
   port: 30807
   server: v10.hdacd.com
@@ -249,7 +73,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇸🇬SG_3|3.4MB/s
+- name: 🇸🇬 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -345,59 +169,7 @@ proxies:
     path: /usa=mitivpn
 - alterId: 0
   cipher: auto
-  name: 🇯🇵_JP_日本->🇭🇰_HK_中国香港
-  network: ws
-  port: 12890
-  server: gtm1.ktmwan.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵_JP_日本->🇦🇺_AU_澳大利亚
-  network: ws
-  port: 12889
-  server: gtm1.ktmwan.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵_JP_日本->🇨🇦_CA_加拿大
-  network: ws
-  port: 12897
-  server: gtm1.ktmwan.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡
-  network: ws
-  port: 12901
-  server: cs.ktmcn.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_中国香港_1
+  name: 🇭🇰_HK_中国香港
   network: ws
   port: 443
   server: n1747624260.4u9ma.icu
@@ -409,6 +181,26 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 🇭🇰_HK_中国香港_2
+  port: 5566
+  server: 47.76.127.88
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇫🇷_FR_法国
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_HK_中国香港_3
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -419,109 +211,6 @@ proxies:
   uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵_JP_日本->🇫🇷_FR_法国
-  network: ws
-  port: 12899
-  server: gtm1.ktmwan.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡_1
-  network: ws
-  port: 12901
-  server: gtm1.ktmwan.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇭🇰_HK_中国香港
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵_JP_日本->🇬🇧_GB_英国
-  network: ws
-  port: 12886
-  server: gtm1.ktmwan.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 443
-  server: 4cdn.njkrpl.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇩🇪_DE_德国
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵_JP_日本->🇹🇼_TW_中国台湾
-  network: ws
-  port: 12888
-  server: gtm1.ktmwan.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_中国香港_3
-  port: 5566
-  server: 47.76.127.88
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
 - alterId: 0
   cipher: auto
   name: 🇭🇰_HK_中国香港_4
@@ -535,7 +224,7 @@ proxies:
   uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国
   port: 30804
   server: v4.hdacd.com
   skip-cert-verify: true
@@ -545,15 +234,17 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇯🇵_JP_日本->🇩🇪_DE_德国
+  name: 🇭🇰_HK_中国香港_5
   network: ws
-  port: 12898
-  server: gtm1.ktmwan.net
+  port: 44867
+  server: 47.244.120.197
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    path: /arki?ed=2048
 - alterId: 2
   cipher: auto
   name: 🇨🇳_CN_中国->🇯🇵_JP_日本
@@ -566,30 +257,55 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇯🇵_JP_日本->🇺🇸_US_美国
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
-  port: 12885
-  server: cs.ktmcn.net
+  port: 443
+  server: 4cdn.njkrpl.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇬🇧_GB_英国
+  port: 30836
+  server: v36.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: none
+  name: 🇨🇳_CN_中国->🇩🇪_DE_德国
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇯🇵_JP_日本_1
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
+  name: 🇺🇸_US_美国
+  port: 443
+  server: guanwang.awsno.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇭🇰_HK_中国香港
+  port: 30809
+  server: v9.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 防范境外势力渗透
@@ -680,40 +396,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP_1|3.7MB/s
-  network: ws
-  port: 12883
-  server: cs.ktmcn.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 78f2e8f0-68ea-438e-84ec-d58c9416c680
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- name: 🇸🇬SG_1|3.8MB/s
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
-- name: 🇺🇸US_3|2.7MB/s
-  password: XG59623478
-  port: 443
-  server: possible-pup.rooster465.autos
-  skip-cert-verify: true
-  sni: possible-pup.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG_1|3.0MB/s
+- name: '🇸🇬SG_2|4.0MB/s #1'
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: '443'
@@ -724,17 +407,9 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /in-pdr
-- name: 🇸🇬SG_4|3.6MB/s
-  password: BxceQaOe
-  port: '41421'
-  server: 43.198.13.164
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-140.83.51.161-0134
