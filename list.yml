@@ -1,4 +1,4 @@
-# Update: 2026-07-21 21:12
+# Update: 2026-07-22 03:02
 allow-lan: true
 dns:
   enable: true
@@ -18,83 +18,6 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 🇸🇬_SG_新加坡->🇫🇷_FR_法国
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- alterId: 2
-  cipher: auto
-  name: 🇯🇵_JP_日本->🇺🇸_US_美国
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - speedtest.net
-    path:
-    - /
-  name: 🟢🇻🇳[🎬🤖📺🎪]_github.com/Ruk1ng001...
-  network: http
-  port: 27467
-  server: 103.166.184.134
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93637105-bcea-4a68-b089-1bb6091f0b16
-  xudp: true
-- name: ⚪🏳️_github.com/Ruk1ng001_79f37...
-  network: ws
-  password: HutaoCloud
-  port: 11543
-  server: 185.220.238.77
-  skip-cert-verify: true
-  sni: 185.220.238.77
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /api
-- name: 🟢🇸🇬[🤖📺📦✈️]_github.com/Ruk1ng00...
-  network: tcp
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: false
-  sni: yazhou10.dynu.net
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: safari
-  name: ⚪🏳️_github.com/Ruk1ng001_54d00...
-  network: tcp
-  port: 443
-  server: guanwang.awsno.com
-  servername: gw.alicdn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - alterId: 2
   cipher: auto
   name: '🇭🇰 香港|@ripaojiedian #1'
@@ -331,6 +254,16 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇯🇵_JP_日本->🇺🇸_US_美国
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇺🇸_US_美国_1
   password: 0ebb269c9f2d4e8e46b0cd4105a55134
   port: 49361
@@ -364,6 +297,16 @@ proxies:
   name: 🇨🇳_CN_中国->🇩🇪_DE_德国
   port: 30833
   server: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇸🇬_SG_新加坡->🇫🇷_FR_法国
+  port: 30835
+  server: v35.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -469,7 +412,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇸🇬SG_1|2.4MB/s #1'
+- name: '🇸🇬SG_1|4.0MB/s #1'
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -481,20 +424,13 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- name: '🇸🇬SG_3|1.8MB/s #1'
-  password: IQ68037294
-  port: 443
-  server: pet-albacore.rooster465.autos
-  skip-cert-verify: true
-  sni: pet-albacore.rooster465.autos
-  type: trojan
-- name: '🇯🇵JP_1|2.2MB/s #1'
+- name: '🇸🇬SG_2|3.3MB/s #1'
   network: tcp
-  password: IQ68037294
-  port: '443'
-  server: square-anchovy.rooster465.autos
-  skip-cert-verify: false
-  sni: square-anchovy.rooster465.autos
+  password: BxceQaOe
+  port: '9149'
+  server: 18.163.84.233
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
 - alterId: 0
