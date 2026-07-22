@@ -293,34 +293,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '🇸🇬SG_1|3.2MB/s #1'
+- name: '🇸🇬SG_2|3.9MB/s #1'
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: '443'
+  port: 443
   server: 188.164.248.122
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: space.byu.id.yxls.eu.cc
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- name: '🇩🇪DE_3|2.4MB/s #1'
-  network: ws
-  password: p2QFnWdKPZt0evve7n-C52fTqRndJa5W
-  port: '443'
-  server: 103.27.157.97
-  skip-cert-verify: false
-  sni: rem.dtr.kotokopolb.ru
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /trojan-ws
 - name: 'AE_speednode_0001 #1'
   network: ws
   password: MITIVPN
