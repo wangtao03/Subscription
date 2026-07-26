@@ -1,4 +1,4 @@
-# Update: 2026-07-26 16:05
+# Update: 2026-07-26 20:54
 allow-lan: true
 dns:
   enable: true
@@ -74,7 +74,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇭🇰 香港3|@ripaojiedian
   network: tcp
@@ -218,31 +217,26 @@ proxies:
   type: vmess
   udp: true
   uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡
-  port: 30845
-  server: v45.hdacd.com
+  name: 🇭🇰_HK_中国香港_1
+  network: ws
+  port: 443
+  server: n1747624274.4u9ma.icu
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  ws-opts:
+    headers:
+      Host: n1747624274.4u9ma.icu
+    path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰_HK_中国香港_2
-  port: 30807
-  server: v10.zgtfqs.click
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国
-  port: 30804
-  server: v4.hdacd.com
+  name: 🇨🇳_CN_中国->🇭🇰_HK_中国香港
+  port: 30809
+  server: v9.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -338,14 +332,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇯🇵JP_1|1.5MB/s #1'
-  password: AQ71834695
-  port: 443
-  server: alert-monster.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: '🇸🇬SG_5|4.6MB/s #1'
+- name: 🇸🇬SG_2|4.0MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: '443'
@@ -356,24 +343,107 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2228.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /in-pdr
+- name: 🇯🇵JP_1|1.5MB/s
+  password: AQ71834695
+  port: 443
+  server: concise-lacewing.rooster465.autos
+  skip-cert-verify: true
+  sni: concise-lacewing.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇳🇱NL_2|2.8MB/s
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: '443'
+  server: 172.67.149.60
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /in-pdr
 - alterId: 0
   cipher: auto
-  name: '🇺🇸US_7|3.3MB/s #1'
+  name: 🇲🇩MD-94.131.108.36-131
   network: ws
-  port: 2086
-  server: 154.17.234.39
-  skip-cert-verify: true
+  port: 443
+  server: 94.131.108.36
+  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
-  uuid: 7e25875e-50bb-47ed-9627-261e6d232f69
+  uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP-140.83.51.161-158
+  network: ws
+  port: 25686
+  server: 140.83.51.161
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
   ws-opts:
     headers:
-      Host: www.bing.com
-    path: 7e25875e-50bb-47ed-9627-261e6d232f69-vm
+      Host: jp02.a0a.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇰🇿KZ-38.107.234.57-161
+  network: ws
+  port: 80
+  server: 38.107.234.57
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: 3h-kazakhstan1.09vpn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.31.16.31-8766
+  network: ws
+  port: 80
+  server: 104.31.16.31
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
+  ws-opts:
+    path: /i99LgvSaslbsPLLQQ7j6Z
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.31.16.196-8795
+  network: ws
+  port: 443
+  server: 104.31.16.196
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+  ws-opts:
+    path: /wss51068
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.17.164.68-8885
+  network: ws
+  port: 8880
+  server: 104.17.164.68
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  ws-opts:
+    path: /GdtYWlsLmNvbSJ9LCJjb3V
 sniffer:
   enable: true
   skip-domain:
