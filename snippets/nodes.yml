@@ -1,10 +1,78 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_HK_中国香港
+  name: 🇺🇸_US_美国
+  port: 443
+  server: guanwang.awsno.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇭🇰_HK_中国香港
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇳🇱_NL_荷兰
+  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+  port: 449
+  server: 77.74.123.132
+  skip-cert-verify: true
+  sni: grape-zet-turbo-nl.yyuyy.com
+  tls: false
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: '🇭🇰 香港|@ripaojiedian #1'
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: IR_speednode_0012
+  port: 2078
+  server: 94.182.88.61
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10
+- name: 🇭🇰_HK_中国香港->🇩🇪_DE_德国
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_HK_中国香港_1
   network: ws
   port: 443
-  server: 7timuei1uufoixbf.v.3dns.vip
+  server: ejomsxptp19apygl.v.3dns.vip
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -22,12 +90,40 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
+- name: 🇭🇰_HK_中国香港->🇩🇪_DE_德国_1
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_HK_中国香港_1
+  name: 🇭🇰_HK_中国香港_2
   network: ws
   port: 443
-  server: vah4urdzl3jdx5r2.v.3dns.vip
+  server: 7timuei1uufoixbf.v.3dns.vip
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -35,44 +131,12 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /ws-vmess
-- name: 🇭🇰_HK_中国香港->🇩🇪_DE_德国
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: '🇭🇰 香港|@ripaojiedian #1'
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 🇭🇰_HK_中国香港_3
   network: ws
   port: 443
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_中国香港_4
-  network: ws
-  port: 443
-  server: ejomsxptp19apygl.v.3dns.vip
+  server: vah4urdzl3jdx5r2.v.3dns.vip
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -268,6 +332,16 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- grpc-opts:
+    grpc-service-name: /28786/4U7gXXHftA
+  name: 🇵🇱PL_1|3.9MB/s
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: '443'
+  server: 31.76.251.127.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - name: 'US_speednode_0176 #1'
   network: ws
   password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
@@ -281,37 +355,16 @@ proxies:
     headers:
       Host: jumao91.shop
     path: /proxyip=45.207.156.255
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_5|2.5MB/s
-  network: ws
-  port: 443
-  server: cg1c02.waimaojd.com
-  servername: cg1c02.waimaojd.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 332774e5-9371-48bb-b518-1fe56c7268da
-  ws-opts:
-    headers:
-      Host: cg1c02.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  name: ❓Other_1|1.4MB/s
-  network: ws
-  port: 2096
-  server: twdx6.baidupi.top
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪DE_2|3.0MB/s
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: '443'
+  server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-  ws-opts:
-    headers:
-      Host: cos.ap-shanghai.myqcloud.com
-    path: /assets/images/
-  xudp: true
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
@@ -393,16 +446,6 @@ proxies:
     headers:
       Host: 330tw.fans8.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: IR_speednode_0012
-  port: 2078
-  server: 94.182.88.61
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10
 - alterId: 99999
   cipher: auto
   name: JP_speednode_0014
