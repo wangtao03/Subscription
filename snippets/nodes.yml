@@ -1,116 +1,133 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_中国香港
-  network: ws
-  port: 443
-  server: ejomsxptp19apygl.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /ws-vmess
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇭🇰_HK_中国香港
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇰🇷_KR_韩国
+- name: 'HK_speednode_0008 #1'
   password: ND91608427
   port: 443
-  server: uncommon-feline.rooster465.autos
+  server: upright-hamster.rooster465.autos
   skip-cert-verify: true
-  sni: uncommon-feline.rooster465.autos
-  tls: false
+  sni: upright-hamster.rooster465.autos
+  tls: true
   type: trojan
   udp: true
-- name: 🇭🇰_HK_中国香港->🇺🇦_UA_乌克兰
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20066
+- name: 🇭🇰_HK_中国香港->🇩🇪_DE_德国
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: false
+  sni: de.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇺🇸_US_美国
+  password: ND91608427
+  port: 443
+  server: devoted-tapir.rooster465.autos
+  skip-cert-verify: true
+  sni: devoted-tapir.rooster465.autos
+  tls: true
   type: trojan
   udp: true
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡
-  port: 30845
-  server: v45.hdacd.com
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  port: 30824
+  server: v24.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_中国香港_1
-  network: ws
-  port: 443
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /ws-vmess
-- name: 🇵🇱_PL_波兰_1
+- name: 🇫🇷_FR_法国
   password: ND91608427
   port: 443
-  server: discrete-basilisk.rooster465.autos
+  server: careful-tadpole.rooster465.autos
   skip-cert-verify: true
-  sni: discrete-basilisk.rooster465.autos
   tls: false
+  type: trojan
+  udp: true
+- name: 🇫🇷_FR_法国_1
+  password: ND91608427
+  port: 443
+  server: classic-gator.rooster465.autos
+  skip-cert-verify: true
+  sni: classic-gator.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇯🇵_JP_日本->🇫🇷_FR_法国
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇩🇪_DE_德国_1
+  password: ND91608427
+  port: 443
+  server: next-turkey.rooster465.autos
+  skip-cert-verify: true
+  sni: next-turkey.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇭🇰_HK_中国香港_2
+  password: ND91608427
+  port: 443
+  server: ace-starling.rooster465.autos
+  skip-cert-verify: true
+  sni: ace-starling.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇩🇪_DE_德国_2
+  password: ND91608427
+  port: 443
+  server: gentle-raptor.rooster465.autos
+  skip-cert-verify: true
+  sni: gentle-raptor.rooster465.autos
+  tls: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_HK_中国香港_2
-  network: ws
+  name: 🇺🇸_US_美国_3
   port: 443
-  server: 93ucrn4i0pffuabk.v.3dns.vip
+  server: guanwang.awsno.com
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /ws-vmess
-- alterId: 0
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- name: 🇩🇪_DE_德国_3
+  password: ND91608427
+  port: 443
+  server: rapid-firefly.rooster465.autos
+  skip-cert-verify: true
+  sni: rapid-firefly.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇺🇸_US_美国_4
+  password: ND91608427
+  port: 443
+  server: fleet-bonefish.rooster465.autos
+  skip-cert-verify: true
+  sni: fleet-bonefish.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 2
   cipher: auto
-  name: 🇭🇰_HK_中国香港_3
-  network: ws
-  port: 443
-  server: 7timuei1uufoixbf.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
+  name: '🇭🇰 香港|@ripaojiedian #1'
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_中国香港_4
-  network: ws
-  port: 443
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /ws-vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 防范境外势力渗透
@@ -201,15 +218,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 2
-  cipher: auto
-  name: '🇭🇰 香港|@ripaojiedian #1'
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇭🇰 香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -316,6 +324,82 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: HK_speednode_0007
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: HK_speednode_0008
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_speednode_0009
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+  udp: true
+- name: JP_speednode_0010
+  password: ND91608427
+  port: 443
+  server: definite-sturgeon.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-sturgeon.rooster465.autos
+  type: trojan
+  udp: true
+- name: JP_speednode_0011
+  password: ND91608427
+  port: 443
+  server: upright-impala.rooster465.autos
+  skip-cert-verify: true
+  sni: upright-impala.rooster465.autos
+  type: trojan
+  udp: true
+- name: KR_speednode_0012
+  password: ND91608427
+  port: 443
+  server: definite-malamute.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-malamute.rooster465.autos
+  type: trojan
+  udp: true
+- name: KR_speednode_0013
+  password: ND91608427
+  port: 443
+  server: moved-meerkat.rooster465.autos
+  skip-cert-verify: true
+  sni: moved-meerkat.rooster465.autos
+  type: trojan
+  udp: true
+- name: NL_speednode_0017
+  password: 1BARPLkaLl
+  port: 32914
+  server: 45.130.22.70
+  skip-cert-verify: true
+  sni: 45.130.22.70
+  type: trojan
+  udp: true
+- name: 🇭🇰HK_4|1.0MB/s
+  network: ws
+  password: 6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a
+  port: 443
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: true
+  sni: 9l3ysxf7rj3nz549.tkgogocsgo.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 9l3ysxf7rj3nz549.tkgogocsgo.top
+    path: /images
 - name: 🇺🇦UA_1|3.4MB/s
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20066
@@ -325,69 +409,14 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'HK_speednode_0007 #1'
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
+- name: 🇺🇦UA_2|3.5MB/s
+  network: tcp
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: hk.catxstar.com
   type: trojan
-  udp: true
-- name: 'HK_speednode_0008 #1'
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 'HK_speednode_0009 #1'
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-  udp: true
-- name: 'JP_speednode_0010 #1'
-  password: ND91608427
-  port: 443
-  server: definite-sturgeon.rooster465.autos
-  skip-cert-verify: true
-  sni: definite-sturgeon.rooster465.autos
-  type: trojan
-  udp: true
-- name: 'JP_speednode_0011 #1'
-  password: ND91608427
-  port: 443
-  server: upright-impala.rooster465.autos
-  skip-cert-verify: true
-  sni: upright-impala.rooster465.autos
-  type: trojan
-  udp: true
-- name: 'KR_speednode_0012 #1'
-  password: ND91608427
-  port: 443
-  server: definite-malamute.rooster465.autos
-  skip-cert-verify: true
-  sni: definite-malamute.rooster465.autos
-  type: trojan
-  udp: true
-- name: 'KR_speednode_0013 #1'
-  password: ND91608427
-  port: 443
-  server: moved-meerkat.rooster465.autos
-  skip-cert-verify: true
-  sni: moved-meerkat.rooster465.autos
-  type: trojan
-  udp: true
-- name: 'NL_speednode_0017 #1'
-  password: 1BARPLkaLl
-  port: 32914
-  server: 45.130.22.70
-  skip-cert-verify: true
-  sni: 45.130.22.70
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
@@ -469,23 +498,19 @@ proxies:
     headers:
       Host: 330tw.fans8.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: US_speednode_0090
-  port: 9006
-  server: select-hk.ddnskunlun.com
+- name: IE_speednode_0009
+  password: ND91608427
+  port: 443
+  server: skilled-lioness.rooster465.autos
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: skilled-lioness.rooster465.autos
+  type: trojan
   udp: true
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- alterId: 0
-  cipher: auto
-  name: US_speednode_0093
-  port: 11973
-  server: board-04.ddnskunlun.com
+- name: LU_speednode_0012
+  password: ND91608427
+  port: 443
+  server: eager-louse.rooster465.autos
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: eager-louse.rooster465.autos
+  type: trojan
   udp: true
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
