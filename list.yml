@@ -1,4 +1,4 @@
-# Update: 2026-08-05 16:15
+# Update: 2026-08-05 21:40
 allow-lan: true
 dns:
   enable: true
@@ -301,7 +301,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇸🇬SG_4|4.4MB/s
+- name: 🇸🇬 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 26704
@@ -345,101 +345,23 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇩🇪DE_6|1.3MB/s
-  network: ws
-  password: ersi13mjahoao8e6
-  port: 443
-  server: hikvision-plus.com
-  skip-cert-verify: true
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ramz.xuithree.dpdns.org
-    path: /dksk
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_9|1.9MB/s
-  network: ws
-  password: ersi13mjahoao8e6
-  port: '443'
-  server: cctvhikvision.center
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /dksk
-- name: 🇺🇸US_8|2.3MB/s
-  network: tcp
-  password: 5CRphqBLXI
-  port: 55604
-  server: 216.173.64.72
-  sni: b32-11.cmj0502.cn
-  type: trojan
-- name: 🇺🇸US_11|1.9MB/s
-  password: UaQmDQajuW
-  port: 55523
-  server: 185.132.54.106
-  sni: b32-10.cmj0502.cn
-  type: trojan
-- name: 🇹🇼TW_1|2.0MB/s
-  network: tcp
+- name: 🇸🇬SG_1|1.1MB/s
   password: 55354c2b8ee339571bd657a9bb9858cc
-  port: '39221'
-  server: speed-01.aliyun-web-tracker.cn
+  port: 40783
+  server: 106.75.132.91
   skip-cert-verify: true
-  sni: speed-01.aliyun-web-tracker.cn
   type: trojan
-  udp: true
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: mm_grpc
-  name: 🇭🇰HK_8|2.3MB/s
+- grpc-opts:
+    grpc-service-name: /43588/G43plZahWW
+  name: 🇧🇷BR_1|1.1MB/s
   network: grpc
-  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
+  password: 581e14a5fcc14107b9326cc54f047891
   port: '443'
-  server: kaizen-hk-2.gocmydns.com
+  server: 177.3.208.169
   skip-cert-verify: false
-  sni: www.zueuqnpjvcllc.co
+  sni: titandarkness.mooo.com
   type: trojan
   udp: true
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_14|1.8MB/s
-  network: ws
-  password: ersi13mjahoao8e6
-  port: '443'
-  server: nexigen.pro
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /dksk
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_15|1.3MB/s
-  network: ws
-  password: ersi13mjahoao8e6
-  port: '443'
-  server: undef.network
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /dksk
 - name: 'IE_speednode_0009 #1'
   password: ND91608427
   port: 443
@@ -456,49 +378,21 @@ proxies:
   sni: eager-louse.rooster465.autos
   type: trojan
   udp: true
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_1|1.4MB/s
-  network: ws
-  password: ersi13mjahoao8e6
-  port: 443
-  server: nexigen.pro
-  skip-cert-verify: true
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ramz.xuithree.dpdns.org
-    path: /dksk
-- name: 🇸🇬SG_1|1.5MB/s
+- name: 🇹🇼TW_1|1.4MB/s
   password: 55354c2b8ee339571bd657a9bb9858cc
-  port: 40783
-  server: 106.75.132.91
+  port: '39221'
+  server: speed-01.aliyun-web-tracker.cn
   skip-cert-verify: true
-  type: trojan
-- name: 🇸🇬SG_29|3.7MB/s
-  password: BxceQaOe
-  port: '26704'
-  server: 95.40.205.94
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: speed-01.aliyun-web-tracker.cn
   type: trojan
   udp: true
-- name: 🇺🇦UA_1|1.0MB/s
+- name: 🇺🇸US_6|3.0MB/s
   network: tcp
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: '20066'
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: 🇸🇬SG_30|2.7MB/s
-  password: BxceQaOe
-  port: '26704'
-  server: 95.40.205.94
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: '53199'
+  server: speed-01.aliyun-web-tracker.cn
   skip-cert-verify: true
+  sni: speed-01.aliyun-web-tracker.cn
   type: trojan
   udp: true
 - alterId: 0
