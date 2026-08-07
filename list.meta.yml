@@ -1,4 +1,4 @@
-# Update: 2026-08-07 20:38
+# Update: 2026-08-08 02:38
 allow-lan: true
 dns:
   enable: true
@@ -244,6 +244,28 @@ proxies:
   type: vless
   udp: true
   uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
+- name: end-gfw.com12@sg89
+  network: tcp
+  port: 8686
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: '628b3c90c98ead4f'
+  server: 18.142.160.248
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+- name: end-gfw.com22@kr64
+  network: tcp
+  port: 8686
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: '628b3c90c98ead4f'
+  server: 54.180.92.239
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
 - alterId: 0
   cipher: auto
   name: 防范境外势力渗透
