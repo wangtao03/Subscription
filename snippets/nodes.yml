@@ -209,25 +209,25 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇭🇰 香港3|@ripaojiedian
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 5077
-  server: 18.166.178.12
-  skip-cert-verify: false
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 50887
+  server: 2c.fast9988.com
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇭🇰 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 43.198.209.68
+  port: 11035
+  server: 43.198.109.39
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 🇭🇰 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29444
-  server: 16.162.161.131
+  port: 35151
+  server: 43.198.126.41
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -235,71 +235,71 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 9408
-  server: 95.40.58.84
+  server: 43.198.126.41
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 🇯🇵 日本2|@ripaojiedian
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 44229
-  server: 95.40.107.76
-  skip-cert-verify: false
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 18286
+  server: 18.163.100.58
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇯🇵 日本3|@ripaojiedian
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 54876
-  server: 18.163.100.58
-  skip-cert-verify: false
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 18617
+  server: 95.40.107.76
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡|@ripaojiedian
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 51396
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 36580
   server: 18.163.100.58
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡2|@ripaojiedian
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 51396
-  server: 18.166.178.12
-  skip-cert-verify: false
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 32434
+  server: 57.183.7.187
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 43.198.209.68
+  port: 45744
+  server: 18.166.178.40
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 🇺🇸 美国|@ripaojiedian
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
+  password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
-  server: 18.166.178.12
-  skip-cert-verify: false
+  server: 95.40.107.76
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇺🇸 美国2|@ripaojiedian
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 39024
-  server: 18.163.100.58
-  skip-cert-verify: false
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 28051
+  server: 18.166.178.12
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇺🇸 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 34039
-  server: 95.40.58.84
+  port: 1431
+  server: 43.198.89.155
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -313,23 +313,9 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇫🇷FR_3|2.5MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.97
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
 - alterId: 2
   cipher: auto
-  name: 🇸🇬SG_2|5.3MB/s
+  name: 🇸🇬SG_4|4.7MB/s
   network: tcp
   port: 30845
   server: v45.hdacd.com
@@ -339,42 +325,27 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- grpc-opts:
-    grpc-service-name: /43588/G43plZahWW
-  name: 🇧🇷BR_1|2.5MB/s
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 177.3.208.169
-  skip-cert-verify: false
-  sni: titandarkness.mooo.com
-  type: trojan
-  udp: true
-- name: ❓Other_2|1.3MB/s
-  network: tcp
-  password: i99Cef
-  port: '28120'
-  server: 209.248.32.116
+- name: 🇭🇰HK_2|3.0MB/s
+  password: BxceQaOe
+  port: '11035'
+  server: 43.198.109.39
   skip-cert-verify: true
-  sni: download.windowsupdate.com
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- alpn:
-  - http/1.1
-  name: 🇸🇬SG_3|2.1MB/s
+- name: 🇩🇪DE_1|1.1MB/s
   network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 104.18.32.47
+  password: chrysanthemum
+  port: 443
+  server: 104.20.48.11
   skip-cert-verify: true
-  sni: fls-bbg--MiTiVPN---MiTiVPN-u.aPp-cLoud.IR
+  sni: cmee.ezbiz.dynv6.net
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/F-ls
+      Host: cmee.ezbiz.dynv6.net
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
