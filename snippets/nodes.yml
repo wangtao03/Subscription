@@ -273,39 +273,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇪🇸ES_1|1.5MB/s
-  network: tcp
-  password: 2eutknankxtbgkwcajzt
-  port: '52794'
-  server: 193.148.19.213
-  skip-cert-verify: true
-  sni: 193.148.19.213
-  type: trojan
-  udp: true
-- name: 🇭🇰HK_4|2.2MB/s
-  network: tcp
-  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
-  port: 443
-  server: 43.249.172.27
-  skip-cert-verify: true
-  sni: hongkong.kingonestar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇩🇪DE_4|1.7MB/s
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 🇺🇸US_11|3.6MB/s
+  name: 🇺🇸US_1|2.3MB/s
   network: ws
-  port: 41963
+  port: '41963'
   server: us.klxiaogou.com
-  servername: us.klxiaogou.com
   skip-cert-verify: false
   tls: true
   type: vmess

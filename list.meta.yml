@@ -1,4 +1,4 @@
-# Update: 2026-08-08 20:24
+# Update: 2026-08-09 02:22
 allow-lan: true
 dns:
   enable: true
@@ -201,8 +201,7 @@ proxies:
   sni: db1.mangshe.xyz
   type: hysteria2
   udp: true
-- name: 🇳🇱NL_2|1007KB/s
-  network: tcp
+- name: 🇳🇱NL_1|1.7MB/s
   port: 443
   server: ddc-chr.astralweb.tech
   servername: ddc-chr.astralweb.tech
@@ -430,425 +429,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇨🇴CO_1|1.3MB/s
-  network: tcp
-  port: 62145
-  server: 149.130.188.226
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 🇨🇴CO_2|1.5MB/s
-  network: tcp
-  port: 62145
-  server: 157.137.221.79
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- alpn:
-  - h2
-  - http/1.1
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪DE_1|1.3MB/s
-  network: xhttp
-  port: 8443
-  server: 104.16.6.189
-  servername: migmigyoulost.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: migmigyoulost.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-- alpn:
-  - h2
-  - http/1.1
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪DE_2|1.3MB/s
-  network: xhttp
-  port: 8443
-  server: 104.16.6.82
-  servername: migmigyoulost.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: migmigyoulost.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-- alpn:
-  - h2
-  - http/1.1
-  name: 🇩🇪DE_3|1.2MB/s
-  network: xhttp
-  port: 2096
-  server: api.tenneltheducks.ir
-  servername: FiN-XhTt.SeZaR.OrG
-  tls: true
-  type: vless
-  udp: true
-  uuid: 735f7616-a5cc-45ce-9bdc-b741054cb13e
-  xhttp-opts:
-    host: FiN-XhTt.SeZaR.OrG
-    mode: auto
-    path: /ports/1106
-- name: 🇫🇷FR_1|3.7MB/s
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17965
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: uk.jjznodenode.top
-  type: anytls
-  udp: true
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇭🇰HK_1|4.5MB/s
-  network: grpc
-  port: 10127
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '686c0ef0'
-  server: hk2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: movie
-  name: 🇭🇰HK_2|5.4MB/s
-  network: grpc
-  port: 10129
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '686c0ef0'
-  server: hk4-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-- name: 🇭🇰HK_3|4.0MB/s
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17960
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: hk.jjznodenode.top
-  type: anytls
-  udp: true
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇯🇵JP_1|4.9MB/s
-  network: grpc
-  port: 10035
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '686c0ef0'
-  server: 18.181.77.188
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇯🇵JP_2|4.5MB/s
-  network: grpc
-  port: 10035
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '686c0ef0'
-  server: jp5-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-- name: 🇯🇵JP_3|4.9MB/s
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17968
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇰🇷KR_1|4.6MB/s
-  network: grpc
-  port: 10048
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '686c0ef0'
-  server: kr3-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇰🇷KR_2|4.2MB/s
-  network: grpc
-  port: 10050
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '686c0ef0'
-  server: kr5-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-- name: 🇳🇱NL_1|1.5MB/s
-  network: tcp
-  port: 62145
-  server: 134.98.158.108
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  name: 🇬🇧GB_2|2.0MB/s
-  network: ws
-  port: 8443
-  server: 104.16.73.211
-  servername: PRIME.netlinr12345.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 104b694e-5063-4e4f-8d9f-5c67cc6e046c
-  ws-opts:
-    headers:
-      Host: PRIME.netlinr12345.ir
-    path: /
-- alpn:
-  - h2
-  - http/1.1
-  name: 🇷🇺RU_1|1.2MB/s
-  network: xhttp
-  port: 443
-  server: 135.106.140.23
-  servername: qwesd.rutendingaltos.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
-  xhttp-opts:
-    host: qwesd.rutendingaltos.top
-    path: /assets/build/_app/immutable/chunks/stream-one/
-- auth: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  name: 🇸🇬SG_1|2.0MB/s
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4466
-  server: sg3.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg3.xiaoliyu.cyou
-  type: hysteria2
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇸🇬SG_2|4.1MB/s
-  network: grpc
-  port: 10038
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '686c0ef0'
-  server: 13.250.26.252
-  servername: d1.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇸🇬SG_3|3.1MB/s
-  network: grpc
-  port: 10038
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '686c0ef0'
-  server: sg3-r.link-t7.com
-  servername: d1.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-- name: 🇹🇼TW_1|1.5MB/s
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17964
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- client-fingerprint: random
-  name: 🇺🇸US_2|3.6MB/s
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: us-lax.862400.xyz
-  tls: true
-  type: vless
-  uuid: e4281fbe-7729-4ef1-ad3b-f33aca54e339
-  ws-opts:
-    headers:
-      Host: us-lax.862400.xyz
-    path: /announcement
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_3|3.4MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: 🇺🇸US_4|4.6MB/s
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17963
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  encryption: none
-  name: 🇫🇷FR_2|4.2MB/s
-  network: xhttp
-  port: '2096'
-  server: cd-site.benomiz.ir
-  servername: FrCh-XhTt.SeZaR.OrG
-  tls: true
-  type: vless
-  udp: true
-  uuid: 735f7616-a5cc-45ce-9bdc-b741054cb13e
-  xhttp-opts:
-    host: FrCh-XhTt.SeZaR.OrG
-    mode: auto
-    path: /ports/1106
-  xudp: true
-- name: 🇪🇸ES_1|1.5MB/s
-  network: tcp
-  password: 2eutknankxtbgkwcajzt
-  port: '52794'
-  server: 193.148.19.213
-  skip-cert-verify: true
-  sni: 193.148.19.213
-  type: trojan
-  udp: true
-- name: 🇺🇸US_5|1.7MB/s
-  network: ws
-  port: 2053
-  server: www.visa.cn
-  servername: ccsus11-cdn-cdn.nekohub.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7bd30627-8487-4506-bc42-b07722b24633
-  ws-opts:
-    headers:
-      Host: ccsus11-cdn.nekohub.xyz
-    path: /vless_ws?ed=4096
-- name: 🇺🇸US_6|2.9MB/s
-  network: ws
-  port: 2053
-  server: www.shopify.com
-  servername: ccsus11-cdn-cdn.nekohub.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: dabe89a7-a182-4b2b-aee6-9b98c8c53170
-  ws-opts:
-    headers:
-      Host: ccsus11-cdn.nekohub.xyz
-    path: /vless_ws?ed=4096
-- name: 🇭🇰HK_4|2.2MB/s
-  network: tcp
-  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
-  port: 443
-  server: 43.249.172.27
-  skip-cert-verify: true
-  sni: hongkong.kingonestar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇩🇪DE_4|1.7MB/s
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇳🇱NL_3|2.2MB/s
-  network: raw
-  port: '40002'
-  reality-opts:
-    public-key: uHCIeXxIcEoZ89kaNNBIKsy4axPMsBb2xeOMww7d1DY
-    short-id: '1a6b1f9d0e'
-  server: 185.141.227.148
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41784775-8846-4579-9d9d-9ad6ea802e2e
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪DE_5|1.5MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: 'abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9db70040-a7e4-4641-9629-699ef03963f8
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇭🇰HK_5|1.6MB/s
-  obfs: salamander
-  obfs-password: 1ol3tasb90
-  password: 1dcc3b89-0b45-3908-9120-19741361d55d
-  port: '10038'
-  server: fg7xl1div.d33tqmk.cc
-  skip-cert-verify: false
-  sni: xk7qhk308.ckpfef.top
-  type: hysteria2
-  up: ''
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 🇺🇸US_11|3.6MB/s
+  name: 🇺🇸US_1|2.3MB/s
   network: ws
-  port: 41963
+  port: '41963'
   server: us.klxiaogou.com
-  servername: us.klxiaogou.com
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -859,42 +445,148 @@ proxies:
       Host: us.klxiaogou.com
     path: /124
   xudp: true
+- name: 🇯🇵JP_1|1.7MB/s
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17968
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_1|2.2MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
 - down: ''
   fingerprint: ''
-  name: 🇭🇰HK_6|1.1MB/s
-  obfs: salamander
-  obfs-password: 1ol3tasb90
-  password: 1dcc3b89-0b45-3908-9120-19741361d55d
-  port: '11173'
-  server: fg7xl1div.d33tqmk.cc
-  skip-cert-verify: false
-  sni: xk7qhk307.ckpfef.top
+  name: 🇺🇸US_2|3.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: vpn-us-002.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
   type: hysteria2
   up: ''
 - down: ''
   fingerprint: ''
-  name: 🇹🇼TW_2|4.5MB/s
-  obfs: salamander
-  obfs-password: 1ol3tasb90
-  password: 1dcc3b89-0b45-3908-9120-19741361d55d
-  port: '20002'
-  server: k8i4gd320.d33tqmk.cc
-  skip-cert-verify: false
-  sni: f132cdn-tw.ckpfef.top
+  name: 🇺🇸US_3|2.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-003.fastervpn.world
   type: hysteria2
   up: ''
 - down: ''
   fingerprint: ''
-  name: 🇭🇰HK_7|1.2MB/s
-  obfs: salamander
-  obfs-password: 1ol3tasb90
-  password: 1dcc3b89-0b45-3908-9120-19741361d55d
-  port: '11255'
-  server: fg7xl1div.d33tqmk.cc
-  skip-cert-verify: false
-  sni: xk7qhk309.ckpfef.top
+  name: 🇺🇸US_4|2.6MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: vpn-us-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-002.fastervpn.world
   type: hysteria2
   up: ''
+- name: 🇸🇬SG_1|4.1MB/s
+  network: ws
+  port: '2087'
+  server: 172.64.146.211
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_5|3.3MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: 35.87.211.237
+  skip-cert-verify: true
+  sni: vpn-us-002.fastervpn.world
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_6|3.3MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: 54.213.89.22
+  skip-cert-verify: true
+  sni: vpn-us-002.fastervpn.world
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_7|2.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: 44.251.47.95
+  skip-cert-verify: true
+  sni: vpn-us-002.fastervpn.world
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇷🇴RO_1|1.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: '8443'
+  server: 93.114.194.121
+  skip-cert-verify: false
+  sni: grape-zet-ro-turbo.bumbleshrimp.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇬🇧GB_1|1.9MB/s
+  obfs: ''
+  obfs-password: ''
+  password: FPSfGfmZs5rjz5dlqreuDK7B
+  port: '62202'
+  server: 37.120.189.107
+  skip-cert-verify: true
+  sni: de1.143259.xyz
+  type: hysteria2
+  up: ''
+- flow: xtls-rprx-vision
+  name: 🇺🇸US_8|3.7MB/s
+  network: tcp
+  port: '19001'
+  reality-opts:
+    public-key: LRMtZDygVe621vfhniB5ZSLza7zk_HOBFQsm8jS_XFg
+    short-id: 'bf63ee4d'
+  server: 38.162.115.161
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 23ed3e1a-afe7-4fb5-8a11-93b3717bf23e
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
