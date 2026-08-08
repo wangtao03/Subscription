@@ -1,4 +1,4 @@
-# Update: 2026-08-08 14:33
+# Update: 2026-08-08 20:24
 allow-lan: true
 dns:
   enable: true
@@ -18,58 +18,9 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: none
-  name: 🇨🇳_CN_中国->🇩🇪_DE_德国
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇭🇰_HK_中国香港->🇩🇪_DE_德国
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  tls: false
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇯🇵_JP_日本
-  network: http
-  port: 53268
-  server: 47.74.43.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2
+  name: 🇺🇸_US_美国
   port: 443
   server: guanwang.awsno.com
   skip-cert-verify: true
@@ -77,6 +28,15 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- name: 🇭🇰_HK_中国香港
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20034
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   name: 🇨🇳_CN_中国->🇯🇵_JP_日本
@@ -87,20 +47,11 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本_1
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇭🇰_HK_中国香港
-  port: 30809
-  server: v9.hdacd.com
+  name: 🇨🇳_CN_中国->🇫🇷_FR_法国
+  port: 30835
+  server: v35.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -118,9 +69,9 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰
-  port: 30804
-  server: v4.hdacd.com
+  name: 🇨🇳_CN_中国->🇩🇪_DE_德国
+  port: 30833
+  server: v33.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -128,14 +79,23 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇫🇷_FR_法国
-  port: 30835
-  server: v35.hdacd.com
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  port: 30824
+  server: v24.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰_HK_中国香港->🇰🇷_KR_韩国
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20088
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 防范境外势力渗透
@@ -332,39 +292,49 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇸🇬SG_4|4.7MB/s
+- name: 🇪🇸ES_1|1.5MB/s
   network: tcp
-  port: 30845
-  server: v45.hdacd.com
+  password: 2eutknankxtbgkwcajzt
+  port: '52794'
+  server: 193.148.19.213
+  skip-cert-verify: true
+  sni: 193.148.19.213
+  type: trojan
+  udp: true
+- name: 🇭🇰HK_4|2.2MB/s
+  network: tcp
+  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
+  port: 443
+  server: 43.249.172.27
+  skip-cert-verify: true
+  sni: hongkong.kingonestar.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇩🇪DE_4|1.7MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20041'
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_11|3.6MB/s
+  network: ws
+  port: 41963
+  server: us.klxiaogou.com
+  servername: us.klxiaogou.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- name: 🇭🇰HK_2|3.0MB/s
-  password: BxceQaOe
-  port: '11035'
-  server: 43.198.109.39
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 🇩🇪DE_1|1.1MB/s
-  network: ws
-  password: chrysanthemum
-  port: 443
-  server: 104.20.48.11
-  skip-cert-verify: true
-  sni: cmee.ezbiz.dynv6.net
-  type: trojan
-  udp: true
+  uuid: 7a4830df-5391-4748-b1c7-b6857ad04acb
   ws-opts:
     headers:
-      Host: cmee.ezbiz.dynv6.net
-    path: /
+      Host: us.klxiaogou.com
+    path: /124
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
