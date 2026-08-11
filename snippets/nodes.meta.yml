@@ -1,137 +1,138 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
+- name: 🇸🇬SG_3|5.4MB/s
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
   port: 443
-  reality-opts:
-    public-key: Oh-r_LCdfRhSzm9zQEv-0jMO57hebZJzOmSTTGveh2c
-    short-id: '5f2ca3da385c'
-  server: sg2.miyazono-kaori.com
-  servername: sg-hyp-api.hoyoverse.com
-  tls: true
-  type: vless
-  uuid: 1597ab39-816a-4e65-863b-9c423646df3a
-- flow: xtls-rprx-vision
-  name: '🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SChM_MUYbRz8lzGu19qFDpFaBxok7CTorYM04zxgL1o
-    short-id: 'fd733ad36894c4a3'
-  server: 52.77.22.203
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 769d922d-9ca6-4ba9-81f2-a6df0a0c4531
-- flow: xtls-rprx-vision
-  name: 🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: mFfDWNmPFHIN3ojAw2GENgpklJUCOvfj1i_zix8Pnkc
-    short-id: '73122674fa25a3ab'
-  server: 20.89.106.34
-  servername: www.stanford.edu
-  tls: true
-  type: vless
-  uuid: 7781929f-165f-4a94-b07b-689edf7913e2
-- flow: xtls-rprx-vision
-  name: '🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
-    short-id: '37c94ae25b69a93a'
-  server: sg1.miyazono-kaori.com
-  servername: sg-hyp-api.hoyoverse.com
-  tls: true
-  type: vless
-  uuid: 1597ab39-816a-4e65-863b-9c423646df3a
-- flow: xtls-rprx-vision
-  name: 🟠🇸🇬[🎬🤖📺🎪]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: jpn2pLj_p5lxGwycLht80v2qNeP7jHwh1Gv-nTU8zXY
-    short-id: 'ddcd71ec09e5893a'
-  server: sg3.miyazono-kaori.com
-  servername: www.changiairport.com
-  tls: true
-  type: vless
-  uuid: 1597ab39-816a-4e65-863b-9c423646df3a
-- down: ''
-  fingerprint: ''
-  name: '🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-001.fastervpn.world
+  server: starlink-sg6.251313.xyz
   skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  type: hysteria2
-  up: ''
-- down: null
-  name: '🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
-  obfs: salamander
-  obfs-password: uqmgFZmVNHNYGxaH
-  password: 752a9aac-91a7-4284-9d6e-234efae318b6
-  port: 39999
-  server: jjz.jjznodenode.top
-  skip-cert-verify: false
-  sni: jjz.jjznodenode.top
-  type: hysteria2
-  up: null
-- flow: xtls-rprx-vision
-  name: 🟠🇲🇾[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇸🇬SG_4|1.4MB/s
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
   port: 443
-  reality-opts:
-    public-key: hl7n2f8wPw8wsZFSBdOv1b0wy5BJc7qOA_ktzVVUGAA
-    short-id: '6546bebc9cfcef14'
-  server: 43.216.71.17
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: ce3794af-ef2c-4ca6-9032-6e259a703615
-- flow: xtls-rprx-vision
-  name: '🟠🇲🇾[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: t3HU7p5iYjE9Lcq2-QHTXZFhpAvoXljTNDgmFkFN-Tc
-    short-id: '99f8972e3dd5ed'
-  server: my1.miyazono-kaori.com
-  servername: www.setel.com
-  tls: true
-  type: vless
-  uuid: 1597ab39-816a-4e65-863b-9c423646df3a
+  server: starlink-sg5.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
 - alterId: '0'
   cipher: auto
-  name: 🟢🇹🇼[🤖📺🎪✨]_github.com/Ruk1ng001...
+  name: 🟠🇮🇩[📺🎪🔍]_github.com/Ruk1ng001_...
   network: tcp
-  port: 27120
+  port: 27035
   server: 366-1095.rabbitpro-in-3.com
   type: vmess
   uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- flow: xtls-rprx-vision
-  name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+- auth: 53b59cb5-c741-3399-9065-93dc34685f5b
+  name: 🟠🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001...
+  obfs: salamander
+  obfs-password: XBvVbvzQCq6Ovbnh
+  password: 53b59cb5-c741-3399-9065-93dc34685f5b
+  port: 14101
+  server: hkaw1.awo-link.com
+  skip-cert-verify: true
+  sni: hkaw1.awo-link.com
+  type: hysteria2
+  udp: true
+- auth: 53b59cb5-c741-3399-9065-93dc34685f5b
+  name: 🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  obfs: salamander
+  obfs-password: XBvVbvzQCq6Ovbnh
+  password: 53b59cb5-c741-3399-9065-93dc34685f5b
+  port: 14101
+  server: jpaw7.awo-link.com
+  sni: jpaw7.awo-link.com
+  type: hysteria2
+  udp: true
+- name: 🇭🇰HK_4|1.8MB/s
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 21521
+  server: z-hk1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 'HK_speednode_0012 #1'
   network: tcp
-  packet-encoding: xudp
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.3.11
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- auth: 53b59cb5-c741-3399-9065-93dc34685f5b
+  name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  obfs: salamander
+  obfs-password: XBvVbvzQCq6Ovbnh
+  password: 53b59cb5-c741-3399-9065-93dc34685f5b
+  port: 14101
+  server: jpaw5.awo-link.com
+  sni: jpaw5.awo-link.com
+  type: hysteria2
+  udp: true
+- auth: 53b59cb5-c741-3399-9065-93dc34685f5b
+  name: '🟠🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #1'
+  obfs: salamander
+  obfs-password: XBvVbvzQCq6Ovbnh
+  password: 53b59cb5-c741-3399-9065-93dc34685f5b
+  port: 14101
+  server: hkaw4.awo-link.com
+  sni: hkaw4.awo-link.com
+  type: hysteria2
+  udp: true
+- name: 🟠🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
   port: 443
-  reality-opts:
-    public-key: qkSw1mYeebLzLGFAxnSu0CuNaSQXdhR-doksZoqEniA
-    short-id: 'f75fbd5b'
-  server: jp4.miyazono-kaori.com
-  servername: www.bandainamcoent.co.jp
-  tls: true
-  type: vless
-  uuid: 1597ab39-816a-4e65-863b-9c423646df3a
+  server: starlink-kr2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
+- name: '🟠🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-kr4.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🟠🇭🇰[🎬📺🎭🎪]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-hk3.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
+- name: 🇲🇴MO_1|4.6MB/s
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 21523
+  server: z-hk1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: '🟠🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-kr3.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: '🟠🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #2'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-hk2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
 - encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: update
-  name: 🇯🇵JP_1|3.6MB/s
+  name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
   network: grpc
   port: 10035
   reality-opts:
@@ -144,217 +145,6 @@ proxies:
   udp: true
   uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
   xudp: true
-- auth: 53b59cb5-c741-3399-9065-93dc34685f5b
-  name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  obfs: salamander
-  obfs-password: XBvVbvzQCq6Ovbnh
-  password: 53b59cb5-c741-3399-9065-93dc34685f5b
-  port: 14101
-  server: jpaw5.awo-link.com
-  sni: jpaw5.awo-link.com
-  type: hysteria2
-  udp: true
-- flow: xtls-rprx-vision
-  name: 🟠🇭🇰[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zV4Sja0iajpdzkR1iBMbI7RRWL2nlpgwGOtirQSG-zc
-    short-id: 'b81edf7fdee4'
-  server: hk3.miyazono-kaori.com
-  servername: hk4e-launcher-static.hoyoverse.com
-  tls: true
-  type: vless
-  uuid: 1597ab39-816a-4e65-863b-9c423646df3a
-- alterId: '0'
-  cipher: auto
-  name: 🔴🇹🇼[🎬📺🎭🎪]_github.com/Ruk1ng001...
-  network: tcp
-  port: 29019
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- flow: xtls-rprx-vision
-  name: 🟠🇭🇰[🎬📺🎭🎪]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0EtR_KBpH13wngvWn6rXJjINlWjb2nW8fgXrR46bz3E
-    short-id: 'bd685806015172ca'
-  server: 18.162.173.112
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: ed720ae2-e1ab-41d4-8c9c-ca9ab3cfee70
-- name: 🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: 752a9aac-91a7-4284-9d6e-234efae318b6
-  port: 17968
-  server: jjz.jjznodenode.top
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- flow: xtls-rprx-vision
-  name: 🔴🇭🇰[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
-    short-id: 'ea6b43'
-  server: hk4.miyazono-kaori.com
-  servername: hk4e-launcher-static.hoyoverse.com
-  tls: true
-  type: vless
-  uuid: 1597ab39-816a-4e65-863b-9c423646df3a
-- flow: xtls-rprx-vision
-  name: 🟠🇹🇼[🎬🤖📺🎪]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
-    short-id: 'e6d59aff03e5b0'
-  server: tw4.miyazono-kaori.com
-  servername: dlcdnets.asus.com
-  tls: true
-  type: vless
-  uuid: 1597ab39-816a-4e65-863b-9c423646df3a
-- flow: xtls-rprx-vision
-  name: 🟠🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: fI-eoLmyyeYXgUHr2SWzHcwxkhxmDj2QBnivpUPYfVY
-    short-id: 'e3db542f549f5504'
-  server: 52.141.0.244
-  servername: www.stanford.edu
-  tls: true
-  type: vless
-  uuid: 5822b465-036b-4a3b-89d0-b3e52ae20815
-- name: 🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 62145
-  server: 141.148.225.64
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- flow: xtls-rprx-vision
-  name: 🔴🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: aVGSSemhxqqDg75lUDBxCNZZXfuBb4QrU8yZYnJD6nk
-    short-id: 'f554f56d31'
-  server: kr1.miyazono-kaori.com
-  servername: www.coway.com
-  tls: true
-  type: vless
-  uuid: 1597ab39-816a-4e65-863b-9c423646df3a
-- alterId: '0'
-  cipher: auto
-  name: 🟢🇵🇭[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 27136
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- flow: xtls-rprx-vision
-  name: '🟠🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
-    short-id: 'c8af1462debbc1'
-  server: kr2.miyazono-kaori.com
-  servername: www.coway.com
-  tls: true
-  type: vless
-  uuid: 1597ab39-816a-4e65-863b-9c423646df3a
-- name: 🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: 752a9aac-91a7-4284-9d6e-234efae318b6
-  port: 17964
-  server: jjz.jjznodenode.top
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- name: '🔴🇭🇰[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: ws
-  port: 443
-  server: 103.74.192.178
-  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
-    path: /
-- name: '🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: tcp
-  port: 62145
-  server: 158.178.153.198
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: '🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  password: d4436c04-d0fc-4761-8120-ad5d399ba6b0
-  port: 51023
-  server: 03-e0.64afa9dc-5afd-4739-bc23-cbfdfba32695.abccba.top
-  skip-cert-verify: true
-  sni: aplus.alibaba.com
-  type: anytls
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🔴🇩🇪_github.com/Ruk1ng001_105ca...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
-    short-id: 'f7d0420b8ab26060'
-  server: 185.238.191.182
-  servername: de-cdn.ru
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- name: 🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: d4436c04-d0fc-4761-8120-ad5d399ba6b0
-  port: 51061
-  server: 64.118.158.150
-  skip-cert-verify: true
-  sni: dl.hu-yunpan.top
-  type: anytls
-  udp: true
-- flow: xtls-rprx-vision
-  name: '🟠🇭🇰[🎬📺🎭🎪]_github.com/Ruk1ng001... #1'
-  network: tcp
-  port: 29715
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: 'bc8e3658db7d1323'
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: '🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  network: tcp
-  packet-encoding: xudp
-  port: 62145
-  server: 134.98.135.231
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 🟢🇭🇰[🎬🤖🧠📺]_github.com/Ruk1ng001...
-  password: 752a9aac-91a7-4284-9d6e-234efae318b6
-  port: 17960
-  server: jjz.jjznodenode.top
-  sni: hk.jjznodenode.top
-  type: anytls
-  udp: true
-- name: 🟠🇹🇼[🤖📺🎪✨]_github.com/Ruk1ng001...
-  password: d4436c04-d0fc-4761-8120-ad5d399ba6b0
-  port: 51051
-  server: 03-e0.fb81a103-e05b-4917-b672-516d63288b05.abccba.top
-  skip-cert-verify: true
-  sni: dl.hu-yunpan.top
-  type: anytls
-  udp: true
 - name: ⚪🏳️_github.com/Ruk1ng001_79f37...
   network: ws
   password: HutaoCloud
@@ -369,144 +159,92 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
-- name: 🔴🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: 752a9aac-91a7-4284-9d6e-234efae318b6
-  port: 17967
-  server: jjz.jjznodenode.top
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- name: '🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
-  network: tcp
-  port: 62145
-  server: 84.235.169.96
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- flow: xtls-rprx-vision
-  name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
-  network: tcp
+- name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
   port: 443
-  reality-opts:
-    public-key: 0gYZJnHAz7yMRQjZH5Twd9ETHfKjzQimUgbzb1yLlhM
-    short-id: 'df9232eff6'
-  server: jp1.miyazono-kaori.com
-  servername: www.capcom.co.jp
-  tls: true
-  type: vless
-  uuid: 1597ab39-816a-4e65-863b-9c423646df3a
-- name: 🟢🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: 752a9aac-91a7-4284-9d6e-234efae318b6
-  port: 17961
-  server: jjz.jjznodenode.top
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🔴🇫🇮[📺🎭🎪📦]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 85.192.48.221
-  servername: fl.convert-flow.net
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-4d19-a3f5-067959ed2644
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🔴🇳🇴[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: ru-sl.convert-flow.net
-  servername: ru-sl.convert-flow.net
+  server: starlink-jp6.251313.xyz
   skip-cert-verify: true
-  tfo: false
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: '🟠🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #3'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 21522
+  server: z-hk2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: '12306'
+  name: '🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #1'
+  network: grpc
+  port: 443
+  server: hk02.653ebeeb-5f60-4be5-958d-7bf4839cdccd.ef6616fd-5b06-482f-9d64-183745659cbf.byteprivatelink.com
+  servername: www.12306.cn
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-0242-a3f5-067959ed2644
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  type: vmess
+  udp: true
+  uuid: 06cf100d-ca6d-4ebe-b44a-1bb15b8346cf
+- name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-jp5.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🟠🇮🇳[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10006
+  server: z-sg1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 15710
+  server: starlink-tw2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🔴🇵🇭[🤖📺✨🔍]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 21525
+  server: z-hk1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: ⚪🏳️_github.com/Ruk1ng001_5bf78...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10001
+  server: z-sg1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001...
   network: tcp
   packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: aOjzy8s0C2zfU4F1OPmQJj7ScEZWUSoeekG7Fs0I-Wg
-    short-id: 'a3dbb8f6'
-  server: 31.76.22.11
-  servername: alenka.xanka.best
-  tls: true
+  port: 62145
+  server: 134.98.154.253
   type: vless
-  uuid: dfdc967a-c1fa-4920-a91a-375cd6a99853
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🔴🇨🇭[🤖📺🎭🎪]_github.com/Ruk1ng001...
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: '🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: ru-sl.convert-flow.net
-  servername: ru-sl.convert-flow.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
+  port: 62145
+  server: 134.98.157.85
   type: vless
-  uuid: 5710bc50-f5ff-02f4-a3f5-067959ed2644
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🔴🇫🇷[📺🎪]_github.com/Ruk1ng001_c...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 45.131.212.40
-  servername: fr.sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 08d31ab3-6ab7-4fb8-9948-a572e3196fff
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🔴🇸🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: '2d6d073dc88f22a8'
-  server: 89.125.37.79
-  servername: se-cdn.ru
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🟠🇫🇮[🤖📺🎭🎪]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 45.144.52.148
-  servername: fl.convert-flow.net
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-4d19-a3f5-067959ed2644
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - encryption: none
   flow: xtls-rprx-vision
-  name: ⚪🏳️[✈️]_github.com/Ruk1ng001_b...
+  name: ⚪🏳️_github.com/Ruk1ng001_b734b...
   network: tcp
   port: 443
   reality-opts:
@@ -519,104 +257,75 @@ proxies:
   udp: true
   uuid: 518a99df-54f6-4f42-819d-b60abd880edf
   xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🔴🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001...
+- name: '🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: 66-fz0xjwauydj29EfFKyPHjJ2CIGaGSsJ6hsB--zAc
-    short-id: '6ecdb111a4e57f94'
-  server: 45.195.228.192
-  servername: storage.yandex.net
-  tls: true
+  packet-encoding: xudp
+  port: 62145
+  server: 84.235.175.201
   type: vless
-  uuid: d2042070-c247-4226-a3ac-15337923e00d
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  port: 443
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 143.246.194.26
-  servername: sw.rexten.cc
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: '🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+  network: tcp
+  packet-encoding: xudp
+  port: 62145
+  server: 134.98.159.8
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 🟢🇷🇺[🧠🎪✨🎞️]_github.com/Ruk1ng00...
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: els1.mangshe.xyz
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: els1.mangshe.xyz
+  type: hysteria2
+- name: 🇧🇩BD_1|1.0MB/s
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10010
+  server: z-sg1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
   udp: true
-  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  name: 🔴🇩🇪[🤖📺🎭🎪]_github.com/Ruk1ng001...
   network: tcp
   port: 443
   reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 72.56.52.30
-  servername: lv.rexten.cc
+    public-key: Oyd0sn1z_6uNSN6AN63Q7aBq7AUQ1bOsB9MT3FyyiRM
+    short-id: '837fa04e73d6b581'
+  server: 93.123.85.86
+  servername: www.ya.ru
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
-  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🔴🇸🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
+- name: '🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
   port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: '2d6d073dc88f22a8'
-  server: 132.243.231.89
-  servername: se-cdn.ru
+  server: starlink-nl.251313.xyz
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: www.cloudflare.com
+  type: trojan
   udp: true
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🟠🇪🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  port: 443
-  reality-opts:
-    public-key: RO5YMxxtJmZo2w370qG-seJ41toowHPbz6i2uXJ2gG0
-    short-id: '7a3f9e2b1c8d4f6a'
-  server: 217.9.12.14
-  servername: ee.cdn-global.pro
+- name: 🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: ws
+  port: 2096
+  server: de-193-58.neobo-tooth.ru
   skip-cert-verify: true
-  tls: true
+  tfo: false
+  tls: false
   type: vless
-  udp: true
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🔴🇨🇭[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '40ce08cf20c67003'
-  server: 45.196.193.123
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: d2042070-c247-4226-a3ac-15337923e00d
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🟠🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 45.144.52.160
-  servername: fl.convert-flow.net
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-4d19-a3f5-067959ed2644
+  uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
+  ws-opts:
+    headers:
+      Host: de-193-58.neobo-tooth.ru
+    path: /
 - flow: xtls-rprx-vision
-  name: 🇸🇬SG_4|2.3MB/s
+  name: 🔴🇸🇬[🤖📺🎭🎪]_github.com/Ruk1ng001...
   network: tcp
-  port: 39561
+  port: 38555
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: 'bc8e3658db7d1323'
@@ -625,435 +334,448 @@ proxies:
   tls: true
   type: vless
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: 🔴🇰🇷[🎬📺🎭🎪]_github.com/Ruk1ng001...
-  network: ws
-  port: 2087
-  server: mfa.gov.ua
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🔴🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+- name: 🟠🇮🇹[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
   port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 85.192.49.38
-  servername: fl.convert-flow.net
+  server: starlink-it.251313.xyz
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: www.cloudflare.com
+  type: trojan
   udp: true
-  uuid: 5710bc50-f5ff-4d19-a3f5-067959ed2644
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  port: 8443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 141.227.170.202
-  servername: sellflow.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 946c6aca-a672-4113-8aa1-55b3fb1a4369
 - client-fingerprint: firefox
   encryption: none
-  flow: xtls-rprx-vision
-  name: '🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: raw
+  name: 🟠🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: tcp
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 45.131.212.40
-  servername: fi.sellflow.org
+    public-key: XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg
+    short-id: '29fd3dc0210c'
+  server: 95.216.161.157
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 38bf23b6-251a-43aa-895d-3928dc6fc953
+  uuid: 22199ed8-5f22-4906-9917-67e3609d8776
   xudp: true
+- name: 🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-us2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🔴🇲🇳[📺🎪✨📦]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10001
+  server: z-jp1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: fanvpn.net
+  port: 18001
+  server: anytls.864106.xyz
+  skip-cert-verify: true
+  sni: anytls.864106.xyz
+  type: anytls
+- name: 🟢🇻🇳[🎬🤖📺🎪]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 21526
+  server: z-hk1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 🔴🇵🇰[🎬🤖📺🎪]_github.com/Ruk1ng001...
+  network: tcp
+  port: 29035
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- name: 🟠🇨🇭[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-ch.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🟢🇩🇪[🤖📺📦✈️]_github.com/Ruk1ng00...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc
+  server: 94.249.225.83
+  servername: plucky-kestrel.cdn.cachefleet.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
+- flow: xtls-rprx-vision
+  name: 🟢🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: tcp
+  port: 39595
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: 'bc8e3658db7d1323'
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-us1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-us3.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🟢🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: yg3.mangshe.xyz
+  skip-cert-verify: true
+  sni: yg3.mangshe.xyz
+  type: hysteria2
+- name: '🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10024
+  server: z-eu1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: 🟠🇸🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-se.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '🟢🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vs39cITZN6jMHKslRMmvkwXupHXUbyKNX1MQsWRWKlg
+    short-id: '3f40efc7'
+  server: germany1.banovano.space
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 20717e25-8cea-4634-b9ab-9c9bc9ca0620
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
+  name: 🔴🇳🇱_github.com/Ruk1ng001_39265...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
+    short-id: '6d6f13013d3e1d0c'
+  server: 89.105.208.126
+  servername: n1.cloudgaming.one
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 91d0fa43-e557-43e7-a731-f0c3d1fb306a
+- name: 🟠🇨🇴[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: tcp
+  packet-encoding: xudp
+  port: 62145
+  server: 157.137.208.29
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-us4.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🔴🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: ws
+  port: 443
+  server: 172.64.150.28
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /fp
+  xudp: true
+- name: '🟠🇨🇴[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 62145
+  server: 157.137.215.241
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: '🟠🇨🇴[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  network: tcp
+  port: 62145
+  server: 157.137.231.159
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🟠🇭🇰[📺🎪🔍]_github.com/Ruk1ng001_...
+  network: ws
+  port: 443
+  server: n1761296892.4u9ma.icu
+  servername: n1761296892.4u9ma.icu
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d6db128f-42b9-40b1-b979-5e0095fa593c
+  ws-opts:
+    headers:
+      Host: n1761296892.4u9ma.icu
+    path: /
+  xudp: true
+- name: 🟢🇦🇹[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10023
+  server: z-eu2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: '🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-de1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: '🟠🇨🇴[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+  network: tcp
+  port: 62145
+  server: 157.137.237.51
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Oyd0sn1z_6uNSN6AN63Q7aBq7AUQ1bOsB9MT3FyyiRM
+    short-id: '837fa04e73d6b581'
+  server: in.good-1store.cv
+  servername: www.ya.ru
+  tls: true
+  type: vless
+  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
+- client-fingerprint: firefox
+  encryption: none
   name: '🟠🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
   network: tcp
   port: 443
   reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 45.144.52.162
-  servername: fl.convert-flow.net
+    public-key: XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg
+    short-id: '29fd3dc0210c'
+  server: 95.216.165.65
+  servername: www.cloudflare.com
   tls: true
   type: vless
-  uuid: 5710bc50-f5ff-4d19-a3f5-067959ed2644
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🔴🇪🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  udp: true
+  uuid: 22199ed8-5f22-4906-9917-67e3609d8776
+  xudp: true
+- name: '🟠🇨🇴[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: RO5YMxxtJmZo2w370qG-seJ41toowHPbz6i2uXJ2gG0
-    short-id: '7a3f9e2b1c8d4f6a'
-  server: 217.9.12.218
-  servername: ee.cdn-global.pro
-  tls: true
+  port: 62145
+  server: 149.130.161.150
   type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 🔴🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-de2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: 🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-fr.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: '🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 20110
+  server: starlink-tw3.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
+  encryption: none
   name: '🟠🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
   network: tcp
   port: 443
   reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 45.144.52.157
-  servername: fl.convert-flow.net
+    public-key: XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg
+    short-id: '29fd3dc0210c'
+  server: 95.216.160.158
+  servername: www.cloudflare.com
   tls: true
   type: vless
-  uuid: 5710bc50-f5ff-4d19-a3f5-067959ed2644
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🟢🇦🇶[🎬🤖📺🎪]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HKkU-5UanGjWdmX8E-EGulXMk1BnidkFsVveyyOlTg8
-    short-id: '90f9d05bf95cb335'
-  server: 2.27.26.140
-  servername: aq.cdn-global.pro
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🟢🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 176.98.182.21
-  servername: ne4.rexten.cc
+  udp: true
+  uuid: 22199ed8-5f22-4906-9917-67e3609d8776
+  xudp: true
+- name: 🔴🇩🇰[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10013
+  server: z-eu1.251313.xyz
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
-- client-fingerprint: firefox
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- client-fingerprint: ios
+  encryption: none
   flow: xtls-rprx-vision
-  name: '🔴🇫🇮[📺🎭🎪📦]_github.com/Ruk1ng001... #1'
+  name: '🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
   network: tcp
   port: 443
   reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 85.192.49.53
-  servername: fl.convert-flow.net
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: 'c39cc7310a'
+  server: 169.40.42.179
+  servername: yahoo.com
   tls: true
   type: vless
-  uuid: 5710bc50-f5ff-4d19-a3f5-067959ed2644
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🔴🇧🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  xudp: true
+- flow: xtls-rprx-vision
+  name: '🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #2'
   network: tcp
-  port: 443
+  packet-encoding: xudp
+  port: 39569
   reality-opts:
-    public-key: 8hse7wRRL-F66rQ-aAeetKTw0MSeJC7Rr6EaDeLzdCU
-  server: 109.69.218.207
-  servername: crisp-titan.cdn.cachefleet.com
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: 'bc8e3658db7d1323'
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- name: 🟠🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-uk.251313.xyz
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vlgrpc
-  name: '🟠🇪🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: grpc
-  port: 443
-  server: 217.9.12.229
-  servername: ee2.cdn-global.pro
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
+  name: 🟢🇸🇨[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UjwVdSvY-6dV5UKCNO7ROokiSF_aLaXYyUaG6RybOmI
+    short-id: '2762604ed2e0fa2f'
+  server: xit.saturn-cloud.net
+  servername: xit.saturn-cloud.net
+  tls: true
+  type: vless
+  uuid: 95ae0de8-d944-4b1e-b450-d34d80f9a528
+- client-fingerprint: firefox
+  encryption: none
   name: '🟠🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
   network: tcp
   port: 443
   reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 45.144.52.167
-  servername: fl.convert-flow.net
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-4d19-a3f5-067959ed2644
-- alterId: 0
-  cipher: auto
-  client-fingerprint: safari
-  name: ⚪🏳️_github.com/Ruk1ng001_54d00...
-  network: tcp
-  port: 443
-  server: guanwang.awsno.com
-  servername: gw.alicdn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 45.144.53.232
-  servername: fl.convert-flow.net
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-4d19-a3f5-067959ed2644
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: us.convert-flow.net
-  servername: us.convert-flow.net
-  skip-cert-verify: true
+    public-key: XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg
+    short-id: '29fd3dc0210c'
+  server: 95.216.161.1
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 5710bc50-f5ff-0348-a3f5-067959ed2644
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  port: 8443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 141.227.160.205
-  servername: sellflow.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🔴🇸🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: '2d6d073dc88f22a8'
-  server: 89.125.37.74
-  servername: se-cdn.ru
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- alpn:
-  - h2
-  - http/1.1
-  encryption: none
-  name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: ws
-  port: 443
-  server: soskeynets-production.up.railway.app
-  servername: line-production.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: d3d674d9-eec6-8469-0fdf-96f7967b5a93
-  ws-opts:
-    headers:
-      Host: line-production.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /ws/d3d674d9-eec6-8469-0fdf-96f7967b5a93
+  uuid: 22199ed8-5f22-4906-9917-67e3609d8776
   xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 45.144.52.149
-  servername: fl.convert-flow.net
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-4d19-a3f5-067959ed2644
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: X-Y_o4tsLGyFppQAdKIifwPyRKE__GdiMue0u23esWA
-    short-id: '1ca2399ba267c7'
-  server: 65.98.5.106
-  servername: usconverter.medusafree.com
+- name: ⚪🏳️_github.com/Ruk1ng001_0905b...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10035
+  server: z-eu2.251313.xyz
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a1022d47-2417-4489-b7e0-b0febcc7a8ad
-- name: '🔴🇰🇷[🎬📺🎭🎪]_github.com/Ruk1ng001... #1'
-  network: ws
-  port: 2083
-  server: 91.193.58.215
-  servername: vlso4.1d.mom
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso4.1d.mom
-    path: /socks5=888:888@hkip.1d.mom:1080
-- name: '🔴🇰🇷[🎬📺🎭🎪]_github.com/Ruk1ng001... #2'
-  network: ws
-  port: 2053
-  server: 91.193.58.219
-  servername: vlso4.1d.mom
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso4.1d.mom
-    path: /socks5=888:888@hkip.1d.mom:1080
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🟠🇪🇪[🤖📺🎭🎪]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: RO5YMxxtJmZo2w370qG-seJ41toowHPbz6i2uXJ2gG0
-    short-id: '7a3f9e2b1c8d4f6a'
-  server: 217.9.12.233
-  servername: ee.cdn-global.pro
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- flow: xtls-rprx-vision
-  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0_UOGGSOr0NZqCA-nQo-Ct0MjQPfghmBL_sh6XU5pW8
-    short-id: '8e218ca02a'
-  server: us1.miyazono-kaori.com
-  servername: download-porter.hoyoverse.com
-  tls: true
-  type: vless
-  uuid: 1597ab39-816a-4e65-863b-9c423646df3a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 5.34.179.183
-  servername: us.convert-flow.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-0348-a3f5-067959ed2644
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🟢🇦🇱[🤖📺🎭🎪]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: ru-sl.convert-flow.net
-  servername: ru-sl.convert-flow.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-0008-a3f5-067959ed2644
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🔴🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 85.192.48.26
-  servername: fl.convert-flow.net
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-4d19-a3f5-067959ed2644
-- client-fingerprint: firefox
-  name: 🔴🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: ws
-  port: 443
-  server: 150.241.101.218.fwqfw783rg2dad.website
-  servername: 150.241.101.218.fwqfw783rg2dad.website
-  tls: true
-  type: vless
-  uuid: 9efe092e-e4ae-4601-bb89-169fcb3db39b
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-    path: /websocket
-- name: 🟢🇺🇸[🤖📺🎪✨]_github.com/Ruk1ng001...
-  password: 752a9aac-91a7-4284-9d6e-234efae318b6
-  port: 17963
-  server: jjz.jjznodenode.top
-  sni: jjz.jjznodenode.top
-  type: anytls
+  sni: www.cloudflare.com
+  type: trojan
   udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🟠🇸🇪[🤖📺🎭🎪]_github.com/Ruk1ng001...
+  name: 🟠🇫🇷[🤖📺🎭🎪]_github.com/Ruk1ng001...
   network: tcp
   port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: '2d6d073dc88f22a8'
-  server: 132.243.231.96
-  servername: se-cdn.ru
+  server: 212.69.86.187
+  servername: cdn.intercom-home.online
   tls: true
   type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vlgrpc
-  name: '🟠🇪🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  network: grpc
+  uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
+- name: 🟠🇪🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
   port: 443
-  server: 217.9.12.228
-  servername: ee2.cdn-global.pro
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+  server: starlink-es.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-jp4.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- auth: 53b59cb5-c741-3399-9065-93dc34685f5b
+  name: 🟠🇺🇸[🔍]_github.com/Ruk1ng001_11...
+  obfs: salamander
+  obfs-password: XBvVbvzQCq6Ovbnh
+  password: 53b59cb5-c741-3399-9065-93dc34685f5b
+  port: 14101
+  server: usaw2.awo-link.com
+  sni: usaw2.awo-link.com
+  type: hysteria2
+  udp: true
+- name: 🔴🇸🇰[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10008
+  server: z-eu1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🔴🇸🇪[🤖📺🎭🎪]_github.com/Ruk1ng001...
@@ -1068,140 +790,10 @@ proxies:
   type: vless
   udp: true
   uuid: e3c40721-22bc-4862-a358-09502fc14af6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 72.56.53.66
-  servername: lv.rexten.cc
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇫🇮[🤖📺🎭🎪]_github.com/Ruk1ng001... #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 45.144.52.166
-  servername: fl.convert-flow.net
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-4d19-a3f5-067959ed2644
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🔴🇪🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: RO5YMxxtJmZo2w370qG-seJ41toowHPbz6i2uXJ2gG0
-    short-id: '7a3f9e2b1c8d4f6a'
-  server: 217.9.12.15
-  servername: ee.cdn-global.pro
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🔴🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 85.192.49.28
-  servername: fl.convert-flow.net
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-4d19-a3f5-067959ed2644
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🟠🇸🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: '2d6d073dc88f22a8'
-  server: 132.243.231.97
-  servername: se-cdn.ru
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001... #6'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 85.192.48.37
-  servername: fl.convert-flow.net
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-4d19-a3f5-067959ed2644
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🟠🇩🇪[📺🎭🎪]_github.com/Ruk1ng001_...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
-    short-id: 'f7d0420b8ab26060'
-  server: 185.238.191.156
-  servername: de-cdn.ru
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001... #7'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 45.144.53.215
-  servername: fl.convert-flow.net
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-4d19-a3f5-067959ed2644
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
-  network: tcp
-  port: 1337
-  reality-opts:
-    public-key: Q4pHs2q9i9E-pfubMwhZkjj8f3zxp-LyS_tHhiGVRF4
-    short-id: '273158a8'
-  server: 172.86.111.106
-  servername: usey.xanka.best
-  tls: true
-  type: vless
-  uuid: 2566510f-46a9-4d46-8d90-7f5639625de3
 - flow: xtls-rprx-vision
-  name: 🔴🇮🇳[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  name: '🟠🇭🇰[🎬📺🎭🎪]_github.com/Ruk1ng001... #1'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: aGnuEqGr0P1reQd3FC-AvDppjiHZBH9itV33XDaKOg4
-    short-id: '53bf38279e382cb0'
-  server: 157.245.97.66
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 19001d44-63d4-496f-9a58-312a5d65668c
-- flow: xtls-rprx-vision
-  name: 🟢🇰🇷[🎬📺🎭🎪]_github.com/Ruk1ng001...
-  network: tcp
-  port: 38551
+  port: 29715
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: 'bc8e3658db7d1323'
@@ -1210,364 +802,359 @@ proxies:
   tls: true
   type: vless
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- encryption: none
-  flow: xtls-rprx-vision
-  name: '🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
-  network: tcp
-  port: 993
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-    short-id: ''
-  server: 88.218.44.5
-  servername: download.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: adf1fac3-cf57-ff40-574c-cf514457eb3f
-  xudp: true
-- name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
-  password: d4436c04-d0fc-4761-8120-ad5d399ba6b0
-  port: 51043
-  server: 03-e0.64afa9dc-5afd-4739-bc23-cbfdfba32695.abccba.top
+- name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-us6.251313.xyz
   skip-cert-verify: true
-  sni: dl.hu-yunpan.top
-  type: anytls
+  sni: www.cloudflare.com
+  type: trojan
   udp: true
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇺🇸_US_美国_1
-  network: tcp
-  port: 10000
-  server: 180.178.60.253
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-  xudp: true
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🔴🇸🇪[🤖📺🎭🎪]_github.com/Ruk1ng001... #1'
+  name: US_speednode_0117
   network: tcp
   port: 443
   reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: '2d6d073dc88f22a8'
-  server: 132.243.231.90
-  servername: se-cdn.ru
+    public-key: YW6wlOE6DhEzY4nQobPKj-hoc2bpNgJineecGIgOgWM
+    short-id: '9d3734f3ff471b68'
+  server: 150.241.70.0
+  servername: stats.vk-portal.net
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🟠🇦🇱[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
+  udp: true
+  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
+- name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #6'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
   port: 443
+  server: starlink-jp1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: '🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+  obfs: salamander
+  obfs-password: xnJ%rKbwakdx
+  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
+  port: 10086
+  server: de4.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: de4.xiaoliyu.cyou
+  type: hysteria2
+  up: ''
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-tunnel
+  name: 🔴🇷🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: grpc
+  port: 9888
   reality-opts:
-    public-key: 7zCzgzF_vJYAVe3uvFLfkZ_YS-4FQ0SZM9Bjf_r9OBg
-    short-id: 'b868b87c347a451e'
-  server: 85.155.228.208
-  servername: al.cdn-global.pro
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: 'aabbccdd'
+  server: 201.24.120.71
+  servername: dl.google.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🔴🇱🇻[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  uuid: 130e6aab-9eba-441e-9021-22cbccc72832
+- flow: xtls-rprx-vision
+  name: ⚪🏳️[🤖📺🎪📦]_github.com/Ruk1ng001...
   network: tcp
-  port: 443
+  port: 2053
   reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 193.124.254.60
-  servername: lv.rexten.cc
-  skip-cert-verify: true
-  tfo: false
+    public-key: DUJWZCU-CjH9TglyqNQjydr7sp1ujsn2gHcXGWmgRj8
+    short-id: 'e0331b94eb540116'
+  server: 185.79.138.127
+  servername: vk.ru
   tls: true
   type: vless
-  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🔴🇦🇹[🤖🎭🎪✨]_github.com/Ruk1ng001...
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.131.212.40
-  servername: at.sellflow.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 50e636af-b554-4526-94ad-d0f4b34adecc
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇸🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: '2d6d073dc88f22a8'
-  server: 132.243.231.93
-  servername: se-cdn.ru
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇪🇪[🤖📺🎭🎪]_github.com/Ruk1ng001... #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: RO5YMxxtJmZo2w370qG-seJ41toowHPbz6i2uXJ2gG0
-    short-id: '7a3f9e2b1c8d4f6a'
-  server: 217.9.12.232
-  servername: ee.cdn-global.pro
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇸🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: '2d6d073dc88f22a8'
-  server: 132.243.231.91
-  servername: se-cdn.ru
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
-  port: 443
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 143.246.197.86
-  servername: sw.rexten.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🟢🇷🇺[📺]_github.com/Ruk1ng001_64...
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 195.19.164.83
-  servername: sellflow.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 08d31ab3-6ab7-4fb8-9948-a572e3196fff
+  uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
 - client-fingerprint: firefox
   encryption: none
+  name: '🟠🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg
+    short-id: '29fd3dc0210c'
+  server: 95.216.161.19
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 22199ed8-5f22-4906-9917-67e3609d8776
+  xudp: true
+- name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #7'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-jp3.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🔴🇵🇰[🤖📺🎪✨]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10011
+  server: z-sg1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+  name: 🔴🇵🇱[🤖📺🎭🎪]_github.com/Ruk1ng001...
   network: tcp
   packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 141.227.170.97
-  servername: sellflow.org
+  port: 443
+  server: 82.26.91.87
+  servername: faster.yandex-apicloud.ru
   tls: true
   type: vless
-  uuid: b90d6e73-ade0-41e7-8c48-bc29401a2174
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇪🇪[🤖📺🎭🎪]_github.com/Ruk1ng001... #2'
-  network: tcp
+  uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
+- name: 🟠🇨🇦[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
   port: 443
-  reality-opts:
-    public-key: RO5YMxxtJmZo2w370qG-seJ41toowHPbz6i2uXJ2gG0
-    short-id: '7a3f9e2b1c8d4f6a'
-  server: 217.9.12.235
-  servername: ee.cdn-global.pro
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🔴🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 85.192.49.66
-  servername: fl.convert-flow.net
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-4d19-a3f5-067959ed2644
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🟠🇨🇦[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: ru-sl.convert-flow.net
-  servername: ru-sl.convert-flow.net
+  server: starlink-ca.251313.xyz
   skip-cert-verify: true
-  tfo: false
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🔴🇷🇺[📺🎪✨🎞️]_github.com/Ruk1ng00...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10010
+  server: z-eu2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: '🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-sg2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- encryption: none
+  name: 🔴🇳🇱[📺🎪✨]_github.com/Ruk1ng001_...
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
   tls: true
   type: vless
-  uuid: 5710bc50-f5ff-007c-a3f5-067959ed2644
+  udp: true
+  uuid: 0f350a5d-e801-4eca-a1b9-abe9798ad48a
+  ws-opts:
+    headers:
+      Host: pan1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🟠🇸🇪[🎬📺🎭🎪]_github.com/Ruk1ng001...
+  name: '🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM
+    short-id: 'c0573c8280a0c019'
+  server: 198.105.112.157
+  servername: www.ya.ru
+  tls: true
+  type: vless
+  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
+- name: '🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-sg3.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
+- flow: xtls-rprx-vision
+  name: 🔴🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: tcp
+  port: 39561
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: 'bc8e3658db7d1323'
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- name: 🇷🇺_RU_俄罗斯
   network: tcp
   port: 443
   reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: '2d6d073dc88f22a8'
-  server: 132.243.231.95
-  servername: se-cdn.ru
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: '0b'
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+  udp: true
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM
+    short-id: 'c0573c8280a0c019'
+  server: 45.67.136.251
+  servername: www.ya.ru
+  tls: true
+  type: vless
+  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: ⚪🏳️[🔍]_github.com/Ruk1ng001_b2...
+  name: ⚪🏳️_github.com/Ruk1ng001_2c35c...
   network: raw
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    public-key: fk_aUHA_JijqIiSXZH61Ur6WSfPQ-Ke7J1IGgEZAh0I
     short-id: ''
-  server: 195.19.164.85
-  servername: abuse.sellflow.org
+  server: 159.194.226.13
+  servername: vk.ru
   tls: true
   type: vless
   udp: true
-  uuid: 50e636af-b554-4526-94ad-d0f4b34adecc
+  uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
   xudp: true
-- name: 🟠🇨🇴[🎬🤖📺🎭]_github.com/Ruk1ng001...
+- name: 🔴🇱🇹[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10011
+  server: z-eu2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: US_speednode_0127
   network: tcp
   packet-encoding: xudp
-  port: 62145
-  server: 149.130.162.116
+  port: 9713
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: 'bc8e3658db7d1323'
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- client-fingerprint: qq
+  udp: true
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- alterId: '2'
+  cipher: auto
+  name: 🟠🇯🇵[📺]_github.com/Ruk1ng001_41...
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- flow: xtls-rprx-vision
+  name: '🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 29893
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: 'bc8e3658db7d1323'
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- flow: xtls-rprx-vision
+  name: '🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  network: tcp
+  port: 39201
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: 'bc8e3658db7d1323'
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- name: 🟢🇭🇰[🧠🎪✨🎞️]_github.com/Ruk1ng00...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 21520
+  server: starlink-hkt2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: '🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+  network: tcp
+  port: 39203
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: 'bc8e3658db7d1323'
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- flow: xtls-rprx-vision
+  name: '🟠🇭🇰[🎬📺🎭🎪]_github.com/Ruk1ng001... #2'
+  network: tcp
+  packet-encoding: xudp
+  port: 31723
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: 'bc8e3658db7d1323'
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- flow: xtls-rprx-vision
+  name: '🔴🇭🇰[🎬📺🎭🎪]_github.com/Ruk1ng001... #1'
+  network: tcp
+  port: 29717
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: 'bc8e3658db7d1323'
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🟠🇺🇦[🎬🤖📺🎪]_github.com/Ruk1ng001...
+  name: 🇳🇱_NL_荷兰
   network: tcp
   port: 443
   reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: de.convert-flow.net
-  servername: de.convert-flow.net
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-0324-a3f5-067959ed2644
-- client-fingerprint: random
-  name: 🟠🇸🇬_github.com/Ruk1ng001_a7ccb...
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: ap-south.862400.xyz
-  tls: true
-  type: vless
-  uuid: e30df0c8-d1f1-4ede-a6e6-9ec050decd2f
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: ap-south.862400.xyz
-    max-early-data: 2048
-    path: /announcement
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: GunService
-  name: '🟢🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: grpc
-  port: 10443
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 176.98.182.67
-  servername: ne4.rexten.cc
+    public-key: rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM
+    short-id: 'c0573c8280a0c019'
+  server: nl.north-1winter.cv
+  servername: www.ya.ru
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
-  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🟠🇫🇮[🎬🤖✨🎞️]_github.com/Ruk1ng00...
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I
-    short-id: 'd4e5f60718293a4b'
-  server: 46.62.240.122
-  servername: www.nvidia.com
-  tls: true
-  type: vless
   udp: true
-  uuid: 641baa2f-6f74-4ecf-b948-032d19ba0142
-  xudp: true
-- encryption: none
-  name: 🟠🇷🇺[🎪]_github.com/Ruk1ng001_f7...
-  network: ws
-  port: 2200
-  server: 104.171.137.176
-  type: vless
-  udp: true
-  uuid: 43874ef1-1f74-4b8b-bc84-1d13caabd71b
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /v1
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🟢🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 178.83.226.51
-  servername: sellflow.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1995a4e0-fd85-4de2-94f1-f86829e44308
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🟢🇦🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 228
-  reality-opts:
-    public-key: aObndFPcV24WCp5k_njPhUovgVgjw3EvSsLZu3eO-Es
-    short-id: 'cfe56c9d'
-  server: fenochka.xanka.best
-  servername: fenochka.xanka.best
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: e1ae4929-d17b-4cea-bd48-c89ef103d2cc
+  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
 - encryption: none
   flow: xtls-rprx-vision
   http-opts:
@@ -1588,664 +1175,6 @@ proxies:
   udp: true
   uuid: 0a76a766-d141-44b8-944e-dff757d7116f
   xudp: true
-- flow: xtls-rprx-vision
-  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #6'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: dvXaj6cjjCxv1btRo7vHk93VR0BCQTF_xQClCjVZ1mM
-    short-id: '5cfd1c'
-  server: us3.miyazono-kaori.com
-  servername: download-porter.hoyoverse.com
-  tls: true
-  type: vless
-  uuid: 1597ab39-816a-4e65-863b-9c423646df3a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟢🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 82.40.23.159
-  servername: sellflow.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 946c6aca-a672-4113-8aa1-55b3fb1a4369
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🔴🇪🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
-    short-id: '28047c78b3f5ee2c'
-  server: 45.196.208.84
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: d2042070-c247-4226-a3ac-15337923e00d
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M
-    short-id: '1ed136481e0ede74'
-  server: 82.26.74.6
-  servername: cdn.byteark.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 4b905f8d-7a39-4e26-8e2a-88fc8ad87db0
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🟢🇰🇿[🎬🤖📺🎪]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: ru-sl.convert-flow.net
-  servername: ru-sl.convert-flow.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-018e-a3f5-067959ed2644
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🔴🇸🇪[📺🎪✈️🔍]_github.com/Ruk1ng00...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: '2d6d073dc88f22a8'
-  server: 132.243.231.94
-  servername: se-cdn.ru
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- name: '🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
-  password: 752a9aac-91a7-4284-9d6e-234efae318b6
-  port: 17966
-  server: jjz.jjznodenode.top
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: GunService
-  name: 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: grpc
-  port: 10443
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 144.31.13.141
-  servername: ne4.rexten.cc
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟢🇦🇱[🤖📺🎭🎪]_github.com/Ruk1ng001... #1'
-  network: tcp
-  port: 1337
-  reality-opts:
-    public-key: 0OajRGdqF2S2JJgKYcsq6nIF3K_ypFYCTUzCjR8Wh1o
-    short-id: 'c692a719'
-  server: 45.89.60.76
-  servername: yt.alba.xanka.best
-  tls: true
-  type: vless
-  uuid: f62a37f3-f7df-4673-a7c8-06a9fc72c6ea
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🔴🇸🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8
-    short-id: 'd3ee47fc2f553c44'
-  server: 45.196.161.51
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: d2042070-c247-4226-a3ac-15337923e00d
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟢🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 82.40.23.142
-  servername: sellflow.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 08d31ab3-6ab7-4fb8-9948-a572e3196fff
-- flow: xtls-rprx-vision
-  name: US_speednode_0127
-  network: tcp
-  packet-encoding: xudp
-  port: 9713
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: 'bc8e3658db7d1323'
-  server: 155.117.199.12
-  servername: cdnjs.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇫🇷_FR_法国
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- name: '🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
-  password: 752a9aac-91a7-4284-9d6e-234efae318b6
-  port: 17965
-  server: jjz.jjznodenode.top
-  sni: uk.jjznodenode.top
-  type: anytls
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: tcp
-  port: 2761
-  reality-opts:
-    public-key: d9ncsYIjJIiCaqLszDyLhZoZ9-XMYYhBrlHUyuHFxQo
-    short-id: 'a4e1fd84'
-  server: 94.125.103.28
-  servername: nl.xanka.best
-  tls: true
-  type: vless
-  uuid: 10e2817c-9a84-4c42-9eff-a8cfd6ec9283
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🟠🇮🇩[🤖📺🎪✨]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: ru-sl.convert-flow.net
-  servername: ru-sl.convert-flow.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-0168-a3f5-067959ed2644
-- client-fingerprint: edge
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc
-  name: '🟢🇦🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: grpc
-  port: 8113
-  reality-opts:
-    public-key: 1XNcujMbWdVkVnPV4JvvIllMFdRXToudea_mqzXcMWg
-    short-id: 'a4f8c92d'
-  server: market.cvedcdigital.vip
-  servername: westondigita.cloud
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: f5e5da05-ef1d-4a19-b75d-aaf30c93bb1a
-- client-fingerprint: safari
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vless-grpc-reality
-  name: '🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #6'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: ns.1tut1.click
-  servername: id.vk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 78c407f6-3f20-426e-94ea-7227e760c180
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🔴🇹🇭[🤖🎪✨📦]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: ru-sl.convert-flow.net
-  servername: ru-sl.convert-flow.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-02fc-a3f5-067959ed2644
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #7'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M
-    short-id: '1ed136481e0ede74'
-  server: 82.26.74.4
-  servername: cdn.byteark.com
-  tls: true
-  type: vless
-  uuid: 4b905f8d-7a39-4e26-8e2a-88fc8ad87db0
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🟠🇸🇬[🤖📺🎭🎪]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: ru-sl.convert-flow.net
-  servername: ru-sl.convert-flow.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-02be-a3f5-067959ed2644
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #8'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M
-    short-id: '1ed136481e0ede74'
-  server: 82.26.74.5
-  servername: cdn.byteark.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 4b905f8d-7a39-4e26-8e2a-88fc8ad87db0
-- name: 🟠🇺🇸[🤖✨✈️]_github.com/Ruk1ng001...
-  network: ws
-  port: 666
-  server: 43.162.83.82
-  servername: 43.162.83.82
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
-  ws-opts:
-    headers:
-      Host: 43.162.83.82
-    path: /proxy
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #9'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: FOirrAYY9Pdja-IxK0Pq8AOS5RMWQ2kMeivyhpInPnk
-    short-id: 'ea953f2f'
-  server: yt.nider2.xanka.best
-  servername: nider2.xanka.best
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: dac694ba-cec8-411a-bc08-c3271d0ae337
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc
-  name: 🟠🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: grpc
-  port: 443
-  server: 109.104.106.51
-  servername: ro.cdn-global.pro
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: tcp
-  port: 1337
-  reality-opts:
-    public-key: tzjmvG1KWKF3QuXXzSo_o-x0Z4c6PIb-TpS-QVuBTBM
-    short-id: '62efc363'
-  server: romka.xanka.best
-  servername: romka.xanka.best
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a96b5b26-d339-4fc3-a94b-6968e5a94f12
-- alterId: 2
-  cipher: auto
-  name: 🟠🇸🇬[🎭]_github.com/Ruk1ng001_99...
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🟠🇲🇽[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: ru-sl.convert-flow.net
-  servername: ru-sl.convert-flow.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-01e4-a3f5-067959ed2644
-- flow: xtls-rprx-vision
-  name: 🇸🇬SG_2|2.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 31875
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: 'bc8e3658db7d1323'
-  server: 155.117.199.12
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '🟢🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs
-    short-id: '82f5d3a1e9c0b661'
-  server: 85.155.226.134
-  servername: getsavesafe.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
-  xudp: true
-- alpn:
-  - http/1.1
-  encryption: none
-  name: 🟢🇳🇱[🎬📺🎭🎪]_github.com/Ruk1ng001...
-  network: ws
-  port: 443
-  server: 69.46.46.53
-  servername: x4g-production-4bbe.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: b9d4c53c-2e6c-8eaf-362f-ae2602a3a8af
-  ws-opts:
-    headers:
-      Host: x4g-production-4bbe.up.railway.app
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /ws/b9d4c53c-2e6c-8eaf-362f-ae2602a3a8af
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🔴🇩🇪_github.com/Ruk1ng001_d0f0b...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: 'dc8109baf0f607ea'
-  server: 154.222.9.166
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: d2042070-c247-4226-a3ac-15337923e00d
-- flow: xtls-rprx-vision
-  name: US_speednode_0137
-  network: tcp
-  port: 29709
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: 'bc8e3658db7d1323'
-  server: 155.117.199.12
-  servername: cdnjs.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
-  port: 40443
-  reality-opts:
-    public-key: EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I
-    short-id: 'e5f60718293a4b5c'
-  server: 77.110.115.95
-  servername: deepl.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 641baa2f-6f74-4ecf-b948-032d19ba0142
-- encryption: none
-  name: 🔴🇵🇱_github.com/Ruk1ng001_e12d4...
-  network: ws
-  port: 443
-  server: 31.76.251.127.cdn-one.org
-  servername: 31.76.251.127.cdn-one.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
-  ws-opts:
-    headers:
-      Host: 31.76.251.127.cdn-one.org
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /10336/2GCOqG7bvA
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🟢🇯🇵[🤖📺🎭🎪]_github.com/Ruk1ng001...
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: 161.104.38.70
-  servername: ru-sl.convert-flow.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5710bc50-f5ff-0188-a3f5-067959ed2644
-  xudp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🔴🇧🇷[🤖📺🎭🎪]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: ru-sl.convert-flow.net
-  servername: ru-sl.convert-flow.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-004c-a3f5-067959ed2644
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🔴🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: '5be97fb85093a3a9'
-  server: 154.222.9.122
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: d2042070-c247-4226-a3ac-15337923e00d
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🔴🇦🇪[🤖📺🎪✨]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: ru-sl.convert-flow.net
-  servername: ru-sl.convert-flow.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-0310-a3f5-067959ed2644
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🟠🇫🇷[🎬📺✨📦]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 135.125.72.90
-  servername: fr.sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: b90d6e73-ade0-41e7-8c48-bc29401a2174
-  xudp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🟢🇦🇷_github.com/Ruk1ng001_91cbe...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: ru-sl.convert-flow.net
-  servername: ru-sl.convert-flow.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 5710bc50-f5ff-0020-a3f5-067959ed2644
-- name: '🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 4433
-  server: us4.xiaoliyu.cyou
-  skip-cert-verify: true
-  type: hysteria2
-- flow: xtls-rprx-vision
-  name: '🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: s0DJvbVUHHr1HP8XvPru3FK6gH4QWJ84JWERkzLKJWA
-    short-id: '13e240c22713c7a6'
-  server: 178.128.127.117
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 3534d1f5-cf1d-490c-adbe-7365f2ff0151
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🔴🇪🇪[🤖✨🔍]_github.com/Ruk1ng001_...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NiCJO84l7l--GJ10ggvb6HcOS8qLR30pWTphwvWozhg
-  server: 46.22.216.31
-  servername: mail.protech-plus.ee
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 4612258c-15e8-4459-a3b6-8b6571699c5f
-- flow: xtls-rprx-vision
-  name: '🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  network: tcp
-  packet-encoding: xudp
-  port: 26578
-  reality-opts:
-    public-key: jEHWe2H6vvapNWcL2uZS9jzUlWWT5lM9QB3eptYkr3M
-    short-id: '6ba85179e30d4fc2'
-  server: 156.246.91.139
-  servername: dl.google.com
-  tls: true
-  type: vless
-  uuid: 59d33b6f-c153-45b6-956e-310ab92efde3
-- flow: xtls-rprx-vision
-  name: 🟠🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: JeaMU58AmMJ2JqJ-QGotRFua9DYxxveqw7I_XMWCu34
-    short-id: '2da3ecc3ad9a323b'
-  server: 139.59.191.88
-  servername: www.stanford.edu
-  tls: true
-  type: vless
-  uuid: a6c5f4c7-073f-416b-b5e3-4a86ec2d9f22
-- flow: xtls-rprx-vision
-  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #7'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 39GcXjbgfhKp4VDs4E2TC_Qxrv3OYoCdeCTelg7YVn4
-    short-id: '1c9e6c4e0b29d309'
-  server: 143.110.147.74
-  servername: www.stanford.edu
-  tls: true
-  type: vless
-  uuid: bf4ca505-0f7c-43b8-9db8-bc089869fb50
 - down: ''
   fingerprint: ''
   name: '🔴🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
@@ -2258,223 +1187,131 @@ proxies:
   sni: sg3.xiaoliyu.cyou
   type: hysteria2
   up: ''
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🔴🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: '364994a6f61fc955'
-  server: 45.192.2.42
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: d2042070-c247-4226-a3ac-15337923e00d
-- auth: TNHYjoVDARHH9fU3scgPChy
-  name: '🔴🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  password: TNHYjoVDARHH9fU3scgPChy
-  port: 63569
-  server: sg3.tangnin.top
-  sni: sg3.tangnin.top
+- down: ''
+  fingerprint: ''
+  name: '🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  obfs: salamander
+  obfs-password: T@T*FP7uq=!t
+  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
+  port: 10086
+  server: fr1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: fr1.xiaoliyu.cyou
   type: hysteria2
-  udp: true
-- name: 🟠🇺🇸[🤖✨]_github.com/Ruk1ng001_1...
-  network: ws
-  port: 666
-  server: 43.162.87.200
-  servername: 43.162.87.200
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
-  ws-opts:
-    headers:
-      Host: 43.162.87.200
-    path: /proxy
-- encryption: none
-  name: US_speednode_0120
-  network: ws
-  port: 443
-  server: www.true.th
-  servername: d1yxsk0zprgivr.cloudfront.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: /
-  xudp: true
+  up: ''
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🟢🇷🇺[🤖📺🎪📦]_github.com/Ruk1ng001...
+  name: 🟠🇳🇱[🎬🎭🎪✈️]_github.com/Ruk1ng00...
+  network: tcp
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 193.233.255.20
-  servername: sellflow.org
-  skip-cert-verify: true
+    public-key: Oyd0sn1z_6uNSN6AN63Q7aBq7AUQ1bOsB9MT3FyyiRM
+    short-id: '837fa04e73d6b581'
+  server: 162.217.249.20
+  servername: www.ya.ru
   tls: true
   type: vless
-  udp: true
-  uuid: 1995a4e0-fd85-4de2-94f1-f86829e44308
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🔴🇷🇺[🤖📺🎪🎞️]_github.com/Ruk1ng00...
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.131.212.46
-  servername: sellflow.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
 - flow: xtls-rprx-vision
-  name: '🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #6'
+  name: '🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
   network: tcp
-  port: 443
+  port: 39205
   reality-opts:
-    public-key: EiIdnnsMW7waNJlc0R6BLwMArlo5yfuy_MJmyYDHT2M
-    short-id: '3147cef25996255f'
-  server: 140.245.42.185
-  servername: www.cloudflare.com
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: 'bc8e3658db7d1323'
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
   tls: true
   type: vless
-  uuid: 55f6633c-51d4-46d0-ad36-532a42fcdcb6
-- flow: xtls-rprx-vision
-  name: '🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #7'
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: Q-KGWRW9iVz7ZuDV1e25zguf2XxbFXiGlOJjwWJ0diA
-    short-id: 'cb9bc58a5976598a'
-  server: 149.118.62.150
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: f12bbae7-fd8e-4430-8420-fcbd61e73cd7
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  name: 🔴🇸🇮[🎬🤖📺🎭]_github.com/Ruk1ng001...
   network: tcp
   port: 443
   reality-opts:
-    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
-    short-id: 'f7d0420b8ab26060'
-  server: 185.238.191.155
-  servername: de-cdn.ru
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🟢🇪🇸[🤖📺🎪✨]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '00a61d55a07de885'
-  server: ru-sl.convert-flow.net
-  servername: ru-sl.convert-flow.net
+    public-key: 8R416wHsKA_fipQLIw2gceCaTTBJIZRMwGjNTURAx3I
+    short-id: 'ad55857184e91aad'
+  server: 2.27.56.109
+  servername: stacks.vk-portal.net
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
-  uuid: 5710bc50-f5ff-02d4-a3f5-067959ed2644
-- client-fingerprint: firefox
+  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
+- name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #8'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-jp2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '🔴🇷🇺[🤖📺🎪🎞️]_github.com/Ruk1ng00... #1'
+  name: 🟢🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: tcp
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.131.212.49
-  servername: sellflow.org
+    public-key: OTuJX9K_E2nHhg0mXT2uFMNIO7746G6c5rlT6OscQGk
+    short-id: '9698d67e63bc8ee0'
+  server: larkix.pulsio.cfd
+  servername: larkix.pulsio.cfd
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 1bced29a-3051-42b8-b393-005135b97616
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 🟢🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: tcp
+  packet-encoding: xudp
+  port: 2053
+  reality-opts:
+    public-key: E6u2RbffXIPvia5v5iIZVj6U_VpSBWmGTsHHNtH-5Rg
+    short-id: '417063feab794131'
+  server: de3.neobo-tooth.ru
+  servername: vk.ru
+  tls: true
+  type: vless
+  uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
+- flow: xtls-rprx-vision
+  name: 🟢🇭🇰[🎬📺✨]_github.com/Ruk1ng001_...
+  network: tcp
+  packet-encoding: xudp
+  port: 39605
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: 'bc8e3658db7d1323'
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: '12306'
+  name: '🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #3'
+  network: grpc
+  port: 443
+  server: hk01.653ebeeb-5f60-4be5-958d-7bf4839cdccd.ef6616fd-5b06-482f-9d64-183745659cbf.byteprivatelink.com
+  servername: www.12306.cn
   skip-cert-verify: true
   tls: true
-  type: vless
+  type: vmess
   udp: true
-  uuid: 08d31ab3-6ab7-4fb8-9948-a572e3196fff
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🔴🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  port: 8443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 57.130.53.127
-  servername: sellflow.org
+  uuid: 06cf100d-ca6d-4ebe-b44a-1bb15b8346cf
+- name: 🔴🇸🇬[🎪✨🔍]_github.com/Ruk1ng001_...
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 4466
+  server: sg3.xiaoliyu.cyou
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b90d6e73-ade0-41e7-8c48-bc29401a2174
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🔴🇸🇪[🤖📺🎭🎪]_github.com/Ruk1ng001... #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: '2d6d073dc88f22a8'
-  server: 89.125.37.150
-  servername: se-cdn.ru
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🟠🇸🇪[🎬🤖📺🎪]_github.com/Ruk1ng001...
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I
-    short-id: '2d127d11297df7de'
-  server: 88.216.130.130
-  servername: deepl.com
-  tls: true
-  type: vless
-  uuid: 641baa2f-6f74-4ecf-b948-032d19ba0142
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: ⚪🏳️[📺🎪]_github.com/Ruk1ng001_b...
-  network: tcp
-  port: 9444
-  reality-opts:
-    public-key: bqLr1d3mbuP10WAYxWj8OEdSuZlVvrywrKq2U6ACw2w
-    short-id: '12b9ecabbf3a3b88'
-  server: mws-fc-1.ghost-lan.com
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: b251ec8f-47ec-4ab4-8bd2-13ac333a4100
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇪🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: RO5YMxxtJmZo2w370qG-seJ41toowHPbz6i2uXJ2gG0
-    short-id: '7a3f9e2b1c8d4f6a'
-  server: 217.9.12.204
-  servername: ee.cdn-global.pro
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+  sni: sg3.xiaoliyu.cyou
+  type: hysteria2
 - flow: xtls-rprx-vision
   name: US_speednode_0123
   network: tcp
-  packet-encoding: xudp
   port: 31877
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
@@ -2486,23 +1323,294 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- encryption: none
-  name: 🔴🇹🇭[📺🎪]_github.com/Ruk1ng001_8...
-  network: ws
-  port: 80
-  server: 18.239.134.69
+- name: 🟢🇦🇺[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 4433
+  server: au1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: au1.xiaoliyu.cyou
+  type: hysteria2
+- name: 🟠🇧🇷[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-br.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🟠🇮🇩[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-id.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🟠🇮🇶[🎬🤖📺🎪]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10030
+  server: z-eu2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: '🟢🇻🇳[🎬🤖📺🎪]_github.com/Ruk1ng001... #1'
+  network: tcp
+  port: 29031
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- flow: xtls-rprx-vision
+  name: '🔴🇸🇬[🎬🤖📺🎪]_github.com/Ruk1ng001... #1'
+  network: tcp
+  port: 31873
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: 'bc8e3658db7d1323'
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- flow: xtls-rprx-vision
+  name: 🔴🇸🇬[🤖📺🎪✨]_github.com/Ruk1ng001...
+  network: tcp
+  port: 31875
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: 'bc8e3658db7d1323'
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- name: 🟠🇦🇶[🤖✈️🔍]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 21524
+  server: z-hk1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 20250
+  server: 38.236.183.2
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🟠🇲🇽[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10001
+  server: z-us2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🟠🇲🇦[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-ma.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🟠🇦🇺[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-au.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: '🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 1935
+  server: sg1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg1.xiaoliyu.cyou
+  type: hysteria2
+- name: 🟠🇨🇱[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-cl.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🟠🇳🇱[🎬📺🎭🎪]_github.com/Ruk1ng001...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: yBOhM43hsg1qosfN28aq_N09y8qsX4hR0Cyq_PwROCM
+    short-id: '4060e9670be0'
+  server: netherlands1.banovano.space
+  servername: www.icloud.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: ba3109a1-042c-4e1d-9141-aaa4987fe4ea
+- name: '🟠🇨🇴[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10003
+  server: z-us1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: ⚪🏳️_github.com/Ruk1ng001_1b073...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.217
+  servername: storage.yandex.net
+  tls: true
   type: vless
   udp: true
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Oyd0sn1z_6uNSN6AN63Q7aBq7AUQ1bOsB9MT3FyyiRM
+    short-id: '837fa04e73d6b581'
+  server: 45.43.92.151
+  servername: www.ya.ru
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
+- alterId: 0
+  cipher: auto
+  name: '🟢🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  network: ws
+  port: 80
+  server: kr6-jak6bqa9.skynode.me
+  servername: node-36-250-1-90.speedtest.cn
+  type: vmess
+  udp: true
+  uuid: 588ced63-e299-381b-88f7-c18a4b9b8a3d
+  ws-headers:
+    Host: node-36-250-1-90.speedtest.cn
   ws-opts:
     headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: /
+      Host: node-36-250-1-90.speedtest.cn
+    path: /download?ed=2560
+  ws-path: /download?ed=2560
+- name: 🟠🇿🇦[🎬🤖📺🎪]_github.com/Ruk1ng001...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-za.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-us7.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: '🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-us8.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  encryption: none
+  name: 🟢🇳🇱[🤖📺🎭🎪]_github.com/Ruk1ng001...
+  network: ws
+  port: 443
+  server: 69.46.46.123
+  servername: x4g-production-3a78.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97ff78bd-e928-6009-513b-1812863d8c9a
+  ws-opts:
+    headers:
+      Host: x4g-production-3a78.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /ws/97ff78bd-e928-6009-513b-1812863d8c9a
   xudp: true
+- name: ⚪🏳️[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 4433
+  server: us4.xiaoliyu.cyou
+  skip-cert-verify: true
+  type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: 🔴🇺🇸[🤖✨🔍]_github.com/Ruk1ng001_...
+  obfs: ''
+  obfs-password: ''
+  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
+  port: 4433
+  server: us4.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+  up: ''
+- name: '🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-us5.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: ⚪🏳️[🎬🤖📺]_github.com/Ruk1ng001_...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.47
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  xudp: true
+- name: '🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  network: tcp
+  password: BxceQaOe
+  port: 39024
+  server: 18.166.226.204
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - flow: xtls-rprx-vision
-  name: 🇸🇬SG_1|1.8MB/s
+  name: '🔴🇸🇬[🤖📺🎭🎪]_github.com/Ruk1ng001... #1'
   network: tcp
   packet-encoding: xudp
   port: 31871
@@ -2513,30 +1621,149 @@ proxies:
   servername: cdnjs.cloudflare.com
   tls: true
   type: vless
-  udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #6'
+- name: 🟠🇭🇰[📺📦🔍]_github.com/Ruk1ng001_...
+  password: 3QZglKmlgzc9zBCDD5W8tQ==
+  port: 443
+  server: 45.144.136.244
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: anytls
+- alterId: 2
+  cipher: auto
+  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #6'
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: ⚪🏳️[🎪]_github.com/Ruk1ng001_40...
+  network: ws
+  port: 4100
+  server: 176.98.178.17
+  servername: live.ok.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 87f3bc47-ee10-4418-9260-7a4e43f28e00
+  ws-opts:
+    path: /v1
+- name: '🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-sg1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🔴🇻🇦[🎬🤖🔍]_github.com/Ruk1ng001_...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10002
+  server: z-jp1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: '🟠🇫🇷[🤖📺🎭🎪]_github.com/Ruk1ng001... #1'
+  network: ws
+  password: humanity
+  port: 2000
+  server: 2.144.21.150
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /assignment
+- name: '🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #6'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-sg4.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: safari
+  name: ⚪🏳️_github.com/Ruk1ng001_54d00...
   network: tcp
   port: 443
+  server: guanwang.awsno.com
+  servername: gw.alicdn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  network: tcp
+  port: 24382
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 23.81.37.84
-  servername: gb.sellflow.org
+    public-key: Slau4DRZkIFgAeKGsPz5MWOp5xB1ecTNzLtbCBUGeQM
+    short-id: '8059df'
+  server: netherlands1.banovano.space
+  servername: www.yandex.ru
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
-  uuid: 50e636af-b554-4526-94ad-d0f4b34adecc
-- name: 🟠🇺🇸[🤖📺🎭✨]_github.com/Ruk1ng001...
-  password: https://xship.best
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: xship.top
-  type: hysteria2
+  uuid: c9c609d3-15d8-46fc-bdc9-abbbde5fb965
+- alterId: 2
+  cipher: auto
+  name: 🟠🇸🇬_github.com/Ruk1ng001_99365...
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: 🟠🇳🇬[🎪]_github.com/Ruk1ng001_5c...
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10022
+  server: z-eu1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 🟢🇲🇾[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: tcp
+  port: 29707
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: 'bc8e3658db7d1323'
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: ⚪🏳️[🔍]_github.com/Ruk1ng001_35...
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: '00bca5982f82d083'
+  server: 201.50.115.23
+  servername: eu-central.cendora.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
 - alterId: 2
   cipher: auto
   name: '🇭🇰 香港|@ripaojiedian #1'
@@ -2649,14 +1876,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'HK_speednode_0012 #1'
-  password: BxceQaOe
-  port: 27161
-  server: 16.162.3.11
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: 'JP_speednode_0014 #1'
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
@@ -2675,20 +1894,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇳🇱_NL_荷兰
-  port: 443
-  reality-opts:
-    public-key: rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM
-    short-id: 'c0573c8280a0c019'
-  server: nl.north-1winter.cv
-  servername: www.ya.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
 - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
   network: ws
   port: 443
@@ -2703,6 +1908,16 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /sg-melbi
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇫🇷_FR_法国
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - flow: xtls-rprx-vision
   name: US_speednode_0125
   network: tcp
@@ -2744,6 +1959,20 @@ proxies:
   type: vless
   udp: true
   uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
+- flow: xtls-rprx-vision
+  name: US_speednode_0137
+  network: tcp
+  port: 29709
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: 'bc8e3658db7d1323'
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
 - alpn:
   - h3
   auth_str: dongtaiwang.com
@@ -2776,6 +2005,14 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇺🇸_US_美国_1
+  port: 10000
+  server: 180.178.60.253
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - flow: xtls-rprx-vision
   name: SE_speednode_0116
   network: tcp
@@ -2810,32 +2047,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇷🇺_RU_俄罗斯
-  port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: '0b'
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- client-fingerprint: firefox
-  name: US_speednode_0117
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: YW6wlOE6DhEzY4nQobPKj-hoc2bpNgJineecGIgOgWM
-    short-id: '9d3734f3ff471b68'
-  server: 150.241.70.0
-  servername: stats.vk-portal.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
 - name: 🇺🇸_US_美国_2
   password: 7wzl2lj2fy956inb
   port: 40001
@@ -2860,7 +2071,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 3.1.27.130
+  server: 18.140.239.182
   servername: www.apple.com
   tls: true
   type: vless
@@ -2871,7 +2082,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 52.78.95.165
+  server: 43.201.65.8
   servername: www.apple.com
   tls: true
   type: vless
@@ -2966,107 +2177,64 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇺🇸US_2|1.1MB/s
-  password: BxceQaOe
-  port: '39024'
-  server: 18.166.226.204
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
+- alpn:
+  - http/1.1
+  encryption: none
+  name: 🇺🇸US_3|1.6MB/s
+  network: ws
+  port: '443'
+  server: ansooyefilter-hhh.up.railway.app
+  servername: ansooyefilter-hhh.up.railway.app
+  tls: true
+  type: vless
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇬🇷GR_1|2.1MB/s
-  network: tcp
-  port: '29072'
-  server: 366-1095.rabbitpro-in-3.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+  uuid: f4e637c2-f9c0-0bce-75f9-f1f4e44d1553
+  ws-opts:
+    headers:
+      Host: ansooyefilter-hhh.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /ws/f4e637c2-f9c0-0bce-75f9-f1f4e44d1553
   xudp: true
 - alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 🇩🇪DE_1|1.3MB/s
-  port: 26691
-  protocol: udp
-  server: 5.83.129.143
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 11 Mbps
-- client-fingerprint: firefox
-  name: 🇫🇮FI_1|1.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg
-    short-id: '29fd3dc0210c'
-  server: 95.216.165.65
-  servername: www.cloudflare.com
+  - http/1.1
+  encryption: none
+  name: 🇺🇸US_2|1.7MB/s
+  network: ws
+  port: '443'
+  server: 69.46.46.12
+  servername: rvg-production-1ff1.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 22199ed8-5f22-4906-9917-67e3609d8776
-- flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|1.6MB/s
+  uuid: b07f0c03-a875-ec14-18b3-41298277bb25
+  ws-opts:
+    headers:
+      Host: rvg-production-1ff1.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /ws/b07f0c03-a875-ec14-18b3-41298277bb25
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇵🇱PL_1|1013KB/s
   network: tcp
-  port: 39313
+  port: '443'
   reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: 'bc8e3658db7d1323'
-  server: 155.117.199.12
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- flow: xtls-rprx-vision
-  name: ❓Other_1|1.2MB/s
-  network: tcp
-  port: 29717
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: 'bc8e3658db7d1323'
-  server: 155.117.199.12
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇯🇵JP_2|1.1MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 10035
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '686c0ef0'
-  server: jp5-r.link-t7.com
-  servername: s0.awsstatic.com
+    public-key: 3THysl_wlV09hI961YS_MWZ_8MYjn7LVj9Q7qyKY2jQ
+    short-id: '9720904a935e'
+  server: 78.17.107.124
+  servername: pl.netdrug.ru
   tls: true
   type: vless
   udp: true
-  uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
-- auth: cd74c0a406664a5bc0bac098220a2468
-  name: 🇳🇱NL_1|1.1MB/s
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: nl2.sferavpn.pro
-  skip-cert-verify: true
-  sni: nl2.sferavpn.pro
-  type: hysteria2
-- name: 🇫🇷FR_3|1.1MB/s
+  uuid: b2e66bc9-e9df-4d71-9ae8-b04727b1e617
+  xudp: true
+- name: 🇫🇷FR_2|1.0MB/s
   network: ws
   password: humanity
   port: '443'
-  server: render.com
+  server: 104.18.152.233
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -3074,50 +2242,8 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.118 Safari/537.36
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
     path: /assignment
-- name: 🇫🇷FR_4|2.5MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_5|1.9MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.143
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /assignment
-- flow: xtls-rprx-vision
-  name: 🇭🇰HK_2|1.1MB/s
-  network: tcp
-  port: '39569'
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: 'bc8e3658db7d1323'
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-  xudp: true
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-03 | free-nodes'
   password: 4LuSQluWs3meAy5vOo7ikZ
@@ -3161,7 +2287,7 @@ proxies:
   server: 61.231.25.172
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-20 | free-nodes'
+  name: '[SS] 未知 SS-12 | free-nodes'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg001269pz2.cybervena.com
@@ -3194,16 +2320,22 @@ proxies:
   name: '[SS] 未知 SS-17 | free-nodes'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: 36.230.16.90
+  server: 36.224.177.236
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-18 | free-nodes'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: 61.231.49.100
+  server: 36.230.16.90
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-19 | free-nodes'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 61.231.49.100
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] 未知 SS-20 | free-nodes'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: 61.231.49.125
@@ -3347,6 +2479,20 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /musiclovers85_musiclovers85?ed=512
+- name: US_speednode_0120
+  network: ws
+  port: 443
+  server: www.true.th
+  servername: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: /
 - name: US_speednode_0122
   network: ws
   port: 443
