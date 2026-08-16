@@ -1,4 +1,4 @@
-# Update: 2026-08-12 20:40
+# Update: 2026-08-17 02:12
 allow-lan: true
 dns:
   enable: true
@@ -18,69 +18,25 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-sg6.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-sg5.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
 - alterId: '0'
   cipher: auto
-  name: 🟠🇮🇩[📺🎪🔍]_github.com/Ruk1ng001_...
-  network: tcp
-  port: 27035
-  server: 366-1095.rabbitpro-in-3.com
+  name: 🟠🇭🇰[📺🎪]_github.com/Ruk1ng001_b...
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
   type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- name: 🟠🇭🇰[🎬📺🎭✨]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 21521
-  server: z-hk1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 'HK_speednode_0012 #1'
+  uuid: 62319519-82bc-46ff-99cd-237bd0882cef
+  ws-opts:
+    headers:
+      Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
+    path: /
+- name: 🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001...
   network: tcp
-  password: BxceQaOe
-  port: 27161
-  server: 16.162.3.11
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 50887
+  server: 2c.fast9988.com
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: '🟠🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-kr4.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🔴🇲🇴[🧠🎪✨]_github.com/Ruk1ng001_...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 21523
-  server: z-hk1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-kr3.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
+  sni: www.nintendogames.net
   type: trojan
   udp: true
 - name: ⚪🏳️_github.com/Ruk1ng001_79f37...
@@ -97,576 +53,21 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
-- name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-jp6.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #3'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 21522
-  server: z-hk2.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  grpc-opts:
-    grpc-service-name: '12306'
-  name: '🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #1'
-  network: grpc
-  port: 443
-  server: hk02.653ebeeb-5f60-4be5-958d-7bf4839cdccd.ef6616fd-5b06-482f-9d64-183745659cbf.byteprivatelink.com
-  servername: www.12306.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 06cf100d-ca6d-4ebe-b44a-1bb15b8346cf
-- name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-jp5.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🟠🇮🇳[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10006
-  server: z-sg1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 15710
-  server: starlink-tw2.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🔴🇵🇭[🤖📺✨🔍]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 21525
-  server: z-hk1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: ⚪🏳️_github.com/Ruk1ng001_5bf78...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10001
-  server: z-sg1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🔴🇧🇩[🎬🤖📺🎪]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10010
-  server: z-sg1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-nl.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🟠🇮🇹[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-it.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-us2.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🔴🇲🇳[📺🎪✨📦]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10001
-  server: z-jp1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🟢🇻🇳[🎬🤖📺🎪]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 21526
-  server: z-hk1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 🔴🇵🇰[🎬🤖📺🎪]_github.com/Ruk1ng001...
-  network: tcp
-  port: 29035
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- name: 🟠🇨🇭[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-ch.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-us1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-us3.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10024
-  server: z-eu1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-- name: 🟠🇸🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-se.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-us4.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🟠🇭🇰[📺🎪🔍]_github.com/Ruk1ng001_...
+  name: 🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
   network: ws
   port: 443
-  server: n1761296892.4u9ma.icu
-  servername: n1761296892.4u9ma.icu
+  server: US122203.ssgreen.org
   skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
-  uuid: d6db128f-42b9-40b1-b979-5e0095fa593c
+  uuid: d279fac9-73e0-4ad7-b793-3f225e68dff5
   ws-opts:
-    headers:
-      Host: n1761296892.4u9ma.icu
-    path: /
+    headers: {}
+    path: /wes
   xudp: true
-- name: 🟢🇦🇹[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10023
-  server: z-eu2.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-de1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-- name: 🔴🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-de2.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-- name: 🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-fr.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-- name: '🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 20110
-  server: starlink-tw3.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🔴🇩🇰[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10013
-  server: z-eu1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🟠🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-uk.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: ⚪🏳️_github.com/Ruk1ng001_0905b...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10035
-  server: z-eu2.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🟠🇪🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-es.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-jp4.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🔴🇸🇰[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10008
-  server: z-eu1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-us6.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #6'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-jp1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #7'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-jp3.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🔴🇵🇰[🤖📺🎪✨]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10011
-  server: z-sg1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🟠🇨🇦[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-ca.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🔴🇷🇺[📺🎪✨🎞️]_github.com/Ruk1ng00...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10010
-  server: z-eu2.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-sg2.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🔴🇱🇹[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10011
-  server: z-eu2.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- alterId: '2'
-  cipher: auto
-  name: 🟠🇯🇵[📺]_github.com/Ruk1ng001_41...
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- name: 🟢🇭🇰[🧠🎪✨🎞️]_github.com/Ruk1ng00...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 21520
-  server: starlink-hkt2.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #8'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-jp2.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: '12306'
-  name: '🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #3'
-  network: grpc
-  port: 443
-  server: hk01.653ebeeb-5f60-4be5-958d-7bf4839cdccd.ef6616fd-5b06-482f-9d64-183745659cbf.byteprivatelink.com
-  servername: www.12306.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 06cf100d-ca6d-4ebe-b44a-1bb15b8346cf
-- name: 🟠🇧🇷[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-br.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🟠🇮🇩[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-id.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🟠🇮🇶[🎬🤖📺🎪]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10030
-  server: z-eu2.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: '🟢🇻🇳[🎬🤖📺🎪]_github.com/Ruk1ng001... #1'
-  network: tcp
-  port: 29031
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- name: 🟠🇦🇶[🤖✈️🔍]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 21524
-  server: z-hk1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 20250
-  server: 38.236.183.2
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🟠🇲🇽[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10001
-  server: z-us2.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🟠🇲🇦[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-ma.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🟠🇦🇺[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-au.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🟠🇨🇱[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-cl.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇨🇴[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10003
-  server: z-us1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '🟢🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: ws
-  port: 80
-  server: kr6-jak6bqa9.skynode.me
-  servername: node-36-250-1-90.speedtest.cn
-  type: vmess
-  udp: true
-  uuid: 588ced63-e299-381b-88f7-c18a4b9b8a3d
-  ws-headers:
-    Host: node-36-250-1-90.speedtest.cn
-  ws-opts:
-    headers:
-      Host: node-36-250-1-90.speedtest.cn
-    path: /download?ed=2560
-  ws-path: /download?ed=2560
-- name: 🟠🇿🇦[🎬🤖📺🎪]_github.com/Ruk1ng001...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-za.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-us7.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-us8.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-us5.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: tcp
-  password: BxceQaOe
-  port: 39024
-  server: 18.166.226.204
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #6'
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- name: '🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-sg1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🔴🇻🇦[🎬🤖🔍]_github.com/Ruk1ng001_...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10002
-  server: z-jp1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '🟠🇫🇷[🤖📺🎭🎪]_github.com/Ruk1ng001... #1'
-  network: ws
-  password: humanity
-  port: 2000
-  server: 2.144.21.150
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /assignment
 - alterId: 0
   cipher: auto
   client-fingerprint: safari
@@ -679,26 +80,85 @@ proxies:
   tls: true
   type: vmess
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- alterId: 2
-  cipher: auto
-  name: 🟠🇸🇬_github.com/Ruk1ng001_99365...
+- client-fingerprint: edge
+  name: '🔴🇪🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
   network: tcp
-  port: 30845
-  server: v45.hdacd.com
+  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
+  port: 449
+  server: 109.206.241.10
+  sni: russiapower.accesscam.org
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  network: ws
+  port: 443
+  server: US032011.westmgreen.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 54f1eef0-9e9b-4193-8180-fe309695a0cb
+  ws-opts:
+    headers: {}
+    path: /wes
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+  network: ws
+  port: 443
+  server: US122208.ssgreen.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 144d6608-ab2b-4f2e-a718-1b4aea6c5f88
+  ws-opts:
+    headers: {}
+    path: /wes
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
+  network: ws
+  port: 443
+  server: US122207.ssgreen.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4d307be9-06da-46a0-a75b-68b2042d5944
+  ws-opts:
+    headers: {}
+    path: /wes
+  xudp: true
+- alterId: '2'
+  cipher: auto
+  name: 🟠🇯🇵[🤖📺]_github.com/Ruk1ng001_4...
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- name: 🟠🇳🇬[🎪]_github.com/Ruk1ng001_5c...
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10022
-  server: z-eu1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
+- name: '🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #1'
+  network: ws
+  password: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  port: 2053
+  server: cf.130209.xyz
+  skip-cert-verify: false
+  sni: v4.ipsb.us.ci
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /api/v2/check_update
 - alterId: 2
   cipher: auto
   name: '🇭🇰 香港|@ripaojiedian #1'
@@ -711,32 +171,32 @@ proxies:
 - name: 🇭🇰 香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 11231
-  server: 16.162.100.124
-  skip-cert-verify: false
+  port: 1138
+  server: 43.198.107.164
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇭🇰 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11035
-  server: 18.162.244.203
+  server: 43.198.248.121
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 🇭🇰 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 18.162.120.218
+  port: 27161
+  server: 18.163.122.95
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 🇯🇵 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 16.162.100.124
+  port: 16691
+  server: 16.163.146.58
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -744,14 +204,14 @@ proxies:
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 44229
-  server: 16.162.192.182
+  server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇯🇵 日本3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 18286
+  port: 54876
   server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
@@ -759,16 +219,16 @@ proxies:
 - name: 🇸🇬 新加坡|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 32434
-  server: 16.162.100.124
+  port: 45744
+  server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 45744
-  server: 16.162.192.182
+  port: 51396
+  server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -776,7 +236,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 26704
-  server: 18.163.126.92
+  server: 16.163.146.58
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -784,7 +244,7 @@ proxies:
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 28051
-  server: 95.40.14.234
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -792,15 +252,15 @@ proxies:
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 10418
-  server: 16.162.100.124
+  server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇺🇸 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 28051
-  server: 16.162.100.124
+  port: 10418
+  server: 95.40.29.163
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -814,6 +274,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'HK_speednode_0012 #1'
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.3.11
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - name: 'HK_speednode_0013 #1'
   password: BxceQaOe
   port: 27161
@@ -830,11 +298,50 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
+- name: 🇦🇺_AU_澳大利亚
+  password: FH72359861
+  port: 443
+  server: national-stingray.rooster465.autos
+  skip-cert-verify: true
+  sni: national-stingray.rooster465.autos
+  tls: false
+  type: trojan
+  udp: true
+- name: 🇯🇵_JP_日本
+  password: FH72359861
+  port: 443
+  server: internal-mongoose.rooster465.autos
+  skip-cert-verify: true
+  sni: internal-mongoose.rooster465.autos
+  tls: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2
+  network: ws
+  port: 443
+  server: rush-6it6b.teeopp.quest
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇭🇰_HK_中国香港
-  port: 30809
-  server: v9.hdacd.com
+  name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  port: 30824
+  server: v24.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -842,23 +349,20 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国
+  name: 🇳🇱_NL_荷兰_1
+  network: ws
   port: 443
-  server: guanwang.awsno.com
+  server: 185.246.152.159
+  servername: apjhdggyx.com
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: false
-  type: trojan
-  udp: true
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  ws-opts:
+    headers:
+      Host: apjhdggyx.com
+    path: /5f72f180-b21b-4b7a-8484-240759096785
 - alterId: 0
   cipher: auto
   name: 防范境外势力渗透
@@ -949,128 +453,76 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇫🇷FR_1|1.8MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: www.speedtest.org
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /assignment
-- name: 🇯🇵JP_1|5.5MB/s
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  port: '44184'
-  server: v2jp.k1.ssnss.live
-  skip-cert-verify: false
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US_1|2.4MB/s
-  network: raw
-  port: '53168'
-  server: lt.badns.help
-  skip-cert-verify: false
+  name: 🇭🇰HK_1|2.4MB/s
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_5|2.8MB/s
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6d27fe18-4e19-4b4e-8f47-e05a85414f0d
+  ws-opts:
+    headers:
+      Host: a7fbf12df555e5e8a99fc901525aaa76.mobgslb.tbcache.com
+    path: /
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_3|1.8MB/s
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-  xudp: true
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  ws-opts:
+    headers:
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+    path: /
+- name: 🇯🇵JP_4|5.2MB/s
+  network: tcp
+  password: PQ05174892
+  port: '443'
+  server: merry-falcon.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-04 | free-nodes'
+  name: '[SS] 未知 SS-18 | free-nodes'
+  password: 48UQWJVetDr7ETiOXF+aEQ==
+  port: 8443
+  server: 217.70.14.216
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] 未知 SS-19 | free-nodes'
   password: 4LuSQluWs3meAy5vOo7ikZ
   port: 443
   server: 80.208.229.172
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-06 | free-nodes'
+  name: '[SS] 未知 SS-20 | free-nodes'
   password: 6U3psR0sQuQxWXoBHB4KTD3YacwQwS21XvSEy9
   port: 41348
   server: 45.129.96.62
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-07 | free-nodes'
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 16688
-  server: ss.041.node-for-bigairport.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-08 | free-nodes'
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 19001
-  server: ss.047.node-for-bigairport.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-09 | free-nodes'
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 19000
-  server: ss.045.node-for-bigairport.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-11 | free-nodes'
-  password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
-  port: 51523
-  server: ru.moktana.app
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-12 | free-nodes'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 61.231.25.172
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-13 | free-nodes'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001269pz2.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-14 | free-nodes'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-15 | free-nodes'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001287h3p.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-16 | free-nodes'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-17 | free-nodes'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 36.224.147.65
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-18 | free-nodes'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 36.230.16.90
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-19 | free-nodes'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 61.231.49.100
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-20 | free-nodes'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 61.231.49.125
   type: ss
 - alterId: 0
   cipher: auto
