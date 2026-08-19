@@ -1,14 +1,11 @@
 proxies:
-- alpn:
-  - ''
-  alterId: 0
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK_2|1.8MB/s
+  name: 🟠🇭🇰[📺]_github.com/Ruk1ng001_9e...
   network: ws
   packet-encoding: xudp
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
-  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -26,7 +23,7 @@ proxies:
   server: pet-albacore.rooster465.autos
   sni: pet-albacore.rooster465.autos
   type: trojan
-- name: 🇯🇵JP_1|1.1MB/s
+- name: 🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001...
   network: tcp
   password: HC04361579
   port: 443
@@ -40,7 +37,7 @@ proxies:
   server: legible-ocelot.rooster465.autos
   sni: legible-ocelot.rooster465.autos
   type: trojan
-- name: 🇯🇵_JP_日本
+- name: 🇯🇵_JP_日本_1
   network: tcp
   password: HC04361579
   port: 443
@@ -61,20 +58,17 @@ proxies:
 - alterId: 0
   cipher: auto
   http-opts:
-    headers: {}
+    method: GET
     path:
     - /
-  name: 🇺🇸US_7|2.0MB/s
+  name: '🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
   network: http
   port: 52080
   server: 38.246.226.240
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-  xudp: true
-- name: 🇫🇷FR_11|2.7MB/s
+- name: 🇫🇷FR_3|1.6MB/s
   network: tcp
   password: fg20mtCFHy
   port: 5577
@@ -94,7 +88,7 @@ proxies:
   tls: true
   type: vmess
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 🇮🇹IT_1|1.6MB/s
+- name: 🟠🇮🇹[🎬🤖📺🎭]_github.com/Ruk1ng001...
   network: tcp
   password: fg20mtCFHy
   port: 5444
@@ -102,7 +96,7 @@ proxies:
   skip-cert-verify: true
   sni: xcvge.southbyte.xyz
   type: trojan
-- name: 🇸🇪SE_1|1.3MB/s
+- name: 🟠🇸🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
   network: tcp
   password: fg20mtCFHy
   port: 5612
@@ -110,7 +104,6 @@ proxies:
   skip-cert-verify: true
   sni: yugdv.southbyte.xyz
   type: trojan
-  udp: true
 - name: ⚪🏳️_github.com/Ruk1ng001_79f37...
   network: ws
   password: HutaoCloud
@@ -137,7 +130,7 @@ proxies:
   skip-cert-verify: true
   sni: ru-5b7331.atlanta-games.com
   type: trojan
-- name: 🇩🇪DE_3|2.5MB/s
+- name: '🔴🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
   network: tcp
   password: fg20mtCFHy
   port: 5859
@@ -145,13 +138,16 @@ proxies:
   skip-cert-verify: true
   sni: uyped.southbyte.xyz
   type: trojan
-- name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
+- name: 🇯🇵_JP_日本_4
   network: tcp
   password: HC04361579
   port: 443
   server: accepted-starling.rooster465.autos
+  skip-cert-verify: true
   sni: accepted-starling.rooster465.autos
+  tls: false
   type: trojan
+  udp: true
 - name: '🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
   network: tcp
   password: fg20mtCFHy
@@ -160,16 +156,14 @@ proxies:
   skip-cert-verify: true
   sni: inxgc.southbyte.xyz
   type: trojan
-- name: 🇬🇧_GB_英国
+- name: '🟠🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
   network: tcp
   password: fg20mtCFHy
   port: 5624
   server: 104.248.167.79
   skip-cert-verify: true
   sni: dsgvc.southbyte.xyz
-  tls: false
   type: trojan
-  udp: true
 - name: 🔴🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001...
   network: tcp
   password: HC04361579
@@ -234,16 +228,14 @@ proxies:
     headers:
       Host: vpn-node.internal
     path: /xVpnTrojanWsSvc7f3a
-- name: 🇪🇸_ES_西班牙
+- name: 🟠🇪🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
   network: tcp
   password: fg20mtCFHy
   port: 5575
   server: 172.233.107.18
   skip-cert-verify: true
   sni: fgrsd.southbyte.xyz
-  tls: false
   type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
   name: '🇭🇰 香港|@ripaojiedian #1'
@@ -375,16 +367,36 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
-- name: 🇰🇷_KR_韩国
-  password: PQ05174892
-  port: 443
-  server: awake-redbird.rooster465.autos
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬_SG_新加坡
+  network: none
+  port: 47630
+  server: 43.228.126.187
   skip-cert-verify: true
-  sni: awake-redbird.rooster465.autos
-  tls: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9e5c6ebf-35f9-49a3-9f12-cba2b7cdbccb
+- name: 🇮🇳_IN_印度
+  password: M7v%w11Se*
+  port: 443
+  server: 34.131.228.210
+  skip-cert-verify: true
+  sni: hyfuuf6.wsone.icu
+  tls: false
   type: trojan
   udp: true
-- name: 🇺🇸_US_美国
+- name: 🇯🇵_JP_日本_2
+  password: fg20mtCFHy
+  port: 6092
+  server: 172.104.77.237
+  skip-cert-verify: true
+  sni: tkicy.southbyte.xyz
+  tls: false
+  type: trojan
+  udp: true
+- name: 🇺🇸_US_美国_4
   password: fg20mtCFHy
   port: 5444
   server: 173.255.247.228
@@ -393,42 +405,13 @@ proxies:
   tls: false
   type: trojan
   udp: true
-- name: 🇮🇳IN_1|1.5MB/s
+- name: 🇯🇵JP_3|1.0MB/s
   network: tcp
   password: fg20mtCFHy
-  port: '5750'
-  server: 157.245.99.215
+  port: '5710'
+  server: 172.105.197.232
   skip-cert-verify: true
-  sni: inyct.southbyte.xyz
-  tls: false
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼_TW_中国台湾
-  network: none
-  port: 31172
-  server: 202.153.4.171
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bb735a0-b26e-4628-9f1a-23a6661b1275
-- name: 🇺🇸_US_美国_3
-  password: fg20mtCFHy
-  port: 5444
-  server: 147.182.198.83
-  skip-cert-verify: true
-  sni: sfouctc.southbyte.xyz
-  tls: false
-  type: trojan
-  udp: true
-- name: 🇯🇵_JP_日本_1
-  password: ND91608427
-  port: 443
-  server: 3.112.15.214
-  skip-cert-verify: true
-  sni: adjusted-labrador.rooster465.autos
+  sni: jpcaw.southbyte.xyz
   tls: false
   type: trojan
   udp: true
@@ -522,42 +505,52 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇯🇵JP_2|3.1MB/s
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: upright-sheepdog.rooster465.autos
-  skip-cert-verify: false
-  sni: upright-sheepdog.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇱🇺LU_1|3.4MB/s
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: pretty-mollusk.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 🇫🇷FR_1|1.6MB/s
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|3.8MB/s
   network: ws
-  password: humanity
-  port: '443'
-  server: 188.114.97.7
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
+  port: 16622
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b655fa09-40b8-4317-a713-87a793dde9d0
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_2|2.3MB/s
+      Host: 883147dc12db58e094e3f13e202fe20c.mobgslb.tbcache.com
+    path: /
+- name: 🇸🇬SG_5|1.3MB/s
+  network: raw
+  password: EQ30679154
+  port: '443'
+  server: well-goshawk.rooster465.autos
+  skip-cert-verify: false
+  sni: well-goshawk.rooster465.autos
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇭🇰HK_2|2.0MB/s
+  network: ws
+  port: '16632'
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  ws-opts:
+    headers:
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- name: 🇫🇷FR_1|1.3MB/s
   network: ws
   password: humanity
   port: '443'
-  server: render.com
+  server: 104.18.152.210
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -565,140 +558,36 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
     path: /assignment
-- name: 🇫🇷FR_3|1.3MB/s
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 🇫🇷FR_2|1.1MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 104.16.174.121
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
-        Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /assignment
-- name: 🇫🇷FR_4|1.6MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 130.250.137.171
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_5|2.0MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.36
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_6|1023KB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.246
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_7|2.3MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.34
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_8|1.3MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.17.177.143
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_9|2.7MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: www.ignitelimit.com
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_10|1.7MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.7.70
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- name: 🇺🇸US_13|2.6MB/s
+- name: 🇰🇷KR_4|5.2MB/s
   network: tcp
   password: EQ30679154
   port: '443'
-  server: 34.223.2.163
+  server: 3.36.124.155
   skip-cert-verify: false
-  sni: active-hippo.rooster465.autos
+  sni: novel-kodiak.rooster465.autos
   type: trojan
   udp: true
-- name: 🇯🇵JP_3|2.9MB/s
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: 54.250.159.158
-  skip-cert-verify: false
-  sni: faithful-panther.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_4|4.7MB/s
+- name: 🇯🇵JP_1|1.8MB/s
   network: tcp
   password: EQ30679154
   port: '443'
@@ -707,25 +596,59 @@ proxies:
   sni: gentle-perch.rooster465.autos
   type: trojan
   udp: true
-- name: 🇯🇵JP_5|3.0MB/s
+- name: 🇸🇬SG_3|4.6MB/s
   network: tcp
-  password: fg20mtCFHy
-  port: '5710'
-  server: 172.105.197.232
-  skip-cert-verify: true
-  sni: jpcaw.southbyte.xyz
+  password: EQ30679154
+  port: '443'
+  server: 47.129.160.142
+  skip-cert-verify: false
+  sni: well-goshawk.rooster465.autos
   type: trojan
   udp: true
-- name: 🇳🇱NL_3|2.5MB/s
-  password: fg20mtCFHy
-  port: '5446'
-  server: 206.189.7.80
-  skip-cert-verify: true
+- name: 🇯🇵JP_2|5.1MB/s
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: gentle-perch.rooster465.autos
+  skip-cert-verify: false
+  sni: gentle-perch.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇰🇷KR_5|5.7MB/s
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: novel-kodiak.rooster465.autos
+  skip-cert-verify: false
+  sni: novel-kodiak.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇫🇷FR_5|1.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.111.1
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /assignment
+- name: 🇸🇬SG_3|4.1MB/s
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: direct-hawk.rooster465.autos
+  skip-cert-verify: false
+  sni: direct-hawk.rooster465.autos
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK_6|5.7MB/s
+  name: 🇭🇰HK_2|4.3MB/s
   network: ws
   port: 16622
   server: t.cnmjcn.cyou
@@ -733,12 +656,122 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8693fed9-62e2-48ba-9819-380acb01923d
+  uuid: b43b4eb3-3874-474d-a2fb-ddf1d15b1398
   ws-opts:
     headers:
-      Host: 5dcc4161bbb1a6ad65f913e6d5725639.mobgslb.tbcache.com
+      Host: d86f6b4af87f7763136b32ebe64db573.mobgslb.tbcache.com
     path: /
   xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR_1|1.5MB/s
+  network: ws
+  port: 16644
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b43b4eb3-3874-474d-a2fb-ddf1d15b1398
+  ws-opts:
+    headers:
+      Host: d86f6b4af87f7763136b32ebe64db573.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|4.8MB/s
+  network: ws
+  port: 16622
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 83c25eab-8461-4b6a-b714-f4279535b316
+  ws-opts:
+    headers:
+      Host: a5f19060282ba7516bdd6ce8dd04528b.mobgslb.tbcache.com
+    path: /
+- name: 🇸🇬SG_1|4.3MB/s
+  password: EQ30679154
+  port: '443'
+  server: direct-hawk.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 🇸🇬SG_2|5.4MB/s
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: moved-bass.rooster465.autos
+  skip-cert-verify: false
+  sni: moved-bass.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵JP_3|4.7MB/s
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: 3.112.44.90
+  skip-cert-verify: false
+  sni: brave-tomcat.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇰🇷KR_6|4.6MB/s
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: 54.116.195.76
+  skip-cert-verify: false
+  sni: gentle-mastiff.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵JP_4|2.6MB/s
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: 54.199.234.4
+  skip-cert-verify: false
+  sni: liked-eft.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵JP_5|6.1MB/s
+  password: EQ30679154
+  port: '443'
+  server: definite-gazelle.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 🇸🇬SG_4|4.7MB/s
+  password: EQ30679154
+  port: '443'
+  server: moved-bass.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 🇰🇷KR_7|3.8MB/s
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: gentle-mastiff.rooster465.autos
+  skip-cert-verify: false
+  sni: gentle-mastiff.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵JP_6|5.0MB/s
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: open-octopus.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 🇸🇬SG_6|1.4MB/s
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: well-goshawk.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
