@@ -1,106 +1,41 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🟠🇭🇰[📺]_github.com/Ruk1ng001_9e...
-  network: ws
-  packet-encoding: xudp
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
+  name: 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
-  ws-opts:
-    headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-    path: /
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- name: 🟠🇯🇵[🤖📺🎭🎪]_github.com/Ruk1ng001...
-  network: tcp
-  password: HC04361579
-  port: 443
-  server: pet-albacore.rooster465.autos
-  sni: pet-albacore.rooster465.autos
-  type: trojan
-- name: 🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  password: HC04361579
-  port: 443
-  server: settling-shad.rooster465.autos
-  sni: settling-shad.rooster465.autos
-  type: trojan
-- name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: tcp
-  password: HC04361579
-  port: 443
-  server: legible-ocelot.rooster465.autos
-  sni: legible-ocelot.rooster465.autos
-  type: trojan
-- name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  network: tcp
-  password: HC04361579
-  port: 443
-  server: driven-doberman.rooster465.autos
-  sni: driven-doberman.rooster465.autos
-  type: trojan
-- alterId: '0'
+- alterId: 64
   cipher: auto
-  name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  name: 🟢🇨🇳[🎞️📦]_github.com/Ruk1ng001_...
   network: tcp
-  port: 443
-  server: 64.83.12.153
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 9d476209-d8bd-9536-6e8d-61c97ec114db
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  xudp: true
 - alterId: 0
   cipher: auto
   http-opts:
     method: GET
     path:
     - /
-  name: '🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
   network: http
   port: 52080
   server: 38.246.226.240
   tls: false
   type: vmess
   uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-- name: 🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  password: fg20mtCFHy
-  port: 5577
-  server: 172.232.42.44
-  skip-cert-verify: true
-  sni: gtyxz.southbyte.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: safari
-  name: ⚪🏳️_github.com/Ruk1ng001_54d00...
-  network: tcp
-  port: 443
-  server: guanwang.awsno.com
-  servername: gw.alicdn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 🟠🇮🇹[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  password: fg20mtCFHy
-  port: 5444
-  server: 172.238.226.26
-  skip-cert-verify: true
-  sni: xcvge.southbyte.xyz
-  type: trojan
-- name: 🟠🇸🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  password: fg20mtCFHy
-  port: 5612
-  server: 172.234.100.80
-  skip-cert-verify: true
-  sni: yugdv.southbyte.xyz
-  type: trojan
 - name: ⚪🏳️_github.com/Ruk1ng001_79f37...
   network: ws
   password: HutaoCloud
@@ -115,121 +50,119 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: ajv
-  name: 🔴🇪🇪[🤖🎞️📦]_github.com/Ruk1ng001...
-  network: grpc
-  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
+- name: 🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: tcp
+  password: 179c5360-9538-11f1-9ff7-1239d0255272
   port: 443
-  server: ru-5b7331.atlanta-games.com
+  server: uk1.test3.net
   skip-cert-verify: true
-  sni: ru-5b7331.atlanta-games.com
+  sni: chatbuzzteam.ir
   type: trojan
-- name: '🔴🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: tcp
-  password: fg20mtCFHy
-  port: 5859
-  server: 209.38.240.27
-  skip-cert-verify: true
-  sni: uyped.southbyte.xyz
-  type: trojan
-- name: '🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
-  network: tcp
-  password: HC04361579
-  port: 443
-  server: accepted-starling.rooster465.autos
-  sni: accepted-starling.rooster465.autos
-  type: trojan
-- name: '🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  network: tcp
-  password: fg20mtCFHy
-  port: 5446
-  server: 206.189.7.80
-  skip-cert-verify: true
-  sni: inxgc.southbyte.xyz
-  type: trojan
-- name: '🟠🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
-  network: tcp
-  password: fg20mtCFHy
-  port: 5624
-  server: 104.248.167.79
-  skip-cert-verify: true
-  sni: dsgvc.southbyte.xyz
-  type: trojan
-- name: 🔴🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  password: HC04361579
-  port: 443
-  server: renewing-ewe.rooster465.autos
-  sni: renewing-ewe.rooster465.autos
-  type: trojan
-- name: '🟠🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #1'
-  network: tcp
-  password: HC04361579
-  port: 443
-  server: normal-elk.rooster465.autos
-  sni: normal-elk.rooster465.autos
-  type: trojan
-- name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  network: ws
-  password: ca63d6fc-cc57-4b51-85d0-6a1e53c5517e
-  port: 42993
-  server: 179.255.145.227
-  skip-cert-verify: true
-  sni: vpn-node.internal
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vpn-node.internal
-    path: /xVpnTrojanWsSvc7f3a
-- name: 🔴🇫🇷_github.com/Ruk1ng001_076b7...
-  network: ws
-  password: humanity
-  port: 40443
-  server: 2.144.21.112
+- alterId: 2
+  cipher: auto
+  name: 🟠🇩🇪[🤖🎞️📦✈️]_github.com/Ruk1ng0...
+  port: 30833
+  server: v33.hdacd.com
   skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #8'
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: ward-encourages-cleanup-notre.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 118eba6a-21f3-45d4-af0b-2a9344f2487e
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /assignment
-- name: 🟠🇺🇸[🤖📺✨✈️]_github.com/Ruk1ng00...
+      Host: ward-encourages-cleanup-notre.trycloudflare.com
+    path: /118eba6a-21f3-45d4-af0b-2a9344f2487e-vm
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #10'
   network: ws
-  password: 758a36c5-d422-4e0d-9bee-a89ce9f9b078
-  port: 48774
-  server: 172.238.22.232
-  skip-cert-verify: true
-  sni: vpn-node.internal
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: booth-moreover-framework-thereafter.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 37db053e-cb62-45bc-8a09-d2a9c2ebbd09
+  ws-opts:
+    headers:
+      Host: booth-moreover-framework-thereafter.trycloudflare.com
+    path: /37db053e-cb62-45bc-8a09-d2a9c2ebbd09-vm
+- name: 🔴🇯🇵[🎬📺🎭🎪]_github.com/Ruk1ng001...
+  network: ws
+  password: 8ccc5a61-b4f5-4fe4-a394-65890d8f044b
+  port: 443
+  server: space.byu.id.yxls.eu.cc
+  sni: space.byu.id.yxls.eu.cc
   type: trojan
   ws-opts:
-    headers:
-      Host: vpn-node.internal
-    path: /xVpnTrojanWsSvc7f3a
-- name: 🟢🇭🇰[📺🎭🎪]_github.com/Ruk1ng001_...
+    path: /sg-orcl
+- alterId: '0'
+  cipher: auto
+  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #12'
   network: ws
-  password: 2763afef-32a8-410a-b76b-4f42e3f505a1
-  port: 46867
-  server: 221.181.169.196
-  skip-cert-verify: true
-  sni: vpn-node.internal
-  type: trojan
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: written-maple-inquiries-exceptional.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: ca63bc09-a7b3-47c2-8fe5-7233c38ad489
   ws-opts:
     headers:
-      Host: vpn-node.internal
-    path: /xVpnTrojanWsSvc7f3a
-- name: 🟠🇪🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
+      Host: written-maple-inquiries-exceptional.trycloudflare.com
+    path: /ca63bc09-a7b3-47c2-8fe5-7233c38ad489-vm
+- alterId: '0'
+  cipher: auto
+  name: 🟠🇺🇸[🎬🤖📺🎪]_github.com/Ruk1ng001...
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: technique-agree-attachment-glance.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: a91735be-f448-4bef-ba5e-c1c5773b9a31
+  ws-opts:
+    headers:
+      Host: technique-agree-attachment-glance.trycloudflare.com
+    path: /a91735be-f448-4bef-ba5e-c1c5773b9a31-vm
+- alterId: 0
+  cipher: auto
+  client-fingerprint: safari
+  name: ⚪🏳️_github.com/Ruk1ng001_54d00...
   network: tcp
-  password: fg20mtCFHy
-  port: 5575
-  server: 172.233.107.18
+  port: 443
+  server: guanwang.awsno.com
+  servername: gw.alicdn.com
   skip-cert-verify: true
-  sni: fgrsd.southbyte.xyz
-  type: trojan
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- alterId: '0'
+  cipher: auto
+  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #13'
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: sewing-marble-inclusive-focal.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 67d5bb32-1b51-4dad-97fb-c27ffbc3e58f
+  ws-opts:
+    headers:
+      Host: sewing-marble-inclusive-focal.trycloudflare.com
+    path: /67d5bb32-1b51-4dad-97fb-c27ffbc3e58f-vm
 - alterId: 2
   cipher: auto
   name: '🇭🇰 香港|@ripaojiedian #1'
@@ -241,65 +174,65 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇭🇰 香港3|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 14684
-  server: 43.199.143.104
+  server: 18.162.120.218
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇭🇰 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11231
-  server: 95.40.89.31
+  port: 27161
+  server: 16.162.121.244
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 🇭🇰 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 7674
-  server: 95.40.89.31
+  port: 27161
+  server: 43.198.21.141
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 🇯🇵 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3878
-  server: 16.162.100.208
+  port: 16691
+  server: 43.198.21.141
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 🇯🇵 日本2|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 14625
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 54876
   server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇯🇵 日本3|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 55647
-  server: 16.162.109.29
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 38936
+  server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 45744
-  server: 16.162.100.124
+  server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡2|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 32434
-  server: 16.162.100.124
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -307,31 +240,31 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 45744
-  server: 16.162.100.208
+  server: 16.162.121.244
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 🇺🇸 美国|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 39024
-  server: 16.162.109.29
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 34039
+  server: 18.162.120.218
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇺🇸 美国2|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 28051
-  server: 18.163.126.92
+  server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 🇺🇸 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 10418
-  server: 18.163.74.15
+  port: 53001
+  server: 43.199.47.78
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -345,39 +278,97 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇵🇱_PL_波兰
+  password: AE62539071
+  port: 443
+  server: enough-basilisk.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
 - name: 🇯🇵_JP_日本
-  password: HC04361579
+  password: AE62539071
   port: 443
-  server: exact-sawfish.rooster465.autos
+  server: 13.230.97.36
   skip-cert-verify: true
-  sni: exact-sawfish.rooster465.autos
-  tls: true
+  sni: known-albacore.rooster465.autos
+  tls: false
   type: trojan
   udp: true
-- name: 🇸🇬_SG_新加坡
-  password: EQ30679154
-  port: 443
-  server: 47.129.160.142
+- name: 🇭🇰_HK_中国香港
+  password: BxceQaOe
+  port: 11231
+  server: 95.40.89.31
   skip-cert-verify: true
-  sni: well-goshawk.rooster465.autos
-  tls: true
+  sni: t.me%2Fripaojiedian
+  tls: false
   type: trojan
   udp: true
-- name: 🇵🇱_PL_波兰_1
-  password: EQ30679154
+- name: 🇮🇪_IE_爱尔兰
+  password: AE62539071
   port: 443
-  server: pretty-mollusk.rooster465.autos
+  server: kind-stork.rooster465.autos
   skip-cert-verify: true
   tls: false
   type: trojan
   udp: true
-- name: 🇺🇸_US_美国
-  password: fg20mtCFHy
-  port: 5692
-  server: 128.1.248.162
+- name: 🇫🇷_FR_法国
+  password: AE62539071
+  port: 443
+  server: 15.237.214.103
   skip-cert-verify: true
-  sni: quicknet.southbyte.xyz
+  sni: tough-hermit.rooster465.autos
   tls: false
+  type: trojan
+  udp: true
+- name: 🇯🇵_JP_日本_1
+  password: AE62539071
+  port: 443
+  server: 3.113.21.187
+  skip-cert-verify: true
+  sni: awaited-lark.rooster465.autos
+  tls: false
+  type: trojan
+  udp: true
+- name: 🇦🇺_AU_澳大利亚
+  password: AE62539071
+  port: 443
+  server: together-dingo.rooster465.autos
+  skip-cert-verify: true
+  tls: false
+  type: trojan
+  udp: true
+- name: 🇮🇪_IE_爱尔兰_1
+  password: AE62539071
+  port: 443
+  server: healthy-panda.rooster465.autos
+  skip-cert-verify: true
+  tls: false
+  type: trojan
+  udp: true
+- name: 🇺🇸_US_美国_1
+  password: AE62539071
+  port: 443
+  server: humorous-hawk.rooster465.autos
+  skip-cert-verify: true
+  sni: humorous-hawk.rooster465.autos
+  tls: false
+  type: trojan
+  udp: true
+- name: 🇯🇵_JP_日本_3
+  password: PQ05174892
+  port: 443
+  server: balanced-goat.rooster465.autos
+  skip-cert-verify: true
+  tls: false
+  type: trojan
+  udp: true
+- name: 🇫🇷_FR_法国_1
+  password: AE62539071
+  port: 443
+  server: one-quail.rooster465.autos
+  skip-cert-verify: true
+  tls: true
   type: trojan
   udp: true
 - alterId: 0
@@ -470,182 +461,136 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇯🇵JP_1|6.0MB/s
-  network: tcp
-  password: PQ05174892
+- name: 🇫🇷FR_1|1.9MB/s
+  network: ws
+  password: humanity
   port: '443'
-  server: ideal-phoenix.rooster465.autos
+  server: 104.18.152.246
   skip-cert-verify: false
-  sni: ideal-phoenix.rooster465.autos
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬SG_2|2.8MB/s
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: resolution-secretary-presence-amazing.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3d69d9bc-eaae-42bd-828f-6894c7d7edbf
   ws-opts:
     headers:
-      Host: resolution-secretary-presence-amazing.trycloudflare.com
-    path: /3d69d9bc-eaae-42bd-828f-6894c7d7edbf-vm
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬SG_3|2.6MB/s
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: willing-relative-las-legislative.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3e1c7cc6-6324-48bf-9855-05c8afae90b3
-  ws-opts:
-    headers:
-      Host: willing-relative-las-legislative.trycloudflare.com
-    path: /3e1c7cc6-6324-48bf-9855-05c8afae90b3-vm
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_5|1.9MB/s
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: pas-seo-delays-safe.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 20a16a21-6468-4e63-96e1-d9cecf0035ce
-  ws-opts:
-    headers:
-      Host: pas-seo-delays-safe.trycloudflare.com
-    path: /20a16a21-6468-4e63-96e1-d9cecf0035ce-vm
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_2|2.8MB/s
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: chest-own-llp-collections.trycloudflare.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- name: 🇭🇰HK_5|4.4MB/s
+  password: BxceQaOe
+  port: '27161'
+  server: 43.198.21.141
   skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇯🇵JP_3|2.1MB/s
+  password: BxceQaOe
+  port: '16691'
+  server: 43.198.21.141
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: 🇺🇸US_24|2.8MB/s
+  password: BxceQaOe
+  port: '53001'
+  server: 43.199.47.78
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: '🇫🇷FR_1|1.9MB/s #1'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.111.8
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_2|1.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.177.143
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+    path: /assignment
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  name: 🇫🇷FR_3|1.2MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 198.41.223.96
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_4|1.7MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.175
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /assignment
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇫🇷FR_5|1.0MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 188.114.97.6
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /assignment
+- alterId: '0'
+  cipher: auto
+  name: 🇯🇵JP_7|2.3MB/s
+  network: ws
+  port: '443'
+  server: node.socks5.kdns.fr
+  skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: e1ed0569-bfe4-468f-aa9a-63819e8229ef
+  udp: true
+  uuid: e98ae327-f7b8-4984-bb96-8f021c36a9ed
   ws-opts:
     headers:
-      Host: chest-own-llp-collections.trycloudflare.com
-    path: /e1ed0569-bfe4-468f-aa9a-63819e8229ef-vm
-- name: 🇯🇵JP_2|5.9MB/s
-  network: tcp
-  password: AE62539071
-  port: '443'
-  server: climbing-frog.rooster465.autos
-  skip-cert-verify: false
-  sni: climbing-frog.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_3|5.0MB/s
-  network: tcp
-  password: AE62539071
-  port: '443'
-  server: relevant-cicada.rooster465.autos
-  skip-cert-verify: false
-  sni: relevant-cicada.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_4|5.8MB/s
-  network: tcp
-  password: AE62539071
-  port: '443'
-  server: 54.250.97.109
-  skip-cert-verify: false
-  sni: current-barnacle.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_5|5.2MB/s
-  network: tcp
-  password: AE62539071
-  port: '443'
-  server: 18.183.178.158
-  skip-cert-verify: false
-  sni: inviting-burro.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_6|4.4MB/s
-  network: tcp
-  password: AE62539071
-  port: '443'
-  server: 57.181.88.104
-  skip-cert-verify: false
-  sni: climbing-frog.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_7|4.4MB/s
-  network: tcp
-  password: AE62539071
-  port: '443'
-  server: 54.249.32.173
-  skip-cert-verify: false
-  sni: eager-camel.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_8|5.3MB/s
-  password: AE62539071
-  port: '443'
-  server: climbing-frog.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_9|1.1MB/s
-  password: AE62539071
-  port: '443'
-  server: easy-barnacle.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_10|4.3MB/s
-  password: AE62539071
-  port: '443'
-  server: inviting-burro.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_11|5.4MB/s
-  network: tcp
-  password: AE62539071
-  port: '443'
-  server: 13.231.24.177
-  skip-cert-verify: false
-  sni: easy-barnacle.rooster465.autos
-  type: trojan
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_4|3.2MB/s
-  network: ws
-  port: '16648'
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b5f7ad86-9e40-4684-98f9-83f8136a1054
-  ws-opts:
-    headers:
-      Host: eeee7339c9f412913069ff64b12fb71f.mobgslb.tbcache.com
-    path: /
+      Host: instructor-theme-persons-clients.trycloudflare.com
+    path: /e98ae327-f7b8-4984-bb96-8f021c36a9ed-vm
   xudp: true
 - alterId: 0
   cipher: auto
