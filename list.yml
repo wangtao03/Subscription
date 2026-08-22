@@ -1,4 +1,4 @@
-# Update: 2026-08-22 14:19
+# Update: 2026-08-22 20:15
 allow-lan: true
 dns:
   enable: true
@@ -47,7 +47,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 🇺🇸US_2|3.5MB/s
+  name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
   network: http
   port: 52080
   server: 38.246.226.240
@@ -125,14 +125,13 @@ proxies:
   skip-cert-verify: true
   sni: uk1.test3.net
   type: trojan
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 🇺🇸US_1|3.2MB/s
+  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
   network: ws
   port: 443
   server: node.socks5.kdns.fr
   servername: hawaiian-bald-shed-goes.trycloudflare.com
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: de2b04aa-cc4d-4bc8-86e2-eca350671ea8
@@ -162,13 +161,133 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
+  name: 🇨🇳_CN_中国->🇯🇵_JP_日本
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2
+  network: ws
+  port: 443
+  server: rush-w1niu.teeopp.online
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_3
+  port: 443
+  server: guanwang.awsno.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- alterId: 0
+  cipher: auto
+  name: 防范境外势力渗透
+  network: tcp
+  port: '80'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #1'
+  network: tcp
+  port: '81'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #2'
+  network: tcp
+  port: '82'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #3'
+  network: tcp
+  port: '83'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #4'
+  network: tcp
+  port: '84'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #5'
+  network: tcp
+  port: '85'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #6'
+  network: tcp
+  port: '86'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #7'
+  network: tcp
+  port: '87'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #8'
+  network: tcp
+  port: '88'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #9'
+  network: tcp
+  port: '89'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 2
+  cipher: auto
   name: '🇭🇰 香港|@ripaojiedian #1'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇭🇰 香港3|@ripaojiedian
   network: tcp
@@ -276,175 +395,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇺🇸_US_美国
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 46292
-  server: us01.duotg.top
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇯🇵_JP_日本
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3
-  port: 443
-  server: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- alterId: 0
-  cipher: auto
-  name: 防范境外势力渗透
-  network: tcp
-  port: '80'
-  server: 127.0.0.53
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: '防范境外势力渗透 #1'
-  network: tcp
-  port: '81'
-  server: 127.0.0.53
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: '防范境外势力渗透 #2'
-  network: tcp
-  port: '82'
-  server: 127.0.0.53
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: '防范境外势力渗透 #3'
-  network: tcp
-  port: '83'
-  server: 127.0.0.53
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: '防范境外势力渗透 #4'
-  network: tcp
-  port: '84'
-  server: 127.0.0.53
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: '防范境外势力渗透 #5'
-  network: tcp
-  port: '85'
-  server: 127.0.0.53
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: '防范境外势力渗透 #6'
-  network: tcp
-  port: '86'
-  server: 127.0.0.53
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: '防范境外势力渗透 #7'
-  network: tcp
-  port: '87'
-  server: 127.0.0.53
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: '防范境外势力渗透 #8'
-  network: tcp
-  port: '88'
-  server: 127.0.0.53
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: '防范境外势力渗透 #9'
-  network: tcp
-  port: '89'
-  server: 127.0.0.53
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_3|2.3MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 188.42.145.180
-  skip-cert-verify: true
-  sni: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-g@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇫🇷FR_1|1.6MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.33
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_2|1.1MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.26.14.137
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/39.0.2171.95 Safari/537.36
-    path: /assignment
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: 🇭🇰HK_3|5.7MB/s
+  name: 🇭🇰HK_2|3.4MB/s
   network: ws
-  port: '16632'
+  port: 16632
   server: planb.mojcn.com.linuxlh.xin
   servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
   skip-cert-verify: false
@@ -457,121 +414,18 @@ proxies:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
   xudp: true
-- name: 🇫🇷FR_3|1.1MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: www.speedtest.org
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Chrome/12.0.742.100 Safari/534.30
-    path: /assignment
-- name: 🇫🇷FR_4|1.1MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.72
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_5|1.5MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.17.111.4
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_6|1.0MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: www.ignitelimit.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_7|1.6MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.208
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /assignment
-- alterId: '0'
+- alterId: 2
   cipher: auto
-  name: 🇭🇰HK_2|5.6MB/s
-  network: ws
-  port: '16622'
-  server: planb.mojcn.com.linuxlh.xin
+  name: 🇸🇬SG_1|5.0MB/s
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: b312c029-18bb-43c8-bc5a-b4f8d193853c
-  ws-opts:
-    headers:
-      Host: 09a25e0678d5f69a5bb882d9f6441ad2.mobgslb.tbcache.com
-    path: /
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- alpn:
-  - http/1.1
-  name: 🇳🇱NL_1|2.6MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 188.114.97.6
-  skip-cert-verify: false
-  sni: 3865895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇫🇷FR_1|1.9MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.19.229.21
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: assignment
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
