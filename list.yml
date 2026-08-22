@@ -1,4 +1,4 @@
-# Update: 2026-08-22 02:20
+# Update: 2026-08-22 08:33
 allow-lan: true
 dns:
   enable: true
@@ -20,12 +20,177 @@ mode: rule
 proxies:
 - alterId: 2
   cipher: auto
+  name: 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alterId: 64
+  cipher: auto
+  name: 🟢🇨🇳[🎞️📦]_github.com/Ruk1ng001_...
+  network: tcp
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  xudp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  tls: false
+  type: vmess
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- name: ⚪🏳️_github.com/Ruk1ng001_79f37...
+  network: ws
+  password: HutaoCloud
+  port: 11543
+  server: 185.220.238.77
+  skip-cert-verify: true
+  sni: 185.220.238.77
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /api
+- name: 🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: tcp
+  password: 179c5360-9538-11f1-9ff7-1239d0255272
+  port: 443
+  server: uk1.test3.net
+  skip-cert-verify: true
+  sni: chatbuzzteam.ir
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 🟠🇩🇪[🤖🎞️📦✈️]_github.com/Ruk1ng0...
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #8'
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: ward-encourages-cleanup-notre.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 118eba6a-21f3-45d4-af0b-2a9344f2487e
+  ws-opts:
+    headers:
+      Host: ward-encourages-cleanup-notre.trycloudflare.com
+    path: /118eba6a-21f3-45d4-af0b-2a9344f2487e-vm
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #10'
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: booth-moreover-framework-thereafter.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 37db053e-cb62-45bc-8a09-d2a9c2ebbd09
+  ws-opts:
+    headers:
+      Host: booth-moreover-framework-thereafter.trycloudflare.com
+    path: /37db053e-cb62-45bc-8a09-d2a9c2ebbd09-vm
+- name: 🔴🇯🇵[🎬📺🎭🎪]_github.com/Ruk1ng001...
+  network: ws
+  password: 8ccc5a61-b4f5-4fe4-a394-65890d8f044b
+  port: 443
+  server: space.byu.id.yxls.eu.cc
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    path: /sg-orcl
+- alterId: '0'
+  cipher: auto
+  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #12'
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: written-maple-inquiries-exceptional.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: ca63bc09-a7b3-47c2-8fe5-7233c38ad489
+  ws-opts:
+    headers:
+      Host: written-maple-inquiries-exceptional.trycloudflare.com
+    path: /ca63bc09-a7b3-47c2-8fe5-7233c38ad489-vm
+- alterId: '0'
+  cipher: auto
+  name: 🟠🇺🇸[🎬🤖📺🎪]_github.com/Ruk1ng001...
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: technique-agree-attachment-glance.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: a91735be-f448-4bef-ba5e-c1c5773b9a31
+  ws-opts:
+    headers:
+      Host: technique-agree-attachment-glance.trycloudflare.com
+    path: /a91735be-f448-4bef-ba5e-c1c5773b9a31-vm
+- alterId: 0
+  cipher: auto
+  client-fingerprint: safari
+  name: ⚪🏳️_github.com/Ruk1ng001_54d00...
+  network: tcp
+  port: 443
+  server: guanwang.awsno.com
+  servername: gw.alicdn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- alterId: '0'
+  cipher: auto
+  name: '🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #13'
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: sewing-marble-inclusive-focal.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 67d5bb32-1b51-4dad-97fb-c27ffbc3e58f
+  ws-opts:
+    headers:
+      Host: sewing-marble-inclusive-focal.trycloudflare.com
+    path: /67d5bb32-1b51-4dad-97fb-c27ffbc3e58f-vm
+- alterId: 2
+  cipher: auto
   name: '🇭🇰 香港|@ripaojiedian #1'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇭🇰 香港3|@ripaojiedian
   network: tcp
@@ -133,41 +298,30 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 64
-  cipher: auto
-  name: 🇨🇳_CN_中国_1
-  port: 50002
-  server: 112.132.215.108
+- name: 🇺🇸_US_美国
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 46292
+  server: us01.duotg.top
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国
-  port: 443
-  server: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 🇺🇸_US_美国_3
-  password: fg20mtCFHy
-  port: 5529
-  server: 128.14.156.48
-  skip-cert-verify: true
-  sni: gonets.southbyte.xyz
+  sni: www.microsoft.com
   tls: false
   type: trojan
   udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇯🇵_JP_日本
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_4
+  name: 🇺🇸_US_美国_3
   port: 443
-  server: 23.95.248.105
-  servername: 23.95.248.105
+  server: guanwang.awsno.com
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -264,41 +418,115 @@ proxies:
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
+  - http/1.1
+  name: 🇳🇱NL_1|4.0MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 188.114.97.6
+  skip-cert-verify: false
+  sni: 3865895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  type: trojan
+  udp: true
+  ws-opts:
     headers:
-      Host:
-      - www.apple.com
-    path:
-    - /
-  name: 🇩🇪DE_4|1.2MB/s
-  network: http
-  port: '80'
-  server: 167.233.242.189
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_2|5.8MB/s
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 7209d7ee-cfd0-46c0-a580-d92e2f0c801c
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
   xudp: true
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_4|2.3MB/s
+- name: 🇫🇷FR_1|1.7MB/s
   network: ws
-  password: MiTiVPN
+  password: humanity
   port: '443'
-  server: 156.243.83.240
+  server: 104.18.152.133
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_4|1.2MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.230
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /assignment
+- alterId: '0'
+  cipher: auto
+  name: 🇫🇮FI_1|1.2MB/s
+  network: tcp
+  port: '14849'
+  server: 65.109.211.136
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0de36006-3fab-40a6-ac2b-b9663b815a17
+  xudp: true
+- name: 🇯🇵JP_1|2.0MB/s
+  network: tcp
+  password: fg20mtCFHy
+  port: '5443'
+  server: 172.237.3.17
   skip-cert-verify: true
-  sni: 8373638-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: 🇫🇷FR_1|3.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.143
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_2|2.3MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.7.70
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/f-l@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
