@@ -1,4 +1,4 @@
-# Update: 2026-09-08 23:33
+# Update: 2026-09-09 04:25
 allow-lan: true
 dns:
   enable: true
@@ -19,7 +19,7 @@ mixed-port: 7890
 mode: rule
 proxies:
 - fingerprint: ''
-  name: 🇭🇰HK_1|3.2MB/s
+  name: 🇭🇰HK_1|5.2MB/s
   password: dCwrni
   port: '7008'
   server: api.meituan88.com
@@ -216,7 +216,7 @@ proxies:
   uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
   xudp: true
 - client-fingerprint: android
-  name: C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_31a66235
+  name: 🇺🇸US_9|3.3MB/s
   network: ws
   port: 443
   server: 2.26.21.230
@@ -254,7 +254,7 @@ proxies:
   tls: true
   type: vless
   uuid: d742752c-4231-4695-801e-f06d77f0f277
-- name: 🇸🇩SD_1|3.6MB/s
+- name: '🇸🇩SD_1|3.6MB/s #1'
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10012
   server: z-jp2.1card.cc
@@ -306,7 +306,7 @@ proxies:
   type: vless
   udp: true
   uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
-- name: A🟢🇭🇰[🎬📺🎭🎪]_dokng.com_078efcc4
+- name: 🇭🇰HK_1|2.3MB/s
   network: tcp
   password: d742752c-4231-4695-801e-f06d77f0f277
   port: 52224
@@ -356,7 +356,7 @@ proxies:
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   xudp: true
-- name: D🔴🇦🇫[🎬📺🎭🎪]_dokng.com_fe05d4de
+- name: 🇦🇫AF_1|3.3MB/s
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10009
   server: z-jp1.1card.cc
@@ -414,7 +414,7 @@ proxies:
   server: de1.xiaoliyu.cyou
   skip-cert-verify: true
   type: hysteria2
-- name: D🔴🇲🇲[🎬🧠📺🎭]_dokng.com_e5da3893
+- name: 🇲🇲MM_1|4.7MB/s
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10046
   server: z-sg2.6send.com
@@ -2957,7 +2957,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 18.141.210.11
+  server: 18.141.3.69
   servername: www.apple.com
   tls: true
   type: vless
@@ -2968,11 +2968,97 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 13.209.70.1
+  server: 3.34.46.62
   servername: www.apple.com
   tls: true
   type: vless
   uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: 🇺🇸US_1|4.3MB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+- name: 🇹🇭TH_1|1.6MB/s
+  network: ws
+  port: '80'
+  server: v2ray.simspeedup.com
+  type: vless
+  udp: true
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  ws-opts:
+    headers:
+      Host: v2ray.simspeedup.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /ws
+  xudp: true
+- encryption: mlkem768x25519plus.native.0rtt.krmkbckycnkKq29MKnNpZCtkqMKlO9q4svhCzMA5enw
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|1.4MB/s
+  network: ws
+  port: '9932'
+  server: 4de.arosakforosh.ir
+  type: vless
+  udp: true
+  uuid: 9f6f094d-0f59-4422-9575-3cfe3d8e0ed2
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  encryption: none
+  name: 🇺🇸US_10|2.7MB/s
+  network: ws
+  port: '443'
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: abd924f4-132d-4ad3-ac2a-3aa01b8e5923
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /ws
+  xudp: true
+- flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|3.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: QfQwHAZyrDBB7m_NWWSbzblY83R_F8SaqnVA3nTHERQ
+    short-id: '683e7a619f453455'
+  server: 49.13.92.156
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c686af39-cfe4-4c67-bc99-536a505af27e
+  xudp: true
+- encryption: none
+  name: 🇬🇧GB_3|1.6MB/s
+  network: ws
+  port: '2096'
+  server: 82.47.169.33
+  type: vless
+  udp: true
+  uuid: e666041f-8a25-4f05-812d-a5984e748497
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
