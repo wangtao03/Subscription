@@ -1,4 +1,4 @@
-# Update: 2026-09-09 09:55
+# Update: 2026-09-09 18:17
 allow-lan: true
 dns:
   enable: true
@@ -56,7 +56,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /assignment
-- name: 🇾🇪YE_1|2.5MB/s
+- name: '🇾🇪YE_1|2.5MB/s #1'
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10010
   server: z-jp2.1card.cc
@@ -64,7 +64,7 @@ proxies:
   sni: www.cloudflare.com
   type: trojan
   udp: true
-- name: '🇸🇩SD_1|3.5MB/s #1'
+- name: 🇯🇵_JP_日本->🇸🇩_SD_苏丹
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10012
   server: z-jp2.1card.cc
@@ -80,7 +80,7 @@ proxies:
   sni: www.cloudflare.com
   type: trojan
   udp: true
-- name: 🇭🇰HK_1|4.1MB/s
+- name: '🇭🇰HK_1|4.1MB/s #1'
   network: tcp
   password: d742752c-4231-4695-801e-f06d77f0f277
   port: '52224'
@@ -115,7 +115,7 @@ proxies:
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   xudp: true
-- name: '🇦🇫AF_1|3.5MB/s #2'
+- name: 🇦🇫AF_1|3.5MB/s
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10009
   server: z-jp1.1card.cc
@@ -344,22 +344,22 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  name: '🇫🇷FR_1|1.4MB/s #2'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 216.24.57.7
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+- name: '🇳🇵NP_1|2.3MB/s #1'
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10044
+  server: z-sg1.6send.com
+  skip-cert-verify: true
+  sni: www.cloudflare.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /assignment
+- name: 🇱🇦LA_1|1.1MB/s
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10045
+  server: z-sg1.6send.com
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   name: 🇭🇰_HK_中国香港->🇫🇷_FR_法国
@@ -408,7 +408,23 @@ proxies:
   sni: www.cloudflare.com
   type: trojan
   udp: true
-- name: 🇦🇫 AF_91
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_1|1.4MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 216.24.57.7
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /assignment
+- name: 🇦🇫AF_1|2.7MB/s
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10009
   server: z-jp2.1card.cc
@@ -771,22 +787,6 @@ proxies:
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10010
   server: z-jp1.1card.cc
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🇳🇵NP_1|2.3MB/s
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10044
-  server: z-sg1.6send.com
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🇱🇦LA_1|3.4MB/s
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10045
-  server: z-sg1.6send.com
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
