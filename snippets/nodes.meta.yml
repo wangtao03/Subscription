@@ -159,7 +159,7 @@ proxies:
   tls: true
   type: vless
   uuid: bbbad538-910a-8972-278a-718093dc9980
-- name: 🇺🇸US_5|5.1MB/s
+- name: 🇺🇸US_1|4.0MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
@@ -215,7 +215,7 @@ proxies:
 - ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇺🇸US_9|2.6MB/s
+  name: D🔴🇰🇷[🎬📺🎭🎪]_dokng.com_8ea15433
   network: ws
   port: 443
   server: 104.17.159.189
@@ -229,7 +229,7 @@ proxies:
       Host: fq.jp188.dpdns.org
     path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
 - auth: 3a702d4d1de4949005d8431220e040fb
-  name: C🟠🇨🇭[🎬🤖📺🎭]_dokng.com_aa91c678
+  name: 🇨🇭CH_2|1.9MB/s
   obfs: salamander
   obfs-password: c13f29db6a638ad2b211b9ce2669ef27
   password: 3a702d4d1de4949005d8431220e040fb
@@ -526,7 +526,7 @@ proxies:
   sni: jpsui.jzy88.top
   type: anytls
   udp: true
-- name: 🇬🇧GB_1|4.1MB/s
+- name: 🇬🇧GB_1|3.5MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -799,22 +799,22 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '🇲🇲MM_1|3.5MB/s #2'
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10046
-  server: z-sg2.6send.com
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|4.6MB/s
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- name: '🇧🇹BT_1|1.8MB/s #2'
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10011
-  server: z-jp2.1card.cc
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
+  uuid: bc8a58c9-a544-4f85-87cf-274f6eb4d8cb
+  ws-opts:
+    headers:
+      Host: 9531724e3efc3135bdf7f4339b2e04d7.mobgslb.tbcache.com
+    path: /
+  xudp: true
 - alpn:
   - ''
   alterId: 0
@@ -888,11 +888,9 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇱🇻LV_3|2.8MB/s
-  network: raw
-  port: '443'
+- flow: xtls-rprx-vision
+  name: 🇱🇻_LV_拉脱维亚
+  port: 443
   reality-opts:
     public-key: NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo
     short-id: '5c256336e3b673fa'
@@ -903,7 +901,6 @@ proxies:
   type: vless
   udp: true
   uuid: 02fcc1a4-ee90-4970-8bbb-4ffaa8109d24
-  xudp: true
 - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
   port: 58011
   server: us22.sofast.live
@@ -914,13 +911,13 @@ proxies:
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
 - encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_5|2.5MB/s
-  network: raw
+  name: 🇬🇧GB_4|1023KB/s
+  network: tcp
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
   server: brightharbor.download
-  servername: localhost
+  servername: brightharbor.download
   skip-cert-verify: true
   tls: true
   type: vless
@@ -1010,7 +1007,7 @@ proxies:
   type: hysteria2
   udp: true
 - encryption: none
-  name: 🇬🇧GB_7|3.8MB/s
+  name: 🇺🇸 美国 | USA 31
   network: tcp
   port: 443
   reality-opts:
@@ -2206,7 +2203,7 @@ proxies:
 - grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇰🇷KR_1|5.3MB/s
+  name: 🇰🇷KR_1|3.5MB/s
   network: grpc
   port: 10049
   reality-opts:
@@ -2221,7 +2218,7 @@ proxies:
 - grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇰🇷KR_2|4.5MB/s
+  name: 🇰🇷KR_1|2.6MB/s
   network: grpc
   port: 10046
   reality-opts:
@@ -2236,7 +2233,7 @@ proxies:
 - grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇸🇬SG_1|4.8MB/s
+  name: 🇸🇬SG_1|5.4MB/s
   network: grpc
   port: 10037
   reality-opts:
@@ -2249,7 +2246,7 @@ proxies:
   udp: true
   uuid: D2436339-0F26-479A-8064-4D91C2B93652
 - flow: xtls-rprx-vision
-  name: 🇺🇸US_1|3.3MB/s
+  name: 🇺🇸US_1|2.6MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -2297,8 +2294,7 @@ proxies:
   udp: true
   uuid: 1ab5ef70-14af-428b-bf4b-03889e0a3131
   xudp: true
-- encryption: none
-  name: 🇬🇧GB_6|4.5MB/s
+- name: 🇬🇧GB_4|4.2MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -2311,6 +2307,22 @@ proxies:
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
   xudp: true
+- name: 🇲🇲MM_1|3.5MB/s
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10046
+  server: z-sg2.6send.com
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇧🇹BT_1|1.8MB/s
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10011
+  server: z-jp2.1card.cc
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 🇺🇸US_7|3.3MB/s
@@ -2571,15 +2583,14 @@ proxies:
     mode: auto
     path: /@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---
 - encryption: mlkem768x25519plus.native.0rtt.UIj8DGzlc6BltM32rsxWO_NYIp7KK2bzYWdnRIOJPn4
-  name: 🇩🇪DE_1|3.1MB/s
+  name: 🇩🇪 德国 | DEU 5
   network: tcp
-  port: '27634'
+  port: 27634
   server: 45.74.158.39
   tls: false
   type: vless
   udp: true
   uuid: f8ac5397-4ccb-4ba8-b490-32032e752038
-  xudp: true
 - name: 🇫🇷 法国 | FRA
   network: ws
   password: humanity
@@ -2798,7 +2809,7 @@ proxies:
 - grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇸🇬 新加坡 | SGP 2
+  name: 🇸🇬SG_2|4.5MB/s
   network: grpc
   port: 10036
   reality-opts:
@@ -3139,10 +3150,9 @@ proxies:
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
 - alpn:
   - h2
-  encryption: none
-  name: 🇫🇮FI_1|1.4MB/s
+  name: 🇺🇸 美国 | USA 27
   network: ws
-  port: '443'
+  port: 443
   server: k2.cloud--vpn.site
   servername: ssl.fastly.com
   tls: true
@@ -3152,10 +3162,7 @@ proxies:
   ws-opts:
     headers:
       Host: c12.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /
-  xudp: true
 - name: 🇺🇸 美国 | USA 28
   network: ws
   password: humanity
@@ -3201,7 +3208,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 47.129.195.98
+  server: 13.212.16.243
   servername: www.apple.com
   tls: true
   type: vless
@@ -3212,7 +3219,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 3.34.197.128
+  server: 15.164.224.33
   servername: www.apple.com
   tls: true
   type: vless
@@ -3245,151 +3252,83 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
         (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     path: assignment
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_2|4.2MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: ''
-  server: 2.26.178.129
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇳🇴NO_1|1.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: 'fd55b698ee8c3629'
-  server: 151.242.168.207
-  servername: kibi-institut.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1cbeb6e4-06c0-421b-9baa-8af782d6e6cc
-  xudp: true
 - flow: xtls-rprx-vision
-  name: 🇬🇧GB_13|3.7MB/s
+  name: 🇬🇧GB_1|1.7MB/s
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: ''
-  server: 2.26.178.172
+  server: 2.26.178.154
   servername: localhost
   tls: true
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
 - alpn:
-  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_14|3.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: ''
-  server: 2.26.178.187
-  servername: localhost
-  tls: true
-  type: vless
+  - h2
+  - http/1.1
+  name: 🇯🇵JP_1|4.1MB/s
+  password: 34da2119-c5ff-45df-870c-9ddb75d88d3b
+  port: 21123
+  server: xj.salirukou.shop
+  skip-cert-verify: true
+  sni: tdfycft.yfftftf.shop
+  type: anytls
   udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- encryption: none
-  name: 🇫🇷FR_4|4.5MB/s
-  network: tcp
-  port: '22223'
-  server: 35.180.170.215
-  type: vless
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇲🇴MO_1|4.7MB/s
+  password: fd992476-1b80-477b-9411-a5a009e114d1
+  port: 46801
+  server: xj.salirukou.shop
+  skip-cert-verify: true
+  sni: gtdsdf.efgo.my
+  type: anytls
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
 - encryption: none
-  name: 🇫🇮FI_2|2.2MB/s
+  name: 🇳🇱NL_2|2.0MB/s
   network: ws
-  port: '80'
-  server: 146.75.119.82
+  port: '8880'
+  server: 172.67.152.71
   type: vless
   udp: true
-  uuid: 09b1fc1a-1be4-491e-9130-6467b756de36
+  uuid: 6b504c50-8535-44cf-8e4e-f8ee674a922e
   ws-opts:
     headers:
-      Host: rb24.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
+      Host: old-moon-16d0.156-a25.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: ❓Other_1|2.8MB/s
-  network: tcp
-  port: '443'
+- grpc-opts:
+    grpc-service-name: update
+  name: 🇰🇷KR_3|5.5MB/s
+  network: grpc
+  port: '10048'
   reality-opts:
-    public-key: mfu7C9i9NmH6W6f6709YrSkKUlzJxcmQ8wJDVs5dJA0
-    short-id: 'e714475894bda1e4'
-  server: 104.194.132.45
-  servername: cdn.dodostatic.net
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '686c0ef0'
+  server: kr3-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: 2656399e-872b-4075-9ff5-13233e232986
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_4|3.5MB/s
-  network: ws
-  port: '2052'
-  server: snapp.ir
-  type: vless
-  udp: true
-  uuid: 8619f429-1ca5-4e53-a94e-1dd36b585396
-  ws-opts:
-    headers:
-      Host: cdn.pershiansport.ir
-      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    path: /
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇳🇱NL_7|3.2MB/s
-  network: tcp
-  port: '443'
+  uuid: D2436339-0F26-479A-8064-4D91C2B93652
+- grpc-opts:
+    grpc-service-name: update
+  name: 🇰🇷KR_4|5.0MB/s
+  network: grpc
+  port: '10047'
   reality-opts:
-    public-key: gX_OQ9oJNQCtWdQC4lnOEYatfYA-vvVrGvPAzh6Zbxw
-    short-id: 'a1b2c3d4e5f60718'
-  server: 193.57.9.120
-  servername: www.amazon.com
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '686c0ef0'
+  server: kr2-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: e8dac4fa-295c-4232-8279-2fe14b312a42
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: ❓Other_2|3.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: p6fXMWvrlT5tkuvZCuiTZtvFf4bpsxdnApMVunKfGmQ
-    short-id: '4f6cee018ff16792'
-  server: 104.194.134.126
-  servername: cdn.dodostatic.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8c0e295-0036-4aeb-8263-f6c2ee3060fe
-  xudp: true
+  uuid: D2436339-0F26-479A-8064-4D91C2B93652
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
