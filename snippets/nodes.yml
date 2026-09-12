@@ -61,7 +61,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /assignment
-- name: D🔴🇱🇦[🤖🎞️]_dokng.com_efdc3b41
+- name: 🇱🇦LA_1|3.7MB/s
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10045
   server: z-sg2.6send.com
@@ -232,7 +232,33 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '🇶🇦QA_1|2.9MB/s #1'
+- name: 🇶🇦 QA_156
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10008
+  server: z-jp1.1card.cc
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇶🇦QA_1|1.7MB/s
+  network: tcp
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: '10008'
+  server: z-jp2.1card.cc
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇦🇫AF_1|2.5MB/s
+  network: tcp
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: '10009'
+  server: z-jp1.1card.cc
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇶🇦QA_1|2.9MB/s
   network: tcp
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: '10008'
@@ -241,28 +267,6 @@ proxies:
   sni: z-jp2.1card.cc
   type: trojan
   udp: true
-- name: '🇦🇫AF_1|2.4MB/s #1'
-  network: tcp
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: '10009'
-  server: z-jp2.1card.cc
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '🇳🇱NL_2|2.7MB/s #1'
-  network: tcp
-  port: 30830
-  server: v30.hdacd.com
-  servername: mfyousheng.nl.eu.org
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: none
   name: 🇭🇰_HK_中国香港->🇺🇸_US_美国
@@ -283,7 +287,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: '🇾🇪YE_1|3.9MB/s #1'
+- name: 🇾🇪YE_1|3.9MB/s
   network: tcp
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: '10010'
@@ -347,14 +351,6 @@ proxies:
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10044
   server: z-sg2.6send.com
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🇶🇦 QA_156
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10008
-  server: z-jp1.1card.cc
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
@@ -437,6 +433,28 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
+- name: 🇦🇫AF_1|2.4MB/s
+  network: tcp
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: '10009'
+  server: z-jp2.1card.cc
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇳🇱NL_2|2.7MB/s
+  network: tcp
+  port: 30830
+  server: v30.hdacd.com
+  servername: mfyousheng.nl.eu.org
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
