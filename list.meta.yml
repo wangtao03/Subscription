@@ -1,4 +1,4 @@
-# Update: 2026-09-13 09:48
+# Update: 2026-09-13 18:44
 allow-lan: true
 dns:
   enable: true
@@ -173,7 +173,7 @@ proxies:
   type: anytls
   udp: true
 - auth: maintell
-  name: D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_d094cd7f
+  name: 🇺🇸US_5|2.2MB/s
   obfs: salamander
   obfs-password: maintell
   password: maintell
@@ -212,7 +212,7 @@ proxies:
   uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
 - down: ''
   fingerprint: ''
-  name: '🇬🇧GB_2|4.6MB/s #1'
+  name: 🇬🇧GB_2|4.6MB/s
   obfs: ''
   obfs-password: ''
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -626,7 +626,7 @@ proxies:
   sni: free-nl1.green-hills.org
   type: hysteria2
 - encryption: none
-  name: '🇸🇬SG_1|3.0MB/s #1'
+  name: 🇸🇬SG_1|3.0MB/s
   network: ws
   port: '8443'
   server: news.zoom.us
@@ -685,7 +685,7 @@ proxies:
   type: hysteria2
 - encryption: none
   flow: xtls-rprx-vision
-  name: '🇩🇪DE_6|4.0MB/s #1'
+  name: 🇩🇪DE_6|4.0MB/s
   network: raw
   port: '8443'
   reality-opts:
@@ -877,7 +877,7 @@ proxies:
   xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🇺🇸US_21|3.0MB/s #1'
+  name: 🇺🇸US_21|3.0MB/s
   network: tcp
   port: 6443
   reality-opts:
@@ -1053,39 +1053,62 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '🇫🇷FR_1|2.4MB/s #3'
+- name: '🇸🇩SD_1|2.5MB/s #1'
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10012
+  server: z-jp2.1card.cc
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: '🇺🇸US_3|3.8MB/s #1'
+  password: 06da30be2ce5ece28204119359fe4eb3
+  port: '443'
+  server: clash2.deep-links.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '🇫🇷FR_1|1.7MB/s #1'
   network: ws
   password: humanity
   port: '443'
-  server: 104.17.111.8
+  server: 104.16.7.70
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/56.0.2924.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
     path: /assignment
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: ios
-  name: '🇫🇷FR_2|2.1MB/s #3'
+- name: '🇫🇷FR_2|2.1MB/s #2'
   network: ws
   password: humanity
   port: '443'
-  server: 45.130.125.158
+  server: 172.67.221.242
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-        Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- name: '🇫🇷FR_3|1.5MB/s #1'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.14
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /assignment
 - name: 🇭🇰_HK_中国香港
   password: b0917015b656b3dd2286b5633af0c5c1
@@ -1096,7 +1119,7 @@ proxies:
   type: hysteria2
   udp: true
 - flow: xtls-rprx-vision
-  name: '🇵🇱PL_1|2.8MB/s #1'
+  name: 🇵🇱PL_1|2.8MB/s
   network: tcp
   port: 443
   server: poland-new-ded.failspace.top
@@ -1182,7 +1205,7 @@ proxies:
   udp: true
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
 - flow: xtls-rprx-vision
-  name: '🇺🇸US_23|1.7MB/s #1'
+  name: 🇺🇸US_23|1.7MB/s
   network: tcp
   port: '443'
   server: nl-new-ded.failspace.top
@@ -1591,7 +1614,7 @@ proxies:
   sni: musicclips.videolinks.ru
   tls: false
   type: hysteria2
-- name: 🇺🇸US-🚀@VPNine1
+- name: 🇺🇸US_3|3.1MB/s
   password: 18bd49994f2eea74ff62798bd75fb7d1
   port: 443
   server: 107.175.219.48
@@ -2397,7 +2420,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: snob-grpc-de
-  name: '🇦🇪AE_1|1.8MB/s #1'
+  name: 🇦🇪AE_1|1.8MB/s
   network: grpc
   port: '4443'
   reality-opts:
@@ -2415,11 +2438,12 @@ proxies:
     headers:
       Host:
       - play-apps-features.googleusercontent.com
+    method: GET
     path:
     - /
-  name: '🇨🇭CH_1|4.0MB/s #1'
+  name: 🇨🇭 瑞士 | CHE
   network: http
-  port: '8443'
+  port: 8443
   server: it.kanzelo.ir
   tls: false
   type: vless
@@ -2427,7 +2451,7 @@ proxies:
   uuid: 0ecf2aa4-0ae7-1a4f-5455-b116c864542d
   xudp: true
 - encryption: none
-  name: '🇸🇪SE_1|3.2MB/s #1'
+  name: 🇸🇪SE_1|3.2MB/s
   network: xhttp
   port: '443'
   reality-opts:
@@ -2446,7 +2470,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: TunService
-  name: '🇺🇦UA_1|2.6MB/s #1'
+  name: 🇺🇦UA_1|2.6MB/s
   network: grpc
   port: '8443'
   reality-opts:
@@ -2462,7 +2486,7 @@ proxies:
 - alpn:
   - http/1.1
   encryption: none
-  name: '🇺🇸US_2|3.0MB/s #1'
+  name: 🇺🇸US_2|3.0MB/s
   network: ws
   port: '443'
   server: 69.46.46.87
@@ -2481,7 +2505,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: TunService
-  name: '🇹🇷TR_1|4.2MB/s #1'
+  name: 🇹🇷TR_1|4.2MB/s
   network: grpc
   port: '8443'
   reality-opts:
@@ -2496,7 +2520,7 @@ proxies:
   xudp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '🇬🇧GB_1|3.0MB/s #1'
+  name: 🇬🇧GB_1|3.0MB/s
   network: tcp
   port: '443'
   reality-opts:
@@ -2509,10 +2533,44 @@ proxies:
   udp: true
   uuid: 3b6a9df3-f1d1-4bc1-94a5-0d8f2d5512b1
   xudp: true
+- name: 🇫🇷FR_1|2.4MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.111.8
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    path: /assignment
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  name: '🇫🇷FR_2|2.1MB/s #1'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 45.130.125.158
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+        Mobile Safari/537.36
+    path: /assignment
 - ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: '🇸🇬SG_2|1.5MB/s #1'
+  name: 🇸🇬SG_2|1.5MB/s
   network: ws
   port: 2096
   server: 188.164.248.78
@@ -2526,7 +2584,7 @@ proxies:
       Host: fq.jp188.dpdns.org
     path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
 - client-fingerprint: firefox
-  name: '🇺🇸US_6|3.4MB/s #1'
+  name: 🇺🇸US_6|3.4MB/s
   network: tcp
   port: 2053
   reality-opts:
@@ -2540,7 +2598,7 @@ proxies:
   uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🇩🇪DE_1|4.1MB/s #1'
+  name: 🇩🇪DE_1|4.1MB/s
   port: 8443
   reality-opts:
     public-key: QMJRGTqZRbpeLpIAdvn6dhftuzrpwbtwmVG2s5IuuU0
@@ -2554,7 +2612,7 @@ proxies:
   uuid: b2744db0-1c64-4218-a93b-9eba0e5f811f
 - encryption: mlkem768x25519plus.native.0rtt.xsXknXALZ5oqsTLNfZJdlVSCNIfjoZeYm7hjZd8H-1Q
   flow: xtls-rprx-vision
-  name: '🇩🇪DE_4|2.2MB/s #1'
+  name: 🇩🇪DE_4|2.2MB/s
   network: tcp
   port: '2096'
   reality-opts:
@@ -2569,9 +2627,9 @@ proxies:
   xudp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '🇩🇪DE_5|3.7MB/s #1'
+  name: 🇩🇪 德国 | DEU 4
   network: tcp
-  port: '51185'
+  port: 51185
   reality-opts:
     public-key: VFDbAJQdqzKl7hL6SmUrhHHEORtILSsJHYWF67an1HU
     short-id: '55a464180d3b1f7e'
@@ -2582,7 +2640,7 @@ proxies:
   udp: true
   uuid: 12af43c3-84b4-4248-878b-b75f35835487
   xudp: true
-- name: '🇸🇬SG_3|3.1MB/s #1'
+- name: 🇸🇬SG_3|3.1MB/s
   network: ws
   port: '8443'
   server: 141.193.213.21
@@ -2601,7 +2659,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇬🇧GB_8|3.4MB/s #1'
+  name: 🇬🇧GB_8|3.4MB/s
   network: tcp
   port: '443'
   reality-opts:
@@ -2615,7 +2673,7 @@ proxies:
   uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
   xudp: true
 - encryption: none
-  name: '🇦🇿AZ_1|2.8MB/s #1'
+  name: 🇦🇿AZ_1|2.8MB/s
   network: tcp
   port: '21289'
   server: basalam.horqen.ir
@@ -2624,7 +2682,7 @@ proxies:
   uuid: c12db015-a63c-43e5-a744-6398a90373b5
   xudp: true
 - flow: xtls-rprx-vision
-  name: '🇺🇸US_22|2.9MB/s #1'
+  name: 🇺🇸US_22|2.9MB/s
   network: tcp
   port: '443'
   server: ai-dedic.failspace.top
@@ -2634,7 +2692,7 @@ proxies:
   uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
   xudp: true
 - flow: xtls-rprx-vision
-  name: '🇵🇱PL_3|2.6MB/s #1'
+  name: 🇵🇱PL_3|2.6MB/s
   network: tcp
   port: '443'
   server: poland-new-ded-2.failspace.top
@@ -2644,7 +2702,7 @@ proxies:
   uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
   xudp: true
 - flow: xtls-rprx-vision
-  name: '🇵🇱PL_4|2.6MB/s #1'
+  name: 🇵🇱PL_4|2.6MB/s
   network: tcp
   port: '443'
   server: poland.failspace.top
@@ -2656,7 +2714,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: vless
-  name: '🇺🇸US_24|4.7MB/s #1'
+  name: 🇺🇸US_24|4.7MB/s
   network: grpc
   port: '2085'
   server: 104.143.223.66
@@ -3183,14 +3241,6 @@ proxies:
   sni: www.cloudflare.com
   type: trojan
   udp: true
-- name: 🇸🇩 SD_180
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10012
-  server: z-jp2.1card.cc
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
 - name: 🇸🇬 新加坡 | SGP
   network: ws
   port: 8443
@@ -3222,20 +3272,22 @@ proxies:
   skip-cert-verify: true
   sni: 138.2.73.238
   type: hysteria2
-- grpc-opts:
-    grpc-mode: gun
+- encryption: none
+  grpc-opts:
     grpc-service-name: TunService
-  name: 🇹🇷 土耳其 | TUR
+  name: 🇹🇷TR_1|1.1MB/s
   network: grpc
-  port: 8443
+  port: '8443'
   reality-opts:
     public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+    short-id: ''
   server: 170.168.97.8
   servername: download.nvidia.com
   tls: true
   type: vless
   udp: true
   uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  xudp: true
 - flow: xtls-rprx-vision
   name: 🇹🇷 土耳其 | TUR 2
   network: tcp
@@ -3517,7 +3569,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 13.214.167.119
+  server: 47.129.136.238
   servername: www.apple.com
   tls: true
   type: vless
@@ -3528,11 +3580,89 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 13.125.128.204
+  server: 3.34.122.215
   servername: www.apple.com
   tls: true
   type: vless
   uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+- name: 🇺🇸US_1|2.2MB/s
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: jYD82Xg6TRu2lR0XINMWxKb8dNycDwF-H28ZrtiafUo
+  server: 170.168.97.8
+  servername: cdn.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  xhttp-opts:
+    host: cdn.steamstatic.com
+    mode: auto
+    path: /
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇳🇱NL_1|1000KB/s
+  network: tcp
+  port: '2086'
+  server: nll2.qjcm.ir
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 43c7c028-4309-41c8-99f2-0896766615f1
+  xudp: true
+- encryption: none
+  name: 🇮🇱IL_1|1.4MB/s
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: fCVnWVMTCS5fzMMTwk7EaBLlg4a2kAVDt2CG2jwobQ0
+    short-id: ''
+  server: 140.235.168.2
+  servername: download.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
+  xhttp-opts:
+    path: /
+  xudp: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇫🇷FR_1|2.0MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 62.109.5.156
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  xudp: true
+- client-fingerprint: edge
+  name: 🇸🇬SG_1|1.7MB/s
+  network: ws
+  port: '2053'
+  server: cf.kele.ge
+  servername: singapore.36109178.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  ws-opts:
+    headers:
+      Host: singapore.36109178.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /static/media/video-chunk.f4v
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
