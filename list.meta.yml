@@ -1,4 +1,4 @@
-# Update: 2026-09-15 01:10
+# Update: 2026-09-15 05:07
 allow-lan: true
 dns:
   enable: true
@@ -639,7 +639,7 @@ proxies:
     headers:
       Host: u.srilankangrill.online
     path: /
-- name: 🇺🇸US_2|1.7MB/s
+- name: 🇺🇸US_28|2.5MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
@@ -1125,7 +1125,7 @@ proxies:
 - grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇰🇷KR_1|2.2MB/s
+  name: 🇰🇷KR_1|1.4MB/s
   network: grpc
   port: 10048
   reality-opts:
@@ -1141,7 +1141,7 @@ proxies:
 - grpc-opts:
     grpc-mode: gun
     grpc-service-name: movie
-  name: 🇺🇸US_1|1.9MB/s
+  name: 🇺🇸US_6|4.4MB/s
   network: grpc
   port: 10238
   reality-opts:
@@ -1239,9 +1239,8 @@ proxies:
   udp: true
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
 - grpc-opts:
-    grpc-mode: gun
     grpc-service-name: update
-  name: 🇰🇷KR_2|3.6MB/s
+  name: 🇰🇷KR_3|5.7MB/s
   network: grpc
   port: 10049
   reality-opts:
@@ -2308,7 +2307,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: ios
-  name: 🇸🇪SE_1|1.7MB/s
+  name: 🇵🇱PL_1|2.0MB/s
   network: xhttp
   port: 443
   server: 188.72.103.4
@@ -2399,7 +2398,7 @@ proxies:
 - grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇸🇬SG_1|3.5MB/s
+  name: 🇸🇬SG_2|5.1MB/s
   network: grpc
   port: 10036
   reality-opts:
@@ -2427,7 +2426,7 @@ proxies:
   uuid: 4082b282-dc67-40df-b114-f70d71d61f6f
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 🇺🇸US_3|3.2MB/s
+  name: 🇺🇸 美国 | USA 12
   network: tcp
   port: 443
   reality-opts:
@@ -2442,7 +2441,7 @@ proxies:
   uuid: a2e2d5e7-5d23-40d8-baad-088b9e26b9c2
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 🇺🇸US_4|4.2MB/s
+  name: 🇺🇸US_18|3.9MB/s
   network: tcp
   port: '443'
   reality-opts:
@@ -3107,7 +3106,7 @@ proxies:
 - grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇰🇷 韩国 | KOR
+  name: 🇰🇷KR_4|4.1MB/s
   network: grpc
   port: 10050
   reality-opts:
@@ -3474,7 +3473,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 18.141.4.41
+  server: 13.212.164.4
   servername: www.apple.com
   tls: true
   type: vless
@@ -3485,41 +3484,199 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 43.200.180.102
+  server: 3.34.1.55
   servername: www.apple.com
   tls: true
   type: vless
   uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
-- client-fingerprint: random
-  name: 🇯🇵JP_1|4.9MB/s
+- auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  name: 🇯🇵JP_1|1.6MB/s
+  password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  port: 8443
+  server: hyfnjp03.459292.xyz
+  skip-cert-verify: true
+  sni: localhost
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_1|4.6MB/s
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
+    short-id: '04d59340'
+  server: 1sg001.344211.cc
+  servername: www.python.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+- name: 🇺🇸US_1|4.0MB/s
   network: ws
   port: 443
-  server: ct.877774.xyz
-  servername: jp-osa.xhs152.shop
+  server: fi1.zuoai.cf
+  servername: xi.tbv.ccwu.cc
+  tls: true
+  type: vless
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  ws-opts:
+    headers:
+      Host: xi.tbv.ccwu.cc
+    path: /proxyip=us.xiabibi.cf
+- name: 🇺🇸US_2|3.1MB/s
+  network: ws
+  port: 443
+  server: us10.zuoai.cf
+  servername: nb.lovecf.ggff.net
+  tls: true
+  type: vless
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  ws-opts:
+    headers:
+      Host: nb.lovecf.ggff.net
+    path: /proxyip=us.xiabibi.cf
+- name: 🇺🇸US_3|2.9MB/s
+  network: ws
+  port: 443
+  server: kz3.zuoai.cf
+  servername: xi.tbv.ccwu.cc
+  tls: true
+  type: vless
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  ws-opts:
+    headers:
+      Host: xi.tbv.ccwu.cc
+    path: /proxyip=us.xiabibi.cf
+- name: 🇺🇸US_4|3.4MB/s
+  network: ws
+  port: 443
+  server: us2.zuoai.cf
+  servername: xi.tbv.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  ws-opts:
+    headers:
+      Host: xi.tbv.ccwu.cc
+    path: /proxyip=us.xiabibi.cf
+- name: 🇺🇸US_5|2.1MB/s
+  network: ws
+  port: 443
+  server: nl4.zuoai.cf
+  servername: xi.tbv.ccwu.cc
+  tls: true
+  type: vless
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  ws-opts:
+    headers:
+      Host: xi.tbv.ccwu.cc
+    path: /proxyip=us.xiabibi.cf
+- name: 🇺🇸US_7|2.2MB/s
+  network: ws
+  port: 443
+  server: cy2.zuoai.cf
+  servername: xi.tbv.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  ws-opts:
+    headers:
+      Host: xi.tbv.ccwu.cc
+    path: /proxyip=us.xiabibi.cf
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇳🇱NL_9|1.1MB/s
+  network: tcp
+  port: 61592
+  reality-opts:
+    public-key: jnu0rNHECTe_v7H9Fmgg0iUSepHz4QQQRPW0XpX5URs
+    short-id: '1359c9bf9f7442e5'
+  server: 51.194.251.114
+  servername: store.storeimages.cdn-apple.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 563f3112-71fe-4a88-9055-23df3cbf708d
-  ws-opts:
-    headers:
-      Host: jp-osa.xhs152.shop
-    path: /announcement?ed=2048
-- name: 🇸🇬SG_1|3.8MB/s
-  network: ws
-  port: '443'
-  server: 47.131.189.221
-  servername: mia7.pages.dev
+  uuid: BD1F7E5E-9E0B-4919-A7F1-84BC9E69426D
+  xudp: true
+- name: ❓Other_1|1.3MB/s
+  network: xhttp
+  port: 37379
+  server: xuius.907737.xyz
+  servername: xuius.907737.xyz
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  uuid: a4bec43e-8073-4725-b307-47edad331fee
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇦🇪AE_1|1.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: N8tPKh6gTyc6L5GOmBn_3wIy707a-5QYB0FrF2HigUc
+    short-id: ''
+  server: 217.60.98.56
+  servername: west.blackbigdog.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 069ba4cf-e8af-4561-b11e-18bd07b0dbd3
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_29|1.0MB/s
+  network: ws
+  port: '443'
+  server: 13.124.169.29
+  servername: thus-k.netnode.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72f47867-ea74-4a5d-92dd-ce4b3a9ed9fc
   ws-opts:
     headers:
-      Host: mia7.pages.dev
+      Host: thus-k.netnode.cc.cd
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /TG:@MiaChatChannel
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /t.me/daily_free_vpn
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_30|2.2MB/s
+  network: ws
+  port: '443'
+  server: 216.40.87.253
+  servername: thus-k.netnode.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72f47867-ea74-4a5d-92dd-ce4b3a9ed9fc
+  ws-opts:
+    headers:
+      Host: thus-k.netnode.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /t.me/daily_free_vpn
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_31|2.2MB/s
+  network: ws
+  port: '443'
+  server: 38.60.89.65
+  servername: thus-k.netnode.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72f47867-ea74-4a5d-92dd-ce4b3a9ed9fc
+  ws-opts:
+    headers:
+      Host: thus-k.netnode.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /t.me/daily_free_vpn
   xudp: true
 - alterId: 0
   cipher: auto
