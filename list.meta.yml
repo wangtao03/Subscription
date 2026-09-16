@@ -1,4 +1,4 @@
-# Update: 2026-09-16 10:05
+# Update: 2026-09-16 18:25
 allow-lan: true
 dns:
   enable: true
@@ -38,7 +38,7 @@ proxies:
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   xudp: true
-- name: 🇯🇵JP_1|4.7MB/s
+- name: D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_2f06cd7f
   network: tcp
   port: 13779
   reality-opts:
@@ -543,7 +543,7 @@ proxies:
   tls: true
   type: vless
   uuid: BD1F7E5E-9E0B-4919-A7F1-84BC9E69426D
-- name: 🇺🇸US_1|2.5MB/s
+- name: 🇺🇸US_3|1.4MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
@@ -867,9 +867,9 @@ proxies:
     headers: {}
     path:
     - /
-  name: 🇹🇷TR_1|1.7MB/s
+  name: C🟠🇹🇷[🎬🤖📺🎭]_dokng.com_0313877e
   network: tcp
-  port: '9443'
+  port: 9443
   reality-opts:
     public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
     short-id: 'e336c9a786fae301'
@@ -1099,6 +1099,162 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇫🇷FR_1|1.6MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.67.221.242
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_2|1.3MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 216.24.57.7
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_3|1.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.7.70
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: /assignment
+- name: 🇫🇷FR_4|1.7MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.26.14.137
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
+    path: /assignment
+- name: 🇫🇷FR_5|1.2MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.108
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_6|1.0MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.26.15.137
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_7|1.8MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.219
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_8|1.2MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 86.38.214.205
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_9|1.4MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.207
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_10|2.0MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.111.3
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_11|1.2MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.124
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /assignment
 - alterId: 64
   cipher: auto
   name: 🇨🇳_CN_中国
@@ -2259,7 +2415,7 @@ proxies:
   udp: true
   uuid: 32721515-985b-4773-9e70-5d2e1b88a060
 - client-fingerprint: qq
-  name: 🇱🇹LT_1|4.3MB/s
+  name: 🇱🇹LT_1|3.5MB/s
   network: xhttp
   port: 443
   server: 188.72.103.3
@@ -2376,19 +2532,19 @@ proxies:
     path: /ws/Default
   xudp: true
 - encryption: none
-  name: 🇹🇷TR_2|2.3MB/s
+  name: 🇺🇸US_1|1.1MB/s
   network: xhttp
-  port: '443'
+  port: 443
   reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-    short-id: ''
+    public-key: jYD82Xg6TRu2lR0XINMWxKb8dNycDwF-H28ZrtiafUo
   server: 170.168.97.6
-  servername: download.nvidia.com
+  servername: cdn.steamstatic.com
   tls: true
   type: vless
   udp: true
   uuid: 1e4668ca-6526-84ac-2a53-28bbc209da13
   xhttp-opts:
+    host: cdn.steamstatic.com
     mode: auto
     path: /
   xudp: true
@@ -2539,10 +2695,9 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- encryption: none
-  name: 🇫🇮FI_1|3.3MB/s
+- name: 🇩🇪 德国 | DEU 3
   network: ws
-  port: '80'
+  port: 80
   server: 146.75.119.82
   tls: false
   type: vless
@@ -2551,10 +2706,7 @@ proxies:
   ws-opts:
     headers:
       Host: rb24.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
-  xudp: true
 - http-opts:
     headers:
       Host:
@@ -3023,10 +3175,10 @@ proxies:
   type: vless
   udp: true
   uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-- encryption: none
-  name: 🇮🇷IR_1|3.7MB/s
+- client-fingerprint: firefox
+  name: 🇵🇱 波兰 | POL
   network: ws
-  port: '8090'
+  port: 8090
   server: 94.183.157.223
   servername: askuhgfdsg.space.coupons
   tls: true
@@ -3036,11 +3188,7 @@ proxies:
   ws-opts:
     headers:
       Host: askuhgfdsg.space.coupons
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-        Mobile Safari/537.36
     path: /ws
-  xudp: true
 - client-fingerprint: firefox
   name: 🇵🇱 波兰 | POL 2
   network: ws
@@ -3346,7 +3494,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 3.37.87.240
+  server: 3.35.4.46
   servername: www.apple.com
   tls: true
   type: vless
@@ -3379,163 +3527,53 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/70.0.3538.110 Safari/537.36
     path: /assignment
-- encryption: none
-  name: 🇸🇪SE_3|3.8MB/s
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
-    short-id: ''
-  server: 170.168.99.9
-  servername: cdn.steamstatic.com
+- name: 🇩🇪DE_1|1.3MB/s
+  network: ws
+  port: 2053
+  server: 172.67.78.174
+  servername: qiu000000.ccwu.cc
   tls: true
   type: vless
-  udp: true
-  uuid: 1e4668ca-6526-84ac-2a53-28bbc209da13
-  xhttp-opts:
-    mode: auto
+  uuid: 57bbfad4-3971-4136-8511-2e484323261e
+  ws-opts:
+    headers:
+      Host: qiu000000.ccwu.cc
     path: /
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇹🇷TR_3|3.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: bjqOUjqNQMF6NZ2kRis0NTNTcpdLBrr7CvZjFATrhg8
-    short-id: '08'
-  server: tr.curry-load.rutube.info
-  servername: dw.b-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
-  xudp: true
-- name: 🇺🇸US_24|2.8MB/s
-  network: ws
-  port: '443'
-  server: nl4.zuoai.cf
-  servername: xi.tbv.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  ws-opts:
-    headers:
-      Host: xi.tbv.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /proxyip=us.xiabibi.cf
-  xudp: true
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇮🇹IT_2|2.5MB/s
-  network: tcp
-  port: '12040'
-  reality-opts:
-    public-key: 33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM
-    short-id: '8101b9ba16eb77c7'
-  server: it2s.crocodil.ir
-  servername: play-apps-features.googleusercontent.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f1aa0323-e523-4060-986e-255124f5708b
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  encryption: none
-  name: 🇺🇸US_25|3.8MB/s
-  network: xhttp
-  port: '443'
-  server: 69.46.46.120
-  servername: solivpn-production-3d7f.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 19103cae-272e-a0a5-e753-a03857d73c15
-  xhttp-opts:
-    host: solivpn-production-3d7f.up.railway.app
-    mode: packet-up
-    path: /xhttp-siz10/packet-up/19103cae-272e-a0a5-e753-a03857d73c15
-  xudp: true
 - alpn:
   - http/1.1
   encryption: none
-  name: 🇺🇸US_26|1.8MB/s
+  name: 🇺🇸US_6|1.5MB/s
   network: ws
   port: '443'
-  server: 69.46.46.37
-  servername: miki-production-81cb.up.railway.app
+  server: spider-panel-production-e564.up.railway.app
+  servername: spider-panel-production-e564.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 16bbcad5-a354-c387-11a0-52648d47028f
+  uuid: 47b132dc-6f3e-46f5-bd59-918240268c5e
   ws-opts:
     headers:
-      Host: miki-production-81cb.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+      Host: spider-panel-production-e564.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /ws/16bbcad5-a354-c387-11a0-52648d47028f
+    path: /ws/47b132dc-6f3e-46f5-bd59-918240268c5e
   xudp: true
 - alpn:
   - h3
-  - h2
-  - http/1.1
   encryption: none
-  name: 🇺🇸US_27|2.6MB/s
-  network: ws
+  name: 🇳🇱NL_1|1.5MB/s
+  network: xhttp
   port: '443'
-  server: marzban-node-production-29c5.up.railway.app
-  servername: marzban-node-production-29c5.up.railway.app
+  server: 178.208.64.57
+  servername: nl2.lebedvpn.cc
   tls: true
   type: vless
   udp: true
-  uuid: 26107169-6dfb-4f90-9e68-6ff0da110118
-  ws-opts:
-    headers:
-      Host: marzban-node-production-29c5.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /vless
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  name: 🇺🇸US_28|2.0MB/s
-  network: ws
-  port: '443'
-  server: web-production-58db8.up.railway.app
-  servername: web-production-58db8.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9d6ae81-a59d-4c76-9bab-6f73620b368a
-  ws-opts:
-    headers:
-      Host: web-production-58db8.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /vl-ws
-  xudp: true
-- encryption: none
-  name: 🇦🇪AE_1|2.4MB/s
-  network: ws
-  port: '8090'
-  server: 151.242.160.148
-  servername: askuhgfdsg.space.coupons
-  tls: true
-  type: vless
-  udp: true
-  uuid: 818eaf39-544f-4d1d-977e-87be7e33eecf
-  ws-opts:
-    headers:
-      Host: askuhgfdsg.space.coupons
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/39.0.2171.95 Safari/537.36
-    path: /ws
+  uuid: 0c6d8604-b7af-46b4-8382-5c90bf232471
+  xhttp-opts:
+    host: nl2.lebedvpn.cc
+    mode: stream-up
+    path: /004f70ca233b
   xudp: true
 - alterId: 0
   cipher: auto
