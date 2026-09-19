@@ -1,4 +1,4 @@
-# Update: 2026-09-19 22:58
+# Update: 2026-09-20 03:43
 allow-lan: true
 dns:
   enable: true
@@ -501,6 +501,15 @@ proxies:
     headers:
       Host: vless.herogoing.top
     path: /tr
+- name: 🇺🇦UA_1|3.4MB/s
+  network: tcp
+  password: 81691dd5-32b9-41ba-b0a9-f32b522d3548
+  port: '58113'
+  server: fj3x.waimaosass.icu
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
