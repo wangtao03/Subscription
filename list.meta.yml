@@ -1,4 +1,4 @@
-# Update: 2026-09-23 10:11
+# Update: 2026-09-23 18:24
 allow-lan: true
 dns:
   enable: true
@@ -32,7 +32,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: D🔴🇯🇵hos[🎬🤖📺🎭]_dokng.com_11971d...
+  name: 🇯🇵JP_1|1.7MB/s
   network: ws
   port: 17577
   server: 206.190.237.167
@@ -93,7 +93,7 @@ proxies:
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - fingerprint: ''
-  name: '🇹🇼TW_1|1.8MB/s #1'
+  name: 🇹🇼TW_1|1.8MB/s
   password: 9sK2mP8xQ7vL3nZ6
   port: 443
   server: 6ivh.pnuqcnp.cn
@@ -187,7 +187,7 @@ proxies:
   type: vless
   uuid: 8af93649-403b-46d8-9966-923d4c58402c
 - fingerprint: ''
-  name: '🇺🇸US_1|3.1MB/s #1'
+  name: 🇺🇸US_1|3.1MB/s
   password: 9sK2mP8xQ7vL3nZ6
   port: 443
   server: awefd2313fefarg23fr24.pnuqcnp.cn
@@ -239,7 +239,7 @@ proxies:
 - client-fingerprint: qq
   grpc-opts:
     grpc-service-name: grpc-tunnel
-  name: '🇷🇸RS_2|4.4MB/s #1'
+  name: 🇷🇸RS_2|4.4MB/s
   network: grpc
   port: '9889'
   reality-opts:
@@ -269,7 +269,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🇫🇮FI_1|3.7MB/s #1'
+  name: 🇫🇮FI_1|3.7MB/s
   network: tcp
   port: 2096
   server: ndi.lavivas.org
@@ -451,7 +451,7 @@ proxies:
     path: /
   xudp: true
 - flow: xtls-rprx-vision
-  name: '🇧🇬BG_1|2.8MB/s #1'
+  name: 🇧🇬BG_1|2.8MB/s
   network: tcp
   port: '18775'
   reality-opts:
@@ -652,7 +652,7 @@ proxies:
         Chrome/70.0.3538.67 Safari/537.36
     path: /assignment
 - auth: 19f72087-4591-4d72-930b-2697078ec2be
-  name: '🇭🇰HK_1|2.0MB/s #1'
+  name: 🇭🇰HK_1|2.0MB/s
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 4433
   server: hk2.xiaoliyu.cyou
@@ -898,6 +898,31 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '🇫🇷FR_1|1.6MB/s #1'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.67.188.109
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /assignment
+- alterId: 2
+  cipher: auto
+  name: '🇭🇰HK_2|2.7MB/s #1'
+  network: ws
+  port: 60852
+  server: hkgb707.ifastcdncache.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
 - name: 🇷🇺_RU_俄罗斯
   network: ws
   port: 443
@@ -963,17 +988,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰_HK_中国香港_2
-  network: ws
-  port: 60852
-  server: hkgb707.ifastcdncache.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
 - name: 🇫🇮_FI_芬兰
   network: ws
   port: 443
@@ -1438,7 +1452,7 @@ proxies:
   tls: false
   type: hysteria2
 - encryption: none
-  name: '❓Other_1|4.1MB/s #1'
+  name: ❓Other_1|4.1MB/s
   network: ws
   port: '2086'
   server: 188.114.97.6
@@ -1455,7 +1469,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇩🇪DE_1|1.5MB/s #1'
+  name: 🇩🇪DE_1|1.5MB/s
   network: ws
   port: '443'
   server: 103.63.30.73
@@ -1471,7 +1485,7 @@ proxies:
         Chrome/70.0.3538.102 Safari/537.36
     path: /proxyip=us.xiabibi.cf
   xudp: true
-- name: '🇺🇸US_4|2.5MB/s #1'
+- name: 🇺🇸US_4|2.5MB/s
   network: ws
   port: 443
   server: 172.67.212.195
@@ -1486,7 +1500,7 @@ proxies:
       Host: 7-M17.kUwaIt-AIrLInE.kDNS.fr
     path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
 - flow: xtls-rprx-vision
-  name: '🇩🇪DE_5|3.1MB/s #1'
+  name: 🇩🇪DE_5|3.1MB/s
   network: tcp
   port: '7444'
   server: 185.121.179.105
@@ -1499,7 +1513,7 @@ proxies:
 - alpn:
   - http/1.1
   encryption: none
-  name: '🇺🇸US_20|3.0MB/s #1'
+  name: 🇺🇸US_20|3.0MB/s
   network: ws
   port: '443'
   server: piracy-android.video-streams.org
@@ -1517,7 +1531,7 @@ proxies:
   xudp: true
 - client-fingerprint: firefox
   encryption: none
-  name: '🇩🇪DE_6|3.0MB/s #1'
+  name: 🇩🇪DE_6|3.0MB/s
   network: xhttp
   port: '9443'
   server: 82.117.87.129
@@ -2320,7 +2334,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 13.214.166.132
+  server: 18.142.160.106
   servername: www.apple.com
   tls: true
   type: vless
@@ -2331,7 +2345,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 43.200.183.86
+  server: 3.39.194.143
   servername: www.apple.com
   tls: true
   type: vless
@@ -2356,15 +2370,15 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-08 | free-nodes'
-  password: XV4bvaJIWoxl3IYEC1e6W7
-  port: 2342
-  server: 194.233.74.160
+  password: IXa3ylzS_jBOAsQy071tIQ
+  port: 1080
+  server: 94.249.187.46
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-09 | free-nodes'
-  password: ZoZtfPOyVvmKARUN
-  port: 8388
-  server: 140.82.63.79
+  password: XV4bvaJIWoxl3IYEC1e6W7
+  port: 2342
+  server: 194.233.74.160
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-10 | free-nodes'
@@ -2390,47 +2404,47 @@ proxies:
   port: 8080
   server: 82.38.31.82
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-14 | free-nodes'
-  password: rSeYcig_XBy8q3k33NpK3A
-  port: 1080
-  server: 94.249.187.46
-  type: ss
 - cipher: aes-256-gcm
-  name: '[SS] 未知 SS-15 | free-nodes'
+  name: '[SS] 未知 SS-14 | free-nodes'
   password: AxIYWtskJWIIaefW
   port: 8388
   server: 70.34.212.124
   type: ss
 - cipher: aes-256-gcm
-  name: '[SS] 未知 SS-16 | free-nodes'
-  password: BWyPPTusFKhGgzKh
-  port: 8388
-  server: 64.177.90.30
-  type: ss
-- cipher: aes-256-gcm
-  name: '[SS] 未知 SS-17 | free-nodes'
-  password: GEdoeeqLZtkJRgSa
-  port: 8388
-  server: 139.84.166.47
-  type: ss
-- cipher: aes-256-gcm
-  name: '[SS] 未知 SS-18 | free-nodes'
+  name: '[SS] 未知 SS-15 | free-nodes'
   password: Y6R9pAtvxxzmGC
   port: 5600
   server: 38.180.214.110
   type: ss
 - cipher: aes-256-gcm
-  name: '[SS] 未知 SS-19 | free-nodes'
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 51.222.155.113
-  type: ss
-- cipher: aes-256-gcm
-  name: '[SS] 未知 SS-20 | free-nodes'
+  name: '[SS] 未知 SS-16 | free-nodes'
   password: Y6R9pAtvxxzmGC
   port: 5000
   server: 51.222.200.165
+  type: ss
+- cipher: aes-256-gcm
+  name: '[SS] 未知 SS-17 | free-nodes'
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.222.136.236
+  type: ss
+- cipher: aes-256-gcm
+  name: '[SS] 未知 SS-18 | free-nodes'
+  password: iOaIXNsQXVIxwmkY
+  port: 8388
+  server: 140.82.56.38
+  type: ss
+- cipher: aes-256-gcm
+  name: '[SS] 未知 SS-19 | free-nodes'
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 15.204.247.244
+  type: ss
+- cipher: aes-256-gcm
+  name: '[SS] 未知 SS-20 | free-nodes'
+  password: qpSevKaUXYQKvSjp
+  port: 8388
+  server: 139.180.220.175
   type: ss
 - alterId: 0
   cipher: auto
