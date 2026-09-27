@@ -1,4 +1,4 @@
-# Update: 2026-09-27 23:55
+# Update: 2026-09-28 04:32
 allow-lan: true
 dns:
   enable: true
@@ -219,21 +219,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: safari
-  name: '🇹🇼TW_1|1.3MB/s #2'
-  network: ws
-  password: f15900b5-f86b-432d-a67c-45325dc66a2d
-  port: '443'
-  server: zhilegelian1.bpca2026.top
-  skip-cert-verify: false
-  sni: zhilegelian1.bpca2026.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
-    path: /images
 - alterId: 2
   cipher: auto
   name: 🇭🇰_HK_中国香港
@@ -284,6 +269,21 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: safari
+  name: 🇹🇼TW_1|1.3MB/s
+  network: ws
+  password: f15900b5-f86b-432d-a67c-45325dc66a2d
+  port: '443'
+  server: zhilegelian1.bpca2026.top
+  skip-cert-verify: false
+  sni: zhilegelian1.bpca2026.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /images
 - name: 🇫🇷 法国 | FRA 2
   network: ws
   password: humanity
@@ -375,6 +375,60 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
+- alpn:
+  - h2
+  - http/1.1
+  alterId: 0
+  cipher: auto
+  name: 🇹🇷TR_1|3.5MB/s
+  network: tcp
+  port: 2083
+  server: 87.120.106.125
+  servername: qbbnomkb5d6c.libreone.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9081f4d6-7271-49ba-bb9e-b4bb6dc0bb1e
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇯🇵JP_3|3.0MB/s
+  network: ws
+  port: '2083'
+  server: 172.64.154.103
+  servername: or.521166.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or.521166.xyz
+    path: /or3
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇯🇵JP_4|2.8MB/s
+  network: ws
+  port: '2083'
+  server: 172.64.229.138
+  servername: or.521166.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or.521166.xyz
+    path: /or3
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
