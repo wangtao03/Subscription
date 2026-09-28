@@ -13,44 +13,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
-- alterId: 64
-  cipher: auto
-  name: A🟢🇨🇳res[🎞️📦]_dokng.com_0da1592...
-  network: tcp
-  port: 50002
-  server: 112.132.215.108
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  xudp: true
-- name: C🟠🇫🇷hos[🤖📺🎭🎪]_dokng.com_2457ab...
-  network: ws
-  password: humanity
-  port: 443
-  server: 176.97.66.175
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /assignment
-- alterId: '2'
-  cipher: auto
-  name: C🟠🇯🇵hos[🤖📺🎪🔍]_dokng.com_412289...
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国
@@ -67,6 +29,98 @@ proxies:
     headers:
       Host: guanwang.awsno.com
     path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  client-fingerprint: safari
+  name: U⚪🏳️ukn_dokng.com_9fff1298
+  network: ws
+  port: 443
+  server: www.shopify.com
+  servername: guanwang.awsno.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  ws-opts:
+    headers:
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8
+- name: 🇫🇷FR_8|1.8MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 176.97.66.175
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /assignment
+- alterId: 2
+  cipher: auto
+  name: C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_9b6fe0...
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇯🇵JP_3|3.0MB/s
+  network: ws
+  port: '2083'
+  server: 172.64.154.103
+  servername: or.521166.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or.521166.xyz
+    path: /or3
+  xudp: true
+- name: C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_5724ae...
+  password: OnHLrkVqZVtZyulTwC4bHrIbW7GyUDttKVNGEYVR12Y=
+  port: 443
+  server: 192.236.151.43
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: A🟢🇨🇳res[🎞️📦]_dokng.com_0da1592...
+  network: tcp
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  xudp: true
+- name: 🇫🇷FR_6|2.8MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.67.74.2
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /assignment
 - alterId: 0
   cipher: auto
   name: '防范境外势力渗透 #11'
@@ -167,19 +221,19 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇺🇸 美国3|@ripaojiedian
+- name: '美国3|@ripaojiedian #2'
   network: tcp
   password: BxceQaOe
   port: 443
   server: 100.42.228.109
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇮🇩 印尼
+  name: '印尼 #2'
   network: ws
-  port: 443
+  port: '443'
   server: 24864168545164.oylfmxz.cn
   servername: 24864168545164.oylfmxz.cn
   skip-cert-verify: false
@@ -200,16 +254,59 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - h2
+  - http/1.1
+  alterId: 0
+  cipher: auto
+  name: 🇹🇷TR_1|3.5MB/s
+  network: tcp
+  port: 2083
+  server: 87.120.106.125
+  servername: qbbnomkb5d6c.libreone.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9081f4d6-7271-49ba-bb9e-b4bb6dc0bb1e
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇯🇵JP_4|2.8MB/s
+  network: ws
+  port: '2083'
+  server: 172.64.229.138
+  servername: or.521166.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or.521166.xyz
+    path: /or3
+  xudp: true
 - alterId: 2
   cipher: auto
-  name: 🇭🇰_HK_中国香港
-  port: 30835
-  server: v35.hdacd.com
+  name: 🇭🇰_HK_中国香港->🇺🇸_US_美国
+  port: 30804
+  server: v4.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇳🇬_NG_尼日利亚
+  password: 600421cf-11d7-429f-a65b-c30397f1bc03
+  port: 443
+  server: 103.97.91.17
+  skip-cert-verify: true
+  sni: la.freeguard.org
+  type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本
@@ -242,34 +339,73 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 🇭🇰_HK_中国香港_2
-  port: 30804
-  server: v4.hdacd.com
+  name: 🇭🇰_HK_中国香港->🇫🇷_FR_法国
+  port: 30835
+  server: v35.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: safari
-  name: 🇹🇼TW_1|1.3MB/s
+- name: '🇫🇷FR_2|1.8MB/s #1'
   network: ws
-  password: f15900b5-f86b-432d-a67c-45325dc66a2d
+  password: humanity
   port: '443'
-  server: zhilegelian1.bpca2026.top
+  server: 104.18.12.149
   skip-cert-verify: false
-  sni: zhilegelian1.bpca2026.top
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
-    path: /images
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /assignment
+- name: '🇫🇷FR_3|2.0MB/s #1'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.155
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /assignment
+- name: 🇫🇷 法国 | FRA
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.188.109
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: 🇫🇷 法国 | FRA 2
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.109
+  server: 188.114.96.3
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 3
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.15.230
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -282,7 +418,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: ip.myip2.qzz.io
+  server: 104.16.174.12
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -295,7 +431,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 141.101.90.101
+  server: 86.38.214.205
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -308,7 +444,98 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.26.14.137
+  server: 172.67.221.242
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 7
+  network: ws
+  password: humanity
+  port: 443
+  server: 159.112.235.52
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 9
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.97.7
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 10
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.22.63
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.73.213
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 3
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.23.63
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 4
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.3
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 5
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.108
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -321,7 +548,20 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 216.24.57.1
+  server: 104.18.152.143
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 7
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.161
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -332,22 +572,9 @@ proxies:
     path: /assignment
 - name: 🇺🇸 美国 | USA 8
   network: ws
-  password: f15900b5-f86b-432d-a67c-45325dc66a2d
-  port: 443
-  server: zz11.lovebaipiao.net
-  skip-cert-verify: true
-  sni: zz11.lovebaipiao.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: zz11.lovebaipiao.net
-    path: /images
-- name: 🇺🇸 美国 | USA 11
-  network: ws
   password: humanity
   port: 443
-  server: 104.26.15.137
+  server: 104.18.152.149
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -356,60 +583,503 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- alpn:
-  - h2
-  - http/1.1
-  alterId: 0
-  cipher: auto
-  name: 🇹🇷TR_1|3.5MB/s
-  network: tcp
-  port: 2083
-  server: 87.120.106.125
-  servername: qbbnomkb5d6c.libreone.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9081f4d6-7271-49ba-bb9e-b4bb6dc0bb1e
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇯🇵JP_3|3.0MB/s
+- name: 🇺🇸 美国 | USA 9
   network: ws
-  port: '2083'
-  server: 172.64.154.103
-  servername: or.521166.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+  password: humanity
+  port: 443
+  server: 104.16.174.46
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
   ws-opts:
     headers:
-      Host: or.521166.xyz
-    path: /or3
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇯🇵JP_4|2.8MB/s
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 11
   network: ws
-  port: '2083'
-  server: 172.64.229.138
-  servername: or.521166.xyz
+  password: humanity
+  port: 443
+  server: render.com
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- name: 🇺🇸 美国 | USA 12
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.140
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 13
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.50
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 14
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.44
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 15
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.1
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 16
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.12.149
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 17
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.187
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 18
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 19
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 20
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.159
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 21
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.177.143
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 23
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.143
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 24
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.185
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 25
+  network: ws
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 26
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.103
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 27
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.101
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 28
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.148
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 29
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.155
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港3|@ripaojiedian
+  network: ws
+  port: 443
+  server: ADncdOvLHR4M1P36.v.3dns.vip
+  servername: ADncdOvLHR4M1P36.v.3dns.vip
   skip-cert-verify: false
   tls: true
   type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: or.521166.xyz
-    path: /or3
-  xudp: true
+      Host: ADncdOvLHR4M1P36.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港2|@ripaojiedian
+  network: ws
+  port: 443
+  server: kBONDXW9liFCi4h4.v.3dns.vip
+  servername: kBONDXW9liFCi4h4.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: kBONDXW9liFCi4h4.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港4|@ripaojiedian
+  network: ws
+  port: 443
+  server: aZW0eunYVdvRe73k.v.3dns.vip
+  servername: aZW0eunYVdvRe73k.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: aZW0eunYVdvRe73k.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 443
+  server: syJ2gGUgMwBwQwQx.v.3dns.vip
+  servername: syJ2gGUgMwBwQwQx.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: syJ2gGUgMwBwQwQx.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本|@ripaojiedian
+  network: ws
+  port: 443
+  server: Z9FfBx3zs2q5O0BG.v.3dns.vip
+  servername: Z9FfBx3zs2q5O0BG.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Z9FfBx3zs2q5O0BG.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本2|@ripaojiedian
+  network: ws
+  port: 443
+  server: kQov7UKaDknXb8a3.v.3dns.vip
+  servername: kQov7UKaDknXb8a3.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: kQov7UKaDknXb8a3.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本3|@ripaojiedian
+  network: ws
+  port: 443
+  server: kneNaKHeSXnZH259.v.3dns.vip
+  servername: kneNaKHeSXnZH259.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: kneNaKHeSXnZH259.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  port: 443
+  server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+  servername: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡2|@ripaojiedian
+  network: ws
+  port: 443
+  server: 6JiziO8PxQAXBAtZ.v.3dns.vip
+  servername: 6JiziO8PxQAXBAtZ.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国|@ripaojiedian
+  network: ws
+  port: 443
+  server: 8nTzyR5KNivfabaT.v.3dns.vip
+  servername: 8nTzyR5KNivfabaT.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 8nTzyR5KNivfabaT.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国|@ripaojiedian
+  network: ws
+  port: 443
+  server: 53vXOVarmgcreAsv.v.3dns.vip
+  servername: 53vXOVarmgcreAsv.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 53vXOVarmgcreAsv.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国2|@ripaojiedian
+  network: ws
+  port: 443
+  server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+  servername: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+    path: /ws-vmess
+- name: 🇫🇷FR_1|2.2MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.67.149.60
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_2|2.2MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.26.15.137
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_3|1.0MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 162.159.136.234
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_4|1.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_5|1.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.67.188.109
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /assignment
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
