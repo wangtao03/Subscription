@@ -1,4 +1,4 @@
-# Update: 2026-10-02 10:54
+# Update: 2026-10-02 19:29
 allow-lan: true
 dns:
   enable: true
@@ -317,7 +317,7 @@ proxies:
   server: 109.206.241.10
   sni: russiapower.accesscam.org
   type: trojan
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #20'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #19'
   network: ws
   password: humanity
   port: 443
@@ -329,11 +329,25 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #21'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #20'
   network: ws
   password: humanity
   port: 443
   server: 185.225.68.232
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- alpn:
+  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
+  name: '🇫🇷[www.v2nodes.com] trojan-FR-... #21'
+  network: ws
+  password: humanity
+  port: 8443
+  server: 212.227.144.37
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
@@ -407,30 +421,6 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #28'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #29'
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
 - alpn:
   - http/1.1
   name: '🇭🇰[www.v2nodes.com] trojan-HK-... #2'
@@ -448,7 +438,8 @@ proxies:
   network: ws
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   port: 443
-  server: 104.21.70.21
+  server: 104.18.32.87
+  skip-cert-verify: false
   sni: id1.nathaya.web.id
   type: trojan
   ws-opts:
@@ -471,6 +462,7 @@ proxies:
   password: 5931134d1cde66bf83a54acdfebe7ab2
   port: 443
   server: 47.250.84.25
+  sni: moltbot.doctoroyy.net
   type: trojan
 - alterId: 2
   cipher: auto
@@ -751,47 +743,46 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - h2
-  name: '🇩🇪 德国 | DEU 4 #2'
+- name: '🇳🇱 荷兰 | NLD 3 #1'
   network: ws
-  password: 0y7hid61k3k2vuy1
-  port: 2087
-  server: uwu.blueknightnet.qzz.io
+  password: humanity
+  port: 443
+  server: 45.130.125.190
   skip-cert-verify: true
-  sni: uwu.dianaw.cc.cd
+  sni: www.calmlunch.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: uwu.dianaw.cc.cd
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-- alterId: 1
-  cipher: auto
-  name: '🇯🇵 日本 | JPN 4 #2'
-  port: 28785
-  server: ydo80dg-g03.jp07-sh-vm0.entry.fr0528.art
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '🇺🇸 美国 | USA 10 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.96.3
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-- name: '🇩🇪 德国 | DEU #3 #2'
-  password: 0y7hid61k3k2vuy1
-  port: 2087
-  server: uwu.blueknightnet.qzz.io
-  skip-cert-verify: true
-  sni: uwu.dianaw.cc.cd
+  sni: www.calmlunch.com
   type: trojan
-- alterId: 1
-  cipher: auto
-  name: '🇯🇵 日本 | JPN #1 #2'
-  network: tcp
-  port: 28785
-  server: ydo80dg-g03.jp07-sh-vm0.entry.fr0528.art
-  tls: false
-  type: vmess
-  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '🇳🇱 荷兰 | NLD #3 #2'
+  password: humanity
+  port: 443
+  server: 45.130.125.190
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+- name: '🇺🇸 美国 | USA #8 #2'
+  password: humanity
+  port: 443
+  server: 188.114.96.3
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
 - alterId: 1
   cipher: auto
   name: 🇯🇵_JP_日本
@@ -822,6 +813,87 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #17'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #18'
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: '🇮🇩[www.v2nodes.com] trojan-ID-... #1'
+  network: ws
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  port: 443
+  server: 104.21.70.21
+  sni: id1.nathaya.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: id1.nathaya.web.id
+    path: /trojan
+- name: '🇲🇾[www.v2nodes.com] trojan-MY-... #1'
+  password: 5931134d1cde66bf83a54acdfebe7ab2
+  port: 443
+  server: 47.250.84.25
+  type: trojan
+- alpn:
+  - h2
+  name: 🇩🇪 德国 | DEU 4
+  network: ws
+  password: 0y7hid61k3k2vuy1
+  port: 2087
+  server: uwu.blueknightnet.qzz.io
+  skip-cert-verify: true
+  sni: uwu.dianaw.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: uwu.dianaw.cc.cd
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 4
+  port: 28785
+  server: ydo80dg-g03.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
+- name: '🇩🇪 德国 | DEU #3'
+  password: 0y7hid61k3k2vuy1
+  port: 2087
+  server: uwu.blueknightnet.qzz.io
+  skip-cert-verify: true
+  sni: uwu.dianaw.cc.cd
+  type: trojan
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #1'
+  network: tcp
+  port: 28785
+  server: ydo80dg-g03.jp07-sh-vm0.entry.fr0528.art
+  tls: false
+  type: vmess
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
 - alterId: 0
   cipher: auto
   name: '🇭🇰 香港3|@ripaojiedian #3'

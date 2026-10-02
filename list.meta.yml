@@ -1,4 +1,4 @@
-# Update: 2026-10-02 10:54
+# Update: 2026-10-02 19:29
 allow-lan: true
 dns:
   enable: true
@@ -18,6 +18,150 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
+- auth: my_super_password_123
+  name: xx|e524|puddincat07@Telegram
+  password: my_super_password_123
+  port: 443
+  server: open.w2m.ink
+  skip-cert-verify: true
+  sni: open.w2m.ink
+  type: hysteria2
+  udp: true
+- name: xx|febb|puddincat07@Telegram
+  password: 96ab5cd282733fd4c312a61f972f330a
+  port: 443
+  server: vp3.yysyy.online
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- auth: my_super_password_123
+  name: xx|01b0|puddincat07@Telegram
+  password: my_super_password_123
+  port: 443
+  server: open.2ml.bid
+  skip-cert-verify: true
+  sni: open.2ml.bid
+  type: hysteria2
+- auth: maintell
+  name: kr|1325|puddincat07@Telegram
+  password: maintell
+  port: 2053
+  server: 152.70.237.123
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: xx|344a|puddincat07@Telegram
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: vpn-sg-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  type: hysteria2
+  up: ''
+- name: xx|4994|puddincat07@Telegram
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  port: 33333
+  server: hy2.123266.xyz
+  sni: hy2.123266.xyz
+  tls: false
+  type: hysteria2
+- auth: gf1:gfhysteria2024
+  name: us|7a73|puddincat07@Telegram
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 66.94.121.46
+  skip-cert-verify: true
+  sni: www.broadcom.com
+  type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: xx|f149|puddincat07@Telegram
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: vpn-us-006.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-006.fastervpn.world
+  type: hysteria2
+  up: ''
+- auth: 633bc3be486b646190661ac2387c150a
+  name: D🔴🇦🇺hos[🎬🤖📺🎭]_dokng.com_256bd1...
+  obfs: salamander
+  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+  password: 633bc3be486b646190661ac2387c150a
+  port: 443
+  server: 152.67.115.203
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: hk|b589|puddincat07@Telegram
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: 202.146.222.29
+  tls: false
+  type: hysteria2
+- auth: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  name: ro|d8c4|puddincat07@Telegram
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.99
+  skip-cert-verify: true
+  sni: grape-test-italy.dynuddns.net
+  type: hysteria2
+- name: ch|46cb|puddincat07@Telegram
+  password: 84a506ca5aca505696a454d828420b3f
+  port: 50160
+  server: 140.238.213.114
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- auth: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  name: 🇩🇪 德国 | DEU 2
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.103
+  skip-cert-verify: true
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
+  udp: true
+- name: ro|27d1|puddincat07@Telegram
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.101
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: xx|5f1b|puddincat07@Telegram
+  obfs: ''
+  obfs-password: ''
+  password: my_super_password_123
+  port: '5443'
+  server: open.2ml.cc.cd
+  skip-cert-verify: false
+  sni: open.2ml.cc.cd
+  type: hysteria2
+  up: ''
+- name: 🗳️ConfigV2RayNG
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.102
+  skip-cert-verify: false
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
 - encryption: none
   flow: xtls-rprx-vision
   name: C🟠🇭🇰hos[📺]_dokng.com_7d532fbb
@@ -769,17 +913,6 @@ proxies:
   tls: true
   type: vless
   uuid: 6d341f6e-7b9d-4ae3-999b-00333de7bdfb
-- auth: 633bc3be486b646190661ac2387c150a
-  name: D🔴🇦🇺hos[🎬🤖📺🎭]_dokng.com_256bd1...
-  obfs: salamander
-  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-  password: 633bc3be486b646190661ac2387c150a
-  port: 443
-  server: 152.67.115.203
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
 - flow: xtls-rprx-vision
   name: C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_cb980c...
   port: 9443
@@ -1125,16 +1258,6 @@ proxies:
   sni: covers.pantera-radio.ru
   type: hysteria2
   up: ''
-- auth: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  name: 🇩🇪 德国 | DEU 2
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 77.74.123.103
-  skip-cert-verify: true
-  sni: grape-test-italy.dynuddns.net
-  tls: false
-  type: hysteria2
-  udp: true
 - auth: cf83b611-6cba-4535-adcb-8da06c6a9146
   name: C🟠🇫🇮hos[🎬🤖📺🎭]_dokng.com_8bb41b...
   password: cf83b611-6cba-4535-adcb-8da06c6a9146
@@ -1609,7 +1732,7 @@ proxies:
 - alpn:
   - http/1.1
   encryption: none
-  name: '🇳🇱 荷兰 | NLD #3'
+  name: '🇳🇱 荷兰 | NLD #3 #1'
   network: ws
   port: 2053
   server: ddnl0.zazazuza.ru
@@ -1905,7 +2028,7 @@ proxies:
   server: 109.206.241.10
   sni: russiapower.accesscam.org
   type: trojan
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #20'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #19'
   network: ws
   password: humanity
   port: 443
@@ -1917,11 +2040,25 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #21'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #20'
   network: ws
   password: humanity
   port: 443
   server: 185.225.68.232
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- alpn:
+  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
+  name: '🇫🇷[www.v2nodes.com] trojan-FR-... #21'
+  network: ws
+  password: humanity
+  port: 8443
+  server: 212.227.144.37
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
@@ -1995,30 +2132,6 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #28'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #29'
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
 - alpn:
   - http/1.1
   name: '🇭🇰[www.v2nodes.com] trojan-HK-... #2'
@@ -2036,7 +2149,8 @@ proxies:
   network: ws
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   port: 443
-  server: 104.21.70.21
+  server: 104.18.32.87
+  skip-cert-verify: false
   sni: id1.nathaya.web.id
   type: trojan
   ws-opts:
@@ -2059,6 +2173,7 @@ proxies:
   password: 5931134d1cde66bf83a54acdfebe7ab2
   port: 443
   server: 47.250.84.25
+  sni: moltbot.doctoroyy.net
   type: trojan
 - alterId: 2
   cipher: auto
@@ -2339,47 +2454,46 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - h2
-  name: '🇩🇪 德国 | DEU 4 #2'
+- name: '🇳🇱 荷兰 | NLD 3 #1'
   network: ws
-  password: 0y7hid61k3k2vuy1
-  port: 2087
-  server: uwu.blueknightnet.qzz.io
+  password: humanity
+  port: 443
+  server: 45.130.125.190
   skip-cert-verify: true
-  sni: uwu.dianaw.cc.cd
+  sni: www.calmlunch.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: uwu.dianaw.cc.cd
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-- alterId: 1
-  cipher: auto
-  name: '🇯🇵 日本 | JPN 4 #2'
-  port: 28785
-  server: ydo80dg-g03.jp07-sh-vm0.entry.fr0528.art
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '🇺🇸 美国 | USA 10 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.96.3
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-- name: '🇩🇪 德国 | DEU #3 #2'
-  password: 0y7hid61k3k2vuy1
-  port: 2087
-  server: uwu.blueknightnet.qzz.io
-  skip-cert-verify: true
-  sni: uwu.dianaw.cc.cd
+  sni: www.calmlunch.com
   type: trojan
-- alterId: 1
-  cipher: auto
-  name: '🇯🇵 日本 | JPN #1 #2'
-  network: tcp
-  port: 28785
-  server: ydo80dg-g03.jp07-sh-vm0.entry.fr0528.art
-  tls: false
-  type: vmess
-  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '🇳🇱 荷兰 | NLD #3 #2'
+  password: humanity
+  port: 443
+  server: 45.130.125.190
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+- name: '🇺🇸 美国 | USA #8 #2'
+  password: humanity
+  port: 443
+  server: 188.114.96.3
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
 - client-fingerprint: edge
   name: 🇺🇸_US_美国->🇭🇰_HK_中国香港
   network: ws
@@ -2725,14 +2839,6 @@ proxies:
   port: 44100
   server: pro2.riziro.ir
   sni: pro2.riziro.ir
-  tls: false
-  type: hysteria2
-- name: 🗳️ConfigV2RayNG
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 77.74.123.102
-  skip-cert-verify: false
-  sni: grape-test-italy.dynuddns.net
   tls: false
   type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇳🇱
@@ -4208,6 +4314,46 @@ proxies:
   uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
   ws-opts:
     path: /vless-test
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #17'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #18'
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: '🇮🇩[www.v2nodes.com] trojan-ID-... #1'
+  network: ws
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  port: 443
+  server: 104.21.70.21
+  sni: id1.nathaya.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: id1.nathaya.web.id
+    path: /trojan
+- name: '🇲🇾[www.v2nodes.com] trojan-MY-... #1'
+  password: 5931134d1cde66bf83a54acdfebe7ab2
+  port: 443
+  server: 47.250.84.25
+  type: trojan
 - name: '🇺🇸US_1|1.1MB/s #1'
   password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
   port: 443
@@ -4284,6 +4430,21 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 500
+- alpn:
+  - h2
+  name: 🇩🇪 德国 | DEU 4
+  network: ws
+  password: 0y7hid61k3k2vuy1
+  port: 2087
+  server: uwu.blueknightnet.qzz.io
+  skip-cert-verify: true
+  sni: uwu.dianaw.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: uwu.dianaw.cc.cd
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
 - name: '🇩🇪 德国 | DEU #4'
   network: ws
   port: 443
@@ -4408,6 +4569,16 @@ proxies:
   sni: de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com
   type: tuic
   uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 4
+  port: 28785
+  server: ydo80dg-g03.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
 - name: 🇯🇵 日本 | JPN 5
   password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
   port: 53274
@@ -4619,7 +4790,7 @@ proxies:
       Host: bounded-crammed.video-streams.org
     path: /ws
 - client-fingerprint: firefox
-  name: '🇺🇸 美国 | USA #8'
+  name: '🇺🇸 美国 | USA #8 #1'
   network: ws
   port: 443
   server: 151.101.65.242
@@ -4663,6 +4834,13 @@ proxies:
     headers:
       Host: adheres-scruple.quick-cdn.net
     path: /ws
+- name: '🇩🇪 德国 | DEU #3'
+  password: 0y7hid61k3k2vuy1
+  port: 2087
+  server: uwu.blueknightnet.qzz.io
+  skip-cert-verify: true
+  sni: uwu.dianaw.cc.cd
+  type: trojan
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: ''
@@ -4687,6 +4865,15 @@ proxies:
   tls: true
   type: vless
   uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #1'
+  network: tcp
+  port: 28785
+  server: ydo80dg-g03.jp07-sh-vm0.entry.fr0528.art
+  tls: false
+  type: vmess
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: ''
@@ -4848,7 +5035,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 13.212.200.208
+  server: 54.254.137.15
   servername: www.apple.com
   tls: true
   type: vless
@@ -4859,7 +5046,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 52.78.78.32
+  server: 3.36.121.228
   servername: www.apple.com
   tls: true
   type: vless
