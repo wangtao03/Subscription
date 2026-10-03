@@ -459,7 +459,7 @@ proxies:
   tls: false
   type: hysteria2
   udp: true
-- name: 🇵🇱 波兰 | POL 2
+- name: '🇵🇱 波兰 | POL #2 #1'
   password: Trojan@82164024
   port: 443
   server: pl.tronsg.com
@@ -1219,7 +1219,7 @@ proxies:
   server: 109.206.241.10
   sni: russiapower.accesscam.org
   type: trojan
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #24'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #23'
   network: ws
   password: humanity
   port: 443
@@ -1231,80 +1231,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #25'
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.225.68.232
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- alpn:
-  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  name: '🇫🇷[www.v2nodes.com] trojan-FR-... #26'
-  network: ws
-  password: humanity
-  port: 8443
-  server: 212.227.144.37
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #27'
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.87.41.18
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #28'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.calmlunch.com
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #29'
-  network: ws
-  password: humanity
-  port: 2053
-  server: 185.114.72.31
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #30'
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.160
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #31'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #24'
   network: ws
   password: humanity
   port: 443
@@ -1316,14 +1243,75 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #32'
+- alpn:
+  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
+  name: '🇫🇷[www.v2nodes.com] trojan-FR-... #25'
+  network: ws
+  password: humanity
+  port: 8443
+  server: 212.227.144.37
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #26'
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.87.41.18
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #27'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.calmlunch.com
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #28'
+  network: ws
+  password: humanity
+  port: 2053
+  server: 185.114.72.31
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #29'
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.160
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #30'
   password: humanity
   port: 443
   server: 165.215.250.14
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #33'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #31'
   network: ws
   password: humanity
   port: 443
@@ -1335,7 +1323,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #34'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #32'
   network: ws
   password: humanity
   port: 443
@@ -1347,7 +1335,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #35'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #33'
   network: ws
   password: humanity
   port: 443
@@ -1388,6 +1376,18 @@ proxies:
   server: 47.250.84.25
   sni: moltbot.doctoroyy.net
   type: trojan
+- name: '🇹🇼[www.v2nodes.com] trojan-TW-... #1'
+  network: ws
+  password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
+  port: 443
+  server: ttww11.bpca2026.top
+  skip-cert-verify: true
+  sni: ttww11.bpca2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttww11.bpca2026.top
+    path: /images
 - alterId: 2
   cipher: auto
   name: '🇭🇰 香港|@ripaojiedian #3'
@@ -1668,139 +1668,41 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 1
+- alpn:
+  - ''
+  alterId: 0
   cipher: auto
-  name: '🇯🇵 日本 | JPN #4'
-  port: 11775
-  server: 5do8ad4-g03.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-- alterId: 1
-  cipher: auto
-  name: '🇯🇵 日本 | JPN 2 #2'
-  port: 21583
-  server: ydh8094-g03.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-- alterId: 1
-  cipher: auto
-  name: '🇯🇵 日本 | JPN 5 #2'
-  port: 28785
-  server: yght29g-g03.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-- alterId: 1
-  cipher: auto
-  name: '🇯🇵 日本 | JPN 7 #2'
-  port: 11775
-  server: g03.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a85150ba-dae3-3055-8984-700faca4d576
-- alterId: 1
-  cipher: auto
-  name: '🇯🇵 日本 | JPN 9 #2'
-  port: 21583
-  server: y4ora9g-g03.jp03-j7-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-- name: '🇸🇬 新加坡 | SGP 4 #2'
+  name: '🇩🇪 德国 | DEU #3 #1'
   network: ws
-  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
-  port: 8443
-  server: www.wto.org
+  port: 80
+  server: 188.114.96.19
   skip-cert-verify: true
-  sni: jiangjc.pages.dev
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: c5965d47-45d6-45af-b619-3b2a6bf896a2
   ws-opts:
     headers:
-      Host: jiangjc.pages.dev
+      Host: google.whatsapp.snapp.torob.basalam.dns-look.space.
     path: /
-- name: '🇹🇼 🇨🇳 台湾 | TWN #3'
+- name: 🇹🇼 🇨🇳 台湾 | TWN 2
   network: ws
   password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
   port: 443
-  server: ttww11.bpca2026.top
+  server: t2w2t2w2.bpca2026.top
   skip-cert-verify: true
-  sni: ttww11.bpca2026.top
+  sni: t2w2t2w2.bpca2026.top
   type: trojan
   ws-opts:
     headers:
-      Host: ttww11.bpca2026.top
+      Host: t2w2t2w2.bpca2026.top
     path: /images
-- alterId: 1
-  cipher: auto
-  name: '🇯🇵 日本 | JPN #1 #2'
-  network: tcp
-  port: 11775
-  server: 5do8ad4-g03.jp02-e3-vm0.entry.fr0528.art
-  tls: false
-  type: vmess
-  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-- alterId: 1
-  cipher: auto
-  name: '🇯🇵 日本 | JPN #2 #2'
-  network: tcp
-  port: 21583
-  server: ydh8094-g03.jp01-nn-vm0.entry.fr0528.art
-  tls: true
-  type: vmess
-  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-- alterId: 1
-  cipher: auto
-  name: '🇯🇵 日本 | JPN #5 #2'
-  network: tcp
-  port: 28785
-  server: yght29g-g03.jp06-jz-vm0.entry.fr0528.art
-  tls: true
-  type: vmess
-  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-- alterId: 1
-  cipher: auto
-  name: '🇯🇵 日本 | JPN #7 #2'
-  network: tcp
-  port: 11775
-  server: g03.jp02-e3-vm0.entry.fr0528.art
-  tls: false
-  type: vmess
-  uuid: a85150ba-dae3-3055-8984-700faca4d576
-- alterId: 1
-  cipher: auto
-  name: '🇯🇵 日本 | JPN #9 #2'
-  network: tcp
-  port: 21583
-  server: y4ora9g-g03.jp03-j7-vm0.entry.fr0528.art
-  tls: true
-  type: vmess
-  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-- name: '🇸🇬 新加坡 | SGP #4 #2'
-  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
-  port: 8443
-  server: www.wto.org
-  skip-cert-verify: true
-  sni: jiangjc.pages.dev
-  type: trojan
-- name: '🇹🇼 🇨🇳 台湾 | TWN #1 #2'
+- name: '🇹🇼 🇨🇳 台湾 | TWN #1'
   password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
   port: 443
-  server: ttww11.bpca2026.top
+  server: t2w2t2w2.bpca2026.top
   skip-cert-verify: true
-  sni: ttww11.bpca2026.top
+  sni: t2w2t2w2.bpca2026.top
   type: trojan
 - name: 🇨🇳_CN_中国->🇺🇸_US_美国
   port: 52683
@@ -3749,6 +3651,18 @@ proxies:
     headers:
       Host: hk.152568.xyz
     path: /cdn/packages/runtime-core.tar.gz
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #12'
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.225.68.232
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
 - name: '🇭🇰HK_1|3.8MB/s #1'
   password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
   port: 56726
@@ -3849,8 +3763,28 @@ proxies:
   skip-cert-verify: true
   sni: t.me
   type: hysteria2
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 日本 | JPN
+  port: 11775
+  server: 5do8ad4-g03.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 2
+  port: 21583
+  server: ydh8094-g03.jp01-nn-vm0.entry.fr0528.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
 - auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  name: '🇯🇵 日本 | JPN #3 #1'
+  name: '🇯🇵 日本 | JPN #3'
   password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   port: 2060
   server: rb.mangshe.xyz
@@ -3858,6 +3792,26 @@ proxies:
   sni: 127.0.0.1
   tls: false
   type: hysteria2
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 5
+  port: 28785
+  server: yght29g-g03.jp06-jz-vm0.entry.fr0528.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 7
+  port: 11775
+  server: g03.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a85150ba-dae3-3055-8984-700faca4d576
 - client-fingerprint: unsafe
   name: '🇯🇵 日本 | JPN #8'
   network: ws
@@ -3872,6 +3826,16 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 9
+  port: 21583
+  server: y4ora9g-g03.jp03-j7-vm0.entry.fr0528.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
 - name: 🇰🇷 韩国 | KOR
   password: 13f0acfa-38c1-4e82-a758-583aa31740df
   port: 60005
@@ -3909,10 +3873,23 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /?ed=2560security=tls
+- name: 🇸🇬 新加坡 | SGP 4
+  network: ws
+  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
+  port: 8443
+  server: www.wto.org
+  skip-cert-verify: true
+  sni: jiangjc.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jiangjc.pages.dev
+    path: /
 - alpn:
   - h3
   disable-sni: false
-  name: 🇹🇼 🇨🇳 台湾 | TWN 2
+  name: '🇹🇼 🇨🇳 台湾 | TWN 2 #1'
   password: D7286728-678E-443B-B76B-B699654C66DD
   port: 8080
   reduce-rtt: false
@@ -4072,6 +4049,65 @@ proxies:
   tls: true
   type: vless
   uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #1'
+  network: tcp
+  port: 11775
+  server: 5do8ad4-g03.jp02-e3-vm0.entry.fr0528.art
+  tls: false
+  type: vmess
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #2'
+  network: tcp
+  port: 21583
+  server: ydh8094-g03.jp01-nn-vm0.entry.fr0528.art
+  tls: true
+  type: vmess
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #5'
+  network: tcp
+  port: 28785
+  server: yght29g-g03.jp06-jz-vm0.entry.fr0528.art
+  tls: true
+  type: vmess
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #7'
+  network: tcp
+  port: 11775
+  server: g03.jp02-e3-vm0.entry.fr0528.art
+  tls: false
+  type: vmess
+  uuid: a85150ba-dae3-3055-8984-700faca4d576
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #9'
+  network: tcp
+  port: 21583
+  server: y4ora9g-g03.jp03-j7-vm0.entry.fr0528.art
+  tls: true
+  type: vmess
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
+- name: '🇸🇬 新加坡 | SGP #4'
+  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
+  port: 8443
+  server: www.wto.org
+  skip-cert-verify: true
+  sni: jiangjc.pages.dev
+  type: trojan
+- name: '🇹🇼 🇨🇳 台湾 | TWN #1 #1'
+  password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
+  port: 443
+  server: ttww11.bpca2026.top
+  skip-cert-verify: true
+  sni: ttww11.bpca2026.top
+  type: trojan
 - name: '🇺🇸 美国 | USA #14'
   obfs: salamander
   obfs-password: salamander
@@ -4155,23 +4191,6 @@ proxies:
   udp: true
   uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
 - alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: ProxyPool | 🇩🇪 德国 | DEU 3
-  network: ws
-  port: 80
-  server: 188.114.96.19
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5965d47-45d6-45af-b619-3b2a6bf896a2
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.dns-look.space.
-    path: /
-- alpn:
   - h2
   - http/1.1
   name: 🇩🇪 德国 | DEU 4
@@ -4243,7 +4262,7 @@ proxies:
   type: vless
   udp: true
   uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
-- name: ProxyPool | 🇫🇷 法国 | FRA
+- name: '🇫🇷 法国 | FRA #1'
   network: ws
   password: humanity
   port: 443
@@ -4272,7 +4291,7 @@ proxies:
   uuid: 8f6e49e6-7f03-4f10-9da9-1716158d80ed
 - alterId: 1
   cipher: auto
-  name: ProxyPool | 🇯🇵 日本 | JPN
+  name: '🇯🇵 日本 | JPN #4'
   port: 28787
   server: 0a459on-g05.jp07-sh-vm0.entry.fr0528.art
   skip-cert-verify: true
@@ -4282,7 +4301,7 @@ proxies:
   uuid: ef4bb54a-b9c1-3034-993b-2325ef168b13
 - alterId: 1
   cipher: auto
-  name: ProxyPool | 🇯🇵 日本 | JPN 2
+  name: '🇯🇵 日本 | JPN 2 #1'
   port: 21585
   server: pq4yuf6-g05.jp03-j7-vm0.entry.fr0528.art
   skip-cert-verify: true
@@ -4340,7 +4359,7 @@ proxies:
   uuid: 8325bd97-b77c-4917-acaa-2446e9e8cc03
 - alpn:
   - http/1.1
-  name: 🇳🇱 荷兰 | NLD 3
+  name: '🇳🇱 荷兰 | NLD 3 #1'
   network: ws
   password: humanity
   port: 443
@@ -4501,7 +4520,7 @@ proxies:
     headers:
       Host: minimize-evenness.cdn-content.com
     path: /ws
-- name: 🇺🇸 美国 | USA 2
+- name: '🇺🇸 美国 | USA 2 #1'
   network: ws
   password: 43b07c4f-a447-4e39-bd2c-96b349f16d28
   port: 2053
@@ -4599,6 +4618,45 @@ proxies:
   tls: true
   type: vless
   uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+- name: '🇫🇷 法国 | FRA #1 #1'
+  password: humanity
+  port: 443
+  server: 212.183.88.136
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #1 #1'
+  network: tcp
+  port: 28787
+  server: 0a459on-g05.jp07-sh-vm0.entry.fr0528.art
+  tls: false
+  type: vmess
+  uuid: ef4bb54a-b9c1-3034-993b-2325ef168b13
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #2 #1'
+  network: tcp
+  port: 21585
+  server: pq4yuf6-g05.jp03-j7-vm0.entry.fr0528.art
+  tls: true
+  type: vmess
+  uuid: ef4bb54a-b9c1-3034-993b-2325ef168b13
+- name: '🇳🇱 荷兰 | NLD #3'
+  password: humanity
+  port: 443
+  server: 188.42.145.180
+  skip-cert-verify: true
+  sni: www.volumeroot.com
+  type: trojan
+- name: '🇺🇸 美国 | USA #2 #1'
+  password: 43b07c4f-a447-4e39-bd2c-96b349f16d28
+  port: 2053
+  server: x.com
+  skip-cert-verify: true
+  sni: avengers2.yang-1989.xyz
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '🇭🇰 香港3|@ripaojiedian #3'
