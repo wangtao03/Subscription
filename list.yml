@@ -1,4 +1,4 @@
-# Update: 2026-10-04 04:18
+# Update: 2026-10-04 11:12
 allow-lan: true
 dns:
   enable: true
@@ -18,10 +18,11 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: C🟠🇸🇬hos[🎬🤖📺🎭]_dokng.com_ecd87d...
+- name: 🇸🇬 新加坡 | SGP 6
   password: 5b140fc6a0a74e7f
   port: 20008
   server: gsg192i.zxom.eu.org
+  skip-cert-verify: true
   sni: gsg192i.zxom.eu.org
   type: trojan
 - alterId: 1
@@ -363,19 +364,15 @@ proxies:
   type: vmess
   udp: true
   uuid: 2375151e-88f8-3a69-bf57-c462ff20c6d8
-- alpn:
-  - ''
-  alterId: 0
+- alterId: '0'
   cipher: auto
-  name: '🇸🇬 新加坡 | SGP #1 #1'
+  name: C🟠🇸🇬hos[🎬🤖📺🎭]_dokng.com_fca970...
   network: ws
   port: 443
   server: 2nj8qyoHuZwgCP8J.v.3dns.vip
   servername: 2nj8qyoHuZwgCP8J.v.3dns.vip
-  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
   ws-opts:
     headers:
@@ -574,7 +571,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国
+  name: 🇺🇸_US_美国_2
   network: ws
   port: 443
   server: guanwang.awsno.com
@@ -750,19 +747,15 @@ proxies:
   type: vmess
   udp: true
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-- alpn:
-  - ''
-  alterId: 0
+- alterId: '0'
   cipher: auto
-  name: '🇺🇸 美国 | USA #1'
+  name: C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_542daf...
   network: ws
   port: 443
   server: WIVnYXQlO7TuwFo9.v.3dns.vip
   servername: WIVnYXQlO7TuwFo9.v.3dns.vip
-  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
   ws-opts:
     headers:
@@ -1023,14 +1016,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: ajv
+  name: '🇩🇪 德国 | DEU #3'
+  network: grpc
+  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
+  port: 443
+  server: 31.77.168.33
+  skip-cert-verify: true
+  sni: d3-de2.cloud-cdn.xyz
+  type: trojan
+  udp: true
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
   password: UX82473651
   port: 443
   server: pleased-albacore.rooster465.autos
   skip-cert-verify: true
   sni: pleased-albacore.rooster465.autos
   type: trojan
-  udp: true
 - name: '🇪🇪[www.v2nodes.com] trojan-EE-... #2'
   password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
   port: 449
@@ -1188,14 +1193,153 @@ proxies:
     headers:
       Host: id1.nathaya.web.id
     path: /trojan
-- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #3'
+- name: '🇮🇪 爱尔兰 | IRL #2 #2'
+  password: UX82473651
+  port: 443
+  server: loved-shark.rooster465.autos
+  skip-cert-verify: true
+  sni: loved-shark.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵 日本 | JPN #9 #2'
+  password: UX82473651
+  port: 443
+  server: obliging-louse.rooster465.autos
+  skip-cert-verify: true
+  sni: obliging-louse.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵 日本 | JPN #7 #1'
+  password: UX82473651
+  port: 443
+  server: winning-marten.rooster465.autos
+  skip-cert-verify: true
+  sni: winning-marten.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵 日本 | JPN #5 #2'
+  password: UX82473651
+  port: 443
+  server: concrete-aardvark.rooster465.autos
+  skip-cert-verify: true
+  sni: concrete-aardvark.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵 日本 | JPN #2 #1'
+  password: UX82473651
+  port: 443
+  server: organic-caribou.rooster465.autos
+  skip-cert-verify: true
+  sni: organic-caribou.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵[www.v2nodes.com] trojan-JP-... #8'
+  password: UX82473651
+  port: 443
+  server: intense-sole.rooster465.autos
+  skip-cert-verify: true
+  sni: intense-sole.rooster465.autos
+  type: trojan
+- name: '🇯🇵[www.v2nodes.com] trojan-JP-... #9'
+  password: UX82473651
+  port: 443
+  server: fancy-javelin.rooster465.autos
+  skip-cert-verify: true
+  sni: fancy-javelin.rooster465.autos
+  type: trojan
+- name: '🇯🇵 日本 | JPN #6 #2'
+  password: UX82473651
+  port: 443
+  server: comic-poodle.rooster465.autos
+  skip-cert-verify: true
+  sni: comic-poodle.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵 日本 | JPN #8 #2'
+  password: UX82473651
+  port: 443
+  server: promoted-rattler.rooster465.autos
+  skip-cert-verify: true
+  sni: promoted-rattler.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵[www.v2nodes.com] trojan-JP-... #10'
+  password: UX82473651
+  port: 443
+  server: integral-rodent.rooster465.autos
+  skip-cert-verify: true
+  sni: integral-rodent.rooster465.autos
+  type: trojan
+- name: '🇯🇵[www.v2nodes.com] trojan-JP-... #11'
+  password: UX82473651
+  port: 443
+  server: assuring-skink.rooster465.autos
+  skip-cert-verify: true
+  sni: assuring-skink.rooster465.autos
+  type: trojan
+- name: '🇯🇵 日本 | JPN #4 #2'
+  password: UX82473651
+  port: 443
+  server: evolving-platypus.rooster465.autos
+  skip-cert-verify: true
+  sni: evolving-platypus.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵 日本 | JPN #10 #2'
+  password: UX82473651
+  port: 443
+  server: brief-glider.rooster465.autos
+  skip-cert-verify: true
+  sni: brief-glider.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇰🇷 韩国 | KOR #9 #1'
+  password: UX82473651
+  port: 443
+  server: evolving-ewe.rooster465.autos
+  skip-cert-verify: true
+  sni: evolving-ewe.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇰🇷 韩国 | KOR #6 #1'
+  password: UX82473651
+  port: 443
+  server: kind-stork.rooster465.autos
+  skip-cert-verify: true
+  sni: kind-stork.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇰🇷 韩国 | KOR #5 #1'
+  password: UX82473651
+  port: 443
+  server: noted-cougar.rooster465.autos
+  skip-cert-verify: true
+  sni: noted-cougar.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇰🇷 韩国 | KOR #3 #1'
+  password: UX82473651
+  port: 443
+  server: optimum-snapper.rooster465.autos
+  skip-cert-verify: true
+  sni: optimum-snapper.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇰🇷 韩国 | KOR #2 #1'
+  password: UX82473651
+  port: 443
+  server: liked-eft.rooster465.autos
+  skip-cert-verify: true
+  sni: liked-eft.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #6'
   password: UX82473651
   port: 443
   server: engaging-toucan.rooster465.autos
   skip-cert-verify: true
   sni: engaging-toucan.rooster465.autos
   type: trojan
-  udp: true
 - name: '🇰🇷 韩国 | KOR #1 #2'
   password: UX82473651
   port: 443
@@ -1204,27 +1348,24 @@ proxies:
   sni: pretty-rat.rooster465.autos
   type: trojan
   udp: true
-- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #4'
+- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #7'
   password: UX82473651
   port: 443
   server: main-fawn.rooster465.autos
   skip-cert-verify: true
   sni: main-fawn.rooster465.autos
   type: trojan
-  udp: true
-- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #5'
+- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #8'
   password: UX82473651
   port: 443
   server: balanced-stag.rooster465.autos
   skip-cert-verify: true
   sni: balanced-stag.rooster465.autos
   type: trojan
-  udp: true
 - name: '🇲🇾[www.v2nodes.com] trojan-MY-... #2'
   password: 5931134d1cde66bf83a54acdfebe7ab2
   port: 443
   server: 47.250.84.25
-  sni: moltbot.doctoroyy.net
   type: trojan
 - alpn:
   - http/1.1
@@ -1240,6 +1381,29 @@ proxies:
     headers:
       Host: www.volumeroot.com
     path: /assignment
+- name: '🇸🇬 新加坡 | SGP #2 #1'
+  password: UX82473651
+  port: 443
+  server: desired-boxer.rooster465.autos
+  skip-cert-verify: true
+  sni: desired-boxer.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇸🇬 新加坡 | SGP #1 #1'
+  password: UX82473651
+  port: 443
+  server: real-cardinal.rooster465.autos
+  skip-cert-verify: true
+  sni: real-cardinal.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #2'
+  password: UX82473651
+  port: 443
+  server: glowing-marmoset.rooster465.autos
+  skip-cert-verify: true
+  sni: glowing-marmoset.rooster465.autos
+  type: trojan
 - name: '🇹🇼[www.v2nodes.com] trojan-TW-... #2'
   network: ws
   password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
@@ -1252,6 +1416,14 @@ proxies:
     headers:
       Host: ttww11.bpca2026.top
     path: /images
+- name: '🇺🇸 美国 | USA #3 #2'
+  password: UX82473651
+  port: 443
+  server: guided-ferret.rooster465.autos
+  skip-cert-verify: true
+  sni: guided-ferret.rooster465.autos
+  type: trojan
+  udp: true
 - name: '🇺🇸 美国 | USA #6 #1'
   password: UX82473651
   port: 443
@@ -1268,6 +1440,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
@@ -1539,155 +1712,6 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: ajv
-  name: '🇩🇪 德国 | DEU #3'
-  network: grpc
-  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
-  port: 443
-  server: 31.77.168.33
-  skip-cert-verify: true
-  sni: d3-de2.cloud-cdn.xyz
-  type: trojan
-  udp: true
-- name: '🇮🇪 爱尔兰 | IRL #2 #1'
-  password: UX82473651
-  port: 443
-  server: loved-shark.rooster465.autos
-  skip-cert-verify: true
-  sni: loved-shark.rooster465.autos
-  type: trojan
-  udp: true
-- name: '🇯🇵 日本 | JPN #2 #2'
-  password: UX82473651
-  port: 443
-  server: organic-caribou.rooster465.autos
-  skip-cert-verify: true
-  sni: organic-caribou.rooster465.autos
-  type: trojan
-  udp: true
-- name: '🇯🇵 日本 | JPN #4 #2'
-  password: UX82473651
-  port: 443
-  server: evolving-platypus.rooster465.autos
-  skip-cert-verify: true
-  sni: evolving-platypus.rooster465.autos
-  type: trojan
-  udp: true
-- name: '🇯🇵 日本 | JPN #5 #2'
-  password: UX82473651
-  port: 443
-  server: concrete-aardvark.rooster465.autos
-  skip-cert-verify: true
-  sni: concrete-aardvark.rooster465.autos
-  type: trojan
-  udp: true
-- name: '🇯🇵 日本 | JPN #6 #2'
-  password: UX82473651
-  port: 443
-  server: comic-poodle.rooster465.autos
-  skip-cert-verify: true
-  sni: comic-poodle.rooster465.autos
-  type: trojan
-  udp: true
-- name: '🇯🇵 日本 | JPN #7 #2'
-  password: UX82473651
-  port: 443
-  server: winning-marten.rooster465.autos
-  skip-cert-verify: true
-  sni: winning-marten.rooster465.autos
-  type: trojan
-  udp: true
-- name: '🇯🇵 日本 | JPN #8 #2'
-  password: UX82473651
-  port: 443
-  server: promoted-rattler.rooster465.autos
-  skip-cert-verify: true
-  sni: promoted-rattler.rooster465.autos
-  type: trojan
-  udp: true
-- name: '🇯🇵 日本 | JPN #9 #2'
-  password: UX82473651
-  port: 443
-  server: obliging-louse.rooster465.autos
-  skip-cert-verify: true
-  sni: obliging-louse.rooster465.autos
-  type: trojan
-  udp: true
-- name: '🇯🇵 日本 | JPN #10 #2'
-  password: UX82473651
-  port: 443
-  server: brief-glider.rooster465.autos
-  skip-cert-verify: true
-  sni: brief-glider.rooster465.autos
-  type: trojan
-  udp: true
-- name: '🇰🇷 韩国 | KOR #2 #2'
-  password: UX82473651
-  port: 443
-  server: liked-eft.rooster465.autos
-  skip-cert-verify: true
-  sni: liked-eft.rooster465.autos
-  type: trojan
-  udp: true
-- name: '🇰🇷 韩国 | KOR #3 #1'
-  password: UX82473651
-  port: 443
-  server: optimum-snapper.rooster465.autos
-  skip-cert-verify: true
-  sni: optimum-snapper.rooster465.autos
-  type: trojan
-  udp: true
-- name: '🇰🇷 韩国 | KOR #5 #2'
-  password: UX82473651
-  port: 443
-  server: noted-cougar.rooster465.autos
-  skip-cert-verify: true
-  sni: noted-cougar.rooster465.autos
-  type: trojan
-  udp: true
-- name: '🇰🇷 韩国 | KOR #6 #1'
-  password: UX82473651
-  port: 443
-  server: kind-stork.rooster465.autos
-  skip-cert-verify: true
-  sni: kind-stork.rooster465.autos
-  type: trojan
-  udp: true
-- name: '🇰🇷 韩国 | KOR #9 #1'
-  password: UX82473651
-  port: 443
-  server: evolving-ewe.rooster465.autos
-  skip-cert-verify: true
-  sni: evolving-ewe.rooster465.autos
-  type: trojan
-  udp: true
-- name: '🇸🇬 新加坡 | SGP #1 #2'
-  password: UX82473651
-  port: 443
-  server: real-cardinal.rooster465.autos
-  skip-cert-verify: true
-  sni: real-cardinal.rooster465.autos
-  type: trojan
-  udp: true
-- name: '🇸🇬 新加坡 | SGP #2 #2'
-  password: UX82473651
-  port: 443
-  server: desired-boxer.rooster465.autos
-  skip-cert-verify: true
-  sni: desired-boxer.rooster465.autos
-  type: trojan
-  udp: true
-- name: '🇺🇸 美国 | USA #3 #2'
-  password: UX82473651
-  port: 443
-  server: guided-ferret.rooster465.autos
-  skip-cert-verify: true
-  sni: guided-ferret.rooster465.autos
-  type: trojan
-  udp: true
 - name: '🇩🇪 德国 | DEU #1 #2'
   password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
   port: 443
@@ -1695,122 +1719,114 @@ proxies:
   skip-cert-verify: true
   sni: d3-de2.cloud-cdn.xyz
   type: trojan
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵_JP_日本
-  port: 11777
-  server: r8f4n-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8ee65c79-4487-32ff-b896-62c8dce05921
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇯🇵_JP_日本
-  port: 11206
-  server: sbgfgov.vip6.wogacnmnagfwgov.com
+  name: 🇭🇰_HK_中国香港->🇩🇪_DE_德国
+  port: 30833
+  server: v33.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-  port: 11231
-  server: silversbgfgov.vip31.wogbcnmnagfwgov.com
+  name: 🇭🇰_HK_中国香港->🇮🇪_IE_爱尔兰
+  port: 30804
+  server: v4.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-- name: '🇭🇰 香港 | HKG #1'
-  password: UX82473651
-  port: 443
-  server: strong-haddock.rooster465.autos
-  skip-cert-verify: true
-  sni: strong-haddock.rooster465.autos
-  type: trojan
-  udp: true
-- alpn:
-  - ''
-  alterId: 0
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
   cipher: auto
-  name: '🇮🇩 印尼 | IDN #1'
-  network: ws
-  port: 443
-  server: 3dTmMsfpAlaqHI7b.v.3dns.vip
-  servername: 3dTmMsfpAlaqHI7b.v.3dns.vip
+  name: 🇭🇰_HK_中国香港->🇺🇸_US_美国
+  port: 30829
+  server: v29.hdacd.com
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
-  ws-opts:
-    headers:
-      Host: 3dTmMsfpAlaqHI7b.v.3dns.vip
-    path: /ws-vmess
-- name: '🇯🇵 日本 | JPN #4 #1'
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰_HK_中国香港->🇬🇧_GB_英国
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰_HK_中国香港->🇫🇷_FR_法国
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: ProxyPool | 🇩🇪 德国 | DEU
   password: UX82473651
   port: 443
-  server: assuring-skink.rooster465.autos
+  server: meet-goshawk.rooster465.autos
   skip-cert-verify: true
-  sni: assuring-skink.rooster465.autos
+  sni: meet-goshawk.rooster465.autos
   type: trojan
   udp: true
-- name: '🇯🇵 日本 | JPN #5 #1'
+- name: 🇯🇵 日本 | JPN 3
   password: UX82473651
   port: 443
-  server: integral-rodent.rooster465.autos
+  server: accurate-frog.rooster465.autos
   skip-cert-verify: true
-  sni: integral-rodent.rooster465.autos
+  sni: accurate-frog.rooster465.autos
   type: trojan
   udp: true
-- name: '🇯🇵 日本 | JPN #8 #1'
+- name: 🇰🇷 韩国 | KOR 4
   password: UX82473651
   port: 443
-  server: fancy-javelin.rooster465.autos
+  server: delicate-buck.rooster465.autos
   skip-cert-verify: true
-  sni: fancy-javelin.rooster465.autos
+  sni: delicate-buck.rooster465.autos
   type: trojan
   udp: true
-- name: '🇯🇵 日本 | JPN #10 #1'
+- name: 🇸🇬 新加坡 | SGP
   password: UX82473651
   port: 443
-  server: intense-sole.rooster465.autos
+  server: holy-lamb.rooster465.autos
   skip-cert-verify: true
-  sni: intense-sole.rooster465.autos
+  sni: holy-lamb.rooster465.autos
   type: trojan
   udp: true
-- name: '🇸🇬 新加坡 | SGP #4'
+- name: 🇸🇬 新加坡 | SGP 4
   password: UX82473651
   port: 443
-  server: glowing-marmoset.rooster465.autos
+  server: inviting-ferret.rooster465.autos
   skip-cert-verify: true
-  sni: glowing-marmoset.rooster465.autos
+  sni: inviting-ferret.rooster465.autos
   type: trojan
   udp: true
-- name: 🇺🇸 美国 | USA 2
-  network: ws
-  password: b792ffa6-7007-43a9-ae9f-46f68da52a6a
-  port: 8443
-  server: x.com
+- name: 🇺🇸 美国 | USA 3
+  password: UX82473651
+  port: 443
+  server: ultimate-jaguar.rooster465.autos
   skip-cert-verify: true
-  sni: avengers1.yang-1989.xyz
+  sni: ultimate-jaguar.rooster465.autos
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: avengers1.yang-1989.xyz
-    path: /hm4m
-- name: '🇺🇸 美国 | USA #2'
-  password: b792ffa6-7007-43a9-ae9f-46f68da52a6a
-  port: 8443
-  server: x.com
-  skip-cert-verify: true
-  sni: avengers1.yang-1989.xyz
-  type: trojan
 - alterId: 0
   cipher: auto
   name: '🇭🇰 香港3|@ripaojiedian #3'
