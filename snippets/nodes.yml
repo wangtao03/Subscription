@@ -39,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: www.itunes.com
   type: trojan
-- name: '🇬🇧 英国 | GBR #1 #1'
+- name: '🇬🇧 英国 | GBR #2 #1'
   password: Trojan@82164024
   port: 443
   server: gb.tronsg.com
@@ -65,17 +65,17 @@ proxies:
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
 - alpn:
   - ''
-  alterId: 0
+  alterId: '0'
   cipher: auto
   http-opts:
-    method: GET
+    headers: {}
     path:
     - /
-  name: 🇩🇪 德国 | DEU 5
+  name: C🟠🇩🇪hos[🎬🤖📺🎭]_dokng.com_dc4f65...
   network: http
   port: 43462
   server: 5.75.204.152
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -179,7 +179,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1
+  name: 🇺🇸_US_美国
   network: ws
   port: 443
   server: guanwang.awsno.com
@@ -347,7 +347,7 @@ proxies:
   skip-cert-verify: false
   sni: fi.zhabulik.ru
   type: trojan
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #19'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #21'
   network: ws
   password: humanity
   port: 443
@@ -359,68 +359,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- alpn:
-  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  name: '🇫🇷[www.v2nodes.com] trojan-FR-... #20'
-  network: ws
-  password: humanity
-  port: 8443
-  server: 212.227.144.37
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #21'
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.87.41.18
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
 - name: '🇫🇷[www.v2nodes.com] trojan-FR-... #22'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.calmlunch.com
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #23'
-  network: ws
-  password: humanity
-  port: 2053
-  server: 185.114.72.31
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #24'
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.160
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #25'
   network: ws
   password: humanity
   port: 443
@@ -432,14 +371,61 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #23'
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.87.41.18
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #24'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.calmlunch.com
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #25'
+  network: ws
+  password: humanity
+  port: 2053
+  server: 185.114.72.31
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
 - name: '🇫🇷[www.v2nodes.com] trojan-FR-... #26'
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.160
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #27'
   password: humanity
   port: 443
   server: 165.215.250.14
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #27'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #28'
   network: ws
   password: humanity
   port: 443
@@ -451,7 +437,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #28'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #29'
   network: ws
   password: humanity
   port: 443
@@ -463,7 +449,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #29'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #30'
   network: ws
   password: humanity
   port: 443
@@ -474,13 +460,13 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇭🇰[www.v2nodes.com] trojan-HK-... #1'
+- name: '🇭🇰[www.v2nodes.com] trojan-HK-... #2'
   password: UX82473651
   port: 443
   server: strong-haddock.rooster465.autos
   sni: strong-haddock.rooster465.autos
   type: trojan
-- name: '🏳[www.v2nodes.com] trojan- #5'
+- name: '🇮🇩[www.v2nodes.com] trojan-ID-... #1'
   network: ws
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   port: 443
@@ -507,7 +493,6 @@ proxies:
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 45.32.52.173
-  skip-cert-verify: true
   sni: 45.32.52.173
   type: trojan
 - name: '🇯🇵[www.v2nodes.com] trojan-JP-... #34'
@@ -600,7 +585,7 @@ proxies:
   server: evolving-platypus.rooster465.autos
   sni: evolving-platypus.rooster465.autos
   type: trojan
-- name: '🏳[www.v2nodes.com] trojan- #1 #2'
+- name: '🇯🇵[www.v2nodes.com] trojan-JP-... #49'
   password: UX82473651
   port: 443
   server: brief-glider.rooster465.autos
@@ -642,7 +627,7 @@ proxies:
   server: optimum-snapper.rooster465.autos
   sni: optimum-snapper.rooster465.autos
   type: trojan
-- name: '🏳[www.v2nodes.com] trojan- #2 #2'
+- name: '🏳[www.v2nodes.com] trojan- #4'
   password: UX82473651
   port: 443
   server: liked-eft.rooster465.autos
@@ -660,13 +645,13 @@ proxies:
   server: pretty-rat.rooster465.autos
   sni: pretty-rat.rooster465.autos
   type: trojan
-- name: '🏳[www.v2nodes.com] trojan- #3 #2'
+- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #27'
   password: UX82473651
   port: 443
   server: main-fawn.rooster465.autos
   sni: main-fawn.rooster465.autos
   type: trojan
-- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #27'
+- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #28'
   password: UX82473651
   port: 443
   server: balanced-stag.rooster465.autos
@@ -686,7 +671,7 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
+  name: '🇳🇱 荷兰 | NLD 2 #2'
   network: ws
   password: humanity
   port: 443
@@ -760,9 +745,11 @@ proxies:
   sni: real-cardinal.rooster465.autos
   type: trojan
 - name: '🇸🇬[www.v2nodes.com] trojan-SG-... #20'
+  network: tcp
   password: UX82473651
   port: 443
-  server: glowing-marmoset.rooster465.autos
+  server: 18.143.92.167
+  skip-cert-verify: false
   sni: glowing-marmoset.rooster465.autos
   type: trojan
 - name: '🇹🇼[www.v2nodes.com] trojan-TW-... #2'
@@ -1050,7 +1037,298 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇯🇵JP_2|3.3MB/s
+- name: '🇸🇬SG_3|1.2MB/s #1'
+  network: ws
+  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
+  port: '8443'
+  server: www.wto.org
+  skip-cert-verify: false
+  sni: jiangjc.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 香港 | HKG #4 #1'
+  network: ws
+  port: 23026
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  ws-opts:
+    path: /arki
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '🇭🇰 香港 | HKG #5 #2'
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    path: /arki
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '🇭🇰 香港 | HKG #6 #2'
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    path: /arki
+- name: '🇯🇵 日本 | JPN #1 #1'
+  password: UX82473651
+  port: 443
+  server: internal-krill.rooster465.autos
+  skip-cert-verify: true
+  sni: internal-krill.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵 日本 | JPN #3 #1'
+  password: UX82473651
+  port: 443
+  server: equipped-stingray.rooster465.autos
+  skip-cert-verify: true
+  sni: equipped-stingray.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵 日本 | JPN #4 #1'
+  password: UX82473651
+  port: 443
+  server: amazed-mako.rooster465.autos
+  skip-cert-verify: true
+  sni: amazed-mako.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵 日本 | JPN #5 #1'
+  password: UX82473651
+  port: 443
+  server: optimal-penguin.rooster465.autos
+  skip-cert-verify: true
+  sni: optimal-penguin.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵 日本 | JPN #6 #1'
+  password: UX82473651
+  port: 443
+  server: normal-macaque.rooster465.autos
+  skip-cert-verify: true
+  sni: normal-macaque.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇯🇵 日本 | JPN #7 #1'
+  password: UX82473651
+  port: 443
+  server: warm-krill.rooster465.autos
+  skip-cert-verify: true
+  sni: warm-krill.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇰🇷 韩国 | KOR #1 #2'
+  password: UX82473651
+  port: 443
+  server: full-egret.rooster465.autos
+  skip-cert-verify: true
+  sni: full-egret.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇰🇷 韩国 | KOR #2 #1'
+  password: UX82473651
+  port: 443
+  server: working-tomcat.rooster465.autos
+  skip-cert-verify: true
+  sni: working-tomcat.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇰🇷 韩国 | KOR #3 #1'
+  password: UX82473651
+  port: 443
+  server: central-jawfish.rooster465.autos
+  skip-cert-verify: true
+  sni: central-jawfish.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇸🇬 新加坡 | SGP #2 #1'
+  password: UX82473651
+  port: 443
+  server: real-werewolf.rooster465.autos
+  skip-cert-verify: true
+  sni: real-werewolf.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇸🇬 新加坡 | SGP #3 #2'
+  password: UX82473651
+  port: 443
+  server: present-ram.rooster465.autos
+  skip-cert-verify: true
+  sni: present-ram.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA 6 #2'
+  network: ws
+  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  port: 443
+  server: us3-2.998998.best
+  skip-cert-verify: true
+  sni: nat3.xxai.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: nat3.xxai.dpdns.org
+    path: /anyway
+- name: '🇺🇸 美国 | USA 7 #2'
+  network: ws
+  password: b792ffa6-7007-43a9-ae9f-46f68da52a6a
+  port: 8443
+  server: x.com
+  skip-cert-verify: true
+  sni: avengers1.yang-1989.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: avengers1.yang-1989.xyz
+    path: /hm4m
+- alterId: 2
+  cipher: auto
+  name: '🇺🇸 美国 | USA 10 #2'
+  port: 11267
+  server: goldcnmltyljgfwgov.vip67.wogcnmnnagfwgov.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+- name: '🇳🇱 荷兰 | NLD #2 #1'
+  password: humanity
+  port: 443
+  server: 104.18.35.86
+  skip-cert-verify: true
+  sni: www.volumerOot.coM.
+  type: trojan
+- name: '🇺🇸 美国 | USA #5 #2'
+  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  port: 443
+  server: us3-2.998998.best
+  skip-cert-verify: true
+  sni: nat3.xxai.dpdns.org
+  type: trojan
+- name: '🇺🇸 美国 | USA #6 #2'
+  password: b792ffa6-7007-43a9-ae9f-46f68da52a6a
+  port: 8443
+  server: x.com
+  skip-cert-verify: true
+  sni: avengers1.yang-1989.xyz
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: '🇺🇸 美国 | USA #9 #2'
+  network: tcp
+  port: 11267
+  server: goldcnmltyljgfwgov.vip67.wogcnmnnagfwgov.com
+  tls: false
+  type: vmess
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰_HK_中国香港->🇫🇷_FR_法国
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰_HK_中国香港
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国_1
+  network: ws
+  port: 10086
+  server: 39.108.113.127
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰_HK_中国香港->🇺🇸_US_美国
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰_HK_中国香港->🇮🇪_IE_爱尔兰
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
+  name: '🇫🇷[www.v2nodes.com] trojan-FR-... #11'
+  network: ws
+  password: humanity
+  port: 8443
+  server: 212.227.144.37
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #13'
+  password: UX82473651
+  port: 443
+  server: glowing-marmoset.rooster465.autos
+  sni: glowing-marmoset.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_1|5.6MB/s
   network: ws
   password: 5504eaa8-1395-402f-8e0e-75ecd762e627
   port: 443
@@ -1066,7 +1344,7 @@ proxies:
     path: /w4e5yh0p945y3?ed=2560
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 香港 | HKG #1 #1'
+  name: '🇭🇰 香港 | HKG #1'
   network: ws
   port: 443
   server: 47.243.65.243
@@ -1091,7 +1369,7 @@ proxies:
     method: GET
     path:
     - /x
-  name: '🇭🇰 香港 | HKG #3 #2'
+  name: '🇭🇰 香港 | HKG #3'
   network: http
   port: 800
   server: 47.86.167.194
@@ -1102,7 +1380,7 @@ proxies:
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 香港 | HKG #5 #2'
+  name: '🇭🇰 香港 | HKG #5 #1'
   network: ws
   port: 443
   server: vah4urdzl3jdx5r2.v.3dns.vip
@@ -1118,7 +1396,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 香港 | HKG #6 #2'
+  name: '🇭🇰 香港 | HKG #6 #1'
   network: ws
   port: 443
   server: ex1ogt73nzpqkac2.v.3dns.vip
@@ -1133,7 +1411,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 香港 | HKG #7 #2'
+  name: '🇭🇰 香港 | HKG #7'
   network: ws
   port: 443
   server: 8.217.254.88
@@ -1147,7 +1425,7 @@ proxies:
     headers:
       Host: 2b9hwy8ocx7q74nm.v.3dns.vip
     path: /ws-vmess
-- name: '🇺🇸 美国 | USA 10 #2'
+- name: '🇺🇸 美国 | USA 10 #1'
   network: ws
   password: '123456'
   port: 2096
@@ -1160,213 +1438,44 @@ proxies:
     headers:
       Host: 321dfbc6.uir-9i6.pages.dev
     path: ''
-- name: '🇺🇸 美国 | USA #8 #1'
+- name: '🇺🇸 美国 | USA #8'
   password: '123456'
   port: 2096
   server: 104.18.35.86
   skip-cert-verify: true
   sni: 321dfbc6.uir-9i6.pages.dev
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国
-  port: 50002
-  server: 112.132.215.108
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国_1
-  network: ws
-  port: 10086
-  server: 39.108.113.127
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #12'
-  network: ws
-  password: humanity
+- name: 🇩🇪DE_13|1.1MB/s
+  network: tcp
+  password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
   port: 443
-  server: 185.225.68.232
+  server: ger2.fytpn.com
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #12'
-  password: UX82473651
-  port: 443
-  server: evolving-ewe.rooster465.autos
-  sni: evolving-ewe.rooster465.autos
+  udp: true
+- name: 🇫🇮FI_1|2.3MB/s
+  network: tcp
+  password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
+  port: 2097
+  server: ger6.fytpn.com
+  skip-cert-verify: false
   type: trojan
-- name: '🇲🇾[www.v2nodes.com] trojan-MY-... #1'
-  password: 5931134d1cde66bf83a54acdfebe7ab2
-  port: 443
-  server: 47.250.84.25
-  sni: moltbot.doctoroyy.net
-  type: trojan
-- name: 🇺🇸[www.v2nodes.com] trojan-US-...
-  password: mitivpn
-  port: 443
-  server: 199.232.78.101
-  type: trojan
-  ws-opts:
-    path: '%2F---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40MetiVIP%2Fdes---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40%40MetiVIP%2F---%40%40MetiVIP---%40MetiVIP'
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '🇭🇰 香港 | HKG #4'
-  network: ws
-  port: 23026
-  server: 47.244.120.197
-  skip-cert-verify: true
-  tls: false
-  type: vmess
   udp: true
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  ws-opts:
-    path: /arki
 - alpn:
-  - ''
-  alterId: 0
+  - h2
+  - http/1.1
+  alterId: '0'
   cipher: auto
-  name: '🇭🇰 香港 | HKG #5 #1'
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    path: /arki
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '🇭🇰 香港 | HKG #6 #1'
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    path: /arki
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    method: GET
-    path:
-    - /x
-  name: '🇭🇰 香港 | HKG #7 #1'
-  network: http
-  port: 9999
-  server: 8.217.230.196
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 02dc4f5b-b87d-410d-b9d5-0c6f921d92f8
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 香港 | HKG #9'
-  network: ws
-  port: 443
-  server: 6JDvArazgU3qQR6Q.v.3dns.vip
-  skip-cert-verify: true
+  name: 🇱🇻LV_3|3.0MB/s
+  network: tcp
+  port: 2083
+  server: 188.130.154.174
+  skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 香港 | HKG #10'
-  network: ws
-  port: 443
-  server: 93ucrn4i0pffuabk.v.3dns.vip
-  servername: 93ucrn4i0pffuabk.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: 93ucrn4i0pffuabk.v.3dns.vip
-    path: /ws-vmess
-- name: '🇺🇸 美国 | USA #4'
-  password: humanity
-  port: 443
-  server: 104.18.35.86
-  skip-cert-verify: true
-  sni: www.volumerOot.coM.
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 7
-  network: ws
-  port: 443
-  server: 47.243.153.153
-  servername: i2psm3knof5qjjix.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 8
-  network: ws
-  port: 443
-  server: 8.217.13.103
-  servername: qtkdr8jxe3wefxjm.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: qtkdr8jxe3wefxjm.v.3dns.vip
-    path: /ws-vmess
-- name: 🇸🇬 新加坡 | SGP 2
-  network: ws
-  password: trojan
-  port: 8443
-  server: 104.18.35.86
-  skip-cert-verify: true
-  sni: longwanghen.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: longwanghen.pages.dev
-    path: /
+  uuid: 74c17cae-bf8b-4cda-8cdd-cf7983bf0a49
+  xudp: true
 - alterId: 0
   cipher: auto
   name: '🇭🇰 香港3|@ripaojiedian #3'
