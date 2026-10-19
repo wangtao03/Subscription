@@ -155,15 +155,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇩🇪DE_1|2.9MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
+  network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: de7.dedushka.top
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: de7.dedushka.top
   type: trojan
   udp: true
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #4'
   password: happybirthdaydaniel
   port: 25267
   server: de-bots4.h1cloud.net
@@ -175,7 +179,7 @@ proxies:
   server: 109.206.241.10
   sni: russiapower.accesscam.org
   type: trojan
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #22'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #23'
   network: ws
   password: humanity
   port: 443
@@ -187,7 +191,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #23'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #24'
   network: ws
   password: humanity
   port: 443
@@ -201,7 +205,7 @@ proxies:
     path: /assignment
 - alpn:
   - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  name: '🇫🇷[www.v2nodes.com] trojan-FR-... #24'
+  name: '🇫🇷[www.v2nodes.com] trojan-FR-... #25'
   network: ws
   password: humanity
   port: 8443
@@ -213,7 +217,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #25'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #26'
   network: ws
   password: humanity
   port: 443
@@ -225,7 +229,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #26'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #27'
   network: ws
   password: humanity
   port: 443
@@ -236,7 +240,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #27'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #28'
   network: ws
   password: humanity
   port: 2053
@@ -248,7 +252,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #28'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #29'
   network: ws
   password: humanity
   port: 443
@@ -260,14 +264,21 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #29'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #30'
+  password: humanity
+  port: 443
+  server: 185.220.100.168
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #31'
   password: humanity
   port: 443
   server: 165.215.250.14
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #30'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #32'
   network: ws
   password: humanity
   port: 443
@@ -279,7 +290,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #31'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #33'
   network: ws
   password: humanity
   port: 443
@@ -291,7 +302,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #32'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #34'
   network: ws
   password: humanity
   port: 443
@@ -316,12 +327,15 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- name: '🇯🇵[www.v2nodes.com] trojan-JP-... #5'
+- name: 🇯🇵JP_1|2.5MB/s
+  network: tcp
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
+  port: '8886'
   server: 45.32.52.173
+  skip-cert-verify: true
   sni: 45.32.52.173
   type: trojan
+  udp: true
 - name: '🇲🇾[www.v2nodes.com] trojan-MY-... #2'
   password: 5931134d1cde66bf83a54acdfebe7ab2
   port: 443
@@ -370,11 +384,11 @@ proxies:
 - name: '🇳🇱[www.v2nodes.com] trojan-NL-... #32'
   password: humanity
   port: 443
-  server: 139.59.186.54
+  server: 209.38.37.132
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '🏳[www.v2nodes.com] trojan- #2'
+- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #33'
   password: humanity
   port: 443
   server: 143.246.136.156
@@ -383,7 +397,7 @@ proxies:
     path: '%2Fassignment'
 - alpn:
   - http/1.1
-  name: '🇳🇱[www.v2nodes.com] trojan-NL-... #33'
+  name: '🇳🇱[www.v2nodes.com] trojan-NL-... #34'
   network: ws
   password: humanity
   port: 443
@@ -395,35 +409,35 @@ proxies:
     headers:
       Host: www.pleadcourt.org
     path: /assignment
-- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #34'
+- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #35'
   password: humanity
   port: 443
   server: 219.76.13.177
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #35'
+- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #36'
   password: humanity
   port: 443
   server: 209.38.99.120
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #36'
+- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #37'
   password: humanity
   port: 443
   server: 185.22.172.249
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #37'
+- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #38'
   password: humanity
   port: 443
   server: 46.62.204.134
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #38'
+- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #39'
   password: humanity
   port: 443
   server: 92.42.99.143
@@ -432,7 +446,7 @@ proxies:
     path: '%2Fassignment'
 - alpn:
   - http/1.1
-  name: '🇳🇱[www.v2nodes.com] trojan-NL-... #39'
+  name: '🇳🇱[www.v2nodes.com] trojan-NL-... #40'
   network: ws
   password: humanity
   port: 443
@@ -446,7 +460,7 @@ proxies:
     path: /assignment
 - alpn:
   - http/1.1
-  name: '🇳🇱[www.v2nodes.com] trojan-NL-... #40'
+  name: '🇳🇱[www.v2nodes.com] trojan-NL-... #41'
   network: ws
   password: humanity
   port: 443
@@ -458,18 +472,6 @@ proxies:
     headers:
       Host: www.pleadcourt.org
     path: /assignment
-- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #41'
-  network: ws
-  password: humanity
-  port: 443
-  server: 31.57.190.34
-  skip-cert-verify: false
-  sni: www.volumeroot.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.volumeroot.com
-    path: '%2Fassignment'
 - name: '🇸🇬[www.v2nodes.com] trojan-SG-... #2'
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
@@ -485,7 +487,15 @@ proxies:
   type: trojan
   ws-opts:
     path: /0962
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #2'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #3'
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  port: 443
+  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: true
+  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  type: trojan
+  udp: true
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #4'
   password: ae7eb4dwyaz25pxwgq59
   port: 59689
   server: 66.23.203.21
@@ -770,20 +780,39 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: '🇩🇪DE_2|4.5MB/s #2'
-  network: tcp
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  - h3
+  name: 🇩🇪 德国 | DEU
+  network: ws
+  password: bpb-trojan
   port: 443
-  server: de7.dedushka.top
-  skip-cert-verify: false
-  sni: de7.dedushka.top
+  server: russia.com
+  skip-cert-verify: true
+  sni: 6982410.xyz
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: 6982410.xyz
+    path: /tr
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 香港 | HKG #3 #2'
+  name: '🇭🇰 香港 | HKG #6 #1'
+  network: ws
+  port: 443
+  server: 47.76.57.83
+  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 香港 | HKG #3 #1'
   network: ws
   port: 443
   server: nycqg19zkwacpm1b.v.3dns.vip
@@ -796,41 +825,52 @@ proxies:
     headers:
       Host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
-- name: '🇺🇸 美国 | USA #2 #2'
-  password: 1f8dc24373d4add7767beac448e32397
-  port: 8443
-  server: 38.150.35.208
+- name: '🇭🇰 香港 | HKG #1 #1'
+  password: bad06c3525a6eaee1757b34776b83892
+  port: 12001
+  server: 4c2d5151.266nets.com
   skip-cert-verify: true
-  sni: www.apple.com
+  sni: ixigua.com
   type: trojan
   udp: true
-- name: '🇺🇸 美国 | USA #7 #1'
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  port: 443
-  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+- name: '🇯🇵 日本 | JPN #3'
+  password: bad06c3525a6eaee1757b34776b83892
+  port: 12019
+  server: 4c2d5151.266nets.com
   skip-cert-verify: true
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  sni: ixigua.com
   type: trojan
   udp: true
-- name: '🇺🇸 美国 | USA 12 #2'
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷_KR_韩国
   network: ws
-  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
   port: 443
-  server: 104.18.65.57
+  server: chuncheon02.zgjok.com
+  servername: chuncheon02.zgjok.com
   skip-cert-verify: true
-  sni: nat3.xxai.dpdns.org
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
+  uuid: d1a1cb91-0f1f-41eb-a307-631bba00f1bb
   ws-opts:
     headers:
-      Host: nat3.xxai.dpdns.org
-    path: /anyway
-- name: '🇺🇸 美国 | USA #12 #2'
-  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  port: 443
-  server: 104.18.65.57
+      Host: chuncheon02.zgjok.com
+    path: /
+- name: '🇸🇬 新加坡 | SGP #6'
+  password: bad06c3525a6eaee1757b34776b83892
+  port: 12013
+  server: 4c2d5151.266nets.com
   skip-cert-verify: true
-  sni: nat3.xxai.dpdns.org
+  sni: ixigua.com
+  type: trojan
+  udp: true
+- name: '🇩🇪 德国 | DEU #1'
+  password: bpb-trojan
+  port: 443
+  server: russia.com
+  skip-cert-verify: true
+  sni: 6982410.xyz
   type: trojan
 - alterId: 0
   cipher: auto
@@ -854,22 +894,14 @@ proxies:
   type: vmess
   udp: true
   uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷_KR_韩国
-  network: ws
+- name: '🇷🇴 罗马尼亚 | ROU #1'
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
-  server: chuncheon02.zgjok.com
-  servername: chuncheon02.zgjok.com
+  server: de7.dedushka.top
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  sni: de7.dedushka.top
+  type: trojan
   udp: true
-  uuid: d1a1cb91-0f1f-41eb-a307-631bba00f1bb
-  ws-opts:
-    headers:
-      Host: chuncheon02.zgjok.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_1
@@ -896,17 +928,56 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: ProxyPool | 🇭🇰 香港 | HKG
-  password: bad06c3525a6eaee1757b34776b83892
-  port: 12001
-  server: 4c2d5151.266nets.com
+- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #18'
+  password: humanity
+  port: 443
+  server: 139.59.186.54
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #27'
+  network: ws
+  password: humanity
+  port: 443
+  server: 31.57.190.34
+  skip-cert-verify: false
+  sni: www.volumeroot.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.volumeroot.com
+    path: '%2Fassignment'
+- name: '🇺🇸 美国 | USA #2'
+  password: 1f8dc24373d4add7767beac448e32397
+  port: 8443
+  server: 38.150.35.208
   skip-cert-verify: true
-  sni: ixigua.com
+  sni: www.apple.com
   type: trojan
   udp: true
+- name: 🇺🇸 美国 | USA 12
+  network: ws
+  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  port: 443
+  server: 104.18.65.57
+  skip-cert-verify: true
+  sni: nat3.xxai.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: nat3.xxai.dpdns.org
+    path: /anyway
+- name: '🇺🇸 美国 | USA #12'
+  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  port: 443
+  server: 104.18.65.57
+  skip-cert-verify: true
+  sni: nat3.xxai.dpdns.org
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 香港 | HKG 4
+  name: '🇭🇰 香港 | HKG #4 #1'
   network: ws
   port: 443
   server: vah4urdzl3jdx5r2.v.3dns.vip
@@ -923,7 +994,7 @@ proxies:
   - ''
   alterId: 0
   cipher: auto
-  name: 🇭🇰 香港 | HKG 5
+  name: '🇭🇰 香港 | HKG #5 #1'
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -934,31 +1005,7 @@ proxies:
   uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   ws-opts:
     path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 6
-  network: ws
-  port: 443
-  server: 47.76.57.83
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
-    path: /ws-vmess
-- name: 🇯🇵 日本 | JPN 3
-  password: bad06c3525a6eaee1757b34776b83892
-  port: 12019
-  server: 4c2d5151.266nets.com
-  skip-cert-verify: true
-  sni: ixigua.com
-  type: trojan
-  udp: true
-- name: 🇺🇸 美国 | USA 4
+- name: '🇺🇸 美国 | USA #4'
   password: dba20dcb635e430fa4d3bfc303a149d2
   port: 443
   server: blog.findlocaljobnetworkandbuildcommunityconnections.com
@@ -1146,18 +1193,22 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- alterId: '2'
-  cipher: auto
-  name: 🇺🇸US_1|2.8MB/s
-  network: tcp
-  port: '30829'
-  server: v29.hdacd.com
+- alpn:
+  - http/1.1
+  name: 🇺🇸US_5|1.7MB/s
+  network: ws
+  password: e7TTceggMwUMg+aFN:F4
+  port: '443'
+  server: 172.66.47.18
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /tr/SIeRkg2QvR2Zcpu0SeEMow?ed=2560
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
