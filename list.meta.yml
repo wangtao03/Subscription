@@ -1,4 +1,4 @@
-# Update: 2026-10-21 10:20
+# Update: 2026-10-21 18:45
 allow-lan: true
 dns:
   enable: true
@@ -18,6 +18,1735 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: A🟢🇨🇳res_dokng.com_10596d67
+  network: ws
+  port: 10086
+  server: 120.48.133.162
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+  ws-opts:
+    headers: {}
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: A🟢🇻🇳res[🎬🤖📺🎪]_dokng.com_5640d8...
+  network: none
+  port: 16836
+  server: 160.22.16.196
+  tls: false
+  type: vmess
+  uuid: 1e914b4e-e50a-47eb-cd07-36e971fa7f1b
+- name: 🇹🇼 🇨🇳 台湾 | TWN 3
+  password: 0324fbc29561
+  port: 443
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true
+- encryption: none
+  name: D🔴🇭🇰hos[🎬📺🎭✨]_dokng.com_31f217...
+  network: ws
+  port: 443
+  server: 83.229.120.10
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- encryption: none
+  name: D🔴🇭🇰hos[📺]_dokng.com_3b38aa26
+  network: ws
+  port: 443
+  server: 149.104.5.141
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: fp=unsafe
+  xudp: true
+- encryption: none
+  name: D🔴🇸🇬hos[📺🎭🎪📦]_dokng.com_471fbb...
+  network: ws
+  port: 443
+  server: 56.10.33.77
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /
+  xudp: true
+- name: A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_0d5d56...
+  password: ec74bb6a86c2
+  port: 443
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  - h2
+  encryption: none
+  name: D🔴🇸🇬hos[🤖📺🎭🎪]_dokng.com_33560a...
+  network: ws
+  port: 443
+  server: 13.212.31.121
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  name: A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_e59ee4...
+  password: 0324fbc29561
+  port: 443
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+- name: '🇯🇵[www.v2nodes.com] trojan-JP-... #8'
+  network: tcp
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  port: 8886
+  server: 45.32.52.173
+  skip-cert-verify: true
+  sni: 45.32.52.173
+  type: trojan
+  udp: true
+- encryption: none
+  name: '🇯🇵 日本 | JPN #7'
+  network: ws
+  port: 443
+  server: 54.64.190.109
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  name: A🟢🇭🇰res[🎬🤖📺🎭]_dokng.com_078c99...
+  password: 0324fbc29561
+  port: 443
+  server: 654968169.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+- encryption: none
+  name: D🔴🇭🇰hos[🎬📺🎞️]_dokng.com_49b25e...
+  network: ws
+  port: 443
+  server: 68.64.178.52
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /
+  xudp: true
+- name: A🟢🇯🇵res[🎬🤖📺🎭]_dokng.com_59d17f...
+  password: 7212418a-c4e9-4378-8722-b34bda5f0467
+  port: 56304
+  server: a4.entrance.app.xdns.win
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: anytls
+  udp: true
+- encryption: none
+  name: D🔴🇭🇰hos[📺]_dokng.com_75909040
+  network: ws
+  port: 443
+  server: 38.207.177.113
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /fp=chrome
+  xudp: true
+- encryption: none
+  name: D🔴🇯🇵hos[🎬🤖📺🎭]_dokng.com_64fcaf...
+  network: ws
+  port: 443
+  server: 38.47.52.252
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇸🇬hos[🎬🤖📺🎭]_dokng.com_bdbab8...
+  network: ws
+  port: 443
+  server: 103.195.190.134
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - h3
+  auth: 46647da9-d4b4-407f-bea6-ad0b1abc561f
+  name: C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_6331ca...
+  password: 46647da9-d4b4-407f-bea6-ad0b1abc561f
+  port: 2053
+  server: 192.236.226.182
+  skip-cert-verify: true
+  sni: 192.236.226.182
+  type: hysteria2
+  udp: true
+- encryption: none
+  name: D🔴🇸🇬hos[🤖📺🎭🎪]_dokng.com_32c12e...
+  network: ws
+  port: 443
+  server: 69.8.133.6
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+  xudp: true
+- name: '🇸🇬 新加坡 | SGP #2 #1'
+  network: tcp
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  port: 8886
+  server: 139.180.146.200
+  skip-cert-verify: true
+  sni: 139.180.146.200
+  type: trojan
+  udp: true
+- encryption: none
+  name: D🔴🇸🇬hos[🎬📺🎭🎪]_dokng.com_5a7d10...
+  network: ws
+  port: 443
+  server: 216.195.195.205
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /fp=unsafe
+  xudp: true
+- encryption: none
+  name: D🔴🇭🇰hos[🎬📺🎭🎪]_dokng.com_231a53...
+  network: ws
+  port: 443
+  server: 149.104.5.126
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /
+  xudp: true
+- name: C🟠🇭🇰hos[🎬📺🎭✨]_dokng.com_977093...
+  password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
+  port: 24318
+  server: svip.skycon808.com
+  skip-cert-verify: true
+  sni: hk08.jdddyy01.cc
+  type: anytls
+  udp: true
+- encryption: none
+  name: D🔴🇩🇪hos[🎬📺🎭🎪]_dokng.com_047857...
+  network: ws
+  port: 8443
+  server: 178.105.113.205
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: U⚪🏳️ukn[✈️]_dokng.com_9bed8211
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: edge.bookmai.com
+  servername: mother-earth.fyi
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[🎬📺🎭🎪]_dokng.com_4dae0c...
+  network: ws
+  port: 8443
+  server: 179.255.107.60
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  encryption: none
+  name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c8c4ab...
+  network: ws
+  port: 8443
+  server: 94.183.184.239
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /
+  xudp: true
+- idle-session-check-interval: 30
+  idle-session-timeout: 30
+  name: A🟢🇸🇨res_dokng.com_9f01a8ac
+  password: 776b4834-caaf-4006-ab21-409e958867af
+  port: 33091
+  server: 45.202.240.4
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  - h2
+  encryption: none
+  name: D🔴🇩🇪hos[🤖📺🎭🎪]_dokng.com_e47972...
+  network: ws
+  port: 443
+  server: 152.53.197.166
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[🎬📺🎭🎪]_dokng.com_a492d6...
+  network: ws
+  port: 443
+  server: 179.255.99.95
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[📺🎭]_dokng.com_62b11b38
+  network: ws
+  port: 443
+  server: 179.255.99.57
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: 🇩🇪 德国 | DEU 11
+  network: ws
+  port: 2053
+  server: 178.105.215.151
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+  xudp: true
+- alpn:
+  - http/1.1
+  name: A🟢🇭🇰res[🤖📺🎪✨]_dokng.com_42aa23...
+  password: 0324fbc29561
+  port: 443
+  server: 56481.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+- name: D🔴🇰🇷hos[🎬📺🎭🎪]_dokng.com_260650...
+  network: ws
+  port: 443
+  server: 123.111.169.70
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_73526e...
+  network: none
+  port: 22998
+  server: 23.27.47.67
+  tls: false
+  type: vmess
+  uuid: 66345f5f-36c7-4aa8-b024-93c5a5989d6a
+- encryption: none
+  name: D🔴🇺🇸hos[📺🎭🎪]_dokng.com_89753b6...
+  network: ws
+  port: 8443
+  server: 144.225.246.243
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇩🇪hos[🤖📺🎭🎪]_dokng.com_cd4d0a...
+  network: ws
+  port: 443
+  server: 87.120.126.131
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[🎬📺🎭🎪]_dokng.com_a0ed23...
+  network: ws
+  port: 443
+  server: 179.253.247.47
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  encryption: none
+  name: D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_bb31b6...
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_baf658...
+  network: ws
+  port: 443
+  server: 154.21.197.32
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇩🇰hos[🤖📺🎭🎪]_dokng.com_faf542...
+  network: ws
+  port: 443
+  server: 193.180.208.167
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇸🇪hos[📺🎭]_dokng.com_2cd07835
+  network: ws
+  port: 443
+  server: 109.122.194.61
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
+    path: /
+  xudp: true
+- name: C🟠🇩🇪hos[🎬🤖📺🎭]_dokng.com_f2e896...
+  password: myptyun.Hu5bS3VYUd3iqmaU
+  port: 8443
+  ports: 8443,7044,20000-50000
+  server: 1o2.690423.xyz
+  type: hysteria2
+- encryption: none
+  name: D🔴🇷🇺hos[📺🎪✨🎞️]_dokng.com_942e7...
+  network: ws
+  port: 8443
+  server: 139.100.226.187
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+  xudp: true
+- alpn:
+  - http/1.1
+  name: 🇺🇸 美国 | USA 4
+  network: ws
+  port: 443
+  server: 104.17.148.22
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[🎬📺🎭🎪]_dokng.com_2c7833...
+  network: ws
+  port: 443
+  server: 208.68.180.204
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+  xudp: true
+- encryption: none
+  name: 🇩🇪 德国 | DEU 4
+  network: ws
+  port: 8443
+  server: 62.133.60.134
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇬🇧hos[📺🎭🎪📦]_dokng.com_7ef006...
+  network: ws
+  port: 443
+  server: 104.194.140.26
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: unsafe
+  encryption: none
+  name: D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_dda1ff...
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[📺🎭🎪📦]_dokng.com_ba1a13...
+  network: ws
+  port: 443
+  server: 166.88.33.135
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+  xudp: true
+- alpn:
+  - http/1.1
+  name: D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_10be01...
+  network: ws
+  port: 443
+  server: 104.19.45.195
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /?TELEGRAM-TOOTFFARANGI
+  xudp: true
+- encryption: none
+  name: 🇯🇵 日本 | JPN 7
+  network: ws
+  port: 443
+  server: 138.2.41.8
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+  xudp: true
+- name: D🔴🇩🇪hos[🎬📺🎭🎪]_dokng.com_42ab8d...
+  network: ws
+  port: 2087
+  server: 45.157.233.109
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- encryption: none
+  name: '🇺🇸 美国 | USA #12'
+  network: ws
+  port: 8443
+  server: 159.54.172.104
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: U⚪🏳️ukn[✈️]_dokng.com_f825c293
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 163.245.42.48
+  servername: mother-earth.fyi
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  xudp: true
+- client-fingerprint: unsafe
+  name: D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_e422de...
+  network: ws
+  port: 443
+  server: 172.64.150.43
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: ''
+  xudp: true
+- name: 🇹🇼 🇨🇳 台湾 | TWN 2
+  password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
+  port: 47531
+  server: svip.skycon808.com
+  skip-cert-verify: true
+  sni: tw15.swiftrelay.cc
+  type: anytls
+  udp: true
+- encryption: none
+  name: D🔴🇳🇴hos[📺🎭]_dokng.com_5b3266e4
+  network: ws
+  port: 8443
+  server: 185.14.97.242
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[🤖📺🎭🎪]_dokng.com_8fc717...
+  network: ws
+  port: 8443
+  server: 52.26.119.209
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇵🇱hos[📺🎭🎪✨]_dokng.com_de4cfa...
+  network: ws
+  port: 443
+  server: 212.60.4.134
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_11c0df...
+  network: ws
+  port: 443
+  server: 203.88.117.227
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /
+  xudp: true
+- name: D🔴🇭🇰hos[📺]_dokng.com_322442cc
+  network: ws
+  port: 443
+  server: 207.57.122.65
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /fp=chromefp=chrome
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: C🟠🇭🇰hos[🎬🎭🎞️📦]_dokng.com_3d00a...
+  network: ws
+  port: 443
+  server: yg1.ygkkk.dpdns.org
+  servername: jmp1.907737.xyz
+  tls: true
+  type: vmess
+  uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
+  ws-opts:
+    headers:
+      Host: jmp1.907737.xyz
+    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
+- name: D🔴🇩🇪hos[🎬📺🎭🎪]_dokng.com_7d6f5a...
+  network: ws
+  port: 8443
+  server: 31.70.89.136
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chromefp=chrome
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[🎬📺🎭🎪]_dokng.com_2458d0...
+  network: ws
+  port: 443
+  server: 141.148.186.22
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  name: D🔴🇰🇷hos[🎬📺🎭🎪]_dokng.com_0a18b8...
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chrome
+  xudp: true
+- alpn:
+  - http/1.1
+  encryption: none
+  name: D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_52714d...
+  network: ws
+  port: 443
+  server: 141.164.35.4
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇯🇵hos[🎬🤖📺🎭]_dokng.com_0695e8...
+  network: ws
+  port: 443
+  server: 161.33.192.73
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇩🇪hos[📦]_dokng.com_99987d3b
+  network: ws
+  port: 443
+  server: 149.154.157.213
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: fp=unsafe
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: unsafe
+  encryption: none
+  name: D🔴🇩🇪hos[🎬📺🎭🎪]_dokng.com_366aff...
+  network: ws
+  port: 443
+  server: 31.77.126.2
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[📺🎭🎪📦]_dokng.com_8acd84...
+  network: ws
+  port: 2083
+  server: 185.92.182.106
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- encryption: none
+  name: D🔴🇩🇪hos[📺🎭🎪]_dokng.com_66c4009...
+  network: ws
+  port: 443
+  server: 45.95.0.43
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[🎬📺🎭🎪]_dokng.com_f2db58...
+  network: ws
+  port: 443
+  server: 207.246.105.197
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- name: D🔴🇪🇪hos[🎭✈️🔍]_dokng.com_52443e...
+  network: ws
+  port: 443
+  server: 130.78.190.134
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇯🇵hos[🎬🤖📺🎭]_dokng.com_81a47f...
+  network: ws
+  port: 443
+  server: 161.33.45.250
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[🎬📺🎭🎪]_dokng.com_0add32...
+  network: ws
+  port: 443
+  server: 66.42.97.131
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+  xudp: true
+- encryption: none
+  name: D🔴🇸🇬hos[🎬🤖📺🎭]_dokng.com_4183be...
+  network: ws
+  port: 8443
+  server: 168.107.90.137
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: A🟢🇦🇺res[🎬🤖📺🎭]_dokng.com_965017...
+  network: ws
+  port: 15250
+  server: 52.74.177.147
+  tls: true
+  type: vmess
+  uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5
+  ws-opts:
+    headers:
+      Host: sg-transit-1.nebulacloud.win
+    path: /getData/aus
+- alpn:
+  - h3
+  - h2
+  encryption: none
+  name: D🔴🇩🇪hos_dokng.com_585335fe
+  network: ws
+  port: 443
+  server: 103.13.211.236
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇩🇪hos[📺🎭🎪]_dokng.com_a157414...
+  network: ws
+  port: 443
+  server: 159.195.45.210
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇦🇲hos[📺🎪✨]_dokng.com_ced381d...
+  network: ws
+  port: 8443
+  server: 88.218.92.157
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- encryption: none
+  name: D🔴🇩🇪hos[📺🎭🎪]_dokng.com_263192e...
+  network: ws
+  port: 8443
+  server: 93.127.223.238
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇸🇬hos[🤖📺🎭🎪]_dokng.com_894bca...
+  network: ws
+  port: 8443
+  server: 5.223.70.20
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇫🇷hos[📺🎭🎪]_dokng.com_215c626...
+  network: ws
+  port: 443
+  server: 38.54.59.70
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  encryption: none
+  name: D🔴🇬🇷hos[📺📦]_dokng.com_2ef8e4e2
+  network: ws
+  port: 443
+  server: 85.90.197.114
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /
+  xudp: true
+- flow: xtls-rprx-vision
+  name: C🟠🇺🇸hos[🤖📺🎭🎪]_dokng.com_77e1a1...
+  port: 9443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: 'b390142456517acc'
+  server: 46.21.159.243
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
+- alpn:
+  - h3
+  - h2
+  encryption: none
+  name: D🔴🇺🇸hos[🎬📺🎭🎪]_dokng.com_0ea600...
+  network: ws
+  port: 443
+  server: 216.238.79.164
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+  xudp: true
+- encryption: none
+  name: D🔴🇩🇪hos[🤖📺🎭🎪]_dokng.com_c0be54...
+  network: ws
+  port: 443
+  server: 152.53.127.16
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇩🇪hos[📺🎭]_dokng.com_98e7a8a3
+  network: ws
+  port: 2053
+  server: 109.120.186.137
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /fp=unsafe
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[🎬📺🎭🎪]_dokng.com_6015f8...
+  network: ws
+  port: 443
+  server: 216.238.78.167
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/39.0.2171.95 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+  xudp: true
+- encryption: none
+  name: D🔴🇧🇬hos[🤖📺🎭🎪]_dokng.com_ea643f...
+  network: ws
+  port: 443
+  server: 104.152.48.248
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: '🇮🇳 印度 | IND #1'
+  network: ws
+  port: 443
+  server: 13.233.229.128
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  encryption: none
+  name: D🔴🇩🇪hos[🤖📺🎭🎪]_dokng.com_39f364...
+  network: ws
+  port: 443
+  server: 185.230.44.140
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+  xudp: true
+- name: D🔴🇯🇵hos[🎬📺🎭🎪]_dokng.com_05d070...
+  network: ws
+  port: 443
+  server: 104.105.140.77
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+  xudp: true
+- encryption: none
+  name: D🔴🇵🇱hos[🤖📺🎭✨]_dokng.com_be0b6e...
+  network: ws
+  port: 2053
+  server: 103.31.77.108
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇩🇪hos[🤖📺🎭🎪]_dokng.com_ec424d...
+  network: ws
+  port: 443
+  server: 94.159.100.154
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/57.0.2987.133 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: '🇪🇸[www.v2nodes.com] vless-ES-4... #1'
+  network: ws
+  port: 443
+  server: 31.57.190.89
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /fp=chrome
+  xudp: true
+- encryption: none
+  name: D🔴🇩🇪hos[📺🎭🎪]_dokng.com_de859a7...
+  network: ws
+  port: 8443
+  server: 144.31.181.177
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.118 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[🎬📺🎭🎪]_dokng.com_e54341...
+  network: ws
+  port: 443
+  server: 45.39.230.139
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[📺🎭]_dokng.com_9f703cac
+  network: ws
+  port: 8443
+  server: 134.209.166.201
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
+    path: /fp=unsafe
+  xudp: true
+- encryption: none
+  name: C🟠🇬🇧hos[🎬📺🎭🎪]_dokng.com_b4151d...
+  network: ws
+  port: 443
+  server: 166.1.221.39
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇮🇱hos[🎬📺🎭🎪]_dokng.com_f18b6a...
+  network: ws
+  port: 8443
+  server: 185.239.48.154
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇯🇵hos[📺🎭🎪📦]_dokng.com_bc8f8e...
+  network: ws
+  port: 443
+  server: 108.165.100.106
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[🎬📺🎭🎪]_dokng.com_0b8d42...
+  network: ws
+  port: 443
+  server: 104.248.68.179
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
+  xudp: true
+- encryption: none
+  name: D🔴🇧🇬hos[📺🎪]_dokng.com_8795544c
+  network: ws
+  port: 443
+  server: 13.140.29.253
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: '🇺🇸 美国 | USA 10 #1'
+  network: ws
+  port: 443
+  server: 141.98.41.20
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: fp=unsafe
+  xudp: true
+- name: 🇹🇼 🇨🇳 台湾 | TWN
+  password: 0324fbc29561
+  port: 443
+  server: 98416548.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+- encryption: none
+  name: D🔴🇦🇱hos[📺🎭🎪✨]_dokng.com_d23df7...
+  network: ws
+  port: 443
+  server: 193.108.112.65
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- encryption: none
+  name: D🔴🇺🇸hos[🎬📺🎭🎪]_dokng.com_3d3f94...
+  network: ws
+  port: 8443
+  server: 173.249.207.192
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /fp=unsafe
+  xudp: true
+- encryption: none
+  name: D🔴🇸🇬hos[🎬🤖📺🎭]_dokng.com_05551e...
+  network: ws
+  port: 443
+  server: 185.115.207.234
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /
+  xudp: true
 - alterId: 0
   cipher: auto
   name: '防范境外势力渗透 #11'
@@ -108,9 +1837,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #12'
+  network: tcp
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  port: 443
+  server: it1.dedushka.top
+  skip-cert-verify: false
+  sni: it1.dedushka.top
+  type: trojan
+  udp: true
 - alpn:
   - http/1.1
-  name: '🇩🇪[www.v2nodes.com] trojan-DE-... #12'
+  name: '🇩🇪[www.v2nodes.com] trojan-DE-... #13'
   network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
@@ -120,7 +1858,8 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '🇩🇪[www.v2nodes.com] trojan-DE-... #13'
+  name: '🏳[www.v2nodes.com] trojan- #1'
+  network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: de6.dedushka.top
@@ -129,6 +1868,7 @@ proxies:
 - alpn:
   - http/1.1
   name: '🇩🇪[www.v2nodes.com] trojan-DE-... #14'
+  network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: de8.dedushka.top
@@ -167,7 +1907,7 @@ proxies:
   server: 109.206.241.10
   sni: russiapower.accesscam.org
   type: trojan
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #20'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #21'
   network: ws
   password: humanity
   port: 443
@@ -179,7 +1919,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #21'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #22'
   network: ws
   password: humanity
   port: 443
@@ -191,7 +1931,21 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #22'
+- alpn:
+  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
+  name: '🇫🇷[www.v2nodes.com] trojan-FR-... #23'
+  network: ws
+  password: humanity
+  port: 8443
+  server: 212.227.144.37
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #24'
   network: ws
   password: humanity
   port: 443
@@ -203,7 +1957,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #23'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #25'
   network: ws
   password: humanity
   port: 443
@@ -214,7 +1968,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #24'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #26'
   network: ws
   password: humanity
   port: 2053
@@ -226,7 +1980,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #25'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #27'
   network: ws
   password: humanity
   port: 443
@@ -238,14 +1992,14 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #26'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #28'
   password: humanity
   port: 443
   server: 165.215.250.14
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #27'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #29'
   network: ws
   password: humanity
   port: 443
@@ -257,7 +2011,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #28'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #30'
   network: ws
   password: humanity
   port: 443
@@ -269,7 +2023,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #29'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #31'
   network: ws
   password: humanity
   port: 443
@@ -309,12 +2063,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- name: '🇯🇵[www.v2nodes.com] trojan-JP-... #8'
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 45.32.52.173
-  sni: 45.32.52.173
-  type: trojan
 - name: '🇲🇾[www.v2nodes.com] trojan-MY-... #2'
   password: 5931134d1cde66bf83a54acdfebe7ab2
   port: 443
@@ -415,20 +2163,6 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 157.173.97.132
-  skip-cert-verify: false
-  sni: wWw.Volumeroot.cOm.
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.volumerOot.coM.
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: '🇳🇱[www.v2nodes.com] trojan-NL-... #42'
-  network: ws
-  password: humanity
-  port: 443
   server: 31.57.190.34
   skip-cert-verify: false
   sni: www.pleadcourt.org
@@ -437,14 +2171,14 @@ proxies:
     headers:
       Host: www.pleadcourt.org
     path: /assignment
-- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #43'
+- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #42'
   password: humanity
   port: 443
   server: 185.22.172.249
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #44'
+- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #43'
   network: ws
   password: humanity
   port: 443
@@ -456,7 +2190,15 @@ proxies:
     headers:
       Host: www.volumeroot.com
     path: '%2Fassignment'
+- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #44'
+  password: humanity
+  port: 443
+  server: 209.38.99.120
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: '🇵🇱[www.v2nodes.com] trojan-PL-... #2'
+  network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: pl2.dedushka.top
@@ -469,13 +2211,19 @@ proxies:
   server: 139.180.146.200
   skip-cert-verify: true
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #4'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #5'
+  password: 600421cf-11d7-429f-a65b-c30397f1bc03
+  port: 443
+  server: 23.106.44.14
+  sni: sj6.freeguard.org
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #6'
   password: f0eb8c92ce8946aaba856569cff1a16b
   port: 443
   server: resources.findlocaljobnetworkandbuildcommunityconnections.com
   sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #5'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #7'
   password: dba20dcb635e430fa4d3bfc303a149d2
   port: 443
   server: blog.findlocaljobnetworkandbuildcommunityconnections.com
@@ -761,100 +2509,147 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸US_2|3.5MB/s #2'
+- name: 🇩🇪 德国 | DEU 2
   network: ws
-  port: 8033
-  server: 120.232.202.14
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 74499dd9-f4c0-4450-8a4a-e06c8b25b77d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
-  xudp: true
-- name: '🇮🇹IT_4|4.3MB/s #2'
-  network: tcp
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  password: bpb-trojan
   port: 443
-  server: it1.dedushka.top
-  skip-cert-verify: false
-  sni: it1.dedushka.top
+  server: russia.com
+  skip-cert-verify: true
+  sni: 6982410.xyz
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '🇮🇩ID_1|2.0MB/s #2'
-  network: ws
-  port: 443
-  server: tasCePjs5K8Cmo8x.v.3dns.vip
-  servername: tasCePjs5K8Cmo8x.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
   ws-opts:
     headers:
-      Host: tasCePjs5K8Cmo8x.v.3dns.vip
-    path: /ws-vmess
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪DE_10|2.9MB/s #2'
+      Host: 6982410.xyz
+    path: /trh3
+- name: 🇪🇸 西班牙 | ESP
   network: ws
+  password: humanity
   port: 443
-  server: 22INLn9BmbA7RUmR.v.3dns.vip
-  servername: 22INLn9BmbA7RUmR.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
-  ws-opts:
-    headers:
-      Host: 22INLn9BmbA7RUmR.v.3dns.vip
-    path: /ws-vmess
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪DE_11|2.8MB/s #2'
-  network: ws
-  port: 443
-  server: 3E89CNW0HGtiFiDE.v.3dns.vip
-  servername: 3E89CNW0HGtiFiDE.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
-  ws-opts:
-    headers:
-      Host: 3E89CNW0HGtiFiDE.v.3dns.vip
-    path: /ws-vmess
-  xudp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - gvt1.com
-    method: GET
-    path:
-    - /
-  name: '🇩🇪 德国 | DEU #9 #2'
-  network: http
-  port: 80
-  server: turknew.net-flowa.com
+  server: 185.18.250.252
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: www.calmlunch.com
+  type: trojan
   udp: true
-  uuid: cd96479e-9c39-4a7f-ba0c-806a83af19ca
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: '🇱🇻 拉脱维亚 | LVA #3'
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  port: 443
+  server: lv1.dedushka.top
+  skip-cert-verify: true
+  sni: lv1.dedushka.top
+  type: trojan
+  udp: true
+- name: 🇳🇱 荷兰 | NLD
+  network: ws
+  password: u93yPGuY2zgIsisJZKS2QzJzg
+  port: 443
+  server: 78.17.171.106
+  skip-cert-verify: true
+  sni: 2.HI-L.IM
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 2.HI-L.IM
+    path: /f2fc2a1f
+- alpn:
+  - http/1.1
+  name: 🇺🇸 美国 | USA 2
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.139.14
+  skip-cert-verify: true
+  sni: www.volumeroot.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.volumeroot.com
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇺🇸 美国 | USA 3
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.85.85
+  skip-cert-verify: true
+  sni: www.volumeroot.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.volumeroot.com
+    path: /assignment
+- name: '🇺🇸 美国 | USA 7 #1'
+  network: ws
+  password: mitivpn
+  port: 443
+  server: b2n.ir
+  skip-cert-verify: true
+  sni: de.mitivpn.in.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: de.mitivpn.in.net
+    path: ''
+- name: '🇩🇪 德国 | DEU #2'
+  password: bpb-trojan
+  port: 443
+  server: russia.com
+  skip-cert-verify: true
+  sni: 6982410.xyz
+  type: trojan
+- name: '🇪🇸 西班牙 | ESP #1'
+  password: humanity
+  port: 443
+  server: 185.18.250.252
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+- name: '🇱🇻 拉脱维亚 | LVA #1 #1'
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  port: 443
+  server: lv1.dedushka.top
+  skip-cert-verify: true
+  sni: lv1.dedushka.top
+  type: trojan
+- name: '🇳🇱 荷兰 | NLD #1'
+  password: u93yPGuY2zgIsisJZKS2QzJzg
+  port: 443
+  server: 78.17.171.106
+  skip-cert-verify: true
+  sni: 2.HI-L.IM
+  type: trojan
+- name: '🇺🇸 美国 | USA #2'
+  password: humanity
+  port: 443
+  server: 172.67.139.14
+  skip-cert-verify: true
+  sni: www.volumeroot.com
+  type: trojan
+- name: '🇺🇸 美国 | USA #3'
+  password: humanity
+  port: 443
+  server: 104.16.85.85
+  skip-cert-verify: true
+  sni: www.volumeroot.com
+  type: trojan
+- name: '🇺🇸 美国 | USA #7 #1'
+  password: mitivpn
+  port: 443
+  server: b2n.ir
+  skip-cert-verify: true
+  sni: de.mitivpn.in.net
+  type: trojan
 - alterId: 0
   cipher: auto
   name: рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡Ёрџ‡...
@@ -908,6 +2703,24 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - gvt1.com
+    method: GET
+    path:
+    - /
+  name: '🇩🇪 德国 | DEU #9'
+  network: http
+  port: 80
+  server: turknew.net-flowa.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd96479e-9c39-4a7f-ba0c-806a83af19ca
 - name: рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡·_F...
   network: ws
   port: 443
@@ -2010,19 +3823,6 @@ proxies:
       Host: lucasjow.us.ci
     path: /cart/docs/www/proxyip=108.160.132.132fp=unsafe
 - encryption: none
-  name: '🇪🇸[www.v2nodes.com] vless-ES-4... #1'
-  network: ws
-  port: 443
-  server: 31.57.190.89
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /fp=chrome
-- encryption: none
   name: '🇪🇸[www.v2nodes.com] vless-ES-4... #2'
   network: ws
   port: 443
@@ -2855,6 +4655,20 @@ proxies:
   tls: false
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- alpn:
+  - http/1.1
+  name: '🇳🇱[www.v2nodes.com] trojan-NL-... #26'
+  network: ws
+  password: humanity
+  port: 443
+  server: 157.173.97.132
+  skip-cert-verify: false
+  sni: wWw.Volumeroot.cOm.
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.volumerOot.coM.
+    path: /assignment
 - http-opts:
     headers:
       Host:
@@ -2903,6 +4717,22 @@ proxies:
       Host: fi1.merky.one
     path: /mky-ws-4f19c8a7
   xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_2|3.5MB/s
+  network: ws
+  port: 8033
+  server: 120.232.202.14
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 74499dd9-f4c0-4450-8a4a-e06c8b25b77d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
+  xudp: true
 - name: 🇸🇬SG_3|1004KB/s
   network: ws
   port: 443
@@ -2918,6 +4748,57 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇮🇩ID_1|2.0MB/s
+  network: ws
+  port: 443
+  server: tasCePjs5K8Cmo8x.v.3dns.vip
+  servername: tasCePjs5K8Cmo8x.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
+  ws-opts:
+    headers:
+      Host: tasCePjs5K8Cmo8x.v.3dns.vip
+    path: /ws-vmess
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE_10|2.9MB/s
+  network: ws
+  port: 443
+  server: 22INLn9BmbA7RUmR.v.3dns.vip
+  servername: 22INLn9BmbA7RUmR.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
+  ws-opts:
+    headers:
+      Host: 22INLn9BmbA7RUmR.v.3dns.vip
+    path: /ws-vmess
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE_11|2.8MB/s
+  network: ws
+  port: 443
+  server: 3E89CNW0HGtiFiDE.v.3dns.vip
+  servername: 3E89CNW0HGtiFiDE.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
+  ws-opts:
+    headers:
+      Host: 3E89CNW0HGtiFiDE.v.3dns.vip
+    path: /ws-vmess
   xudp: true
 - name: '🇦🇹 奥地利 | AUT #1'
   network: ws
@@ -2963,7 +4844,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '🇩🇪 德国 | DEU #2'
+  name: '🇩🇪 德国 | DEU #2 #1'
   network: ws
   port: 443
   server: saas.sin.fan
@@ -3035,7 +4916,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '🇪🇸 西班牙 | ESP #1'
+  name: '🇪🇸 西班牙 | ESP #1 #1'
   network: http
   port: 443
   server: 51.92.25.174
@@ -3118,19 +4999,6 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
-- name: '🇮🇳 印度 | IND #1'
-  network: ws
-  port: 443
-  server: 13.233.229.128
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
 - name: '🇯🇵 日本 | JPN #2'
   network: ws
   port: 443
@@ -3157,19 +5025,6 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
-- name: '🇯🇵 日本 | JPN #7'
-  network: ws
-  port: 443
-  server: 54.64.190.109
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
 - name: '🇲🇾 马来西亚 | MYS #1'
   network: ws
   port: 8443
@@ -3183,7 +5038,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
-- name: '🇳🇱 荷兰 | NLD #1'
+- name: '🇳🇱 荷兰 | NLD #1 #1'
   network: ws
   port: 443
   server: 72.56.106.210
@@ -3301,22 +5156,6 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: 🇹🇼 🇨🇳 台湾 | TWN 2
-  password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
-  port: 47531
-  server: svip.skycon808.com
-  skip-cert-verify: true
-  sni: tw15.swiftrelay.cc
-  type: anytls
-  udp: true
-- name: 🇹🇼 🇨🇳 台湾 | TWN 3
-  password: 0324fbc29561
-  port: 443
-  server: er8u54dh.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
-  udp: true
 - name: '🇺🇸 美国 | USA #1'
   network: ws
   port: 443
@@ -3330,7 +5169,7 @@ proxies:
     headers:
       Host: ccc.010304.xyz
     path: /
-- name: '🇺🇸 美国 | USA #3'
+- name: '🇺🇸 美国 | USA #3 #1'
   network: ws
   port: 8443
   server: us.mediabox12wrr.site
@@ -3399,7 +5238,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
-- name: '🇺🇸 美国 | USA #10'
+- name: '🇺🇸 美国 | USA #10 #1'
   network: ws
   port: 443
   server: 45.77.122.187
@@ -3416,19 +5255,6 @@ proxies:
   network: ws
   port: 8443
   server: 149.248.6.121
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- name: '🇺🇸 美国 | USA #12'
-  network: ws
-  port: 8443
-  server: 159.54.172.104
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -3559,7 +5385,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: 🇩🇪 德国 | DEU 2
+- name: '🇩🇪 德国 | DEU 2 #1'
   network: ws
   port: 443
   server: 206.189.56.164
@@ -3585,19 +5411,6 @@ proxies:
     headers:
       Host: ovh-gr1.mahkhorshidi.ir
     path: /notls
-- name: 🇩🇪 德国 | DEU 4
-  network: ws
-  port: 8443
-  server: 62.133.60.134
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
 - alpn:
   - http/1.1
   name: 🇩🇪 德国 | DEU 5
@@ -3654,19 +5467,6 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇩🇪 德国 | DEU 11
-  network: ws
-  port: 2053
-  server: 178.105.215.151
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
 - name: 🇩🇪 德国 | DEU 12
   network: ws
   port: 443
@@ -3754,7 +5554,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
-- name: 🇪🇸 西班牙 | ESP
+- name: '🇪🇸 西班牙 | ESP #2'
   network: ws
   port: 443
   server: 195.133.92.228
@@ -3896,19 +5696,6 @@ proxies:
   type: vless
   udp: true
   uuid: 21973715-af4f-416a-9809-4a6d33b48cab
-- name: 🇯🇵 日本 | JPN 7
-  network: ws
-  port: 443
-  server: 138.2.41.8
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
 - name: 🇰🇷 韩国 | KOR
   network: ws
   port: 443
@@ -3974,19 +5761,9 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome
-- alpn:
-  - http/1.1
-  name: 🇱🇻 拉脱维亚 | LVA
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  port: 443
-  server: lv1.dedushka.top
-  skip-cert-verify: true
-  sni: lv1.dedushka.top
-  type: trojan
-  udp: true
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: 🇳🇱NL_6|1.3MB/s
+  name: '🇳🇱 荷兰 | NLD #3'
   network: tcp
   port: 443
   reality-opts:
@@ -3994,7 +5771,6 @@ proxies:
     short-id: '8d942904d3e87323'
   server: app-sh-185.spbstudentlife.com
   servername: assets-sh-185.spbstudentlife.com
-  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -4040,7 +5816,7 @@ proxies:
     host: pl-a50baf0d7f.shamanapp.online
     mode: stream-up
     path: /ShamanXHTTP2026
-- name: 🇷🇴 罗马尼亚 | ROU
+- name: '🇷🇴 罗马尼亚 | ROU #1'
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: ie1.dedushka.top
@@ -4074,14 +5850,6 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- name: 🇸🇬 新加坡 | SGP 2
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 139.180.146.200
-  skip-cert-verify: true
-  sni: 139.180.146.200
-  type: trojan
-  udp: true
 - name: 🇸🇬 新加坡 | SGP 3
   network: ws
   port: 443
@@ -4137,14 +5905,6 @@ proxies:
   type: vless
   udp: true
   uuid: a346c521-7a7f-452b-9356-a4893feb5982
-- name: 🇹🇼 🇨🇳 台湾 | TWN
-  password: 0324fbc29561
-  port: 443
-  server: 98416548.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
 - name: ProxyPool | 🇹🇼 🇨🇳 台湾 | TWN 2
   network: ws
   port: 443
@@ -4160,25 +5920,10 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
 - alpn:
   - http/1.1
-  name: 🇺🇸 美国 | USA 3
+  name: '🇺🇸 美国 | USA 3 #1'
   network: ws
   port: 443
   server: 104.17.147.22
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 4
-  network: ws
-  port: 443
-  server: 104.17.148.22
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -4225,19 +5970,6 @@ proxies:
     x-padding-method: tokenish
     x-padding-obfs-mode: true
     x-padding-placement: header
-- name: 🇺🇸 美国 | USA 7
-  network: ws
-  password: mitivpn
-  port: 443
-  server: b2n.ir
-  skip-cert-verify: true
-  sni: de.mitivpn.in.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: de.mitivpn.in.net
-    path: ''
 - name: 🇺🇸 美国 | USA 8
   network: ws
   port: 443
@@ -4264,19 +5996,6 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
-- name: 🇺🇸 美国 | USA 10
-  network: ws
-  port: 443
-  server: 141.98.41.20
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: fp=unsafe
 - name: end-gfw.com12@sg89
   network: tcp
   port: 8686
@@ -4479,119 +6198,6 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇫🇮FI_1|4.4MB/s
-  network: grpc
-  port: '9443'
-  reality-opts:
-    public-key: 8bhS-nnIN67a292RpJsCPzXQy4CzpzOVLTPn5CiAFyg
-    short-id: '6ba7b810'
-  server: 2.56.175.179
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8179d7cc-82bc-4eae-a97f-5d30c6c2a812
-  xudp: true
-- alterId: '2'
-  cipher: auto
-  name: 🇳🇱NL_1|2.4MB/s
-  network: tcp
-  port: '30829'
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    path:
-    - /
-  name: 🇮🇪IE_1|1022KB/s
-  network: http
-  port: '443'
-  server: 52.214.230.202
-  type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇯🇵JP_1|1003KB/s
-  network: ws
-  port: '2083'
-  server: cdn.sfacg.uk
-  servername: cdn.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🇹🇼TW_1|3.8MB/s
-  password: 0324fbc29561
-  port: 443
-  server: 684616s4.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  encryption: none
-  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-  name: 🇫🇮FI_2|2.6MB/s
-  network: xhttp
-  port: '443'
-  server: 146.75.59.186
-  servername: firefox.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4fa75902-b55b-44cb-b1b9-496a6e1c0f4f
-  xhttp-opts:
-    host: zehnix.global.ssl.fastly.net
-    mode: auto
-    path: /
-  xudp: true
-- encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-  name: 🇩🇪DE_5|2.5MB/s
-  network: ws
-  port: '8180'
-  server: dnld.chaqalli.com
-  type: vless
-  udp: true
-  uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  xudp: true
-- name: 🇺🇸US_20|1.2MB/s
-  network: tcp
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  port: '443'
-  server: us3.dedushka.top
-  skip-cert-verify: false
-  sni: us3.dedushka.top
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-072
